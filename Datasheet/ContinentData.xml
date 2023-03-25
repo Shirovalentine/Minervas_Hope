@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <!--
+
 channelType
 	- none				일반 대륙 
 	- chobozone			초보사냥터
@@ -36,6 +37,7 @@ userMaxPerChannel : 한 채널당 입장 가능 유저 수 (유저수를 제한�
   각 채널 별로 지정 가능하며, 채널수보다 적게 정의하면 마지막에 정의한 값이 그 이후의 채널들에 적용된다.
   
 restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 차있을 때 더이상 해당 꽉 찬 채널에 유저가 입장하지 못하도록 설정
+  
 -->
 
 <ContinentData>
@@ -208,7 +210,7 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
 	<HuntingZone id="367" />
 	<HuntingZone id="368" />
   </Continent>
-  <Continent id="7003" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE">
+  <Continent id="7003" channelType="field" initChannelCountByQA="3" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE">
     <HuntingZone id="18" />
     <HuntingZone id="19" />
 	<HuntingZone id="20" />
@@ -258,12 +260,12 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
 	<HuntingZone id="361" />
 	<HuntingZone id="362" />	
   </Continent>
-  <Continent id="7005" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE">
+  <Continent id="7005" channelType="field" initChannelCountByQA="3" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE">
     <HuntingZone id="63" />  
     <HuntingZone id="363" />		
 	<HuntingZone id="628" />						
   </Continent>  
-  <Continent id="7011" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE">
+  <Continent id="7011" channelType="field" initChannelCountByQA="3" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE">
 	<HuntingZone id="26" />
     <HuntingZone id="27" />
     <HuntingZone id="28" />
@@ -282,7 +284,7 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
 	<HuntingZone id="370" />
 	<HuntingZone id="622" />			
   </Continent>  
-  <Continent id="7012" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE" cancelAbnormalityId="70276">
+  <Continent id="7012" channelType="field" initChannelCountByQA="3" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE" cancelAbnormalityId="70276">
 	<HuntingZone id="31" />
     <HuntingZone id="32" />
     <HuntingZone id="33" />
@@ -301,7 +303,7 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
 	<HuntingZone id="383" />
 	<HuntingZone id="627" />
   </Continent>
-  <Continent id="7013" channelType="field" initChannelCount="1" channelMax="1" userMaxPerChannel="500" isSpecificSpace="FALSE">
+  <Continent id="7013" channelType="field" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE">
     <HuntingZone id="39" />
     <HuntingZone id="40" />
     <HuntingZone id="41" />
@@ -318,7 +320,7 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
 	<HuntingZone id="375" />	
 	<HuntingZone id="624" />		
   </Continent>
-  <Continent id="7014" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE">
+  <Continent id="7014" channelType="field" initChannelCountByQA="3" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE">
     <HuntingZone id="35" />
     <HuntingZone id="36" />
     <HuntingZone id="37" />
@@ -335,7 +337,7 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
     <HuntingZone id="374" />	
 	<HuntingZone id="621" />
   </Continent>
-  <Continent id="7015" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="300" isSpecificSpace="FALSE" cancelAbnormalityId="70276">
+  <Continent id="7015" channelType="field" initChannelCountByQA="3" initChannelCount="1" channelMax="10" userMaxPerChannel="300" isSpecificSpace="FALSE" cancelAbnormalityId="70276">
     <HuntingZone id="71" />
 	<HuntingZone id="371" />
     <HuntingZone id="30" />   
@@ -528,7 +530,7 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
   </Continent>
   
   <!--64삭제-->
-  <!--Continent id="9015" channelType="channelingZone" initChannelCount="5" channelMax="40" userMaxPerChannel="180" isSpecificSpace="TRUE">
+  <!--Continent id="9015" channelType="channelingZone" initChannelCount="1" channelMax="40" userMaxPerChannel="180" isSpecificSpace="TRUE">
     <HuntingZone id="415" />
   </Continent>
   <Continent id="9016" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
@@ -706,26 +708,26 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
   <!--64삭제-->
   <!--Continent id="9077" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
     <HuntingZone id="477" />
-  </Continent>
+  </Continent-->
   <Continent id="9078" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
     <HuntingZone id="478" />
-  </Continent-->
+  </Continent>
   
   <Continent id="9079" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="47630600">
     <HuntingZone id="479" />
   </Continent>
   
   <!--64삭제-->
-  <!--Continent id="9080" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+  <Continent id="9080" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
     <HuntingZone id="480" />
   </Continent>
-  <Continent id="9081" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+  <!--Continent id="9081" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
     <HuntingZone id="481" />
-  </Continent>
+  </Continent-->
   <Continent id="9082" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
     <HuntingZone id="482" />
   </Continent>
-  <Continent id="9083" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+  <!--Continent id="9083" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
     <HuntingZone id="483" />
   </Continent-->
   
@@ -758,9 +760,9 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
   </Continent>
   
   <!--64삭제-->
-  <!--Continent id="9096" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+  <Continent id="9096" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
     <HuntingZone id="496" />
-  </Continent-->
+  </Continent>
   
   <Continent id="9795" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
     <HuntingZone id="795" />
@@ -972,17 +974,17 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
   </Continent>
   
   <!-- 환영의 탑 -->
-  <!--Continent id="9885" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="98850031,98850032,98850033,98850034,988501,988502,988503,988504,988505,988506,988511,988512,988513,988514,988515,988516,988521,988522,988523,988524,988525,988526,988531,988532,988533,988534,988535,988536,988551,47700800,98850091,98850092,98850093,98850094,98850095,98850096,47502300,475151">
+  <Continent id="9885" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="98850031,98850032,98850033,98850034,988501,988502,988503,988504,988505,988506,988511,988512,988513,988514,988515,988516,988521,988522,988523,988524,988525,988526,988531,988532,988533,988534,988535,988536,988551,47700800,98850091,98850092,98850093,98850094,98850095,98850096,47502300,475151">
     <HuntingZone id="885" />
-  </Continent-->
+  </Continent>
   <!-- 환영의 탑(16층) -->
-  <!--Continent id="9886" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,988503,988513,988523,32,38" cancelAbnormalityId="98850031,98850032,98850033,98850034,988501,988502,988503,988504,988505,988506,988511,988512,988513,988514,988515,988516,988521,988522,988523,988524,988525,988526,988531,988532,988533,988534,988535,988536,988551,47700800,98850091,98850092,98850093,98850094,98850095,98850096,47502300,475151,45000116,1650,1660,2974,4830,2701,2877,70221,70233,70231,70232, 45000011">
+  <Continent id="9886" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,988503,988513,988523,32,38" cancelAbnormalityId="98850031,98850032,98850033,98850034,988501,988502,988503,988504,988505,988506,988511,988512,988513,988514,988515,988516,988521,988522,988523,988524,988525,988526,988531,988532,988533,988534,988535,988536,988551,47700800,98850091,98850092,98850093,98850094,98850095,98850096,47502300,475151,45000116,1650,1660,2974,4830,2701,2877,70221,70233,70231,70232, 45000011">
     <HuntingZone id="886" />
-  </Continent-->
+  </Continent>
 <!-- 환영의 탑(R) -->
-  <!--Continent id="9034" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="90340001,29,32,38,9203100,9203101,9203102,9203103,70246" cancelAbnormalityId="90340001,90340002,90340003,90340004,90340005,90340104,90340107,90340202,90340203,90340204,90340206,90340306,90340307,90340308,90340309,90340310,90340311,90340312,90340313,90340314,90340315,90340328,90340330,90340331,90340332,90340333,90340501,90340502,90340503,90340504,90340505,90340506,90340507,90340509,90340510,90340513,90340514,90340515,90340601,90340602,90340603,90340701,90340702,90340703,90340704,90340705,90340706,90340707,90340708,90340709,90340710,90340711,90340712,90340713,90340714,90340715,90340716,90340717,90340718,90340719,90340720,90340721,90340722,90340726,90340727,90340728,90340729,90340730,90340732,90340733,90340734,90340735,90340737,90340738,90340818,90340819,90340820,90340903,90340904,90341001,90341002,90341003,90341004,90341005,90341006,90341007,90341008,90341009,90341010,90341012,90341013,90341014">
+  <Continent id="9034" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="90340001,29,32,38,9203100,9203101,9203102,9203103,70246" cancelAbnormalityId="90340001,90340002,90340003,90340004,90340005,90340104,90340107,90340202,90340203,90340204,90340206,90340306,90340307,90340308,90340309,90340310,90340311,90340312,90340313,90340314,90340315,90340328,90340330,90340331,90340332,90340333,90340501,90340502,90340503,90340504,90340505,90340506,90340507,90340509,90340510,90340513,90340514,90340515,90340601,90340602,90340603,90340701,90340702,90340703,90340704,90340705,90340706,90340707,90340708,90340709,90340710,90340711,90340712,90340713,90340714,90340715,90340716,90340717,90340718,90340719,90340720,90340721,90340722,90340726,90340727,90340728,90340729,90340730,90340732,90340733,90340734,90340735,90340737,90340738,90340818,90340819,90340820,90340903,90340904,90341001,90341002,90341003,90341004,90341005,90341006,90341007,90341008,90341009,90341010,90341012,90341013,90341014">
     <HuntingZone id="434" />
-  </Continent-->
+  </Continent>
 
   <!--엘카라스 호-->
   <Continent id="9716" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="71600004,71600010">
@@ -995,8 +997,8 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
   </Continent>      
 
    <!-- 성장 구간 인던 지원 -->
-  <!-- <Continent id="9999" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
-  </Continent> -->   
+  <!--Continent id="9999" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+  </Continent-->   
   <!-- 자바르만 소굴 -->
     <Continent id="9979" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="47630600,10011,10012,10013">
     <HuntingZone id="979" />
@@ -1176,7 +1178,7 @@ restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 �
   </Continent>
 
   <!-- OX퀴즈 특수공간 -->
-  <Continent id="9618" channelType="channelingZone" initChannelCount="10" channelMax="10" userMaxPerChannel="1000" disableChannelListBtn="true" withAbnormalityId="" cancelAbnormalityId="">
+  <Continent id="9618" channelType="channelingZone" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" disableChannelListBtn="true" withAbnormalityId="" cancelAbnormalityId="">
 	<HuntingZone id="618" />
   </Continent>
 
