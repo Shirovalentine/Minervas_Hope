@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <WorldData>
   <Tax storeTax="0.07" skillTax="0.07" />
   <!-- 티아라니아 특수 공간 예외 처리, 아래 입력된 던전에서 로그아웃하면 로그인할 때 던전이 자동 재생성, 입장된다-->
@@ -55,7 +55,7 @@
     <!-- 반격 뒤돌리기, 뒤돌리기 (기절) -->
     <!-- 256 개 까지 있을 수 있다고 함 -->
   </NpcDefaultAbnormalityResistance>
-  <NpcImpact>    <!-- Testing this on new update -->    <!--Update 1.1-->
+  <NpcImpact> <!-- Testing this on new update --> <!--Update 1.1-->
     <Impact level="1" large="19" medium="19" small="19" etc="19" />
     <Impact level="2" large="21" medium="21" small="21" etc="21" />
     <Impact level="3" large="22" medium="22" small="22" etc="22" />
@@ -273,7 +273,7 @@
   </StatByLevel>
   <Aggro firstAggroByMonsterView="25" aggroSendToPartyDistance="300" aggroDecreaseRate="0.09" basicAggroDecreaseAmount="3" aggroDecreaseRenewalPeriod="2" returnDistance="2500" targetChangeAggroGap="50" newTargetAggroBonus="100" aggroCheckInterval="1000" />
   <Critical damageRate="1.0" reactionAdjForGrade="5" player="0.7" npcLarge="0.9" npcMedium="1.0" npcSmall="1.0" elseCreature="1.0" healRes="50" healPowerRate="1.5" />
-  <!-- weapon/armor multiplier -->  <!--Update 1.1-->
+  <!-- weapon/armor multiplier --> <!--Update 1.1-->
   <Atk statRate="0.01" adjDual="1.0" adjLance="1.0" adjTwohand="1.0" adjAxe="1.0" adjCircle="1.0" adjBow="1.0" adjStaff="1.0" adjRod="1.0" adjChain="1.0" adjBlaster="1.0" adjGauntlet="1.0" adjShuriken="1.0" adjGlaive="1.0" />
   <PhysicalAttack adjDual="1.0" adjLance="1.0" adjTwohand="1.0" adjAxe="1.0" adjCircle="1.0" adjBow="1.0" adjStaff="1.0" adjRod="1.0" adjChain="1.0" adjBlaster="1.0" adjGauntlet="1.0" adjShuriken="1.0" adjGlaive="1.0" />
   <MagicalAttack adjDual="1.0" adjLance="1.0" adjTwohand="1.0" adjAxe="1.0" adjCircle="1.0" adjBow="1.0" adjStaff="1.0" adjRod="1.0" adjChain="1.0" adjBlaster="1.0" adjGauntlet="1.0" adjShuriken="1.0" adjGlaive="1.0" />
@@ -818,7 +818,7 @@
     <MaxSkillAtkAdvantage applyLevel="60" />
     <!-- (현재 레벨-스킬 습득 레벨*1.03)의 보정치를 65레벨 이상부터는 65레벨과 동일하도록 설정 -->
   </LevelAdjust>
-  <BonusExp>    <!-- Party Bonus XP-->    <!--Update 1.1-->
+  <BonusExp> <!-- Party Bonus XP--> <!--Update 1.1-->
     <PartyBonus memberCount="1" bonusRate="0.0" />
     <PartyBonus memberCount="2" bonusRate="0.5" />
     <PartyBonus memberCount="3" bonusRate="0.8" />
@@ -899,8 +899,7 @@
     <ConditionPenalty pcLevelOver="24" pcLevelUnder="27" conditionPenalty="80" />
     <ConditionPenalty pcLevelOver="28" pcLevelUnder="65" conditionPenalty="100" />
   </Death>
-  <Revival autoRevivalTime="15" recoveryRateHp="0.4" abnormalityId="999996" />
-  <!--Update 1.1-->
+  <Revival autoRevivalTime="15" recoveryRateHp="0.4" abnormalityId="999996" /> <!--Update 1.1-->
   <Guard>
     <Tenure>28</Tenure>
   </Guard>
@@ -915,8 +914,7 @@
   <Parcel sendParcelTax="50" sendPresentParcelTax="0.01" sendEscrowParcelTax="0.1" escrowReturnWait="86400" maxRecvListCnt="100" warnRecvListCnt="70" maxSendListCnt="100" expireDay="180" expireBeginDate="2013/8/22" />
   <!-- 세컨드 캐릭터 관련 파라미터들 -->
   <!-- 테스트 서버에서 가능한 최대 레벨은 58이라고 함 -->
-  <UserLevelLimit value="60" />
-  <!--Update 1.1 -->
+  <UserLevelLimit value="60" /> <!--Update 1.1 -->
   <Teleport needEp="10" addPosNeedEp="10" skillMotionId="0" />
   <CharacterChange needEp="10" />
   <!-- 수수료 내면 사용할수있는 기간은 7일= 60 * 60 * 24 * 7= 604800 -->
@@ -955,10 +953,20 @@
     <GuildPromotionChat inputCheckInterval="4" inputCountLimit="2" muteTime="30" userMinLevel="1" muteCoolTimeShare="True" />
   </ChatConfig>
   <!-- 이동 설정값들
-	airFriction						  공기 저항, 낙하시 x,y방향의 속도 감쇠에 사용된다. 0보다 크고 10보다 작게 fallingStartHeight="20"           낙하가 시작되는 높이 fallingAngle="55"                 낙하가 시작되는 각도
-                                      fallingStartHeight, fallingAngle 두가지 모두의 조건이 만족되면 낙하를 한다. fallingSpeed="600"                낙하 최대 속도 fallingDamageHeight="200"         낙하로 대미지를 입기 시작하는 높이차 fallingLandingMotionHeight="100"  낙하 착지 모션이 나오기 시작하는 높이차 jumpHeight="40"                   점프 최대 높이 jumpDuration="800"                점프 시간(msec) jumpFallingStartHeight="30"       점프시에 낙하가 시작되는 높이, fallingStartHeight 값보다는 크거나 같아야 한다. climbingSpeed="30"                기어오르기 속도
+	airFriction						  공기 저항, 낙하시 x,y방향의 속도 감쇠에 사용된다. 0보다 크고 10보다 작게
+    fallingStartHeight="20"           낙하가 시작되는 높이
+    fallingAngle="55"                 낙하가 시작되는 각도
+                                      fallingStartHeight, fallingAngle 두가지 모두의 조건이 만족되면 낙하를 한다.
+    fallingSpeed="600"                낙하 최대 속도
+    fallingDamageHeight="200"         낙하로 대미지를 입기 시작하는 높이차
+    fallingLandingMotionHeight="100"  낙하 착지 모션이 나오기 시작하는 높이차
+    jumpHeight="40"                   점프 최대 높이
+    jumpDuration="800"                점프 시간(msec)
+    jumpFallingStartHeight="30"       점프시에 낙하가 시작되는 높이, fallingStartHeight 값보다는 크거나 같아야 한다.
+    climbingSpeed="30"                기어오르기 속도
     점프최초속도                     = 4.f * jumpHeight / jumpDuration
-	  낙하가속도(점프시에도)           = -2.f * 점프최초속도 / jumpDuration damageUnitHeight= "1250" (50m)	   낙하 데미지 최소치 이자 단위  300(12m)
+	  낙하가속도(점프시에도)           = -2.f * 점프최초속도 / jumpDuration
+	damageUnitHeight= "1250" (50m)	   낙하 데미지 최소치 이자 단위  300(12m)
 	hpDecreaseRatePerUnit 낙하 데미지 단위 마다 깍을 hp 비율
   -->
   <MoveConfig userSpeedMax="240" airFriction="1.5" fallingStartHeight="50" fallingAngle="55" fallingSpeed="600" fallingDamageHeight="500" fallingLandingMotionHeight="80" jumpHeight="50" jumpDuration="800" jumpFallingStartHeight="100" climbingSpeed="60" climbingRange="200" damageUnitHeight="30" hpDecreaseRatePerUnit="0.03" swimmingAbnormalityId="999999" swimmingAbnormalityIdForPopori="905000" jumpReactionRate="1.0" jumpReactionType="2" movingDefenceForwardSpeed="80" movingDefenceMaxRotationAngle="60" />
@@ -968,8 +976,7 @@
     현재 따라가기 대상이 giveupFollowDistanceThreshold 보다 멀어지면 따라가기를 중단함
     arriveDistanceThreshold 보다 가까워지면 도착 (S1AutoPilotHandler에서 AutoPilotType_Pos 인 경우에만 쓰임)
   -->
-  <FollowConfig minFollowDistanceThreshold="70" maxFollowDistanceThreshold="190" giveupFollowDistanceThreshold="640" arriveDistanceThreshold="1" />
-  <!-- Testing this on new update -->  <!--Update 1.1-->
+  <FollowConfig minFollowDistanceThreshold="70" maxFollowDistanceThreshold="190" giveupFollowDistanceThreshold="640" arriveDistanceThreshold="1" /> <!-- Testing this on new update --> <!--Update 1.1-->
   <SwimStartDepthList>
     <SwimStartDepth race="human" gender="male" height="37" />
     <SwimStartDepth race="human" gender="female" height="33" />
@@ -3899,7 +3906,11 @@
     <VoteCoolTimeData id="2" coolTime="3" />
   </VoteCoolTimeList>
   <!-- TCat 설정들 -->
-  <!-- supportTCatTradeBroker: TCat 경매장 지원 여부 showTCatInInventory=true 로 하면 캐릭터 인벤토리에서 tcat 수량을 보여준다 useInGameStoreTCat=true 로 하면 인게임 상점에서 tcat상품들을 보여준다 useInGameStoreCoin=true 로 하면 인게임 상점에서 한코인 상품들 보여준다 singleTCatItemTemplateId=139005	는 TCat으로 자동 변환되는 아이템의 보여줄때 사용 -->
+  <!-- supportTCatTradeBroker: TCat 경매장 지원 여부 
+	showTCatInInventory=true 로 하면 캐릭터 인벤토리에서 tcat 수량을 보여준다
+	useInGameStoreTCat=true 로 하면 인게임 상점에서 tcat상품들을 보여준다 
+	useInGameStoreCoin=true 로 하면 인게임 상점에서 한코인 상품들 보여준다
+	singleTCatItemTemplateId=139005	는 TCat으로 자동 변환되는 아이템의 보여줄때 사용 -->
   <TCat supportTCatTradeBroker="true" useSharedTCat="true" showTCatInInventory="true" useInGameStoreTCat="true" useInGameStoreCoin="false" singleTCatItemTemplateId="139005">
     <ConvertItemTCat itemTemplateId="404" convertTCatAmount="20" />
     <!-- 404 아이템 1개를 20개로 변환 -->
@@ -3913,7 +3924,8 @@
     <!--Item id="8001" prob="0.1" />
 		<Item id="8002" prob="0.1" /-->
   </DropRecoverItem>
-  <!-- 여행자의 책 에서 몇개 까지 텔레포트 목록 저장할건지 maxTeleportPosCount=5 여행자의 책 목록 5개 까지 사용가능
+  <!-- 여행자의 책 에서 몇개 까지 텔레포트 목록 저장할건지  
+	maxTeleportPosCount=5 여행자의 책 목록 5개 까지 사용가능
 	-->
   <BookmarkTeleport maxTeleportPosCount="10">
     <NotAllowSave>
@@ -3976,19 +3988,19 @@
   </QuestGuideInitialization>
   <DeletedUserNamePeriodDay isOn="true" periodDay="30" />
   <!-- 퀘스트 경험치 획득 배율 조절 -->
-  <WorldExpGainRatio applyExpGainRatio="true">    <!-- Testing this on new update -->    <!--Update 1.1-->
+  <WorldExpGainRatio applyExpGainRatio="true"> <!-- Testing this on new update --> <!--Update 1.1-->
     <level apply="true" min="1" max="11" ratio="0.1" />
     <level apply="true" min="12" max="28" ratio="0.7" />
     <level apply="true" min="29" max="48" ratio="0.8" />
     <level apply="true" min="49" max="58" ratio="0.9" />
-    <level apply="true" min="59" max="60" ratio="1.0" />
+	<level apply="true" min="59" max="60" ratio="1.0" />
   </WorldExpGainRatio>
   <!-- 슈퍼 아머 -->
   <SuperArmor reactionRate="0" reactionRateSmall="0" reactionRateMedium="0" reactionRateLarge="0" reactionRatePvp="0" inaccessibleDistanceForLarge="40" />
   <!-- 콤보 카운트 연계 시간 -->
   <HitCombo resetInterval="4000" />
   <!-- 데미지에 따른 어그로 획득량 조절 -->
-  <AggroAdjust>    <!-- Testing this on new update -->    <!--Update 1.1-->
+  <AggroAdjust> <!-- Testing this on new update --> <!--Update 1.1-->
     <Warrior default="0.5">
       <AngleAdjust startAngle="0" endAngle="90" aggroAdjust="0.5" />
       <AngleAdjust startAngle="90" endAngle="180" aggroAdjust="0.5" />

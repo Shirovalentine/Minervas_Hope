@@ -1,0 +1,1367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+channelType
+	- none				일반 대륙 
+	- chobozone			초보사냥터
+	- dungeon			퀘스트인던
+	- battleField		전장
+	- sharespace		서버공용공간
+	- field				fieldEvent/fieldData 사용을 위해 설정해 주어야 하는 신규 채널 속성, 기본은 none/channelingZone과 동일
+
+각 Continet 정의 시에 채널 대륙이 포함된 실제 대륙 번호를 정의 하기 위해 
+inChannelingContinent="7001, 7002" 형식으로 연결된 채널 대륙 번호를 적어줘야 함. 
+	이때 대륙번호를 콤마로 구분해서 관련 채널링 대륙은 모두 지정해야함.
+
+
+disableChannelListBtn : true 인 경우 레이더 맵의 채널 리스트가 나오지 않음(채널 표시는 됨)
+
+channelUIStatus :
+  채널 리스트의 UI 속성에 관한 정보. 컴마(,)로 분리해서 적을 수 있다.
+  각각 순서에 맞게 채널에 적용된다.
+  채널수보다 적으면 마지막 속성이 그 이후 채널에 적용된다.
+  ex) channelUIStatus="invisible,disable" -> 1번 채널: invisible, 2번 이후 채널: disable
+  속성
+    - enable: 채널도 보이고, 목록도 보이고, 이동도 된다.
+    - disable: 채널은 보이지만, 목록이 보이지 않는다.
+    - invisible: 채널이 보이지 않는다. (channelingZone 이라고 안느껴진다.)
+
+initChannelCount : 서버 시작 시 기본으로 생성되는 채널 개수(운영툴에서도 조정 가능하며, 운영툴 우선순위가 더 높음)	
+	
+initChannelCountByQA : TeraBox에서 적용되는 initChannelCount (개발서버 메모리 절약 용도)
+
+channelMax : 최대로 늘어날 수 있는 채널 개수
+	
+userMaxPerChannel : 한 채널당 입장 가능 유저 수 (유저수를 제한하는 것은 아니며, 해당 유저수에 도달하면 다음 채널이 생김)
+  각 채널 별로 지정 가능하며, 채널수보다 적게 정의하면 마지막에 정의한 값이 그 이후의 채널들에 적용된다.
+  
+restrictChannel : true인 경우 userMaxPerChannel 만큼 채널에 유저가 차있을 때 더이상 해당 꽉 찬 채널에 유저가 입장하지 못하도록 설정
+-->
+
+<ContinentData>
+  <Continent id="5" channelType="channelingZone" initChannelCount="1" channelMax="250" userMaxPerChannel="30" isSpecificSpace="FALSE">
+    <HuntingZone id="599" />
+  </Continent>
+  <Continent id="9827" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+    <HuntingZone id="827" />
+  </Continent>
+  <Continent id="9828" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+    <HuntingZone id="828" />
+  </Continent>
+  <Continent id="9829" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="47651003">
+    <HuntingZone id="829" />
+  </Continent>
+  <!--세계관 확장 공중섬 -->
+  <Continent id="6" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="9999,50" inChannelingContinent="2000,2050,2052,2054" isSpecificSpace="FALSE">
+  </Continent>
+  <!-- 엑소도르 메인섬 및 부유섬 -->
+  <Continent id="2000" channelType="field" initChannelCount="1" channelMax="3" userMaxPerChannel="180" withAbnormalityId="20000001" isSpecificSpace="FALSE" cancelAbnormalityId="70271,70272,70273,70274,70275,70281,70282,70283,70284,70285,990070318,990070319,990070320,990070321,990070322,5020018,5010072,32021004,32021009,32021011,32021016">
+	<!-- 매인섬 2000~2009 -->
+	<HuntingZone id="2000" /> <!-- 1번섬 -->
+	<HuntingZone id="2001" /> <!-- 2번섬 -->
+	<HuntingZone id="2002" /> <!-- 3번섬 -->
+	<HuntingZone id="2003" /> <!-- 4번섬 -->
+	<HuntingZone id="2009" /> <!-- 메인섬 및 부유섬 점프기어 -->
+	<!-- 부유섬 2010~2099 (2050,2051은 코어섬) -->
+	<HuntingZone id="2010" /><!--낚시섬 시작-->
+	<HuntingZone id="2011" />
+	<HuntingZone id="2012" />
+	<HuntingZone id="2013" />
+	<HuntingZone id="2014" />
+	<HuntingZone id="2015" /><!--낚시섬 끝-->
+	<HuntingZone id="2020" />
+  </Continent>
+  <!-- 엑소도르 코어섬 -->
+  <Continent id="2050" channelType="field" initChannelCount="1" channelMax="10" userMaxPerChannel="180" withAbnormalityId="20000001" isSpecificSpace="FALSE" cancelAbnormalityId="990070318,990070319,990070320,990070321,990070322,5010072">
+	<HuntingZone id="2050" /> <!-- 코어섬 배치 -->
+	<HuntingZone id="2051" /> <!-- 코어섬 점프기어 -->
+  </Continent>
+  <Continent id="2052" channelType="field" initChannelCount="1" channelMax="10" userMaxPerChannel="180" withAbnormalityId="20000001" isSpecificSpace="FALSE" cancelAbnormalityId="990070318,990070319,990070320,990070321,990070322,20520004">
+	<HuntingZone id="2052" /> <!-- 공격선 착륙지 배치 -->
+	<HuntingZone id="2053" /> <!-- 공격선 착륙지 점프기어 -->
+  </Continent>
+  <Continent id="2054" channelType="field" initChannelCount="1" channelMax="10" userMaxPerChannel="180" withAbnormalityId="20000001" isSpecificSpace="FALSE" cancelAbnormalityId="990070318,990070319,990070320,990070321,990070322,20540025">
+	<HuntingZone id="2054" /> <!-- 코어섬 배치 -->
+	<HuntingZone id="2055" /> <!-- 코어섬 점프기어 -->
+  </Continent>
+  <!-- 세계관 확장 공중섬 특수공간-->
+  <Continent id="2100" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="93900004,93910002,73910003,93910005,93910006,93910007,93910008,93910010,93910013,73920001,73920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,73920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,73930010,73930011,93930012,93930014,93930015,93930017">
+	<HuntingZone id="2100" /> <!--블루집-->
+  </Continent> 
+  <Continent id="2101" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="93900004,93910002,73910003,93910005,93910006,93910007,93910008,93910010,93910013,73920001,73920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,73920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,73930010,73930011,93930012,93930014,93930015,93930017">
+	<HuntingZone id="2101" /> <!--유충 부화장-->
+  </Continent> 
+  <Continent id="2102" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="93900004,93910002,73910003,93910005,93910006,93910007,93910008,93910010,93910013,73920001,73920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,73920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,73930010,73930011,93930012,93930014,93930015,93930017">
+	<HuntingZone id="2102" /> <!--습곡_절벽감옥-->
+  </Continent> 
+  <Continent id="2103" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="93900004,93910002,73910003,93910005,93910006,93910007,93910008,93910010,93910013,73920001,73920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,73920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,73930010,73930011,93930012,93930014,93930015,93930017">
+	<HuntingZone id="2103" /> <!--성채_기관실-->
+  </Continent>
+  
+  <!-- 신규모드 캠페인 -->
+  <Continent id="2501" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,47651002" cancelAbnormalityId="93900004,93910002,73910003,93910005,93910006,93910007,93910008,93910010,93910013,73920001,73920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,73920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,73930010,73930011,93930012,93930014,93930015,93930017">
+	<HuntingZone id="2501" /> <!--캠페인1스테이지-->
+  </Continent>
+  <Continent id="2502" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,47651002" cancelAbnormalityId="93900004,93910002,73910003,93910005,93910006,93910007,93910008,93910010,93910013,73920001,73920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,73920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,73930010,73930011,93930012,93930014,93930015,93930017">
+	<HuntingZone id="2502" /> <!--캠페인2스테이지-->
+  </Continent>
+  <Continent id="2503" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,47651002" cancelAbnormalityId="82101,821101">
+    <HuntingZone id="2503" /> <!--캠페인3스테이지-->
+  </Continent>
+  <Continent id="2504" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,47651002" cancelAbnormalityId="93900004,93910002,73910003,93910005,93910006,93910007,93910008,93910010,93910013,73920001,73920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,73920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,73930010,73930011,93930012,93930014,93930015,93930017,21030001,21030002">
+	<HuntingZone id="2504" /> <!--캠페인4스테이지-->
+  </Continent>
+	<!--신규모드용 허수아비 던전 -->
+	<Continent id="2530" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="" cancelAbnormalityId="3012000,3012001,3012010,3012011,3012012">
+		<HuntingZone id="2530" />
+	</Continent>
+ 
+  <Continent id="13" channelType="channelingZone" initChannelCount="1" channelMax="28" userMaxPerChannel="180" isSpecificSpace="FALSE" cancelAbnormalityId="990070318,990070319,990070320,990070321,990070322">
+    <HuntingZone id="13" />
+    <HuntingZone id="64" />
+    <HuntingZone id="213" />
+	<HuntingZone id="313" />
+	<HuntingZone id="364" />
+  </Continent>
+
+  <Continent id="1" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="9999,50" inChannelingContinent="7001,7002,7003,7004,7005" isSpecificSpace="FALSE">
+    <HuntingZone id="1" />
+    <!--<HuntingZone id="2" />-->
+    <!--<HuntingZone id="3" />-->   
+    <!--<HuntingZone id="5" />
+    <HuntingZone id="6" />
+    <HuntingZone id="7" />-->
+    <HuntingZone id="58" />
+    <!--<HuntingZone id="59" />
+    <HuntingZone id="60" />-->
+    <HuntingZone id="201" />
+    <!--<HuntingZone id="202" />
+    <HuntingZone id="203" />-->    
+    <!--<HuntingZone id="205" />
+    <HuntingZone id="206" />
+    <HuntingZone id="207" />-->	
+	<HuntingZone id="358" />	
+  </Continent>
+  <Continent id="2" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" inChannelingContinent="7011,7012,7013,7014,7015" isSpecificSpace="FALSE">
+    <HuntingZone id="72" />
+	<HuntingZone id="372" />	
+	<HuntingZone id="518" />
+	<HuntingZone id="519" />
+    <HuntingZone id="999" />
+	<HuntingZone id="550" /> <!-- 직업 개편 이벤트용 -->
+  </Continent>
+  <Continent id="3" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" inChannelingContinent="7021,7022,7023" isSpecificSpace="FALSE">
+    <HuntingZone id="43" />
+    <HuntingZone id="82" />
+    <HuntingZone id="84" />
+    <HuntingZone id="85" />
+    <HuntingZone id="243" />   
+    <HuntingZone id="282" />	
+	<HuntingZone id="343" />
+	<HuntingZone id="384" />
+	<HuntingZone id="385" />
+	<HuntingZone id="528" />
+	<HuntingZone id="529" />
+  </Continent>
+  <Continent id="4" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" inChannelingContinent="7031">
+  </Continent>    
+  <Continent id="7001" channelType="field" initChannelCountByQA="3" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE" cancelAbnormalityId="70276">
+    <HuntingZone id="2" />
+    <HuntingZone id="3" />
+    <HuntingZone id="5" />
+    <HuntingZone id="6" />
+    <HuntingZone id="7" />
+	<HuntingZone id="59" />
+    <HuntingZone id="60" />		
+    <HuntingZone id="202" />
+    <HuntingZone id="203" />
+    <HuntingZone id="205" />
+    <HuntingZone id="206" />
+    <HuntingZone id="207" />    
+	<HuntingZone id="302" />
+	<HuntingZone id="303" />
+	<HuntingZone id="305" />
+	<HuntingZone id="306" />
+	<HuntingZone id="307" />
+	<HuntingZone id="359" />
+	<HuntingZone id="360" />
+	<HuntingZone id="623" />				
+  </Continent>
+  <Continent id="7002" channelType="channelingZone" initChannelCount="1" channelMax="13" userMaxPerChannel="500" isSpecificSpace="FALSE" cancelAbnormalityId="70276">
+	<HuntingZone id="15" />
+    <HuntingZone id="16" />
+    <HuntingZone id="17" />
+	<HuntingZone id="22" />
+    <HuntingZone id="23" />
+    <HuntingZone id="67" />
+    <HuntingZone id="68" />	
+	<HuntingZone id="215" />
+    <HuntingZone id="216" />
+    <HuntingZone id="217" />
+	<HuntingZone id="222" />
+    <HuntingZone id="223" />		
+	<HuntingZone id="315" />
+	<HuntingZone id="316" />
+	<HuntingZone id="317" />
+	<HuntingZone id="322" />
+	<HuntingZone id="323" />
+	<HuntingZone id="367" />
+	<HuntingZone id="368" />
+  </Continent>
+  <Continent id="7003" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE">
+    <HuntingZone id="18" />
+    <HuntingZone id="19" />
+	<HuntingZone id="20" />
+    <HuntingZone id="21" />    
+    <HuntingZone id="24" />
+    <HuntingZone id="25" />
+	<HuntingZone id="65" />
+    <HuntingZone id="66" />  	
+    <HuntingZone id="218" />
+    <HuntingZone id="219" />	
+    <HuntingZone id="220" />
+    <HuntingZone id="221" />
+    <HuntingZone id="224" />
+    <HuntingZone id="225" />	
+	<HuntingZone id="318" />
+	<HuntingZone id="319" />	
+	<HuntingZone id="320" />
+	<HuntingZone id="321" />	
+	<HuntingZone id="324" />
+	<HuntingZone id="325" />
+	<HuntingZone id="365" />
+	<HuntingZone id="366" />		
+	<HuntingZone id="626" />		
+	<HuntingZone id="630" />	
+  </Continent>
+  <Continent id="7004" channelType="channelingZone" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE" cancelAbnormalityId="70276,950800003,950800014,950800015,950800016,950800034,950800038,950800040,983300002,983300003" >
+	<HuntingZone id="4" />
+    <HuntingZone id="8" />
+    <HuntingZone id="9" />
+    <HuntingZone id="10" />
+    <HuntingZone id="11" />
+    <HuntingZone id="12" />
+	<HuntingZone id="61" />
+    <HuntingZone id="62" />	
+	<HuntingZone id="204" />
+	<HuntingZone id="208" />
+    <HuntingZone id="209" />
+    <HuntingZone id="210" />
+    <HuntingZone id="211" />
+    <HuntingZone id="212" />	
+	<HuntingZone id="304" />
+	<HuntingZone id="308" />
+	<HuntingZone id="309" />
+	<HuntingZone id="310" />
+	<HuntingZone id="311" />
+	<HuntingZone id="312" />	
+	<HuntingZone id="361" />
+	<HuntingZone id="362" />	
+  </Continent>
+  <Continent id="7005" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE">
+    <HuntingZone id="63" />  
+    <HuntingZone id="363" />		
+	<HuntingZone id="628" />						
+  </Continent>  
+  <Continent id="7011" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE">
+	<HuntingZone id="26" />
+    <HuntingZone id="27" />
+    <HuntingZone id="28" />
+    <HuntingZone id="29" />	
+	<HuntingZone id="69" />
+    <HuntingZone id="70" />	
+	<HuntingZone id="226" />
+    <HuntingZone id="227" />
+    <HuntingZone id="228" />
+    <HuntingZone id="229" />	
+	<HuntingZone id="326" />
+	<HuntingZone id="327" />
+	<HuntingZone id="328" />
+	<HuntingZone id="329" />
+	<HuntingZone id="369" />	
+	<HuntingZone id="370" />
+	<HuntingZone id="622" />			
+  </Continent>  
+  <Continent id="7012" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE" cancelAbnormalityId="70276">
+	<HuntingZone id="31" />
+    <HuntingZone id="32" />
+    <HuntingZone id="33" />
+    <HuntingZone id="34" />
+	<HuntingZone id="231" />
+    <HuntingZone id="232" />
+    <HuntingZone id="233" />
+    <HuntingZone id="234" />
+	<HuntingZone id="331" />
+	<HuntingZone id="332" />
+	<HuntingZone id="333" />
+	<HuntingZone id="334" />
+    <HuntingZone id="73" />
+    <HuntingZone id="83" />
+	<HuntingZone id="373" />
+	<HuntingZone id="383" />
+	<HuntingZone id="627" />
+  </Continent>
+  <Continent id="7013" channelType="field" initChannelCount="1" channelMax="1" userMaxPerChannel="500" isSpecificSpace="FALSE">
+    <HuntingZone id="39" />
+    <HuntingZone id="40" />
+    <HuntingZone id="41" />
+    <HuntingZone id="42" />
+	<HuntingZone id="239" />
+    <HuntingZone id="240" />
+    <HuntingZone id="241" />
+    <HuntingZone id="242" />		
+	<HuntingZone id="339" />
+	<HuntingZone id="340" />
+	<HuntingZone id="341" />
+	<HuntingZone id="342" />	
+	<HuntingZone id="75" />
+	<HuntingZone id="375" />	
+	<HuntingZone id="624" />		
+  </Continent>
+  <Continent id="7014" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="500" isSpecificSpace="FALSE">
+    <HuntingZone id="35" />
+    <HuntingZone id="36" />
+    <HuntingZone id="37" />
+    <HuntingZone id="38" />
+	<HuntingZone id="235" />
+    <HuntingZone id="236" />
+    <HuntingZone id="237" />
+    <HuntingZone id="238" />
+	<HuntingZone id="335" />
+	<HuntingZone id="336" />
+	<HuntingZone id="337" />
+	<HuntingZone id="338" />
+	<HuntingZone id="74" />
+    <HuntingZone id="374" />	
+	<HuntingZone id="621" />
+  </Continent>
+  <Continent id="7015" channelType="field" initChannelCountByQA="1" initChannelCount="1" channelMax="10" userMaxPerChannel="300" isSpecificSpace="FALSE" cancelAbnormalityId="70276">
+    <HuntingZone id="71" />
+	<HuntingZone id="371" />
+    <HuntingZone id="30" />   
+    <HuntingZone id="230" />		
+	<HuntingZone id="330" />	
+	<HuntingZone id="620" />
+  </Continent>
+  <Continent id="7021" channelType="field" initChannelCount="1" channelMax="15" userMaxPerChannel="250" isSpecificSpace="FALSE">
+	<!--64삭제-->
+	<HuntingZone id="54" />
+    <HuntingZone id="55" />
+    <HuntingZone id="56" />
+    <HuntingZone id="57" />
+	<HuntingZone id="80" />
+	<HuntingZone id="81" />
+	<HuntingZone id="254" />
+    <HuntingZone id="255" />
+    <HuntingZone id="256" />
+    <HuntingZone id="257" />
+	<HuntingZone id="280" />
+	<HuntingZone id="281" />
+	<HuntingZone id="354" />
+	<HuntingZone id="355" />
+	<HuntingZone id="356" />
+	<HuntingZone id="357" />
+	<HuntingZone id="380" />	
+	<HuntingZone id="381" />
+	<HuntingZone id="625" />		
+	<HuntingZone id="631" />
+  </Continent>  
+  <Continent id="7022" channelType="field" initChannelCount="1" channelMax="10" userMaxPerChannel="250" isSpecificSpace="FALSE">
+	<HuntingZone id="51" />
+    <HuntingZone id="52" />
+	<HuntingZone id="53" />
+	<HuntingZone id="79" />
+	<HuntingZone id="251" />
+    <HuntingZone id="252" />
+	<HuntingZone id="253" />
+	<HuntingZone id="279" />
+	<HuntingZone id="351" />
+	<HuntingZone id="352" />
+	<HuntingZone id="353" />
+	<HuntingZone id="379" />
+  </Continent>
+  <Continent id="7023" channelType="channelingZone" initChannelCount="1" channelMax="10" userMaxPerChannel="300" isSpecificSpace="FALSE">
+    <HuntingZone id="45" />
+	<HuntingZone id="46" />
+	<HuntingZone id="47" />
+	<HuntingZone id="77" />
+    <HuntingZone id="245" />
+	<HuntingZone id="246" />
+	<HuntingZone id="247" />
+	<HuntingZone id="277" />
+	<HuntingZone id="345" />
+	<HuntingZone id="346" />
+	<HuntingZone id="347" />
+	<HuntingZone id="377" />	
+  </Continent>
+  <Continent id="7031" channelType="field" initChannelCount="1" channelMax="250" userMaxPerChannel="300" cancelAbnormalityId="990070311,990070312,990070313,990070314,990070315,990070316,990070317,70407,70409,70439,70442,70447,950800003,950800014,950800015,950800016,950800034,950800038,950800040,983300002,983300003">
+    <HuntingZone id="172" />
+    <HuntingZone id="181" />
+	<HuntingZone id="182" />
+	<HuntingZone id="183" />
+	<HuntingZone id="191" />
+	<HuntingZone id="1022" />	
+  </Continent>
+  <Continent id="7087" channelType="channelingZone" initChannelCount="1" channelMax="250" userMaxPerChannel="30" disableChannelListBtn="true" isSpecificSpace="FALSE" withAbnormalityId="97950012" cancelAbnormalityId="97950012">
+		<HuntingZone id="87" />
+	</Continent>
+  <Continent id="8001" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE">
+    <HuntingZone id="44" />
+    <HuntingZone id="48" />
+    <HuntingZone id="49" />
+    <HuntingZone id="50" />
+    <HuntingZone id="76" />  
+    <HuntingZone id="78" />
+    <HuntingZone id="244" />
+    <HuntingZone id="248" />
+    <HuntingZone id="249" />
+    <HuntingZone id="250" /> 
+	<HuntingZone id="344" />
+	<HuntingZone id="348" />
+	<HuntingZone id="349" />
+	<HuntingZone id="350" />
+	<HuntingZone id="376" />	
+	<HuntingZone id="378" />
+  </Continent>
+
+  <!--99번대륙 테스트용 TEST_P 돌리던 것 삭제 처리. -->
+  <Continent id="99" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE">
+    <HuntingZone id="998" />
+  </Continent>
+
+  <!--눈싸움 이벤트 전장-->
+  <Continent id="102" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029" cancelAbnormalityId="3000028,3000029" >
+    <HuntingZone id="102" />
+  </Continent>
+  <Continent id="103" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029" cancelAbnormalityId="3000028,3000029" >
+    <HuntingZone id="103" />
+  </Continent>
+    
+  <!--전장-->
+  <Continent id="110" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="3000028,3000029,99070036,425104,9203104" cancelAbnormalityId="3000028,3000029,99070036,425104,999010008,999010009,999010010,999010011,999010012,999010013,999010014,999010015,999010016"> <!-- 지하의 격전장 -->
+    <HuntingZone id="110" />
+  </Continent>
+  <!-- 25레벨 강철의 전장 -->
+  <!--Continent id="111" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029" cancelAbnormalityId="3000028,3000029,8000713,8000714,8000715,8000716,8000718,8000719,8000720"> 
+    <HuntingZone id="111" />
+  </Continent-->
+  <Continent id="112" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029,9203104" cancelAbnormalityId="3000028,3000029" > <!-- 명예의 전장 -->
+    <HuntingZone id="112" />
+  </Continent>
+  <Continent id="113" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029,9203104" cancelAbnormalityId="3000028,3000029" >
+    <HuntingZone id="113" />
+  </Continent>
+  <!--64삭제-->
+  <!--Continent id="114" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029" cancelAbnormalityId="3000028,3000029" >
+    <HuntingZone id="114" />
+  </Continent-->  
+  <Continent id="115" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029,9203104" cancelAbnormalityId="3000028,3000029" > <!-- 투지의 전장 -->
+    <HuntingZone id="115" />
+  </Continent>  
+  <Continent id="116" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029,9203104" cancelAbnormalityId="3000028,3000029" > <!-- 포화의 전장 -->
+    <HuntingZone id="116" />
+  </Continent>
+  <Continent id="117" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029,9203104" cancelAbnormalityId="3000028,3000029" > <!-- 만렙 쿠마스 월드 -->
+    <HuntingZone id="117" />
+  </Continent>  
+  <Continent id="118" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="3000028,3000029,9203104" cancelAbnormalityId="3000028,3000029,2098,90101,2099,2101,2102,2103,2104,2106,2107,2075"> <!-- 성장구간 쿠마스 월드 -->
+    <HuntingZone id="118" />
+  </Continent>  
+  <!--64삭제-->
+  <!--Continent id="119" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="3000028,3000029" cancelAbnormalityId="3000028,3000029" >
+    <HuntingZone id="119" />
+  </Continent-->
+  <Continent id="1200" channelType="battleField" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="3000028,3000029,99070036,9203104" cancelAbnormalityId="3000028,3000029,99070036,2110,2112,2114"> <!-- 해안 점령지 -->
+    <HuntingZone id="1200" />
+  </Continent>	
+<!--길드대전 -->
+  <Continent id="152" channelType="citywar" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="FALSE" withAbnormalityId="29,32,38,15210002,15210003,15200009,15200010,15200011,4038,4039,9203104" cancelAbnormalityId="15200001,15200002,15200003,15200008,425101">
+    <HuntingZone id="152" /> 
+  </Continent>
+  <Continent id="156" channelType="battleField" isHeroModeOnly="TRUE" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" revivalAbnormalityId="99910046" isSpecificSpace="FALSE" withAbnormalityId="29,32,38,4038,4039,47651002,9203104" cancelAbnormalityId="999800,99910010,99910011,99910012,99910013,99910014,99910015,47651001">
+    <HuntingZone id="156" /> 
+  </Continent>
+  
+  <!--신규모드 로비-->
+  <Continent id="2500" channelType="channelingZone" isHeroModeOnly="TRUE" initChannelCount="1" channelMax="10" userMaxPerChannel="100" withAbnormalityId="20000001,99910407,99910408,99910409" isSpecificSpace="FALSE" cancelAbnormalityId="70271,70272,70273,70274,70275,70281,70282,70283,70284,70285,990070318,990070319,990070320,990070321,990070322,5020018,99910800,99910801,99910402,99910405,99910406">
+	<HuntingZone id="2500" />
+  </Continent>
+  
+  <!--인던 및 특수공간-->
+  <Continent id="8999" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="409" />
+  </Continent>
+  <Continent id="9001" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="401" />
+  </Continent>
+  <Continent id="9002" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="402" />
+  </Continent>
+  <Continent id="9003" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="403" />
+  </Continent>
+  <Continent id="9005" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="405" />
+  </Continent>
+  <Continent id="9007" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="407" />
+  </Continent>
+  <Continent id="9008" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="408" />
+  </Continent>
+
+  <!-- 9009번 Continent는 8999번 벨릭의 신전이 409번 사냥터 ID를 사용하기 때문에 이 대륙 번호는 사용불가로 처리. -->
+  <Continent id="9010" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="410" />
+  </Continent>
+  <Continent id="9011" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="411" />
+  </Continent>
+  <Continent id="9012" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="412" />
+  </Continent>
+  <Continent id="9013" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="413" />
+  </Continent>
+  <Continent id="9014" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="4852" isSpecificSpace="TRUE">
+    <HuntingZone id="414" />
+  </Continent>
+  
+  <!--64삭제-->
+  <!--Continent id="9015" channelType="channelingZone" initChannelCount="5" channelMax="40" userMaxPerChannel="180" isSpecificSpace="TRUE">
+    <HuntingZone id="415" />
+  </Continent>
+  <Continent id="9016" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="416" />
+  </Continent-->
+  
+  <Continent id="9017" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="417" />
+  </Continent>
+  <Continent id="9018" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="418" />
+  </Continent>
+  <Continent id="9019" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="419" />
+  </Continent>
+  <Continent id="9020" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="420" />
+  </Continent>
+  <Continent id="9021" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="421" />
+  </Continent>
+  <Continent id="9022" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="422" />
+  </Continent>  
+  <Continent id="9023" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="423" />
+  </Continent>  
+  <Continent id="9024" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="" isSpecificSpace="TRUE">
+    <HuntingZone id="424" />
+  </Continent>  
+  <Continent id="9025" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="47660800" isSpecificSpace="TRUE">
+    <HuntingZone id="425" />
+  </Continent>  
+  <Continent id="9026" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="" isSpecificSpace="TRUE">
+    <HuntingZone id="426" />
+  </Continent>   
+  <Continent id="9027" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="" isSpecificSpace="TRUE">
+    <HuntingZone id="427" />
+  </Continent>  
+  <Continent id="9028" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="428" />
+  </Continent>  
+  <Continent id="9036" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="70451">
+    <HuntingZone id="436" />
+  </Continent>
+  <Continent id="9037" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="70449">
+    <HuntingZone id="437" />
+  </Continent>
+   <Continent id="9038" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="438" />
+  </Continent>
+   <Continent id="9039" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="15011" isSpecificSpace="TRUE">
+    <HuntingZone id="439" />
+  </Continent>
+  <Continent id="9040" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="440" />
+  </Continent>
+  <Continent id="9041" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="441" />
+  </Continent>
+  <Continent id="9042" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="442" />
+  </Continent>
+  <!-- 마법사의 요새(상급) -->
+  <Continent id="9043" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="44300090,44300038,44300029,44300075,44300076,44300077,44300011,44300091,44300092,44300093,44300094">
+    <HuntingZone id="443" />
+  </Continent>
+  <!-- 마법사의 요새(상급) Lv.65 -->
+  <Continent id="9643" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="44300090,44300038,44300029,44300075,44300076,44300077,44300011,44300091,44300092,44300093,44300094">
+    <HuntingZone id="643" />
+  </Continent>
+  <!-- 마법사의 요새(하급) -->
+  <Continent id="9743" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="44300090,44300038,44300029,44300075,44300076,44300077,44300011,44300091,44300092,44300093,44300094">
+    <HuntingZone id="743" />
+  </Continent>
+	<!-- 탐욕의 카슈바르 협곡 -->
+  <Continent id="9050" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="45000026,45000029,45000030,45000031,45000032,45000033,45000034,45000035,45000036,45000037" >
+	<HuntingZone id="450" />
+  </Continent>
+	<!-- 카슈바르 협곡 -->
+  <Continent id="9750" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="29,32,38,4025" cancelAbnormalityId="4025,75000003,75000004,75000005,75000009,75000009,75000009,75000009,75000009,75000012,75000018,75000020,75000021,75000022,75000023,75000024,75000031,75000032,75000033,75000035,75000036,75000037" >
+	<HuntingZone id="750" />
+  </Continent>
+
+  <!-- 각성 특수 공간-->
+  <!-- 파괴된 벨리카 연회장 -->
+  <Continent id="9505" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="950500013" >
+	<HuntingZone id="505" />
+  </Continent>
+  <!-- 벨리카 연회장 -->
+  <Continent id="9506" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="" >
+	<HuntingZone id="506" />
+  </Continent>
+  <!-- 용계 -->
+  <Continent id="9507" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="950800003,950800014,950800015,950800016,950800034,950800038,950800040,983300002,983300003" >
+	<HuntingZone id="507" />
+  </Continent>
+  <!-- 내면 세계-->
+   <Continent id="9508" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="950800003,950800014,950800015,950800016,950800034,950800038,950800040,983300002,983300003" >
+	<HuntingZone id="508" />
+  </Continent>
+  
+   <!-- 평화로운 벨리카 연회장 -->
+  <Continent id="9509" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="" >
+	<HuntingZone id="509" />
+  </Continent>
+  
+  <!-- 각성 고룡의 협곡-->
+  <Continent id="9833" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="983300002,983300003" >
+	<HuntingZone id="833" />
+  </Continent>  
+  
+  <!-- 미션퀘스트 개선 연합 총사령관 관저 특수공간-->
+  <Continent id="9503" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="" >
+	<HuntingZone id="503" />
+  </Continent>  
+  
+  <!-- 릴리파트(가칭) -->
+  <!--<Continent id="9045" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="445" />
+  </Continent>-->
+  <!-- T4.2_소규모인던(3)_골렘(가칭) -->
+  <Continent id="9046" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="446" />
+  </Continent>
+   <!-- T4.2 할로윈 인던(가칭) -->
+  <Continent id="9047" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="447" />
+  </Continent>
+
+    <!-- 거인의숲 인던(가칭)  -->
+  <Continent id="9053" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="4025" cancelAbnormalityId="4025" >
+    <HuntingZone id="453" />
+  </Continent>
+
+    <!-- 발더의 신전 (1인) -->
+  <Continent id="9825" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="47660800,10011,10012,10013">
+    <HuntingZone id="825" />
+  </Continent> 
+  
+  <Continent id="9061" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="461" />
+  </Continent>
+    <Continent id="9062" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="462" />
+  </Continent>
+    <Continent id="9063" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="463" />
+  </Continent>
+    <Continent id="9064" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="464" />
+  </Continent>
+    <Continent id="9065" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="465" />
+  </Continent>
+  <Continent id="9071" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999008,9999018,9999019" isSpecificSpace="TRUE"> 
+    <HuntingZone id="471" />
+  </Continent>
+  <Continent id="9072" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999006,9999018,9999019" isSpecificSpace="TRUE">
+    <HuntingZone id="472" />
+  </Continent>
+  <Continent id="9073" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067" isSpecificSpace="TRUE">
+    <HuntingZone id="473" />
+  </Continent>
+  <Continent id="9074" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE"  withAbnormalityId="2092" cancelAbnormalityId="2092">
+    <HuntingZone id="474" />
+  </Continent>
+  <Continent id="9075" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,47661000,475151,47502300">
+    <HuntingZone id="475" />
+  </Continent>
+  <Continent id="9076" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067">
+    <HuntingZone id="476" />
+  </Continent>
+  
+  <!--64삭제-->
+  <!--Continent id="9077" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="477" />
+  </Continent>
+  <Continent id="9078" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="478" />
+  </Continent-->
+  
+  <Continent id="9079" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="47630600">
+    <HuntingZone id="479" />
+  </Continent>
+  
+  <!--64삭제-->
+  <!--Continent id="9080" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="480" />
+  </Continent>
+  <Continent id="9081" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="481" />
+  </Continent>
+  <Continent id="9082" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="482" />
+  </Continent>
+  <Continent id="9083" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="483" />
+  </Continent-->
+  
+  <Continent id="9087" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999012,9999018,9999019">
+    <HuntingZone id="487" />
+  </Continent>
+  <Continent id="9088" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999011,9999018,9999019">
+    <HuntingZone id="488" />
+  </Continent>
+  <Continent id="9089" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999008,9999018,9999019">
+    <HuntingZone id="489" />
+  </Continent>
+  <Continent id="9090" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="490" />
+  </Continent>
+  <Continent id="9091" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="491" />
+  </Continent>
+  <Continent id="9092" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="492" />
+  </Continent>
+  <Continent id="9093" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999006,9999018,9999019">
+    <HuntingZone id="493" />
+  </Continent>
+  <Continent id="9094" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999003,9999018,9999019,49400100,49400200,49400300,49400800">
+    <HuntingZone id="494" />
+  </Continent>
+  <Continent id="9095" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="495" />
+  </Continent>
+  
+  <!--64삭제-->
+  <!--Continent id="9096" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="496" />
+  </Continent-->
+  
+  <Continent id="9795" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="795" />
+  </Continent>
+
+  
+  <!--64삭제-->
+  <!-- 연맹 관련 특수 공간 -->
+  <!--Continent id="9121" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" lawlessArea="true" unionId="1" revivalAbnormalityId="99006400">
+	    <HuntingZone id="121" />
+  </Continent>
+  <Continent id="9122" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" lawlessArea="true" unionId="2" revivalAbnormalityId="99006400">
+	    <HuntingZone id="122" />
+  </Continent>
+  <Continent id="9123" channelType="none" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" lawlessArea="true" unionId="3" revivalAbnormalityId="99006400">
+	    <HuntingZone id="123" />
+  </Continent-->
+  <!--Continent id="9124" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+	    <HuntingZone id="124" />
+  </Continent>
+  <Continent id="9125" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+	    <HuntingZone id="125" />
+  </Continent-->
+  
+  <Continent id="9126" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="60133,60134,60135,9203100,9203101,9203102,9203103,70246" cancelAbnormalityId="99000500,99000580,99001000,9203100,9203101,9203102,9203103">
+	    <HuntingZone id="126" />
+  </Continent>
+  
+  <!--64삭제-->
+  <!--Continent id="9127" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+	    <HuntingZone id="127" />
+  </Continent-->
+	<!--Continent id="9151" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+	    <HuntingZone id="151" />
+	</Continent-->
+
+<!-- 상급 인던 -->
+  <Continent id="9724" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="724" />
+  </Continent>  
+  <Continent id="9725" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="47660800">
+    <HuntingZone id="725" />
+  </Continent>   
+  <Continent id="9726" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="726" />
+  </Continent>   
+  <Continent id="9727" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067">
+    <HuntingZone id="727" />
+  </Continent>  
+  <Continent id="9773" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="773" />
+  </Continent>
+  <Continent id="9775" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="775" />
+  </Continent>
+  <Continent id="9804" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="804" />
+  </Continent>
+  <Continent id="9776" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="776" />
+  </Continent>
+  <Continent id="9793" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="793" />
+  </Continent>
+
+  
+  <!-- 최상급 인던 -->
+  <Continent id="9911" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="911" />
+  </Continent>
+  <Continent id="9975" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="">
+    <HuntingZone id="975" />
+  </Continent>  
+
+  <!--64삭제-->
+  <!-- 검은틈 특수공간 -->
+  <!--Continent id="9801" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="801" />
+  </Continent>
+  <Continent id="9802" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="802" />
+  </Continent>
+  <Continent id="9803" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+    <HuntingZone id="803" />
+  </Continent-->
+ 
+
+	<!-- 축제 특수공간 -->
+  <Continent id="9051" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="4510002">
+    <HuntingZone id="451" />
+  </Continent>
+  <Continent id="9052" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="4510002">
+    <HuntingZone id="452" />
+  </Continent>
+
+    <!-- 소규모 인던 해적선 -->
+  <Continent id="9766" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025" cancelAbnormalityId="98000025, 99009900, 77600009" isSpecificSpace="TRUE">
+    <HuntingZone id="766" />
+  </Continent> 
+  
+
+  <!-- 소규모 인던 지하수로 -->
+  <Continent id="9777" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="77700002,77700026, 777015,99070035,860033,860034,99009900">
+    <HuntingZone id="777" />
+  </Continent>  
+
+  <!-- 어둠의 동굴 하급-->  
+	<Continent id="9811" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="77703412" >
+		<HuntingZone id="811" />
+	</Continent>
+
+  <!-- 포악한 퀴르갈의 동굴-->  
+	<Continent id="9711" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="77703412,777034,77703435,77703431,77703432,,77703433,77703434,77703424" >
+		<HuntingZone id="711" />
+	</Continent>		
+	
+  <!-- 포악한 퀴르갈의 동굴 Lv.65 버전 -->  
+	<Continent id="9611" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="999010001,4612" cancelAbnormalityId="77703412,777034,77703435,77703431,77703432,77703433,77703434,77703424,999010001,4612,777029" >
+		<HuntingZone id="611" />
+	</Continent>
+
+	<!-- 어둠의 동굴 Lv.65 버전-->  
+	<Continent id="9511" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="77703412,860033,860034">
+		<HuntingZone id="511" />
+	</Continent>	
+	
+	<!-- 라칸의 제단 -->
+	<Continent id="9810" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE">
+		<HuntingZone id="810" />
+	</Continent>
+
+<!--1인 인던-->
+  <Continent id="9887" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="10011,10012,10013">
+    <HuntingZone id="887" />
+  </Continent>
+  <Continent id="9888" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="10011,10012,10013">
+    <HuntingZone id="888" />
+  </Continent>
+  <Continent id="9889" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="10011,10012,10013">
+    <HuntingZone id="889" />
+  </Continent>
+  <Continent id="9871" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="10011,10012,10013">
+    <HuntingZone id="871" />
+  </Continent>
+  <Continent id="9872" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="10011,10012,10013">
+    <HuntingZone id="872" />
+  </Continent>
+  <Continent id="9873" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="10011,10012,10013">
+    <HuntingZone id="873" />
+  </Continent>
+  <!-- 길리안의 숲 -->
+  <Continent id="9813" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="813002,813003,81300008,81300009,81300011,81300017,81300018,81300019">
+	<HuntingZone id="813" />
+  </Continent>
+  <!-- 길리안의 숲 (PC방 전용)-->
+  <Continent id="9713" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="813002,813003,81300008,81300009,81300011,81300017,81300018,81300019">
+	<HuntingZone id="713" />
+  </Continent>
+   <!-- PC방 전용 공간-->
+  <Continent id="9714" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+	<HuntingZone id="714" />
+  </Continent>
+   <!--아크데바 무기고 / 62Lv 인던 -->
+  <Continent id="9808" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+    <HuntingZone id="808" />
+  </Continent>
+  <!--아크데바 실험실 / 64Lv 인던 -->
+  <Continent id="9809" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="4025" cancelAbnormalityId="4025" >
+    <HuntingZone id="809" />
+  </Continent>
+  <!-- 사악한 오르카의 신전 -->
+  <Continent id="9054" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+	<HuntingZone id="454" />
+  </Continent>
+  <!-- 오르카의 신전 -->
+  <Continent id="9754" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+	<HuntingZone id="754" />
+  </Continent>
+<!--시나리오 던전: 라크난 성의 기억 -->
+  <Continent id="9069" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="70456,5690001" cancelAbnormalityId="70456,5690001,5690002" >
+    <HuntingZone id="469" /> <!--빌리저-->
+    <HuntingZone id="569" /> <!--몬스터-->
+  </Continent>
+
+  
+  <!-- 레벨 확장 특수 공간 비밀 실험실/아크데바 아지트/아르카나 그나이아/듀리온의 방-->
+  <Continent id="9818" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+    <HuntingZone id="818" />
+  </Continent>
+  <Continent id="9822" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+    <HuntingZone id="822" />
+  </Continent>
+  <Continent id="9814" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+    <HuntingZone id="814" />
+  </Continent>
+  <Continent id="9821" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="82101,821101">
+    <HuntingZone id="821" />
+  </Continent>
+  <Continent id="9823" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+    <HuntingZone id="823" />
+  </Continent>
+  <Continent id="9826" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="82603">
+    <HuntingZone id="826" />
+  </Continent>
+  
+  <!--폭풍의 엘카라스 호-->
+  <Continent id="9916" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="91600004,91600010,91600037">
+	<HuntingZone id="916" />
+  </Continent>
+  
+  <!-- 환영의 탑 -->
+  <!--Continent id="9885" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="98850031,98850032,98850033,98850034,988501,988502,988503,988504,988505,988506,988511,988512,988513,988514,988515,988516,988521,988522,988523,988524,988525,988526,988531,988532,988533,988534,988535,988536,988551,47700800,98850091,98850092,98850093,98850094,98850095,98850096,47502300,475151">
+    <HuntingZone id="885" />
+  </Continent-->
+  <!-- 환영의 탑(16층) -->
+  <!--Continent id="9886" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,988503,988513,988523,32,38" cancelAbnormalityId="98850031,98850032,98850033,98850034,988501,988502,988503,988504,988505,988506,988511,988512,988513,988514,988515,988516,988521,988522,988523,988524,988525,988526,988531,988532,988533,988534,988535,988536,988551,47700800,98850091,98850092,98850093,98850094,98850095,98850096,47502300,475151,45000116,1650,1660,2974,4830,2701,2877,70221,70233,70231,70232, 45000011">
+    <HuntingZone id="886" />
+  </Continent-->
+<!-- 환영의 탑(R) -->
+  <!--Continent id="9034" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="90340001,29,32,38,9203100,9203101,9203102,9203103,70246" cancelAbnormalityId="90340001,90340002,90340003,90340004,90340005,90340104,90340107,90340202,90340203,90340204,90340206,90340306,90340307,90340308,90340309,90340310,90340311,90340312,90340313,90340314,90340315,90340328,90340330,90340331,90340332,90340333,90340501,90340502,90340503,90340504,90340505,90340506,90340507,90340509,90340510,90340513,90340514,90340515,90340601,90340602,90340603,90340701,90340702,90340703,90340704,90340705,90340706,90340707,90340708,90340709,90340710,90340711,90340712,90340713,90340714,90340715,90340716,90340717,90340718,90340719,90340720,90340721,90340722,90340726,90340727,90340728,90340729,90340730,90340732,90340733,90340734,90340735,90340737,90340738,90340818,90340819,90340820,90340903,90340904,90341001,90341002,90341003,90341004,90341005,90341006,90341007,90341008,90341009,90341010,90341012,90341013,90341014">
+    <HuntingZone id="434" />
+  </Continent-->
+
+  <!--엘카라스 호-->
+  <Continent id="9716" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="71600004,71600010">
+	<HuntingZone id="716" />
+  </Continent>
+
+   <!--하르키아의 안식처-->
+  <Continent id="9055" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="98000024,98000025" cancelAbnormalityId="98000024,98000025,98000041,99009900">
+	<HuntingZone id="455" />
+  </Continent>      
+
+   <!-- 성장 구간 인던 지원 -->
+  <!-- <Continent id="9999" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+  </Continent> -->   
+  <!-- 자바르만 소굴 -->
+    <Continent id="9979" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="47630600,10011,10012,10013">
+    <HuntingZone id="979" />
+  </Continent>
+
+  <!-- 오만한 아케론의 염옥 -->
+  <Continent id="9057" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="457038,457019,457056,757004,757005,757018,757019,757038,757039,757040,757041,757042,757043,757044,757046,757049,757054,757055,757056,757057,757058,757059">
+	<HuntingZone id="457" />
+  </Continent>
+
+  <!-- 아케론의 염옥 --> 
+  <Continent id="9757" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="457056,757004,757005,757018,757019,757038,757039,757040,757041,757042,757043,757044,757046,757049,757054,757055,757056,757057,757058,757059">
+	<HuntingZone id="757" />
+  </Continent>
+  
+    <!-- 부활한 회당 -->
+  <Continent id="9029" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="429002,429003,429004,429005,429006,429007,429008,429009,429011,429018,429019,476705">
+	<HuntingZone id="429" />
+  </Continent>
+  
+  <!-- 발로나의 시공간(상급) -->
+  <Continent id="9056" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38"  cancelAbnormalityId="905670,905671,905661,905662,905663,905605,905655,905676,905608,905656">
+	<HuntingZone id="456" />
+  </Continent>
+
+  <!-- 발로나의 시공간(하급) -->
+  <Continent id="9756" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="905670,905671,975661,975662,975663,975601">
+	<HuntingZone id="756" />
+  </Continent>
+
+  <!-- 악인 켈리반의 난파선(상급) -->
+  <Continent id="9060" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,460017" cancelAbnormalityId="460002,460003,460004,460005,460006,460007,460008,460009,460010,460011,460012,460013,460015,460017,460018,460020,460021,460022,460023,460024,460032">
+	<HuntingZone id="460" />
+  </Continent>
+	
+  <!-- 켈리반의 난파선(하급) -->
+  <Continent id="9760" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,760017" cancelAbnormalityId="760002,760003,760004,760005,760006,760007,760008,760009,760010,760011,760012,760013,760015,760017,760018,760020,760021,760022,760023,760024,760032,99009900">
+	<HuntingZone id="760" />
+  </Continent>
+
+  <!-- 켈리반의 난파선(튜토리얼) -->
+  <Continent id="9860" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,860017,860033" cancelAbnormalityId="860002,860003,860004,860005,860006,860007,860008,860009,860010,860011,860012,860013,860015,860017,860018,860020,860021,860022,860023,860024,860032,860033,860034,99009900">
+	<HuntingZone id="860" />
+  </Continent>
+
+  <!-- 번스타인의 악령섬 -->
+  <Continent id="9059" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="">
+	<HuntingZone id="459" />
+  </Continent>
+  
+  <!-- 번스타인의 악령섬(상급) -->
+  <Continent id="9759" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,905937" cancelAbnormalityId="905933,905937,91600037,905950,905904,905942">
+	<HuntingZone id="759" />
+  </Continent>
+  
+  <!-- 폭군 듀리온의 안식처(상급) -->
+  <Continent id="9068" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025" cancelAbnormalityId="98000025,468001,468002,468003,468004,468005,468006,468007,468008,468009,468010,468012,468013,468014,468015,468016,468019,457056,468011,468017,468018,468020,468021,468022,468023,468024,468025,468026,468027,468028,468029,468030,468031,468032,468033,468034,468035,468036,468037,468038,468039,468040,468041,468042,468043,468044,468045,468046,468047,468048">
+	<HuntingZone id="468" />
+  </Continent>
+
+  <!-- 듀리온의 안식처(하급) -->
+  <Continent id="9768" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025" cancelAbnormalityId="98000025,768001,768002,768003,768004,768005,768006,768007,768008,768009,768010,768012,768013,768014,768015,768016,768019,457056,468011,768011,768017,768018,768020,768021,768022,768023,768024,768025,768026,768027,768028,768029,768030,768031,768032,768033,768034,768035,768036,768037,768038,768039,768040,768041,768042,768043,768044,768045,768046,768047,768048">
+	<HuntingZone id="768" />
+  </Continent>
+
+    <!-- 과제 선택형 솔로 던전 -->
+  <Continent id="9031" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="29,32,38,30160000" cancelAbnormalityId="43100008,43100009,43100010,43100018,43100007,43100011,43300001,43300002,99001040">
+    <HuntingZone id="431" />
+  </Continent>  
+  <Continent id="9032" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="29,32,38,30160000" cancelAbnormalityId="43100008,43100009,43100010,43100018,43100007,43100011,43300001,43300002,99001040">
+    <HuntingZone id="432" />
+  </Continent> 
+    <Continent id="9033" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="29,32,38" cancelAbnormalityId="43100008,43100009,43100010,43100018,43100007,43100011,43300001,43300002,99001040,77703412,777034,77703435,77703431,77703432,77703433,77703434,77703424,999010001,4612,777029">
+    <HuntingZone id="433" />
+  </Continent>  
+
+  <!-- 몰이사냥 솔로인던-->
+  <Continent id="9830" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="830004,830011,830012,830015,830022,830023,830024,830025,830026,830027,830028,830029,830030,830031,830032,830033,830034,830035,830036,830037,830038,830039,830040,830044">
+    <HuntingZone id="830" />
+  </Continent> 
+  <Continent id="9067" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="46705,46706,46756,46710,46711,46712,46713,99001150,2073,46759,46760,46761,46762,46723">
+	<HuntingZone id="467" />
+  </Continent>
+  <Continent id="9767" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="46705,46706,46756,46710,46711,46712,46713,99001150,2073,46759,46760,46761,46762,860033,860034">
+	<HuntingZone id="767" />
+  </Continent>
+
+  <!-- 릴리스-->
+  <Continent id="9769" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="76903,76904,76905,7692000,7692002,7692004,7692005,7691000,7691006,7691011,7691012,7691014,7691015,7691016,99009900">
+	<HuntingZone id="769" />
+  </Continent>
+  <Continent id="9969" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="96903,96904,96905,9692000,9692002,9692004,9692005,9691000,9691006,9691011,9691012,9691014,9691015,9691016,7691012">
+	<HuntingZone id="969" />
+  </Continent>
+
+  <!-- 거짓말쟁이 타르스키의 놀이터 -->
+  <Continent id="9070" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025" cancelAbnormalityId="470030,98000025,470015,470017,470018,470026,470027,470028,470034,470037,470041,470042,470044,470052,470053,470055">
+	<HuntingZone id="470" />
+  </Continent>  
+   <!--초월한 릴리스의 성-->
+  <Continent id="9970" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="32,97000001,97000013,97000014,97000015,97000016,97000017,97000052,97000040,97000041,97000042,97000043,97000025,97000057,97000058,97000059,97000060">
+	<HuntingZone id="970" />
+  </Continent>
+  <Continent id="9770" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="32,97000001,97000013,97000014,97000015,97000016,97000017,97000032,97000040,97000041,97000042,97000043,97000026">
+	<HuntingZone id="770" />
+  </Continent>
+
+	<!-- 거대 몬스터 레이드 -->
+  <Continent id="9950" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,950009,950112" cancelAbnormalityId="950001,950002,950003,950004,950005,950006,950007,950009,950010,950011,950012,950013,950013,950013,950013,950013,950013,950013,950013,950013,950013,950014,950015,950015,950015,950015,950015,950015,950015,950015,950015,950015,950015,950016,950017,950017,950017,950017,950017,950017,950017,950017,950017,950017,950017,950018,950019,950019,950019,950019,950019,950019,950019,950019,950019,950019,950019,950020,950021,950022,950023,950024,950025,950026,950027,950028,950029,950030,950031,950032,950033,950034,950035,950036,950037,950038,950039,950040,950041,950042,950043,950044,950045,950046,950047,950048,950049,950050,	950051,	950052,	950053,	950054,	950055,	950056,	950057,	950058,	950059,	950060,	950061,	950062,	950063,	950064,	950065,	950066,	950067,	950068,	950069,	950070,	950071,	950072,	950073,	950074,	950075,	950076,	950077,	950078,	950079,	950080,	950081,	950082,	950083,	950084,	950085,	950086,	950087,	950088,	950089,	950090,	950091,	950092,	950093,	950094,	950095,	950096,	950097,	950098,	950099,	950100,	950101,	950102,	950103,	950104,	950105,	950106,	950107,	950108,	950109,	950110,	950111,	950112,	950113,	950114,	950114,	950114,	950114,	950115,	950116,	950117,	950118,	950119,	950120,	950121,	950122,	950123,	950124,	950125,	950126,	950127,	950128,	950129,	950130,	950131,	950132,	950133,	950134,	950135,	950136,	950137,	950138,	950139,	950140,	950141,	950142,	950143,	950144,	950145,	950146,	950147,	950148,	950149,	950150,	950151,	950152,	950153,	950154,	950155,	950156,	950157,	950158,	950159,	950160,	950161,	950162,	950163,	950164,	950165,	950166,	950167,	950168,	950169,	950170,	950171,	950172,	950173,	950174,	950175,	950176,	950177,	950178,	950179,	950180,	950181,	950182,	950183,	950184,	950185,	950186,	950187,	950188,	950189,	950190,	950191,	950192,	950193,	950194,	950195,	950196,	950197,	950198,	950199,	950200,	950201,	950202,	950203,	950204,	950205,	950206,	950207,	950208,	950209,	950210,	950211,	950212,	950213,	950214,	950215,	950216,	950217,	950218,	950219,	950220,	950221,	950222,	950223,	950224,	950225,	950226,	950227,	950228,	950229,	950230,	950231,	950232,	950233,	950234,	950235,	950236,	950237,	950238,	950239,	950240,	950241,	950242,	950243,	950244,	950245,	950246,	950247,	950248,	950249,	950250,	950251,	950252,	950253,	950254,	950255,	950256,	950257,	950258,	950259,	950260,	950261,	950262,	950263,	950264,	950265,	950266,	950267,	950268,	950269,	950270,	950271,	950272,	950273,950300,	950301,	950302,	950303,	950304,	950305,	950306,	950307,	950308,	950309,	950310,	950311,	950312,	950313,	950314,	950315,	950316,	950317,	950318,	950319,	950320,	950321,	950322,	950323,	950324,	950325,	950326,	950327,	950328,	950329,	950330,	950331,	950332,	950333,	950334,	950335,	950336,	950337,	950338,	950339,	950340,	950341,	950342,	950343,	950344,	950345,	950346,	950347,	950348,	950349,	950350,950400,	950401,	950402,	950403,	950404,	950405,	950406,	950407,	950408,	950409,	950410,	950411,	950412,	950413,	950414,	950415,	950416,	950417,	950418,	950419,	950420,	950421,	950422,	950423,	950424,	950425,	950426,	950427,	950428,	950429,	950430,	950431,	950432,	950433,	950434,	950435,	950436,	950437,	950438,	950439,	950440,	950441,	950442,	950443,	950444,	950445,	950446,	950447,	950448,	950449,	950450,950516,950517,950518,950519">
+	<HuntingZone id="950" />
+  </Continent>
+
+  <!-- 뒤틀린 라칸의 제단 -->
+  <Continent id="9710" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025" cancelAbnormalityId="98000025,7102006,7102007,7102010,7102011,7102021,7102025,7102049,7102050,7102055,7102056,7102057,7102058,7103014,7103007,7103008,7103009,7103020,7102002,99000030,7102008,7102059,7101001,7101002,7103004,7103005,7103033,7103036,7104001,7104002,7104003,7104004,7104005">
+	<HuntingZone id="710" />
+  </Continent>
+
+ <!--벨리카 지하 관문-->
+  <Continent id="9780" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,4025" cancelAbnormalityId="4025,99000010,99000030,99000050,780005,780101,780102,780103,780104,780105,780106,780200,780201,780202,780203,980006,980207,780108,99009900">
+	<HuntingZone id="780" />
+  </Continent>
+  <Continent id="9980" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="99000010,99000030,99000050,980005,980006,980008,980101,980102,980103,980104,980200,980201,980202,980203,980206,980207,980214">
+	<HuntingZone id="980" />
+  </Continent>
+  <!--벨릭의 궁전 상급-->
+  <Continent id="9981" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025"  cancelAbnormalityId="981081,981041,981042,981053,981093,981109,981114,981125,78100006,78100009,981083,981088,981029,981087,98000025,981121,78100016,981111">
+	<HuntingZone id="981" />
+  </Continent>
+  <!--벨릭의 궁전 하급-->
+  <Continent id="9781" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025,4025"  cancelAbnormalityId="4025,781081,781041,781042,781053,981093,781109,781114,781125,78100006,78100009,781083,781088,781029,781087,98000025,781123,78100016,781111">
+	<HuntingZone id="781" />
+  </Continent>
+  <!--벨릭의 꿈 공간(스토리용)--> 
+  <Continent id="9681" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025"  cancelAbnormalityId="781081,781041,781042,781053,981093,781109,781114,781125,78100006,78100009,781083,781088,781029,781087,98000025,781123,78100016,781111">
+	<HuntingZone id="681" />
+  </Continent>
+   
+  <!-- 데모로스의 룰렛 -->
+  <Continent id="9066" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025" cancelAbnormalityId="99070035,46600113,46600018,99000030,999000470,46600029,46600030,46600044">
+	<HuntingZone id="466" />
+  </Continent>
+
+  <!--사이럭스 연구 기지(하급)-->
+  <Continent id="9794" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025,7940000,7941031"  cancelAbnormalityId="78100016,78100017,98000025,9940001,9940002,99000030,99000580,7940000,7941031,7941002,7941004,7941014,7941015,7941017,7941018,7941019,7941020,7941022,7941030,7941034,7942002,7942003,7942004,7942005,7942006,7942007,7942008,7942009,7942013,7942014,7942015,7942023,7942024,7942027,7942028,7942033,7942037,7942038,7942039,7942050,7943013,7943014,7943015,7943023,7943024,7943027,7943029,7943038,7943039,7943040,7943041,7943042,7943043,7943044,7943045,7943046,7943047,7943048,99009900, 7942051">
+	<HuntingZone id="794" />
+  </Continent>
+  <!--알파 사이럭스 연구 기지(상급)-->
+  <Continent id="9994" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,98000025,9940000,9941031"  cancelAbnormalityId="78100016,78100017,98000025,9940001,9940002,99000030,99000580,9940000,9941031,9941002,9941004,9941014,9941015,9941017,9941018,9941019,9941020,9941022,9941030,9941034,9942002,9942003,9942004,9942005,9942006,9942007,9942008,9942009,9942013,9942014,9942015,9942023,9942024,9942027,9942028,9942033,9942037,9942038,9942039,9942050,9942051,9943013,9943014,9943015,9943023,9943024,9943027,9943029,9943038,9943039,9943040,9943041,9943042,9943043,9943044,9943045,9943046,9943047,9943048">
+	<HuntingZone id="994" />
+  </Continent>
+  <!-- RK-9 격납고 -->
+  <Continent id="9735" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,4025" cancelAbnormalityId="4025,73500000,73500001,73500002,73500003,73500004,73500005,73501000,73501001,73501002,73501003,73501004,73501005,73501006,73501007,73501008,73501009,73501010,73501011,73501012,73501013,73501014,73501015,73501016,73501017,73501018,73501019,73502000,73502001,73502002,73502003,73502004,73502005,73502006,73502007,73503000,73503001,73503002,73503003,73503004,73503005,73503006,73503007,73503008,73503009,73503100,73503101,73503102,73503103,73503104,73503105,73503106,73503107,73503108,73503109,73503200,73503201,73503300,73503301,73503302,73503303,73503400,73503401,73503402,73504000,73504001">
+	<HuntingZone id="735" />
+  </Continent>
+  <Continent id="9935" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="93500000,93500001,93500002,93500003,93500004,93500005,93501000,93501001,93501002,93501003,93501004,93501005,93501006,93501007,93501008,93501009,93501010,93501011,93501012,93501013,93501014,93501015,93501016,93501017,93501018,93501019,93502000,93502001,93502002,93502003,93502004,93502005,93502006,93502007,93502008,93502009,93503000,93503001,93503002,93503003,93503004,93503005,93503006,93503007,93503008,93503009,93503100,93503101,93503102,93503103,93503104,93503105,93503106,93503107,93503108,93503109,93503200,93503201,93503300,93503301,93503302,93503303,93503400,93503401,93503402,93503500,93503501,93503502,93503503,93504000,93504001">
+	<HuntingZone id="935" />
+  </Continent>
+  <Continent id="3034" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,4025" cancelAbnormalityId="4025,303400000,303400001,303400002,303400003,303400004,303400005,303401000,303401001,303401002,303401003,303401004,303401005,303401006,303401007,303401008,303401009,303401010,303401011,303401012,303401013,303401014,303401015,303401016,303401017,303401018,303401019,303402000,303402001,303402002,303402003,303402004,303402005,303402006,303402007,303402008,303402009,303403000,303403001,303403002,303403003,303403004,303403005,303403006,303403007,303403008,303403009,303403100,303403101,303403102,303403103,303403104,303403105,303403106,303403107,303403108,303403109,303403200,303403201,303403300,303403301,303403302,303403303,303403400,303403401,303403402,303403500,303403501,303403502,303403503,303404000,303404001">
+	<HuntingZone id="3034" />
+  </Continent>
+
+  <!-- 혁명단 은거지(하) -->
+  <Continent id="9739" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,4025" cancelAbnormalityId="4025,93900004,93910002,73910003,93910005,93910006,93910007,93910008,93910010,93910013,73920001,73920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,73920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,73930010,73930011,93930012,93930014,93930015,93930017">
+	<HuntingZone id="739" />
+  </Continent>
+  <!-- 혁명단 은거지(상) -->
+  <Continent id="9939" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="93900004,93910002,93910003,93910005,93910006,93910007,93910008,93910010,93910013,93920001,93920002,93920003,93920004,93920005,93920006,93920007,93920008,93920010,93920012,93920013,93920014,93920015,93920019,93930001,93930002,93930003,93930004,93930005,93930007,93930008,93930009,93930010,93930011,93930012,93930014,93930015,93930017">
+	<HuntingZone id="939" />
+  </Continent>
+  <!-- 안타로스의 심연 -->
+  <Continent id="9720" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,9201007" cancelAbnormalityId="7201001,7201002,7201003,7201004,7202000,7202002,7202003,7202004,7203000,7203006,7203007,7203008,7203009,7203010,7203011,7203012,7203016,7203017,7203019,7203030,7203037,7203038,7203039,7203048">
+	<HuntingZone id="720" />
+  </Continent>
+  <!-- 공허한 안타로스의 심연 -->
+  <Continent id="9920" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,9201007,4025" cancelAbnormalityId="4025,9201001,9201002,9201003,9201004,9202000,9202002,9202003,9202004,9203000,9203006,9203007,9203008,9203009,9203010,9203011,9203012,9203016,9203017,9203019,9203030,9203037,9203038,9203039,9203048">
+	<HuntingZone id="920" />
+  </Continent>
+
+  <!-- OX퀴즈 특수공간 -->
+  <Continent id="9618" channelType="channelingZone" initChannelCount="10" channelMax="10" userMaxPerChannel="1000" disableChannelListBtn="true" withAbnormalityId="" cancelAbnormalityId="">
+	<HuntingZone id="618" />
+  </Continent>
+
+	<!-- 테네브리스 성채 -->
+	<Continent id="9783" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="78300103,78300104,78300222,78300223,78300224,78300225,78300226,78300227,78300228,78300229,78300230,78300231,78300232,78300233,78300234,78300235,78300236,78300237,78300309,78300310,78300311,78300312,78300313,78300314,78300315,78300316,78300317,78300326,78300141,78300242,78300303,78300307,78300102,78300140,78300144,78300211,78300245,78300301,78300501,78300502,78300503">
+		<HuntingZone id="783" />
+	</Continent>
+	<Continent id="9983" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="98300103,98300104,98300222,98300223,98300224,98300225,98300226,98300227,98300228,98300229,98300230,98300231,98300232,98300233,98300234,98300235,98300236,98300237,98300309,98300310,98300311,98300312,98300313,98300314,98300315,98300316,98300317,98300326,98300141,98300242,98300303,98300307,98300102,98300140,98300144,98300211,98300245,98300301,98300501,98300502">
+		<HuntingZone id="983" />
+	</Continent>
+	<!-- 리안 쿠벨 지하 사원 -->
+	<Continent id="9782" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="78100016,78100017,78200148,78200149,78200123,78200130,78200131,78200150,78200151,78200154,78200155,78200156,78200160,78200165,78200167,78200203,78200204,78200205,78200233,78200234,78200235,78200236,78200238,78200241,78200243,78200248,78200249,78200250,78200251,78200252,78200253,78200254,78200255,78200258,78200259,78200260,78200261,78200305,78200306,78200319,78200321,78200350,78200351,78200352,78200353,78200354,78200355,78200356,78200357,78200358,78200359,78200360,78200361,78200362,78200370,78200372,78200376,78200379,78200380,78200383,78200386,78200389,78200390,78200391,78200392,78200393">
+		<HuntingZone id="782" />
+	</Continent>
+	<Continent id="9982" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,4025" cancelAbnormalityId="4025,78100016,78100017,98200148,98200149,98200123,98200130,98200131,98200150,98200151,98200154,98200155,98200156,98200160,98200165,98200167,98200203,98200204,98200205,98200233,98200234,98200235,98200236,98200238,98200241,98200243,98200248,98200249,98200250,98200251,98200252,98200253,98200254,98200255,98200258,98200259,98200260,98200261,98200305,98200306,98200319,98200321,98200350,98200351,98200352,98200353,98200354,98200355,98200356,98200357,98200358,98200359,98200360,98200361,98200362,98200370,98200372,98200376,98200379,98200380,98200383,98200386,98200389,98200390,98200391,98200392,98200393">
+		<HuntingZone id="982" />
+	</Continent>
+	<Continent id="3028" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,6080" cancelAbnormalityId="6080,6042,6043,6044,6045,6046,6047,6048,6049,6050,6051,6052,6053,6054,6055,78100016,78100017,302800148,302800149,302800123,302800130,302800131,302800150,302800151,302800154,302800155,302800156,302800160,302800165,302800167,302800203,302800204,302800205,302800233,302800234,302800235,302800236,302800238,302800241,302800243,302800248,302800249,302800250,302800251,302800252,302800253,302800254,302800255,302800258,302800259,302800260,302800261,302800305,302800306,302800319,302800321,302800350,302800351,302800352,302800353,302800354,302800355,302800356,302800357,302800358,302800359,302800360,302800361,302800362,302800370,302800372,302800376,302800379,302800380,302800383,302800386,302800389,302800390,302800391,302800392,302800393,3012000,3012001,3012010,3012011,3012012">
+		<HuntingZone id="3028" />
+	</Continent>	
+	<!--바하르의 신전-->
+	<Continent id="9044" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="4025,29,32,38" cancelAbnormalityId="4025,90440000,90440001,90440002,90440003,90440004,90440005,90440006,90440007,90440009,90440010,90440011,90440012,90442106,90442110,90442111,90442112,90442113,90442114,90442211,90442400,90442401,90442402,90442403,90442404,90442405,90442406,90442407,90442408,90442502,90442900,90442901">
+		<HuntingZone id="444" />
+	</Continent>
+	<!-- 허수아비 던전 -->
+	<Continent id="3012" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="" cancelAbnormalityId="3012000,3012001,3012010,3012011,3012012">
+		<HuntingZone id="3012" />
+	</Continent>
+	<!-- 시험의 던전 -->
+	<Continent id="3016" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" withAbnormalityId="29,32,38,30160000" cancelAbnormalityId="43100008,43100009,43100010,43100018,43100007,43100011,43300001,43300002,99001040">
+	    <HuntingZone id="3016" />
+    </Continent>  	
+	<!-- 칠흑의 테네브리스 성채(7인) -->
+	<Continent id="3018" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="98300103,98300104,98300222,98300223,98300224,98300225,98300226,98300227,98300228,98300229,98300230,98300231,98300232,98300233,98300234,98300235,98300236,98300237,98300309,98300310,98300311,98300312,98300313,98300314,98300315,98300316,98300317,98300326,98300141,98300242,98300303,98300307,98300102,98300140,98300144,98300211,98300245,98300301,98300501,98300502">
+		<HuntingZone id="3018" />
+	</Continent>
+    <!--왜곡된 리안의 지하 전당(7인)-->
+	<Continent id="3019" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38" cancelAbnormalityId="78100016,78100017,30190148,30190149,30190123,30190130,30190131,30190150,30190151,30190154,30190155,30190156,30190160,30190165,30190167,30190203,30190204,30190205,30190233,30190234,30190235,30190236,30190238,30190241,30190243,30190248,30190249,30190250,30190251,30190252,30190253,30190254,30190255,30190258,30190259,30190260,30190261,30190305,30190306,30190319,30190321,30190350,30190351,30190352,30190353,30190354,30190355,30190356,30190357,30190358,30190359,30190360,30190361,30190362,30190370,30190372,30190376,30190379,30190380,30190383,30190386,30190389,30190390,30190391,30190392,30190393">
+		<HuntingZone id="3019" />
+	</Continent>
+	<!-- 공허한 안타로스의 심연(7인) - Easy -->
+	<Continent id="3017" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,30171007" cancelAbnormalityId="30171001,30171002,30171003,30171004,30172000,30172002,30172003,30172004,30173000,30173006,30173007,30173008,30173009,30173010,30173011,30173012,30173016,30173017,30173019,30173030,30173037,30173038,30173039,30173048">
+		<HuntingZone id="3017" />
+	</Continent>
+
+<!-- 미션퀘스트 개선 1인용 성장구간 던전 -->
+  <!--비밀 기지(1인)-->
+  <Continent id="3001" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999012,9999018,9999019">
+    <HuntingZone id="3001" />
+  </Continent>
+  <!--밤피르의 저택(1인)-->
+  <Continent id="3002" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999011,9999018,9999019">
+    <HuntingZone id="3002" />
+  </Continent>
+  <!--사교도의 은신처(1인)-->
+  <Continent id="3003" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999008,9999018,9999019">
+    <HuntingZone id="3003" />
+  </Continent>
+  <!--사령술 연구소(1인)-->
+  <Continent id="3004" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999008,9999018,9999019" isSpecificSpace="TRUE"> 
+    <HuntingZone id="3004" />
+  </Continent>
+  <!--황금의 미궁(1인)-->
+  <Continent id="3005" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999006,9999018,9999019" isSpecificSpace="TRUE">
+    <HuntingZone id="3005" />
+  </Continent>
+  <!--아카샤의 은신처(1인)-->
+  <Continent id="3006" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999006,9999018,9999019">
+    <HuntingZone id="3006" />
+  </Continent>
+  <!--살레론의 공중정원(1인)-->
+  <Continent id="3007" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,9999003,9999018,9999019,49400100,49400200,49400300,49400800">
+    <HuntingZone id="3007" />
+  </Continent>
+  <!--공포의 미궁(1인)-->
+  <Continent id="3008" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067">
+    <HuntingZone id="3008" />
+  </Continent>
+  <!--검은탑(1인)-->
+  <Continent id="3009" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067" isSpecificSpace="TRUE">
+    <HuntingZone id="3009" />
+  </Continent>
+  <!--켈사이크의 둥지(1인)-->
+  <Continent id="3010" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067,47661000,475151,47502300">
+    <HuntingZone id="3010" />
+  </Continent>
+  <!--샨드라 마나이아(1인)-->
+  <Continent id="3011" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" isSpecificSpace="TRUE" cancelAbnormalityId="6060,6061,6062,6063,6064,6065,6066,6067">
+    <HuntingZone id="3011" />
+  </Continent>  
+
+  <!--파르퀴나의 둥지(하급)-->
+  <Continent id="3101" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,31010000,32010000" cancelAbnormalityId="32010003,32010004,32010005,32010009,31010011,31010012,32010105,32010106,32010107,32010108,32010109,32010110,31010202,31010205,31010220,31010223,31010000,78100016,78100017,32010000">
+  	<HuntingZone id="3101" />
+  </Continent>
+  <!--파르퀴나의 둥지(상급)-->
+  <Continent id="3201" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,31010000,32010000,4025" cancelAbnormalityId="4025,32010003,32010004,32010005,32010009,32010011,32010012,32010103,32010104,32010105,32010106,32010107,32010108,32010109,32010110,32010111,32010122,32010123,32010124,32010125,32010126,32010127,32010128,32010129,32010130,32010131,32010202,32010205,32010220,32010223,32010224,32010225,32010230,32010231,32010232,32010233,32010234,31010000,78100016,78100017,32010000">
+  	<HuntingZone id="3201" />
+  </Continent>
+
+    <!--필드보너스던전-->
+	<Continent id="3024" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,30240000" cancelAbnormalityId="30240000,30240001,30240002,30240003,30240004,30240005,30240006">
+		<HuntingZone id="3024" />
+	</Continent>  
+	    <!--필드보너스 파티 던전-->
+	<Continent id="3025" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,30250000" cancelAbnormalityId="30250000,30250001,30250002,30250003,30250004,30250005,30250006">
+		<HuntingZone id="3025" />
+	</Continent>
+  <!--베르아크 성채 비밀 지역-->
+  <Continent id="3023" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,99070035,4025" cancelAbnormalityId="4025,30231000,30231001,30231002,30231003,30231004,30231005,30232003,30232004,30232008,30232009,30232011,30232012,30232013,30232014,30232015,30232016,78100016,78100017">
+  	<HuntingZone id="3023" />
+  </Continent>
+ <!--베르아크 성채 비밀 지역 가이드 던전-->
+  <Continent id="3032" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,99070035,6080" cancelAbnormalityId="3012000,3012001,6080,3012010,3012011,3012012,6042,6043,6044,6045,6046,6047,6048,6049,6050,6051,6052,6053,6054,6055,30321000,30321001,30321002,30321003,30321004,30321005,30322003,30322004,30322008,30322009,30322011,30322012,30322013,30322014,30322015,30322016,78100016,78100017">
+  	<HuntingZone id="3032" />
+  </Continent>  
+	<!-- 아카칼라쉬 켈사이크 -->
+  <Continent id="3026" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,31010000,4025" cancelAbnormalityId="4025,32010003,32010004,32010005,32010009,32010011,32010012,32010103,32010104,32010105,32010106,32010107,32010108,32010109,32010110,32010111,32010122,32010123,32010124,32010125,32010126,32010127,32010128,32010129,32010130,32010131,32010202,32010205,32010220,32010223,32010224,32010225,32010230,32010231,32010232,32010233,32010234,31010000,78100016,78100017,32010000,30260001,30260002,30260003,30260018,30260026,30260028,30260254,30260255,30261200,30261503,30260251">
+    <HuntingZone id="3026" />
+  </Continent>
+  <Continent id="3126" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,60133,60134,60135,9203100,9203101,9203102,9203103,70246,31010000,4025" cancelAbnormalityId="4025,31260253,32010003,32010004,32010005,32010009,32010011,32010012,32010103,32010104,32010105,32010106,32010107,32010108,32010109,32010110,32010111,32010122,32010123,32010124,32010125,32010126,32010127,32010128,32010129,32010130,32010131,32010202,32010205,32010220,32010223,32010224,32010225,32010230,32010231,32010232,32010233,32010234,31010000,78100016,78100017,32010000,31260001,31260002,31260003,31260018,31260026,31260028,31260254,31260255,31261200,31261503,31260251,31260259,31260261">
+    <HuntingZone id="3126" />
+  </Continent>
+	<!--바하르의 신전 가이드 던전-->
+	<Continent id="3037" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,9203100,9203101,9203102,9203103,70246,6080" cancelAbnormalityId="6080,3012000,3012001,3012010,3012011,3012012,6042,6043,6044,6045,6046,6047,6048,6049,6050,6051,6052,6053,6054,6055,30370000,30370001,30370002,30370003,30370004,30370005,30370006,30370007,30370009,30370010,30370011,30370012,30372106,30372110,30372111,30372112,30372113,30372114,30372211,30372400,30372401,30372402,30372403,30372404,30372405,30372406,30372407,30372408,30372502,30372900,30372901">
+		<HuntingZone id="3037" />
+	</Continent>
+
+  <!-- 항해인던 -->	
+    <Continent id="3020" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" >
+  	<HuntingZone id="3020" />
+  </Continent>
+  <!-- PC 무사 --> 	
+  <Continent id="3027" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,99070035" cancelAbnormalityId="30271001,30271002,30271003,30271004,30271005,30271006,30271007,30271008,30271009,30271010,30271011,30271012,30271013,30271014,30271015">
+  	<HuntingZone id="3027" />
+  </Continent>
+  
+  <!-- 칼리가르 -->	
+	<Continent id="2105" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,31010000" cancelAbnormalityId="31021002,31021012,31010000,21050001">
+		<HuntingZone id="2105" />
+	</Continent>
+	<Continent id="3102" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,31010000,4025" cancelAbnormalityId="4025,31021002,31021004,31021011,31021012,31010000">
+  	<HuntingZone id="3102" />
+	</Continent>
+    <Continent id="3202" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,32021021,31010000,4025" cancelAbnormalityId="4025,32021002,32021004,32021009,32021011,32021012,32021016,32021021,31010000">
+  	<HuntingZone id="3202" />
+	</Continent>
+	<!-- PC 권술사 -->
+	<Continent id="3103" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,31010000,4025" cancelAbnormalityId="31031000,31031001,31031002,31031003,31031004,31031005,31031006,31031007,31031008,31031009,31031010,31031011,31031012,31031013,31031014,31031015,31031016,31031017,31031018,31032000,31032001,31032002,31032003">
+  	<HuntingZone id="3103" />
+	</Continent>
+	<Continent id="3203" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,60133,60134,60135,9203100,9203101,9203102,9203103,70246,31010000,4025" cancelAbnormalityId="32031000,32031001,32031002,32031003,32031004,32031005,32031006,32031007,32031008,32031009,32031010,32031011,32031012,32031013,32031014,32031015,32031016,32031017,32031018,32032000,32032001,32032002,32032003">
+  	<HuntingZone id="3203" />
+	</Continent>
+    <!-- 필드 보스 레이드 던전 --> 	
+	<Continent id="3030" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,70246,99070035,4025" cancelAbnormalityId="4025">
+  		<HuntingZone id="3030" />
+	</Continent>
+	
+   <!-- 공허한 안타로스의 심연 (가이드) -->
+  <Continent id="3029" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,9201007,6080" cancelAbnormalityId="6080,6042,6043,6044,6045,6046,6047,6048,6049,6050,6051,6052,6053,6054,6055,78100016,78100017,98200148,98200149,98200123,98200130,98200131,98200150,98200151,98200154,98200155,98200156,98200160,98200165,98200167,98200203,98200204,98200205,98200233,98200234,98200235,98200236,98200238,98200241,98200243,98200248,98200249,98200250,98200251,98200252,98200253,98200254,98200255,98200258,98200259,98200260,98200261,98200305,98200306,98200319,98200321,98200350,98200351,98200352,98200353,98200354,98200355,98200356,98200357,98200358,98200359,98200360,98200361,98200362,98200370,98200372,98200376,98200379,98200380,98200383,98200386,98200389,98200390,98200391,98200392,98200393,3012000,3012001,3012010,3012011,3012012">
+	<HuntingZone id="3029" />
+  </Continent>
+  <Continent id="3031" channelType="dungeon" initChannelCount="1" channelMax="1000" userMaxPerChannel="1000" withAbnormalityId="" cancelAbnormalityId="303100002,303100003,303100004,303100006,303100007,303100008,303100009">
+  	<HuntingZone id="3031" />
+  </Continent>  
+
+   <!-- 찬란한 파르퀴나의 둥지(가이드)-->
+  <Continent id="3033" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,9203100,9203101,9203103,70246,31010000,30330000,6080" cancelAbnormalityId="6080,6042,6043,6044,6045,6046,6047,6048,6049,6050,6051,6052,6053,6054,6055,30330003,30330004,30330005,30330009,30330011,30330012,30330103,30330104,30330105,30330106,30330107,30330108,30330109,30330110,30330111,30330122,30330123,30330124,30330125,30330126,30330127,30330128,30330129,30330130,30330131,30330202,30330205,30330220,30330223,30330224,30330225,30330230,30330231,30330232,30330233,30330234,31010000,78100016,78100017,30330000,3012000,3012001,3012010,3012011,3012012">
+  	<HuntingZone id="3033" />
+  </Continent> 
+ 
+    <!-- 벨릭의 성소(점핑권) -->
+  <Continent id="3035" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000">
+	<HuntingZone id="3035" />
+  </Continent>	
+	<!-- 폭풍의 엘카라스호 하드모드 -->
+  <Continent id="3036" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,4025" cancelAbnormalityId="3036001,3036002,3036003,3036004,3036005,3036018,303600001,303600002,303600003,303600004,303600005,303600006,303600007,303600008,303600010,303600011,303600012,303600013,303600014,303600015,303600016,303600017,303600018,303600019,303600020,303600021,303600022,303600053,303600054,303600055,303600056,303600057,303600060">
+	<HuntingZone id="3036" />
+  </Continent>           
+  <!--루크미아-->
+  <Continent id="3104" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,9203100,9203101,9203102,9203103" cancelAbnormalityId="">
+  	<HuntingZone id="3104" />
+  </Continent>
+  <Continent id="3204" channelType="dungeon" initChannelCount="1" channelMax="10" userMaxPerChannel="1000" withAbnormalityId="29,32,38,9203100,9203101,9203102,9203103,4025" cancelAbnormalityId="4025">
+  	<HuntingZone id="3204" />  
+  </Continent>
+</ContinentData>
