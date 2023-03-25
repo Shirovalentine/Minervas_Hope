@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WCompensationData>
+<!--
+  <Compensation minLevel="65" maxLevel="70">
+    <ItemBag id="1" bagName="65~70렙" probability="0.045" wValue="1" backLock="">
+      <Item templateId="221212" name="행운의 상자" min="1" max="1" probability="1" />
+    </ItemBag>
+  </Compensation>
+  <Compensation minLevel="51" maxLevel="65">
+    <ItemBag id="1" bagName="51~65렙" probability="0.045" wValue="1" backLock="">
+      <Item templateId="221212" name="행운의 상자" min="1" max="1" probability="1" />
+    </ItemBag>
+  </Compensation>
+  <Compensation minLevel="41" maxLevel="50">
+    <ItemBag id="1" bagName="41~50렙" probability="0.031" wValue="1" backLock="">
+      <Item templateId="221212" name="행운의 상자" min="1" max="1" probability="1" />
+    </ItemBag>
+  </Compensation>
+  <Compensation minLevel="31" maxLevel="40">
+    <ItemBag id="1" bagName="31~40렙" probability="0.035" wValue="1" backLock="">
+      <Item templateId="221212" name="행운의 상자" min="1" max="1" probability="1" />
+    </ItemBag>
+  </Compensation>
+  <Compensation minLevel="21" maxLevel="30">
+    <ItemBag id="1" bagName="21~30렙" probability="0.034" wValue="1" backLock="">
+      <Item templateId="221212" name="행운의 상자" min="1" max="1" probability="1" />
+    </ItemBag>
+  </Compensation>
+  <Compensation minLevel="11" maxLevel="20">
+    <ItemBag id="1" bagName="11~20렙" probability="0.045" wValue="1" backLock="">
+      <Item templateId="221212" name="행운의 상자" min="1" max="1" probability="1" />
+    </ItemBag>
+  </Compensation>
+  -->
+  <!--
+  <Compensation minLevel="1" maxLevel="10">
+    <ItemBag id="1" bagName="1~10렙" probability="0.0049" wValue="1" backLock="">
+      <Item templateId="139113" name="행운의 상자" min="1" max="1" probability="1" />
+    </ItemBag>
+  </Compensation>  
+  -->
+</WCompensationData>
