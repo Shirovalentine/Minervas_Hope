@@ -1,0 +1,144 @@
+<ChangeEnchantFx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/ChangeEnchantFx ChangeEnchantFx.xsd"
+    xmlns="https://vezel.dev/novadrop/dc/ChangeEnchantFx">
+    <ChangeFx changeFxId="1000">
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="8" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="10" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="11" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="12" originEnchantStep="9" />
+        <ChangeInfo changedEnchantStep="13" originEnchantStep="10" />
+        <ChangeInfo changedEnchantStep="14" originEnchantStep="11" />
+        <ChangeInfo changedEnchantStep="10001" originEnchantStep="12" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="13" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="14" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="15" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1001">
+        <ChangeInfo changedEnchantStep="13" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="13" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="13" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="13" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="14" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="14" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="14" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="15" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="15" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="15" originEnchantStep="9" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1002">
+        <ChangeInfo changedEnchantStep="10" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="10" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="10" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="10" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="11" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="11" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="11" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="12" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="12" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="12" originEnchantStep="9" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1003">
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="8" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="8" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="8" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="9" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1004">
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="8" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="9" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1005">
+        <ChangeInfo changedEnchantStep="16" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="16" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="16" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="17" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="17" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="17" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="19" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="19" originEnchantStep="9" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1006">
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="12" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="12" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="12" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="15" originEnchantStep="9" />
+    </ChangeFx>
+    <ChangeFx changeFxId="900">
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="8" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="3" />
+    </ChangeFx>
+    <ChangeFx changeFxId="901">
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="8" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="6" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1007">
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="9" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="10" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="11" />
+        <ChangeInfo changedEnchantStep="19" originEnchantStep="12" />
+        <ChangeInfo changedEnchantStep="20" originEnchantStep="13" />
+        <ChangeInfo changedEnchantStep="21" originEnchantStep="14" />
+        <ChangeInfo changedEnchantStep="22" originEnchantStep="15" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1008">
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="23" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="23" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="23" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="23" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="23" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="23" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="23" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="24" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="24" originEnchantStep="9" />
+        <ChangeInfo changedEnchantStep="24" originEnchantStep="10" />
+        <ChangeInfo changedEnchantStep="24" originEnchantStep="11" />
+        <ChangeInfo changedEnchantStep="25" originEnchantStep="12" />
+        <ChangeInfo changedEnchantStep="26" originEnchantStep="13" />
+        <ChangeInfo changedEnchantStep="27" originEnchantStep="14" />
+        <ChangeInfo changedEnchantStep="28" originEnchantStep="15" />
+    </ChangeFx>
+</ChangeEnchantFx>

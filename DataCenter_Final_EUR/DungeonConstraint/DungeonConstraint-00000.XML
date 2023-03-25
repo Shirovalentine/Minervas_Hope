@@ -1,0 +1,400 @@
+<DungeonConstraint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/DungeonConstraint DungeonConstraint.xsd"
+    xmlns="https://vezel.dev/novadrop/dc/DungeonConstraint">
+    <ConstraintList>
+        <!-- Quest Related -->
+        <Constraint continentId="9028" requiredActPoint="0" />
+        <!-- Malachai's Lab -->
+        <Constraint continentId="9827" requiredActPoint="0" />
+        <!-- Stepstone Isle -->
+        <Constraint continentId="9828" requiredActPoint="0" />
+        <!-- Shadetree -->
+        <Constraint continentId="9829" requiredActPoint="0" />
+        <!-- Tiaran the Sorrow Tree -->
+        <Constraint continentId="8999" requiredActPoint="0" />
+        <!-- Velik's Sanctuary -->
+        <Constraint continentId="9001" requiredActPoint="0" />
+        <!-- Samael's Residence -->
+        <Constraint continentId="9002" requiredActPoint="0" />
+        <!-- Fountain of Shara -->
+        <Constraint continentId="9003" requiredActPoint="0" />
+        <!-- Fyrmount Abyss -->
+        <Constraint continentId="9005" requiredActPoint="0" />
+        <!-- Jester's Villa -->
+        <Constraint continentId="9007" requiredActPoint="0" />
+        <!-- Hidden Shrine -->
+        <Constraint continentId="9008" requiredActPoint="0" />
+        <!-- Malachai's Lab -->
+        <Constraint continentId="9010" requiredActPoint="0" />
+        <!-- Kaiator Command Center -->
+        <Constraint continentId="9011" requiredActPoint="0" />
+        <!-- Muhrak's Workshop -->
+        <Constraint continentId="9012" requiredActPoint="0" />
+        <!-- Three Towers Spires -->
+        <Constraint continentId="9013" requiredActPoint="0" />
+        <!-- Cyasma Spire -->
+        <Constraint continentId="9014" requiredActPoint="0" />
+        <!-- Khanovar Gauntlet -->
+        <Constraint continentId="9019" requiredActPoint="0" />
+        <!-- Sanctum Mysterium Forecourt -->
+        <Constraint continentId="9020" requiredActPoint="0" />
+        <!-- Cultist's Armory -->
+        <Constraint continentId="9021" requiredActPoint="0" />
+        <!-- Hidden Tunnel -->
+        <Constraint continentId="9022" requiredActPoint="0" />
+        <!-- Vault of Glory -->
+        <Constraint continentId="9023" requiredActPoint="0" />
+        <!-- Kutmaschuk's Hideout -->
+        <Constraint continentId="9036" requiredActPoint="0" />
+        <!-- Karascha's Lair -->
+        <Constraint continentId="9037" requiredActPoint="0" />
+        <!-- Tainted Gorge Bridge -->
+        <Constraint continentId="9038" requiredActPoint="0" />
+        <!-- Mysterious Jungle -->
+        <Constraint continentId="9039" requiredActPoint="0" />
+        <!-- Caravan Ambush Site -->
+        <Constraint continentId="9040" requiredActPoint="0" />
+        <!-- Velika Plaza -->
+        <Constraint continentId="9041" requiredActPoint="0" />
+        <!-- Velika Eastern Gate -->
+        <Constraint continentId="9042" requiredActPoint="0" />
+        <!-- Velika Headquarters -->
+        <Constraint continentId="9046" requiredActPoint="0" />
+        <!-- Accursed Oasis -->
+        <Constraint continentId="9061" requiredActPoint="0" />
+        <!-- Ruin of the Giants -->
+        <Constraint continentId="9062" requiredActPoint="0" />
+        <!-- Jester's Villa -->
+        <Constraint continentId="9063" requiredActPoint="0" />
+        <!-- Raven Altar -->
+        <Constraint continentId="9064" requiredActPoint="0" />
+        <!-- Molten Chamber -->
+        <Constraint continentId="9065" requiredActPoint="0" />
+        <!-- Twilight Valley -->
+        <Constraint continentId="9074" requiredActPoint="0" />
+        <!-- Sanctum of Resurrection -->
+        <Constraint continentId="9090" requiredActPoint="0" />
+        <!-- Woodland Path -->
+        <Constraint continentId="9091" requiredActPoint="0" />
+        <!-- Altar of Vadoma -->
+        <Constraint continentId="9092" requiredActPoint="0" />
+        <!-- Dagon's Chantry -->
+        <Constraint continentId="9804" requiredActPoint="0" />
+        <!-- ? -->
+        <Constraint continentId="9714" requiredActPoint="0" />
+        <!-- Velik's Sanctuary -->
+        <Constraint continentId="9818" requiredActPoint="0" />
+        <!-- Energia Celo -->
+        <Constraint continentId="9822" requiredActPoint="0" />
+        <!-- Archdeva Listening Post -->
+        <Constraint continentId="9814" requiredActPoint="0" />
+        <!-- The Vault of Oriyn -->
+        <Constraint continentId="9821" requiredActPoint="0" />
+        <!-- Dakuryon's Sanctum -->
+        <Constraint continentId="9823" requiredActPoint="0" />
+        <!-- Sky Cruiser Intrepid -->
+        <Constraint continentId="9826" requiredActPoint="0" />
+        <!-- Vaelsiar Chambers -->
+        <Constraint continentId="9017" requiredActPoint="0" />
+        <!-- Lighthouse of the Sun -->
+        <Constraint continentId="9018" requiredActPoint="0" />
+        <!-- Argon Catacombs -->
+        <Constraint continentId="9505" requiredActPoint="0" />
+        <!-- Ruined Velika Banquet -->
+        <Constraint continentId="9506" requiredActPoint="0" />
+        <!-- Velika Banquet -->
+        <Constraint continentId="9507" requiredActPoint="0" />
+        <!-- Dragon's Landing -->
+        <Constraint continentId="9508" requiredActPoint="0" />
+        <!-- Soulscape -->
+        <Constraint continentId="9509" requiredActPoint="0" />
+        <!-- Velika Banquet Redux -->
+        <Constraint continentId="9833" requiredActPoint="0" />
+        <!-- Wyrmgorge -->
+        <Constraint continentId="9503" requiredActPoint="0" />
+        <!-- Federation Commander Residence -->
+        <Constraint continentId="9681" requiredActPoint="0" />
+        <!-- Velik's Dream -->
+        <Constraint continentId="2100" requiredActPoint="0" />
+        <!-- Akalath Quarantine -->
+        <Constraint continentId="2101" requiredActPoint="0" />
+        <!-- Larvae Hatchery -->
+        <Constraint continentId="2102" requiredActPoint="0" />
+        <!-- Cliffside Prison -->
+        <Constraint continentId="2103" requiredActPoint="0" />
+        <!-- Black Core Engine Room -->
+        <Constraint continentId="2501" requiredActPoint="0" />
+        <!-- Campaign Stage 1 -->
+        <Constraint continentId="2502" requiredActPoint="0" />
+        <!-- Campaign Stage 2 -->
+        <Constraint continentId="2503" requiredActPoint="0" />
+        <!-- Campaign Stage 3 - Nightmare of Trellum Consurgo -->
+        <Constraint continentId="2504" requiredActPoint="0" />
+        <!-- Campaign Stage 4 - Black Core Engine Room -->
+        <Constraint continentId="2530" requiredActPoint="0" />
+        <!-- Hero Training Ground -->
+        <!-- Festival-related -->
+        <Constraint continentId="9047" requiredActPoint="0" />
+        <!-- Harvest Festival Hall -->
+        <Constraint continentId="9051" requiredActPoint="0" />
+        <!-- Squalid Temple -->
+        <Constraint continentId="9052" requiredActPoint="0" />
+        <!-- Banquet of Blood -->
+        <!-- Trial Dungeon -->
+        <Constraint continentId="9031" requiredActPoint="80" />
+        <!--  Akasha's Trial -->
+        <Constraint continentId="9032" requiredActPoint="90" />
+        <!--  Baracos' Trial -->
+        <Constraint continentId="9033" requiredActPoint="70" />
+        <!--  Krakatox's Trial -->
+        <Constraint continentId="3016" requiredActPoint="70" />
+        <!-- Lilith's Trial -->
+        <!-- Solo Content -->
+        <Constraint continentId="9830" requiredActPoint="70" />
+        <!-- Celestial Arena -->
+        <Constraint continentId="9069" requiredActPoint="0" />
+        <!-- Echoes of Aranea -->
+        <Constraint continentId="9126" requiredActPoint="80" />
+        <!-- Pit of Petrax -->
+        <Constraint continentId="9713" requiredActPoint="0" />
+        <!-- Ghillieglade -->
+        <Constraint continentId="9795" requiredActPoint="0" />
+        <!-- Crucible of Fame -->
+        <Constraint continentId="3012" requiredActPoint="0" />
+        <!-- Training Ground -->
+        <Constraint continentId="3031" requiredActPoint="0" />
+        <!-- Outer Core District -->
+        <!-- Party Content -->
+        <Constraint continentId="3024" requiredActPoint="0" />
+        <!-- Azart Hatchery -->
+        <Constraint continentId="3025" requiredActPoint="0" />
+        <!-- Azart Hatchery (Hard) -->
+        <Constraint continentId="3020" requiredActPoint="0" />
+        <!-- Sea of Honor -->
+        <!-- 20~64 Party Dungeon -->
+        <Constraint continentId="9087" requiredActPoint="40" />
+        <!-- Bastion of Lok -->
+        <Constraint continentId="9088" requiredActPoint="40" />
+        <!-- Sinestral Manor -->
+        <Constraint continentId="9979" requiredActPoint="40" />
+        <!-- Saravash's Ascent -->
+        <Constraint continentId="9089" requiredActPoint="40" />
+        <!-- Cultists' Refuge -->
+        <Constraint continentId="9071" requiredActPoint="40" />
+        <!--  Necromancer Tomb -->
+        <Constraint continentId="9072" requiredActPoint="40" />
+        <!-- Golden Labyrinth -->
+        <Constraint continentId="9093" requiredActPoint="40" />
+        <!-- Akasha's Hideout	-->
+        <Constraint continentId="9094" requiredActPoint="40" />
+        <!-- Saleron's Sky Garden -->
+        <Constraint continentId="9076" requiredActPoint="40" />
+        <!-- Labyrinth of Terror -->
+        <Constraint continentId="9073" requiredActPoint="40" />
+        <!-- Ebon Tower -->
+        <Constraint continentId="9075" requiredActPoint="40" />
+        <!-- Kelsaik's Nest -->
+        <Constraint continentId="9025" requiredActPoint="40" />
+        <!-- Balder's Temple -->
+        <Constraint continentId="9026" requiredActPoint="40" />
+        <!-- Argon Corpus -->
+        <Constraint continentId="9727" requiredActPoint="40" />
+        <!-- Manaya's Core -->
+        <!-- Solo Quest Dungeons -->
+        <Constraint continentId="3001" requiredActPoint="0" />
+        <Constraint continentId="3002" requiredActPoint="0" />
+        <Constraint continentId="3003" requiredActPoint="0" />
+        <Constraint continentId="3004" requiredActPoint="0" />
+        <Constraint continentId="3005" requiredActPoint="0" />
+        <Constraint continentId="3006" requiredActPoint="0" />
+        <Constraint continentId="3007" requiredActPoint="0" />
+        <Constraint continentId="3008" requiredActPoint="0" />
+        <Constraint continentId="3009" requiredActPoint="0" />
+        <Constraint continentId="3010" requiredActPoint="0" />
+        <Constraint continentId="3011" requiredActPoint="0" />
+        <Constraint continentId="2105" requiredActPoint="0" />
+        <!--Guide Dungeons -->
+        <Constraint continentId="3028" requiredActPoint="0" />
+        <!-- Grotto of Lost Souls (Hard) (Guide) -->
+        <Constraint continentId="3029" requiredActPoint="0" />
+        <!-- Antaroth's Abyss (Hard) (Guide) -->
+        <Constraint continentId="3032" requiredActPoint="0" />
+        <!-- Akalath Quarantine (Guide) -->
+        <Constraint continentId="3033" requiredActPoint="0" />
+        <!-- Gossamer Vault (Hard) (Guide) -->
+        <Constraint continentId="3037" requiredActPoint="0" />
+        <!-- Bahaar's Sanctum (Guide) -->
+        <!-- 65~70 Party Dungeon Patch 100.02 -->
+        <Constraint continentId="9809" requiredActPoint="90" />
+        <!-- Macellarius Catacombs -->
+        <Constraint continentId="9053" requiredActPoint="180" />
+        <!-- Kezzel's Gorge (5-Person) -->
+        <Constraint continentId="9781" requiredActPoint="110" />
+        <!-- Velik's Sanctuary -->
+        <Constraint continentId="9780" requiredActPoint="110" />
+        <!-- Velik's Hold (5-Person) -->
+        <Constraint continentId="9739" requiredActPoint="170" />
+        <!-- Red Refuge -->
+        <Constraint continentId="9735" requiredActPoint="170" />
+        <!-- RK-9 Kennel -->
+        <Constraint continentId="9982" requiredActPoint="220" />
+        <!-- Grotto of Lost Souls (Hard) -->
+        <Constraint continentId="9920" requiredActPoint="220" />
+        <!-- Antaroth's Abyss (Hard) -->
+        <Constraint continentId="3201" requiredActPoint="220" />
+        <!-- Gossamer Vault (Hard) -->
+        <Constraint continentId="3023" requiredActPoint="220" />
+        <!-- Akalath Quarantine -->
+        <Constraint continentId="9044" requiredActPoint="280" />
+        <!-- Bahaar's Sanctum -->
+        <Constraint continentId="3027" requiredActPoint="280" />
+        <!-- Forbidden Arena [Hagufna] -->
+        <Constraint continentId="3026" requiredActPoint="280" />
+        <!-- Corrupted Skynest -->
+        <Constraint continentId="3126" requiredActPoint="150" />
+        <!-- Corrupted Skynest (Hard) Entrance -->
+        <Constraint continentId="3102" requiredActPoint="100" />
+        <!-- Draakon Arena -->
+        <Constraint continentId="3202" requiredActPoint="150" />
+        <!-- Draakon Arena (Hard) -->
+        <Constraint continentId="3103" requiredActPoint="150" />
+        <!-- Forbidden Arena [Undying Warlord] -->
+        <Constraint continentId="3203" requiredActPoint="150" />
+        <!-- Forbidden Arena [Nightmare Undying Warlord] -->
+        <Constraint continentId="3036" requiredActPoint="230" />
+        <!-- Sky Cruiser (Hard) -->
+        <Constraint continentId="3030" requiredActPoint="300" />
+        <!-- Commander’s Residence -->
+        <!-- 60~70 Legacy Party Dungeons (3 person) -->
+        <Constraint continentId="9777" requiredActPoint="60" />
+        <!-- Channelworks (3-Person) -->
+        <Constraint continentId="9055" requiredActPoint="60" />
+        <!-- Ravenous Gorge (3-Person) -->
+        <!-- 60~70 Legacy Raid Dungeons -->
+        <Constraint continentId="9057" requiredActPoint="0" />
+        <!-- Akeron's Inferno (Hard) -->
+        <Constraint continentId="9757" requiredActPoint="0" />
+        <!-- Akeron's Inferno -->
+        <Constraint continentId="9043" requiredActPoint="0" />
+        <!-- Wonderholme (Hard) (10-Person) -->
+        <Constraint continentId="9643" requiredActPoint="0" />
+        <!-- Wonderholme (10-Person) Lv.65 -->
+        <Constraint continentId="9743" requiredActPoint="0" />
+        <!-- Wonderholme (Hard) (10-Person) -->
+        <Constraint continentId="9050" requiredActPoint="0" />
+        <!-- Rift's Edge (Hard) -->
+        <Constraint continentId="9811" requiredActPoint="0" />
+        <!-- The Abscess (7-Person) -->
+        <Constraint continentId="9511" requiredActPoint="0" />
+        <!-- The Abscess (7-Person)(Lv.65) -->
+        <Constraint continentId="9067" requiredActPoint="330" />
+        <!-- Demokron Factory (Hard) -->
+        <Constraint continentId="9767" requiredActPoint="220" />
+        <!-- Demokron Factory -->
+        <Constraint continentId="9950" requiredActPoint="0" />
+        <!-- Harrowhold -->
+        <Constraint continentId="3018" requiredActPoint="0" />
+        <!-- Dark Reach Citadel (7-person) -->
+        <Constraint continentId="3019" requiredActPoint="0" />
+        <!-- Grotto of Lost Souls (7-person) -->
+        <Constraint continentId="3017" requiredActPoint="0" />
+        <!--Antaroth's Abyss (7-person) -->
+        <!-- 60~70 Legacy Party Dungeons -->
+        <Constraint continentId="9027" requiredActPoint="150" />
+        <!-- Manaya's Core (Hard) -->
+        <Constraint continentId="9750" requiredActPoint="150" />
+        <!-- Rift's Edge -->
+        <Constraint continentId="9766" requiredActPoint="150" />
+        <!-- Shattered Fleet -->
+        <Constraint continentId="9711" requiredActPoint="150" />
+        <!-- The Abscess (Hard) -->
+        <Constraint continentId="9611" requiredActPoint="0" />
+        <!-- The Abscess (Hard)(Lv.65 ) -->
+        <Constraint continentId="9810" requiredActPoint="0" />
+        <!-- Lakan's Prison -->
+        <Constraint continentId="9808" requiredActPoint="0" />
+        <!-- Sabex Armory -->
+        <Constraint continentId="9716" requiredActPoint="0" />
+        <!-- Sky Cruiser Endeavor -->
+        <Constraint continentId="9916" requiredActPoint="0" />
+        <!-- Sky Cruiser Endeavor (Hard) -->
+        <Constraint continentId="9054" requiredActPoint="0" />
+        <!-- Bathysmal Rise (Hard) -->
+        <Constraint continentId="9754" requiredActPoint="0" />
+        <!-- Bathysmal Rise -->
+        <Constraint continentId="9029" requiredActPoint="0" />
+        <!-- Vault of Kaprima -->
+        <Constraint continentId="9056" requiredActPoint="0" />
+        <!-- Timescape (Hard) -->
+        <Constraint continentId="9756" requiredActPoint="0" />
+        <!-- Timescape -->
+        <Constraint continentId="9059" requiredActPoint="0" />
+        <!-- Forsaken Island -->
+        <Constraint continentId="9759" requiredActPoint="0" />
+        <!-- Forsaken Island (Hard) -->
+        <Constraint continentId="9060 " requiredActPoint="0" />
+        <!-- Kalivan's Dreadnaught (Hard) -->
+        <Constraint continentId="9760" requiredActPoint="0" />
+        <!-- Kalivan's Dreadnaught -->
+        <Constraint continentId="9860" requiredActPoint="0" />
+        <!-- Kalivan's Challenge -->
+        <Constraint continentId="9769" requiredActPoint="70" />
+        <!-- Lilith's Keep -->
+        <Constraint continentId="9969" requiredActPoint="70" />
+        <!-- Lilith's Keep (Hard) -->
+        <Constraint continentId="9768" requiredActPoint="80" />
+        <!-- Shadow Sanguinary (Hard) -->
+        <Constraint continentId="9068" requiredActPoint="80" />
+        <!-- Shadow Sanguinary -->
+        <Constraint continentId="9070" requiredActPoint="80" />
+        <!-- Manglemire -->
+        <Constraint continentId="9970" requiredActPoint="125" />
+        <!-- Ruinous Manor (Hard) -->
+        <Constraint continentId="9770" requiredActPoint="90" />
+        <!-- Ruinous Manor -->
+        <Constraint continentId="9980" requiredActPoint="0" />
+        <!-- Velik's Hold (Hard) -->
+        <Constraint continentId="9981" requiredActPoint="125" />
+        <!-- Velik's Sanctuary (Hard) -->
+        <Constraint continentId="9794" requiredActPoint="170" />
+        <!-- Thaumetal Refinery -->
+        <Constraint continentId="9935" requiredActPoint="145" />
+        <!-- RK-9 Kennel (Hard) -->
+        <Constraint continentId="9720" requiredActPoint="100" />
+        <!-- Antaroth's Abyss -->
+        <Constraint continentId="9783" requiredActPoint="80" />
+        <!-- Dark Reach Citadel -->
+        <Constraint continentId="3101" requiredActPoint="245" />
+        <!-- Gossamer Vault -->
+        <Constraint continentId="3034" requiredActPoint="230" />
+        <!-- Rampaging RK-9 Kennel -->
+        <Constraint continentId="3035" requiredActPoint="0" />
+        <!-- Velik’s Sanctum -->
+        <Constraint continentId="9710" requiredActPoint="0" />
+        <!-- Broken Prison -->
+        <Constraint continentId="9066" requiredActPoint="0" />
+        <!-- Demon's Wheel -->
+        <Constraint continentId="9994" requiredActPoint="0" />
+        <!-- Thaumetal Refinery (Hard)" -->
+        <Constraint continentId="9939" requiredActPoint="0" />
+        <!-- Red Refuge (Hard) -->
+        <Constraint continentId="9983" requiredActPoint="0" />
+        <!-- Dark Reach Citadel (Hard) -->
+        <Constraint continentId="9782" requiredActPoint="0" />
+        <!-- Grotto of Lost Souls -->
+        <!-- ? -->
+        <Constraint continentId="9887" requiredActPoint="0" />
+        <Constraint continentId="9888" requiredActPoint="0" />
+        <Constraint continentId="9873" requiredActPoint="0" />
+        <Constraint continentId="9889" requiredActPoint="0" />
+        <Constraint continentId="9871" requiredActPoint="0" />
+        <Constraint continentId="9872" requiredActPoint="0" />
+        <Constraint continentId="9825" requiredActPoint="0" />
+        <!--Lumikan (Incomplete)-->
+        <Constraint continentId="3104" requiredActPoint="0" />
+        <Constraint continentId="3204" requiredActPoint="0" />
+
+        <Constraint continentId="9999" requiredActPoint="0" />
+        <!--Blast From the Past -->
+
+    </ConstraintList>
+</DungeonConstraint>
