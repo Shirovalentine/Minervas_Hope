@@ -1,0 +1,36 @@
+﻿<PkSystemData>
+
+	<PkCommon maxPkPoint="100000" enablePkLevel="11" pkUpkeepSec="60" naturalDecreaseSec="3600" naturalDecreaseValue="10" nonPkAbnormalityId="999800" decreaseByKillNpcLevel="58" />
+
+	<PkPointTable>
+			<PkConsumption minLevel="0" maxLevel="0" addPoint="10000" />
+			<PkConsumption minLevel="1" maxLevel="2" addPoint="10000" />
+			<PkConsumption minLevel="3" maxLevel="5" addPoint="10000" />
+			<PkConsumption minLevel="6" maxLevel="10" addPoint="10000" />
+			<PkConsumption minLevel="11" maxLevel="99" addPoint="10000" />
+	</PkPointTable>
+	
+	<PkPointPenalty>
+		<Penalty grade ="0" minPoint="0" maxPoint="0" abnormalityId="999801" 
+															customizingItemDecisionCount="1" 
+															conditionDecreaseRateModifier="1" 
+															restrictedVillagerMenus="" 
+															systemMessage="SMT_PK_NOTY_GRADE_0"/>
+		<Penalty grade ="1" minPoint="1" maxPoint="4999" abnormalityId="999802" 
+															customizingItemDecisionCount="2" 
+															conditionDecreaseRateModifier="1" 
+															restrictedVillagerMenus="GuildWareHouse;ConditionRestore;buffStore;HpRestore;MpRestore;HpMpRestore;AllRestore" 
+															systemMessage="SMT_PK_NOTY_GRADE_1"/>
+		<Penalty grade ="2" minPoint="5000" maxPoint="24999" abnormalityId="999803" 
+															customizingItemDecisionCount="3" 
+															conditionDecreaseRateModifier="1" 
+															restrictedVillagerMenus="WareHouse;GuildWareHouse;ConditionRestore;buffStore;CampTeleport;HpRestore;MpRestore;HpMpRestore;AllRestore" 
+															systemMessage="SMT_PK_NOTY_GRADE_2"/>
+		<Penalty grade ="3" minPoint="25000" maxPoint="100000" abnormalityId="999804" 
+															customizingItemDecisionCount="5" 
+															conditionDecreaseRateModifier="1" 
+															restrictedVillagerMenus="TradeBroker;WareHouse;GuildWareHouse;ConditionRestore;buffStore;CampTeleport;HpRestore;MpRestore;HpMpRestore;AllRestore" 
+															systemMessage="SMT_PK_NOTY_GRADE_3"/>
+	</PkPointPenalty>
+	
+</PkSystemData>
