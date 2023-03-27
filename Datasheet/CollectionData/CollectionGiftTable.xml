@@ -1,0 +1,1753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CollectionGiftTable>
+	<!-- 식물 채집 -->
+	<CollectionGift giftNum="1">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="4" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.10">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.010849">
+			<DropItem itemTemplateId="320000" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.002893">
+			<DropItem itemTemplateId="321000" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="2">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206801" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.004">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="3">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206802" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.004">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="4">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206803" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.004">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="5">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206804" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.004">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="6">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206805" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.004">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<!-- 풍부한 식물 채집 -->
+	<CollectionGift giftNum="51">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.30">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="52">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206801" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="53">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206802" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="54">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206803" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="55">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206804" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="56">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206805" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206800" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">
+			<DropItem itemTemplateId="5292" dropRate="1.00" minNum="4" maxNum="4" />			
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<!-- 광석 채집 -->
+	<CollectionGift giftNum="101">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="4" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.10">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="102">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206807" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.010849">
+			<DropItem itemTemplateId="320001" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.002893">
+			<DropItem itemTemplateId="321001" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="103">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206808" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.010849">
+			<DropItem itemTemplateId="320002" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.002893">
+			<DropItem itemTemplateId="321002" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="104">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206809" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.009863">
+			<DropItem itemTemplateId="320003" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.00263">
+			<DropItem itemTemplateId="321003" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="105">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206810" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.009863">
+			<DropItem itemTemplateId="320004" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.00263">
+			<DropItem itemTemplateId="321004" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="106">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206811" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.010849">
+			<DropItem itemTemplateId="320005" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.002893">
+			<DropItem itemTemplateId="321005" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<!-- 풍부한 광석 채집 -->
+	<CollectionGift giftNum="151">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.30">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="152">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206807" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="153">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206808" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="154">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206809" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="155">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206810" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="156">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206811" dropRate="1.00" minNum="9" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206806" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.15">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<!-- 정기 채집 -->
+	<CollectionGift giftNum="201">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="4" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.04">			
+			<DropItem itemTemplateId="206823" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206824" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206825" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206826" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206827" dropRate="0.20" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="202">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206818" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.02">			
+			<DropItem itemTemplateId="206823" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="203">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206819" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.02">			
+			<DropItem itemTemplateId="206824" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="204">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206820" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.02">			
+			<DropItem itemTemplateId="206825" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="205">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206821" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.02">			
+			<DropItem itemTemplateId="206826" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="206">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206822" dropRate="1.00" minNum="3" maxNum="5" />
+		</DropBag>
+		<DropBag dropRate="0.25">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.02">			
+			<DropItem itemTemplateId="206827" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<!-- 풍부한 정기 채집 -->
+	<CollectionGift giftNum="251">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.12">			
+			<DropItem itemTemplateId="206823" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206824" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206825" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206826" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206827" dropRate="0.20" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="252">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206818" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.06">			
+			<DropItem itemTemplateId="206823" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="253">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206819" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.06">			
+			<DropItem itemTemplateId="206824" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="254">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206820" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.06">			
+			<DropItem itemTemplateId="206825" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="255">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206821" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.06">			
+			<DropItem itemTemplateId="206826" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="256">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="206822" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.75">
+			<DropItem itemTemplateId="206817" dropRate="1.00" minNum="1" maxNum="2" />
+		</DropBag>
+		<DropBag dropRate="0.06">			
+			<DropItem itemTemplateId="206827" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.05">
+			<DropItem itemTemplateId="206656" dropRate="1.00" minNum="1" maxNum="1" />			
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="204053" dropRate="1.00" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<!-- 엑소도르 광석 채집 -->
+	<CollectionGift giftNum="301">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="207459" dropRate="1.00" minNum="4" maxNum="10" />
+		</DropBag>
+		<DropBag dropRate="0.10">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="207453" dropRate="1.00" minNum="1" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="351">
+		<DropBag dropRate="1.00">7
+			<DropItem itemTemplateId="207459" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.30">			
+			<DropItem itemTemplateId="6392" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6393" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6394" dropRate="0.25" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="6395" dropRate="0.25" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="207453" dropRate="1.00" minNum="2" maxNum="4" />
+		</DropBag>
+	</CollectionGift>
+	<!-- 엑소도르 정기 채집 -->
+	<CollectionGift giftNum="601">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="207460" dropRate="1.00" minNum="4" maxNum="10" />
+		</DropBag>
+		<DropBag dropRate="0.04">			
+			<DropItem itemTemplateId="206823" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206824" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206825" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206826" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206827" dropRate="0.20" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.004">			
+			<DropItem itemTemplateId="207456" dropRate="1.00" minNum="1" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="651">
+		<DropBag dropRate="1.00">
+			<DropItem itemTemplateId="207460" dropRate="1.00" minNum="12" maxNum="15" />
+		</DropBag>
+		<DropBag dropRate="0.12">			
+			<DropItem itemTemplateId="206823" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206824" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206825" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206826" dropRate="0.20" minNum="1" maxNum="1" />
+			<DropItem itemTemplateId="206827" dropRate="0.20" minNum="1" maxNum="1" />
+		</DropBag>
+		<DropBag dropRate="0.012">			
+			<DropItem itemTemplateId="207456" dropRate="1.00" minNum="2" maxNum="4" />
+		</DropBag>
+	</CollectionGift>
+
+	<!-- 퀘스트 채집물 -->
+	<CollectionGift giftNum="400"><!-- Quest 607,1 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45403" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="402"><!--Quest 599,2 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81251" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="408"><!-- Quest 2,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9045" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="410"><!-- Quest 2,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9003" dropRate="1" minNum="1" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="412"><!-- Quest 7,23 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9000" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="413"><!-- Quest 6,23 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9004" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="414"><!-- Quest 6,31 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9005" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="415"><!-- Quest 5,29 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9002" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="416"><!-- Quest 7,1 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9107" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="417"><!-- Quest 3,4 --><!-- Quest 3,23 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9008" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="418"><!-- Quest 3,38 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9085" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="419"><!-- Quest 3,41 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9007" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="420"><!-- Quest 3,3 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="80092" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="421"><!-- Quest 7,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9030" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="422"><!-- Quest 17,29 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9087" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="423"><!-- Quest 16,24 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9013" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="424"><!-- Quest 16,36 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9014" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="425"><!-- Quest 15,34 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9006" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="426"><!-- Quest 15,23 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9046" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="427"><!-- Quest 23,1 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9108" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="428"><!-- Quest 22,26 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9027" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="429"><!-- Quest 18,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9029" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="430"><!-- Quest 19,28 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9017" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="431"><!-- Quest 21,31 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9015" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="432"><!-- Quest 21,32 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9016" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="433"><!-- Quest 21,45 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9074" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="434"><!-- Quest 19,26 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71448" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="435"><!-- Quest 24,38 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9032" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="436"><!-- Quest 25,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9033" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="437"><!-- Quest 24,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9031" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="438"><!-- Quest 24,27 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9026" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="439"><!-- Quest 20,26 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9088" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="440"><!-- Quest 20,36 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9089" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="441"><!-- Quest 20,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9073" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="442"><!-- Quest 4,43 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9083" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="443"><!-- Quest 9,25 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9018" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="444"><!-- Quest 10,27 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9055" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="445"><!-- Quest 10,39 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9056" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="446"><!-- Quest 10,45 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9057" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="447"><!-- Quest 12,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9022" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="448"><!-- Quest 12,31 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9023" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="449"><!-- Quest 12,36 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9024" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="450"><!-- Quest 12,39 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9025" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="451"><!-- Quest 11,25 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9020" dropRate="1" minNum="1" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="452"><!-- Quest 608,2 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45407" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="453"><!-- Quest 8,40 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9291" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="454"><!-- Quest 8,41 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9292" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="455"><!-- Quest 9,31 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9019" dropRate="1" minNum="1" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="456"><!-- Quest 11,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9021" dropRate="1" minNum="1" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="457"><!-- Quest 172,2 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45463" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="458"><!-- Quest 172,1 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45468" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="459"><!-- Quest 172,3 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45471" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="460"><!-- Quest 26,25 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9037" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="461"><!-- Quest 26,30 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9044" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="462"><!-- Quest 28,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9034" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="463"><!-- Quest 28,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9035" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="464"><!-- Quest 27,24 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9038" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="465"><!-- Quest 29,24 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9049" dropRate="1" minNum="1" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="466"><!-- Quest 28,36 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9036" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="467"><!-- Quest 31,39 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9039" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="468"><!-- Quest 31,24 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9091" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="469"><!-- Quest 32,39 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9040" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="470"><!-- Quest 32,23 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9092" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="471"><!-- Quest 32,28 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9061" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="472"><!-- Quest 34,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9052" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="473"><!-- Quest 34,43 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9054" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="474"><!-- Quest 34,31 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9099" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="475"><!-- Quest 33,33 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9098" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="476"><!-- Quest 34,27 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9097" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="477"><!-- Quest 33,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9043" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="478"><!-- Quest 40,40 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9041" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="479"><!-- Quest 40,27 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9042" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="480"><!-- Quest 40,45 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9285" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="481"><!-- Quest 40,46 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9286" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="482"><!-- Quest 41,27 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9103" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="483"><!-- Quest 41,28 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9104" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="484"><!-- Quest 41,37 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9287" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="485"><!-- Quest 41,38 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9288" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="486"><!-- Quest 39,26 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9051" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="487"><!-- Quest 39,38 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9102" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="488"><!-- Quest 39,41 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9284" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="489"><!-- Quest 39,42 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9283" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="490"><!-- Quest 42,25 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9047" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="491"><!-- Quest 42,31 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9048" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="492"><!-- Quest 42,44 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9290" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="493"><!-- Quest 42,43 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9289" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="494"><!-- Quest 35,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9068" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="495"><!-- Quest 36,29 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9070" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="496"><!-- Quest 36,34 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9071" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="497"><!-- Quest 35,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9067" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="498"><!-- Quest 36,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9277" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="499"><!-- Quest 36,41 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9276" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="500"><!-- Quest 35,28 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9275" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="501"><!-- Quest 35,36 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9274" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="502"><!-- Quest 37,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9280" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="503"><!-- Quest 38,23 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9058" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="504"><!-- Quest 38,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9059" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="505"><!-- Quest 38,41 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9281" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="506"><!-- Quest 38,40 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9282" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="507"><!-- Quest 37,25 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9069" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="508"><!-- Quest 37,36 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9279" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="509"><!-- Quest 37,37 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9278" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="510"><!-- Quest 30,26 --><!-- Quest 604,14 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45262" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="511"><!-- Quest 30,34 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45264" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="512"><!-- Quest 30,3 --><!-- Quest 604,14 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45263" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="513"><!-- Quest 30,49 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45341" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="514"><!-- Quest 30,45 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45265" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="515"><!-- Quest 30,2 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45261" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="516"><!-- Quest 54,26 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9063" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="517"><!-- Quest 54,41 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9111" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="518"><!-- Quest 55,33 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9066" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="519"><!-- Quest 56,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9076" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="520"><!-- Quest 57,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9077" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="521"><!-- Quest 51,38 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9109" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="522"><!-- Quest 52,30 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9060" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="523"><!-- Quest 52,3 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="5120" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="524"><!-- Quest 52,39 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9110" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="525"><!-- Quest 51,40 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9294" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="526"><!-- Quest 51,39 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9293" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="527"><!-- Quest 52,51 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9296" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="528"><!-- Quest 52,50 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9295" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="529"><!-- Quest 47,21 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9081" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="530"><!-- Quest 45,37 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45266" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="531"><!-- Quest 45,34 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45267" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="532"><!-- Quest 47,1 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45271" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="533"><!-- Quest 45,1 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45272" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="534"><!-- Quest 601,8 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45269" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="535"><!-- Quest 601,10 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45270" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="536"><!-- Quest 601,15 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45250" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="537"><!-- Quest 601,15 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45251" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="538"><!-- Quest 601,15 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45252" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="539"><!-- Quest 46,1 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45273" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="540"><!-- Quest 191,2 --><!-- Quest 9998,42 --><!-- Quest 9998,83 --><!-- Quest 9999,42 --><!-- Quest 9998,83 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81114" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="541"><!-- Quest 182,7 --><!-- Quest 9998,24 --><!-- Quest 9998,80 --><!-- Quest 9999,24 --><!-- Quest 9999,80 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81116" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="542"><!-- Quest 182,4 --><!-- Quest 9998,56 --><!-- Quest 9999,56 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81122" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="543"><!-- Quest 181,7 --><!-- Quest 9998,35 --><!-- Quest 9998,82 --><!-- Quest 9999,35 --><!-- Quest 9999,82 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81109" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="544"><!-- Quest 181,9 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81101" dropRate="1" minNum="2" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="545"><!-- Quest 181,11 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81129" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="546"><!-- Quest 9998,19 --><!-- Quest 9999,19 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81135" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="547">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9086" dropRate="0.4" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="548"><!-- Quest 181,6 --><!-- Quest 9998,33 --><!-- Quest 9998,81 --><!-- Quest 9999,33 --><!-- Quest 9999,81 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81102" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="549"><!-- Quest 172,8 --><!-- Quest 9998,28 --><!-- Quest 9999,28 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45462" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="550"><!-- Quest 172,13 --><!-- Quest 9998,16 --><!-- Quest 9998,76 --><!-- Quest 9999,16 --><!-- Quest 9999,76 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45465" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="551"><!-- Quest 87,4 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45442" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="552"><!-- Quest 87,6 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45443" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="553"><!-- Quest 49,29 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45260" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="554"><!-- Quest 49,37 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45258" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="555"><!-- Quest 49,1 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45274" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="557"><!-- Quest 48,34 --><!-- Quest 50,35 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45257" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="558"><!-- Quest 602,2 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45253" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="559"><!-- Quest 602,2 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45254" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="560"><!-- Quest 602,14 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45256" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="561"><!-- Quest 604,10 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45255" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="562"><!-- Quest 602,13 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45295" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="566"><!-- Quest 472,24 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9105" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="567"><!-- Quest 489,22 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="9101" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="568"><!-- Quest 172,5 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="45473" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="569"><!-- Quest 599,4 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="81250" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="570"><!-- Quest 9998,85 --><!-- Quest 9998,86 --><!-- Quest 9999,85 --><!-- Quest 9999,86 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="70045" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="571"><!-- 570의 풍부 버전 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="70046" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="572"><!-- Quest 9998,84 --><!-- Quest 9999,84 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="70069" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="577"><!-- 미션퀘스트 개선 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="602042" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="578"><!-- 미션퀘스트 개선:사마엘의 일기장 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="602041" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	
+	<!-- 축제 -->
+	<CollectionGift giftNum="900">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71427" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="901">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71425" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="902">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71440" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="903">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71441" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="904">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71428" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="905">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71426" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="906">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71430" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="907">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71440" dropRate="1" minNum="2" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="908">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71441" dropRate="1" minNum="2" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="909">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71441" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="910">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71426" dropRate="1" minNum="2" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="911">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71431" dropRate="1" minNum="1" maxNum="2" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="912"><!-- Quest 702,4 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71429" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="913"><!-- Quest 702,13 --><!-- Quest 702,17 --><!--후카 축제-->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="71452" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="914">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="51" dropRate="1" minNum="1" maxNum="3" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="915">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="70067" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="916">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="80000" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="917"><!-- Quest 701,5 --><!-- 축제 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="70048" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="918"><!-- Quest 701,5 --><!-- 축제 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="70049" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="919"><!-- Quest 701,6 --><!-- 축제 -->
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="70068" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	
+	<!-- 눈싸움 전장 -->
+	<CollectionGift giftNum="1000">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="562" dropRate="1" minNum="5" maxNum="10" />
+		</DropBag>
+	</CollectionGift>
+	<!-- 포화의 전장 -->
+	<CollectionGift giftNum="1001">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="7206" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+<!--가을 공중섬 채집물-->
+	<CollectionGift giftNum="805">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="602001" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="806">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="602002" dropRate="0.8" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="573">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="80505" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="574">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="80507" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="575">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="80431" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="576">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="80438" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+
+<!--엑소도르 채집물-->	
+	<CollectionGift giftNum="600">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46713" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="807">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46718" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="808">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46728" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="809">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46725" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="810">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46726" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="811">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46723" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>	
+	<CollectionGift giftNum="812">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46727" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>	
+	<CollectionGift giftNum="813">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46716" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>
+	<CollectionGift giftNum="814">
+		<DropBag dropRate="1">
+			<DropItem itemTemplateId="46717" dropRate="1" minNum="1" maxNum="1" />
+		</DropBag>
+	</CollectionGift>	
+</CollectionGiftTable>
