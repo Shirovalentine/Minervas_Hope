@@ -13,7 +13,7 @@
         <ChangeInfo changedEnchantStep="12" originEnchantStep="9" />
         <ChangeInfo changedEnchantStep="13" originEnchantStep="10" />
         <ChangeInfo changedEnchantStep="14" originEnchantStep="11" />
-        <ChangeInfo changedEnchantStep="10001" originEnchantStep="12" />
+        <ChangeInfo changedEnchantStep="15" originEnchantStep="12" />
         <ChangeInfo changedEnchantStep="1" originEnchantStep="13" />
         <ChangeInfo changedEnchantStep="1" originEnchantStep="14" />
         <ChangeInfo changedEnchantStep="1" originEnchantStep="15" />
@@ -140,5 +140,23 @@
         <ChangeInfo changedEnchantStep="26" originEnchantStep="13" />
         <ChangeInfo changedEnchantStep="27" originEnchantStep="14" />
         <ChangeInfo changedEnchantStep="28" originEnchantStep="15" />
+    </ChangeFx>
+    <ChangeFx changeFxId="1009">
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="0" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="1" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="2" />
+        <ChangeInfo changedEnchantStep="18" originEnchantStep="3" />
+        <ChangeInfo changedEnchantStep="7" originEnchantStep="4" />
+        <ChangeInfo changedEnchantStep="8" originEnchantStep="5" />
+        <ChangeInfo changedEnchantStep="9" originEnchantStep="6" />
+        <ChangeInfo changedEnchantStep="10" originEnchantStep="7" />
+        <ChangeInfo changedEnchantStep="11" originEnchantStep="8" />
+        <ChangeInfo changedEnchantStep="12" originEnchantStep="9" />
+        <ChangeInfo changedEnchantStep="13" originEnchantStep="10" />
+        <ChangeInfo changedEnchantStep="14" originEnchantStep="11" />
+        <ChangeInfo changedEnchantStep="10001" originEnchantStep="12" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="13" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="14" />
+        <ChangeInfo changedEnchantStep="1" originEnchantStep="15" />
     </ChangeFx>
 </ChangeEnchantFx>
