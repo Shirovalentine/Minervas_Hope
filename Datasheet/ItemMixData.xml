@@ -6860,4 +6860,18 @@
 	</Materials>
 	<Result successItemId="18977" successCount="1"/>
 </ItemMix>
+
+<!-- Ninja Weapon -->
+<ItemMix itemMixId="208082" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="58057" successCount="1"/>
+</ItemMix>
 </ItemMixData>
