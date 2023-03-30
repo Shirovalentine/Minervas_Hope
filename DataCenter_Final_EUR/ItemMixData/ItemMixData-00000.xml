@@ -6606,7 +6606,7 @@
 
 <!-- Visionmaker Crafting -->
 <!-- Warrior Weapon -->
-<ItemMix itemMixId="208074" successRate="1" progressTime="2" progressSocial="37">
+<ItemMix itemMixId="208074" successRate="1" progressTime="5" progressSocial="37">
 	<Materials>
 		<Material itemId="204050" count="1800"/>
 		<Material itemId="1128" count="3"/>
@@ -6617,5 +6617,117 @@
 		<Material itemId="1133" count="2"/>
 	</Materials>
 	<Result successItemId="18970" successCount="1"/>
+</ItemMix>
+
+<!-- Lancer Weapon -->
+<ItemMix itemMixId="208075" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="18971" successCount="1"/>
+</ItemMix>
+
+<!-- Slayer Weapon -->
+<ItemMix itemMixId="208076" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="18972" successCount="1"/>
+</ItemMix>
+
+<!-- Berserker Weapon -->
+<ItemMix itemMixId="208077" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="18973" successCount="1"/>
+</ItemMix>
+
+<!-- Sorcerer Weapon -->
+<ItemMix itemMixId="208078" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="18974" successCount="1"/>
+</ItemMix>
+
+<!-- Archer Weapon -->
+<ItemMix itemMixId="208079" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="18975" successCount="1"/>
+</ItemMix>
+
+<!-- Priest Weapon -->
+<ItemMix itemMixId="208080" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="18976" successCount="1"/>
+</ItemMix>
+
+<!-- Mystic Weapon -->
+<ItemMix itemMixId="208081" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="18977" successCount="1"/>
+</ItemMix>
+
+<!-- Ninja Weapon -->
+<ItemMix itemMixId="208082" successRate="1" progressTime="5" progressSocial="37">
+	<Materials>
+		<Material itemId="204050" count="1800"/>
+		<Material itemId="1128" count="3"/>
+		<Material itemId="1129" count="3"/>
+		<Material itemId="1130" count="2"/>
+		<Material itemId="1131" count="3"/>
+		<Material itemId="1132" count="2"/>
+		<Material itemId="1133" count="2"/>
+	</Materials>
+	<Result successItemId="58057" successCount="1"/>
 </ItemMix>
 </ItemMixData>
