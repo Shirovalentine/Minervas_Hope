@@ -1,0 +1,1278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DungeonNewbieBonus>
+			<!-- 인던 클리어 10회 까지 -->
+	<DungeonNewbieBonusCheck clearCount="10"/>
+	
+	<!-- 공통 이상상태는 초보자 있던 없던 던전에 입장시 무조건 걸어주는 버프 -->
+	<!-- 사용 이상상태 리스트
+	30 : 최대 HP 증가 (20%)
+	4650 : 보상 상향 방출
+	4651 : 보상 상향 (파티)
+	4950 : 크리스탈 보호
+	4951 : 즉시 부활
+	4952 : 공격력 상향
+	-->
+	<CommonAbnormality>
+		<Abnormality id=""/>
+	</CommonAbnormality>
+
+	<!-- 초심자에게는 드랍률 상향(방출)과 즉시 부활을. 파티 전체에게 드랍률 상향과 크리스탈 보호 이상상태 추가 -->
+	<DungeonList>
+		<Dungeon id="9087" name="비밀기지">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>				
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9088" name="밤피르 저택">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>				
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9979" name="자바르만 소굴">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9089" name="사교도 은신처">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>				
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9071" name="사령술 연구소">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9072" name="황금의 미궁">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9093" name="아카샤의 은신처">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001042,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001043,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9793" name="아카샤의 은신처(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+		</Dungeon>
+		<Dungeon id="9094" name="살레론의 공중정원">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9076" name="공포의 미궁">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+spq				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9073" name="검은 탑">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9075" name="켈사이크의 둥지">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001042,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001043,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9079" name="자바르만">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9080" name="굴라드쉬의 결계">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9082" name="철벽의 수련장">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9773" name="검은탑 (상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9775" name="겔사이크의 둥지(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9776" name="공포의 미궁(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9078" name="비비슈의 실험실">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9024" name="버려진 회당">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9025" name="발더의 신전">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001042,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001043,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9724" name="버려진 회당(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>	
+		<Dungeon id="9725" name="발더의 신전(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9096" name="실유카의 회랑">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/>
+			<Bonus Target="party" bonusAbnormal="4952"/-->
+		</Dungeon>
+		<Dungeon id="9095" name="업화의 구덩이">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/-->
+		</Dungeon>	
+		<Dungeon id="9026" name="아르곤 멜디티아(하급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001042,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001043,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9611" name="포악한 퀴르갈의 동굴 Lv.65">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9511" name="어둠의 동굴 Lv.65">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="4" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9726" name="아르곤 멜디티아(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/-->
+		</Dungeon>
+		<!-- 샨드라 상급은 초보자 버프 주지 않는다. (보상 버프는 준다.) -->
+		<Dungeon id="9027" name="샨드라 마나이아(상급)">
+			<BonusList>
+			<!--
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			-->
+			</BonusList>			
+		</Dungeon>
+		<Dungeon id="9727" name="샨드라 마나이아(하급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041,999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001042,999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001043,999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>		
+		</Dungeon>
+		<Dungeon id="9975" name="폭주한 켈사이크의 성소(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="15" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="16" MaxCount="17" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="18" MaxCount="19" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="20" MaxCount="20" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/-->
+		</Dungeon>
+		<Dungeon id="9911" name="불안정한 켈사이크의 성소(하급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4650"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+				<Bonus Target="party" bonusAbnormal="4651"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="7" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="8" MaxCount="8" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="9" MaxCount="9" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="10" MaxCount="10" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+			<!--Bonus Target="solo" bonusAbnormal="4951"/>
+			<Bonus Target="party" bonusAbnormal="4950"/-->
+		</Dungeon>
+		<Dungeon id="9043" name="마법사의 요새_하급">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="7" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="8" MaxCount="8" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="9" MaxCount="9" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="10" MaxCount="10" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9643" name="마법사의 요새 Lv.65">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="7" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="8" MaxCount="8" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="9" MaxCount="9" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="10" MaxCount="10" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9743" name="마법사의 요새_상급">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>				
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="7" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="8" MaxCount="8" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="9" MaxCount="9" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="10" MaxCount="10" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9811" name="어둠의 동굴">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="4" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9810" name="라칸의 제단">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9050" name="탐욕의 카슈바르 협곡">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="7" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="8" MaxCount="8" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="9" MaxCount="9" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="10" MaxCount="10" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9750" name="카슈바르 협곡">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9711" name="포악한 퀴르갈의 동굴">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9808" name="아크데바 무기고">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001040" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001041" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020,999001042" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021,999001043" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9809" name="데모크론 실험실">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001020,999001046" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001021,999001047" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9777" name="고대의 지하수로">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="1" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9766" name="붉은 해적단의 함정">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9055" name="하르키아의 안식처">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="1" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>
+		</Dungeon>
+		<Dungeon id="9754" name="오르카의 신전">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9054" name="사악한 오르카의 신전">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9716" name="엘카라스 호">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9916" name="폭풍의 엘카라스 호">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9057" name="오만한 아케론의 염옥">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="7" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="8" MaxCount="8" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="9" MaxCount="9" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="10" MaxCount="10" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9757" name="아케론의 염옥">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="7" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="8" MaxCount="8" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="9" MaxCount="9" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="10" MaxCount="10" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9029" name="부활한 회당">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9756" name="발로나의 시공간">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>		
+		<Dungeon id="9056" name="일그러진 발로나의 시공간">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>		
+		<Dungeon id="9060" name="악인 켈리반의 난파선">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9760" name="켈리반의 난파선">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9860" name="약화된 켈리반의 난파선">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9059" name="번스타인의 악령섬">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>		
+		<Dungeon id="9759" name="저주받은 번스타인의 악령섬">
+			<!-- <BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList> -->
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9885" name="환영의탑 하">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+		</Dungeon>		
+		<Dungeon id="9886" name="환영의탑 상">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+		</Dungeon>	
+		<Dungeon id="9067" name="베르노의 실험실">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="4" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>	
+		<Dungeon id="9767" name="베르노의 실험실(중급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="4" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>	
+		<Dungeon id="9068" name="폭군 듀리온의 안식처">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>	
+		<Dungeon id="9768" name="듀리온의 안식처">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9070" name="거짓말쟁이 타르스키의 놀이터">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9969" name="악녀 릴리스의 성">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9769" name="릴리스의 성">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9970" name="초월한 라켈리스의 폐허">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9770" name="라켈리스의 폐허">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9710" name="뒤틀린 라칸의 제단">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9780" name="벨리카 지하 관문">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9980" name="무너진 벨리카 지하 관문">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="4" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9981" name="함락된 벨릭의 궁전">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9781" name="벨릭의 궁전">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9126" name="페트레 양성소">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+		</Dungeon>
+		<Dungeon id="9066" name="데모로스의 룰렛">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9794" name="사이럭스 연구 기지">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="1" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9994" name="알파 사이럭스 연구 기지">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9735" name="RK-9 격납고">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9935" name="RK-9 격납고">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9739" name="혁명단 은거지(하)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9939" name="혁명단 은거지(상)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9720" name="안타로스의 심연">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9920" name="공허한 안타로스의 심연">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9034" name="잔혹한 환영의 탑">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9783" name="테네브리스 성채">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9983" name="칠흑의 테네브리스 성채">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9782" name="리안의 지하 전당">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9982" name="왜곡된 리안의 지하 전당">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9044" name="바하르의 신전">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3017" name="공허한 안타로스의 심연(7인)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="4" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3018" name="칠흑의 테네브리스 성채(7인)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="4" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3019" name="왜곡된 리안의 전당(7인)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="4" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001019" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3101" name="파르퀴나의 둥지">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3201" name="찬란한 파르퀴나의 둥지">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3025" name="아르가프 부화장">
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001048" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001049" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001050" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001051" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3023" name="베르아크 성채">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3026" name="아카칼라쉬 켈사이크(하급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3126" name="아카칼라쉬 켈사이크(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3027" name="광기의 투기장">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3102" name="사령관의 수련장">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3202" name="분노한 사령관의 수련장">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3103" name="권술사 던전(하급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3203" name="권술사 던전(상급)">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="9053" name="거인의 숲">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3030" name="군단장의 거처(마흐나크)">
+			<BonusList>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="1" AddAbnormalityIdList="999001053" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="2" MaxCount="2" AddAbnormalityIdList="999001054" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="3" MaxCount="3" AddAbnormalityIdList="999001055" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001056" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001057" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="6" MaxCount="6" AddAbnormalityIdList="999001058" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="7" MaxCount="7" AddAbnormalityIdList="999001059" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="8" MaxCount="8" AddAbnormalityIdList="999001060" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="9" MaxCount="9" AddAbnormalityIdList="999001061" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="10" MaxCount="10" AddAbnormalityIdList="999001062" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="11" MaxCount="11" AddAbnormalityIdList="999001063" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="12" MaxCount="12" AddAbnormalityIdList="999001064" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="13" MaxCount="13" AddAbnormalityIdList="999001065" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="14" MaxCount="14" AddAbnormalityIdList="999001066" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="15" MaxCount="15" AddAbnormalityIdList="999001067" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="16" MaxCount="16" AddAbnormalityIdList="999001068" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="17" MaxCount="17" AddAbnormalityIdList="999001069" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="18" MaxCount="18" AddAbnormalityIdList="999001070" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="19" MaxCount="19" AddAbnormalityIdList="999001071" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="20" MaxCount="20" AddAbnormalityIdList="999001072" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3034" name="폭주하는 RK-9 격납고">
+			<BonusList>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>
+		<Dungeon id="3036" name="폭풍의 엘카라스 호">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>
+			<DynamicAbnormalityList>
+				<DynamicAbnormalityData MinCount="1" MaxCount="3" AddAbnormalityIdList="999001018" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="4" MaxCount="4" AddAbnormalityIdList="999001020" AbnormalityStackCount="1"/>
+				<DynamicAbnormalityData MinCount="5" MaxCount="5" AddAbnormalityIdList="999001021" AbnormalityStackCount="1"/>
+			</DynamicAbnormalityList>	
+		</Dungeon>		
+<!-- 아래 던전은 파티의 즐거움을 사용하지 않음 -->
+		<Dungeon id="3020" name="항해인던">
+			<BonusList>
+				<Bonus Target="solo" bonusAbnormal="30"/>
+				<Bonus Target="solo" bonusAbnormal="4951"/>
+			</BonusList>			
+		</Dungeon>
+	</DungeonList>
+</DungeonNewbieBonus>

@@ -1,44 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <DungeonMatching>
-	<!-- Position definition for each class 1 is the damage dealer, 0 is the tank, 2 is the healer, the basic selection position, and up to 3 selectable positions! -->
+	<!-- Position definition for each class 1 is the damage dealer, 0 is the tank, 2 is the healer,
+	the basic selection position, and up to 3 selectable positions! -->
 	<ClassPosition>
-		<Class name="Warrior" defaultPosition="1" secondPosition="0" thirdPosition="1"/>
-		<Class name="Lancer" defaultPosition="0" secondPosition="0" thirdPosition="0"/>
-		<Class name="Slayer" defaultPosition="1" secondPosition="1" thirdPosition="1"/>
-		<Class name="Berserker" defaultPosition="1" secondPosition="0" thirdPosition="1" secondPositionLevel="65"/>
-		<Class name="Sorcerer" defaultPosition="1" secondPosition="1" thirdPosition="1"/>
-		<Class name="Archer" defaultPosition="1" secondPosition="1" thirdPosition="1"/>
-		<Class name="Priest" defaultPosition="2" secondPosition="2" thirdPosition="2"/>
-		<Class name="Elementalist" defaultPosition="2" secondPosition="2" thirdPosition="2"/>
+		<Class name="Warrior" defaultPosition="1" secondPosition="0" thirdPosition="1" />
+		<Class name="Lancer" defaultPosition="0" secondPosition="0" thirdPosition="0" />
+		<Class name="Slayer" defaultPosition="1" secondPosition="1" thirdPosition="1" />
+		<Class name="Berserker" defaultPosition="1" secondPosition="0" thirdPosition="1"
+			secondPositionLevel="65" />
+		<Class name="Sorcerer" defaultPosition="1" secondPosition="1" thirdPosition="1" />
+		<Class name="Archer" defaultPosition="1" secondPosition="1" thirdPosition="1" />
+		<Class name="Priest" defaultPosition="2" secondPosition="2" thirdPosition="2" />
+		<Class name="Elementalist" defaultPosition="2" secondPosition="2" thirdPosition="2" />
 		<Class name="Soulless" defaultPosition="1" secondPosition="1" thirdPosition="1" />
-		<Class name="Engineer" defaultPosition="1" secondPosition="1" thirdPosition="1"/>
-		<Class name="Fighter" defaultPosition="0" secondPosition="1" thirdPosition="0" secondPositionLevel="69"/>
-		<Class name="Assassin" defaultPosition="1" secondPosition="1" thirdPosition="1"/>
-		<Class name="Glaiver" defaultPosition="1" secondPosition="1" thirdPosition="1"/>
+		<Class name="Engineer" defaultPosition="1" secondPosition="1" thirdPosition="1" />
+		<Class name="Fighter" defaultPosition="0" secondPosition="1" thirdPosition="0"
+			secondPositionLevel="69" />
+		<Class name="Assassin" defaultPosition="1" secondPosition="1" thirdPosition="1" />
+		<Class name="Glaiver" defaultPosition="1" secondPosition="1" thirdPosition="1" />
 	</ClassPosition>
 
-	<!-- Defining the contents of the mail that sends the Valkyon summoning order, rewards received by characters who respond to additional recruitment, dungeon clear bonus rewards, and rewards-->
+	<!-- Defining the contents of the mail that sends the Valkyon summoning order, rewards received
+	by characters who respond to additional recruitment, dungeon clear bonus rewards, and rewards-->
 	<Compensation>
-		<PositionCall addItemTemplateId="" addItemAmount=""/>
-		<PositionCallMail sender="@DungeonMatchingMail:10" title="@DungeonMatchingMail:11" body="@DungeonMatchingMail:12"/>
-		<AddEntry addItemTemplateId="" addItemAmount=""/>
-		<AddEntryMail sender="@DungeonMatchingMail:20" title="@DungeonMatchingMail:21" body="@DungeonMatchingMail:22"/>
-		<!-- In the case of a dungeon clear reward, an item to be displayed on the UI is designated. In reality, the specified item is paid for each Dungeon. !-->
-		<DungeonClear addItemTemplateId="" addItemAmount=""/>
-		<DungeonClearMail sender="@DungeonMatchingMail:30" title="@DungeonMatchingMail:31" body="@DungeonMatchingMail:32"/>
+		<PositionCall addItemTemplateId="" addItemAmount="" />
+		<PositionCallMail sender="@DungeonMatchingMail:10" title="@DungeonMatchingMail:11"
+			body="@DungeonMatchingMail:12" />
+		<AddEntry addItemTemplateId="" addItemAmount="" />
+		<AddEntryMail sender="@DungeonMatchingMail:20" title="@DungeonMatchingMail:21"
+			body="@DungeonMatchingMail:22" />
+		<!-- In the case of a dungeon clear reward, an item to be displayed on the UI is designated.
+		In reality, the specified item is paid for each Dungeon. !-->
+		<DungeonClear addItemTemplateId="" addItemAmount="" />
+		<DungeonClearMail sender="@DungeonMatchingMail:30" title="@DungeonMatchingMail:31"
+			body="@DungeonMatchingMail:32" />
 		<!-- For testing the dungeon support system in the growth section 
 		<SupportMatchingClear addItemTemplateId="96474" addItemAmount="1"/>
-		<SupportMatchingClearMail sender="@DungeonMatchingMail:30" title="@DungeonMatchingMail:31" body="@DungeonMatchingMail:32"/>-->
-		</Compensation>
+		<SupportMatchingClearMail sender="@DungeonMatchingMail:30" title="@DungeonMatchingMail:31"
+		body="@DungeonMatchingMail:32"/>-->
+	</Compensation>
 
-	<!-- Added node for matching status notification function (I removed the Icon setting property because it is set to output the icon specified in the UI according to the value sent by the server) !-->
+	<!-- Added node for matching status notification function (I removed the Icon setting property
+	because it is set to output the icon specified in the UI according to the value sent by the
+	server) !-->
 	<MatchingTimeDisplay standardTime="600" refreshTime="60" checkTime1="20" checkTime2="180" />
-	
-	<!-- Added a node to notify the current matching status information (I removed the Icon setting property because it is set to output the icon specified in the UI according to the value sent by the server) !-->
-	<MatchingStateDisplay refreshTime="10" checkNum1Min="0" checkNum1Max="1" checkNum2Min="2" checkNum2Max="6" checkNum3Min="7" checkNum3Max="14" />  
-		
-	<PartyMatchBonus/>
-	<!--<Bonus countOfRegistration="1" classGroup="defence" abnormalityId="4800"/>
+
+	<!-- Added a node to notify the current matching status information (I removed the Icon setting
+	property because it is set to output the icon specified in the UI according to the value sent by
+	the server) !-->
+	<MatchingStateDisplay refreshTime="10" checkNum1Min="0" checkNum1Max="1" checkNum2Min="2"
+		checkNum2Max="6" checkNum3Min="7" checkNum3Max="14" />
+
+	<PartyMatchBonus />
+	<!--<Bonus
+	countOfRegistration="1" classGroup="defence" abnormalityId="4800"/>
 		<Bonus countOfRegistration="1" classGroup="attack" abnormalityId="4801"/>
 		<Bonus countOfRegistration="1" classGroup="heal" abnormalityId="4802"/>
 		<Bonus countOfRegistration="2" classGroup="defence" abnormalityId="4800"/>
@@ -52,512 +67,651 @@
 		<Bonus countOfRegistration="4" classGroup="heal" abnormalityId="4822"/>
 	</PartyMatchBonus>-->
 
-	<Penalty withdrawalAbnormalitySec="180" withdrawalAbnormalityId="999994"/>
+	<Penalty withdrawalAbnormalitySec="180" withdrawalAbnormalityId="999994" />
 
-	<!-- Forgotten Dungeon Expedition Cooldown (WorldData@SupportMatching was judged to be inappropriate to have in WorldData, so the data was moved)-->  
+	<!-- Forgotten Dungeon Expedition Cooldown (WorldData@SupportMatching was judged to be
+	inappropriate to have in WorldData, so the data was moved)-->
 	<SupportMatchingEnterLimit enterLimitCount="100" enterLimitCountForAccountTrait="100" />
-	
-	<!-- Growth section dungeon support system --> <!-- Deleted when magic craftsman is applied -->
-	<!-- <SupportMatching id="9999" dungeonMinLevel="60" dungeonMaxLevel="70" increaseSupportUserTime="60" maxSupportUser="2">
-		<MatchingDungeon id="9087" name="Bastion of Lok"/>
-		<MatchingDungeon id="9088" name="Sinestral Manor"/>
-		<MatchingDungeon id="9089" name="Cultists' Refuge"/>
-		<MatchingDungeon id="9071" name="Necromancer Tomb"/>
-		<MatchingDungeon id="9072" name="Golden Labyrinth"/> -->
-		<!--<MatchingDungeon id="9093" name="Akasha's Hideout"/> Removed from Dungeon Matching -->
-		<!-- <MatchingDungeon id="9094" name="Saleron's Sky Garden"/> -->
-		<!-- <MatchingDungeon id="9076" name="Labyrinth of Terror"/>
-		<MatchingDungeon id="9073" name="Ebon Tower"/>
-	</SupportMatching> -->
-	
-	<!-- Dungeon ID, dungeon matching min-max level, minimum equipment level, required items (maximum 3 types), completion conditions (maximum 3 types can be specified)!-->
-	<!-- Item level is not only bet when the dungeon difficulty is high, but must be cast in all dungeons. In dungeons with low difficulty, you can hang it down a little more comfortably. -->
-	<!-- Current reward items are doubled (events and tokens are doubled)  !-->
-	<!-- If hide="true" is used, the corresponding dungeon is not visible in the dungeon matching UI (dungeon matching cannot be used). In the dungeon stats information window of the character window, hide="true" dungeon stats are also displayed. -->
 
-<!-- The matchingRoleId="23" in the growth section dungeon is a rule implemented so that dungeon matching is possible without a tank. --> 
-<!-- 20~64 Party Dungeon -->
-	<Dungeon id="9087" name="Bastion of Lok" dungeonLevel="20" dungeonMinLevel="20" dungeonMaxLevel="25" minItemLevel="51" matchingRoleId="32">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="408" itemAmount="1"/>
+	<!-- Growth section dungeon support system --> <!--
+	Deleted when magic craftsman is applied -->
+	<SupportMatching id="9999" dungeonMinLevel="60" dungeonMaxLevel="70"
+		increaseSupportUserTime="60" maxSupportUser="2">
+		<MatchingDungeon id="9087" name="Bastion of Lok" />
+		<MatchingDungeon id="9088" name="Sinestral Manor" />
+		<MatchingDungeon id="9089" name="Cultists' Refuge" />
+		<MatchingDungeon id="9071" name="Necromancer Tomb" />
+		<MatchingDungeon id="9072" name="Golden Labyrinth" />
+		<MatchingDungeon id="9093" name="Akasha's Hideout" />
+		<MatchingDungeon id="9094" name="Saleron's Sky Garden" />
+		<MatchingDungeon id="9076" name="Labyrinth of Terror" />
+		<MatchingDungeon id="9073" name="Ebon Tower" />
+	</SupportMatching>
+
+	<!-- Dungeon ID, dungeon matching min-max level, minimum equipment level, required items
+	(maximum 3 types), completion conditions (maximum 3 types can be specified)!-->
+	<!-- Item level is not only bet when the dungeon difficulty is high, but must be cast in all
+	dungeons. In dungeons with low difficulty, you can hang it down a little more comfortably. -->
+	<!-- Current reward items are doubled (events and tokens are doubled)  !-->
+	<!-- If hide="true" is used, the corresponding dungeon is not visible in the dungeon matching UI
+	(dungeon matching cannot be used). In the dungeon stats information window of the character
+	window, hide="true" dungeon stats are also displayed. -->
+
+	<!-- The matchingRoleId="23" in the growth section dungeon is a rule implemented so that dungeon
+	matching is possible without a tank. -->
+	<!-- 20~64 Party Dungeon -->
+	<Dungeon id="9087" name="Bastion of Lok" dungeonLevel="20" dungeonMinLevel="20"
+		dungeonMaxLevel="25" minItemLevel="51" matchingRoleId="32">
+		<NeedItem id="" />
+		<DungeonClearCompensation itemTemplateId="408" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9088" name="Sinestral Manor" dungeonLevel="26" dungeonMinLevel="26" dungeonMaxLevel="31" minItemLevel="66" matchingRoleId="32">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="408" itemAmount="1"/>
+	<Dungeon id="9088" name="Sinestral Manor" dungeonLevel="26" dungeonMinLevel="26"
+		dungeonMaxLevel="31" minItemLevel="66" matchingRoleId="32">
+		<NeedItem id="" />
+		<DungeonClearCompensation itemTemplateId="408" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9979" name="Saravash's Ascent" dungeonLevel="32" dungeonMinLevel="32" dungeonMaxLevel="36" minItemLevel="77" matchingRoleId="32">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="408" itemAmount="1"/>		
+	<Dungeon id="9979" name="Saravash's Ascent" dungeonLevel="32" dungeonMinLevel="32"
+		dungeonMaxLevel="36" minItemLevel="77" matchingRoleId="32">
+		<NeedItem id="" />
+		<DungeonClearCompensation itemTemplateId="408" itemAmount="1" />
 		<ClearCondition huntingZoneId="979" templateId="47954" amount="1" killCount="1" />
 	</Dungeon>
-	<Dungeon id="9089" name="Cultists' Refuge" dungeonLevel="35" dungeonMinLevel="35" dungeonMaxLevel="42" minItemLevel="96" matchingRoleId="32">
+	<Dungeon id="9089" name="Cultists' Refuge" dungeonLevel="35" dungeonMinLevel="35"
+		dungeonMaxLevel="42" minItemLevel="96" matchingRoleId="32">
 		<!-- Required items are removed because they are no longer required -->
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="409" itemAmount="1"/>
+		<NeedItem id="" />
+		<DungeonClearCompensation itemTemplateId="409" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9071" name="Necromancer Tomb" dungeonLevel="41" dungeonMinLevel="41" dungeonMaxLevel="47" minItemLevel="118" matchingRoleId="32">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="409" itemAmount="1"/>
+	<Dungeon id="9071" name="Necromancer Tomb" dungeonLevel="41" dungeonMinLevel="41"
+		dungeonMaxLevel="47" minItemLevel="118" matchingRoleId="32">
+		<NeedItem id="" />
+		<DungeonClearCompensation itemTemplateId="409" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9072" name="Golden Labyrinth" dungeonLevel="48" dungeonMinLevel="48" dungeonMaxLevel="53" minItemLevel="146" matchingRoleId="32">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="410" itemAmount="1"/>
+	<Dungeon id="9072" name="Golden Labyrinth" dungeonLevel="48" dungeonMinLevel="48"
+		dungeonMaxLevel="53" minItemLevel="146" matchingRoleId="32">
+		<NeedItem id="" />
+		<DungeonClearCompensation itemTemplateId="410" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9093" name="Akasha's Hideout" dungeonLevel="48" dungeonMinLevel="48" dungeonMaxLevel="54" minItemLevel="146" matchingRoleId="23">
-		<NeedItem id="103"/>
-		<DungeonClearCompensation itemTemplateId="410" itemAmount="1"/>
+	<Dungeon id="9093" name="Akasha's Hideout" dungeonLevel="48" dungeonMinLevel="48"
+		dungeonMaxLevel="54" minItemLevel="146" matchingRoleId="23">
+		<NeedItem id="103" />
+		<DungeonClearCompensation itemTemplateId="410" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9094" name="Saleron's Sky Garden" dungeonLevel="53" dungeonMinLevel="53" dungeonMaxLevel="57" minItemLevel="166" matchingRoleId="32">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="410" itemAmount="1"/>
+	<Dungeon id="9094" name="Saleron's Sky Garden" dungeonLevel="53" dungeonMinLevel="53"
+		dungeonMaxLevel="57" minItemLevel="166" matchingRoleId="32">
+		<NeedItem id="" />
+		<DungeonClearCompensation itemTemplateId="410" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9076" name="Labyrinth of Terror" dungeonLevel="56" dungeonMinLevel="56" dungeonMaxLevel="58" minItemLevel="200" matchingRoleId="32">
-		<NeedItem id="5126"/>
+	<Dungeon id="9076" name="Labyrinth of Terror" dungeonLevel="56" dungeonMinLevel="56"
+		dungeonMaxLevel="58" minItemLevel="200" matchingRoleId="32">
+		<NeedItem id="5126" />
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+	</Dungeon>
+	<Dungeon id="9073" name="Ebon Tower" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="64"
+		minItemLevel="200" matchingRoleId="32">
+		<NeedItem id="" />
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+	</Dungeon>
+	<Dungeon id="9075" name="Kelsaik's Nest" dungeonLevel="58" dungeonMinLevel="58"
+		dungeonMaxLevel="64" minItemLevel="200" matchingRoleId="23">
+		<NeedItem id="5123" />
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+	</Dungeon>
+	<Dungeon id="9025" name="Balder's Temple" dungeonLevel="60" dungeonMinLevel="60"
+		dungeonMaxLevel="70" minItemLevel="242" matchingRoleId="23">
+		<NeedItem id="45323" />
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="2" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
+	</Dungeon>
+	<Dungeon id="9026" name="Argon Corpus" dungeonLevel="60" dungeonMinLevel="60"
+		dungeonMaxLevel="70" minItemLevel="242" matchingRoleId="23">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
+	</Dungeon>
+	<Dungeon id="9727" name="Manaya's Core" dungeonLevel="64" dungeonMinLevel="64"
+		dungeonMaxLevel="70" minItemLevel="309" matchingRoleId="23">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
+	</Dungeon>
+	<!--Solo
+	dungeons (why is this here?) -->
+	<!--Dungeon
+	id="9126" name="Pit of Petrax" dungeonLevel="99" dungeonMinLevel="99" dungeonMaxLevel="99"
+	minItemLevel="999" matchingRoleId="1000" >
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-	</Dungeon>
-	<Dungeon id="9073" name="Ebon Tower" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="64" minItemLevel="200" matchingRoleId="32">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-	</Dungeon>
-	<Dungeon id="9075" name="Kelsaik's Nest" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="64" minItemLevel="200" matchingRoleId="23">
-		<NeedItem id="5123"/>
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-	</Dungeon>
-	<Dungeon id="9025" name="Balder's Temple" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="242" matchingRoleId="23">
-		<NeedItem id="45323"/>
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="2"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9026" name="Argon Corpus" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="242" matchingRoleId="23">
+	<Dungeon id="9713" name="Ghillieglade" dungeonLevel="99" dungeonMinLevel="99" dungeonMaxLevel="99"
+	minItemLevel="999" matchingRoleId="1000" >
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9727" name="Manaya's Core" dungeonLevel="64" dungeonMinLevel="64" dungeonMaxLevel="70" minItemLevel="309" matchingRoleId="23">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
-	</Dungeon>
-	<!--Solo dungeons (why is this here?) -->
-	<!--Dungeon id="9126" name="Pit of Petrax" dungeonLevel="99" dungeonMinLevel="99" dungeonMaxLevel="99" minItemLevel="999" matchingRoleId="1000" >
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
-	</Dungeon>
-	<Dungeon id="9713" name="Ghillieglade" dungeonLevel="99" dungeonMinLevel="99" dungeonMaxLevel="99" minItemLevel="999" matchingRoleId="1000" >
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
-	</Dungeon>
-	<Dungeon id="9714" name="Velik's Sanctuary" dungeonLevel="99" dungeonMinLevel="99" dungeonMaxLevel="99" minItemLevel="999" matchingRoleId="999" >
+	<Dungeon id="9714" name="Velik's Sanctuary" dungeonLevel="99" dungeonMinLevel="99"
+	dungeonMaxLevel="99" minItemLevel="999" matchingRoleId="999" >
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon-->
 	<!-- 65~70 Party Dungeon Patch 100.02 -->
-	<!--Dungeon id="9047" name="Harvest Festival Hall" dungeonLevel="10" dungeonMinLevel="10" dungeonMaxLevel="70" minItemLevel="0" matchingRoleId="32">
+	<!--Dungeon
+	id="9047" name="Harvest Festival Hall" dungeonLevel="10" dungeonMinLevel="10"
+	dungeonMaxLevel="70" minItemLevel="0" matchingRoleId="32">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="2"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon-->
-	<Dungeon id="9809" name="Macellarius Catacombs" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="448" matchingRoleId="11" >
-		<NeedItem id=""/>
+	<Dungeon id="9809" name="Macellarius Catacombs" dungeonLevel="65" dungeonMinLevel="65"
+		dungeonMaxLevel="70" minItemLevel="448" matchingRoleId="11">
+		<NeedItem id="" />
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<!--Dungeon id="9053" name="Kezzel's Gorge (5-Person)" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70" minItemLevel="452" matchingRoleId="17">
+	<!--Dungeon
+	id="9053" name="Kezzel's Gorge (5-Person)" dungeonLevel="68" dungeonMinLevel="68"
+	dungeonMaxLevel="70" minItemLevel="452" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon-->
-	<Dungeon id="9781" name="Velik's Sanctuary" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9781" name="Velik's Sanctuary" dungeonLevel="68" dungeonMinLevel="68"
+		dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9780" name="Velik's Hold (5-Person)" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9780" name="Velik's Hold (5-Person)" dungeonLevel="68" dungeonMinLevel="68"
+		dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9739" name="Red Refuge" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70" minItemLevel="457" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9739" name="Red Refuge" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70"
+		minItemLevel="457" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9735" name="RK-9 Kennel" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70" minItemLevel="457" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9735" name="RK-9 Kennel" dungeonLevel="68" dungeonMinLevel="68"
+		dungeonMaxLevel="70" minItemLevel="457" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9982" name="Grotto of Lost Souls (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9982" name="Grotto of Lost Souls (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9920" name="Antaroth's Abyss (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9920" name="Antaroth's Abyss (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3201" name="Gossamer Vault (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3201" name="Gossamer Vault (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3023" name="Akalath Quarantine" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3023" name="Akalath Quarantine" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9044" name="Bahaar's Sanctum" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9044" name="Bahaar's Sanctum" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3027" name="Forbidden Arena [Hagufna]" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3027" name="Forbidden Arena [Hagufna]" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3026" name="Corrupted Skynest" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3026" name="Corrupted Skynest" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3126" name="Corrupted Skynest (Hard) Entrance" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="484" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3126" name="Corrupted Skynest (Hard) Entrance" dungeonLevel="70"
+		dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="484" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3102" name="Draakon Arena" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3102" name="Draakon Arena" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="463" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3202" name="Draakon Arena (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="484" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3202" name="Draakon Arena (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="484" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3103" name="Forbidden Arena [Undying Warlord]" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3103" name="Forbidden Arena [Undying Warlord]" dungeonLevel="70"
+		dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3203" name="Forbidden Arena [Nightmare Undying Warlord]" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="484" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3203" name="Forbidden Arena [Nightmare Undying Warlord]" dungeonLevel="70"
+		dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="484" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3036" name="Sky Cruiser (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="484" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3036" name="Sky Cruiser (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="484" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="3030" name="Commander’s Residence" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="450" matchingRoleId="33">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="3030" name="Commander’s Residence" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="450" matchingRoleId="33">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
 	<!-- 60~70 Legacy Dungeons -->
 	<!-- DO NOT ENABLE ALL OR THE CLIENT WILL CRASH-->
-	<!--Dungeon id="9066" name="Demon's Wheel" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="446" matchingRoleId="17">
+	<!--Dungeon
+	id="9066" name="Demon's Wheel" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70"
+	minItemLevel="446" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon-->
-	<Dungeon id="9777" name="Channelworks (3-Person)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="412" matchingRoleId="11">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9777" name="Channelworks (3-Person)" dungeonLevel="65" dungeonMinLevel="65"
+		dungeonMaxLevel="70" minItemLevel="412" matchingRoleId="11">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9766" name="Shattered Fleet" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="412" matchingRoleId="17">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	<Dungeon id="9766" name="Shattered Fleet" dungeonLevel="65" dungeonMinLevel="65"
+		dungeonMaxLevel="70" minItemLevel="412" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<!--Dungeon id="9643" name="Wonderholme (10-Person) Lv.65" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="409" matchingRoleId="26">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
-	</Dungeon-->
-	<!--Dungeon id="9050" name="Rift's Edge (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="450" matchingRoleId="15">
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
-	</Dungeon-->
-	 <!--Dungeon id="9750" name="Rift's Edge" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70" minItemLevel="452" matchingRoleId="17">
+	<!--Dungeon
+	id="9643" name="Wonderholme (10-Person) Lv.65" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="409" matchingRoleId="26">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon-->
-	<!--Dungeon id="9810" name="Lakan's Prison" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="159"  matchingRoleId="1">
+	<!--Dungeon
+	id="9050" name="Rift's Edge (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70"
+	minItemLevel="450" matchingRoleId="15">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	</Dungeon-->
+	<!--Dungeon
+	id="9750" name="Rift's Edge" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70"
+	minItemLevel="452" matchingRoleId="17">
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
+		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
+	</Dungeon-->
+	<!--Dungeon
+	id="9810" name="Lakan's Prison" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70"
+	minItemLevel="159"  matchingRoleId="1">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9511" name="The Abscess (7-Person)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="412"  matchingRoleId="28">
+	<Dungeon id="9511" name="The Abscess (7-Person)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="412"  matchingRoleId="28">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9611" name="The Abscess (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="409"  matchingRoleId="17">
+	<Dungeon id="9611" name="The Abscess (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="409"  matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon-->
-	<Dungeon id="9808" name="Sabex Armory" dungeonLevel="61" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="302" matchingRoleId="23" >
-		<NeedItem id=""/>
+	<Dungeon id="9808" name="Sabex Armory" dungeonLevel="61" dungeonMinLevel="60"
+		dungeonMaxLevel="70" minItemLevel="302" matchingRoleId="23">
+		<NeedItem id="" />
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9055" name="Ravenous Gorge (3-Person)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="412" matchingRoleId="11" >
-		<NeedItem id=""/>
+	<Dungeon id="9055" name="Ravenous Gorge (3-Person)" dungeonLevel="65" dungeonMinLevel="65"
+		dungeonMaxLevel="70" minItemLevel="412" matchingRoleId="11">
+		<NeedItem id="" />
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9054" name="Bathysmal Rise (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="17" >
-		<NeedItem id=""/>
+	<Dungeon id="9054" name="Bathysmal Rise (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+		dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="17">
+		<NeedItem id="" />
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9916" name="Sky Cruiser Endeavor (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="417" matchingRoleId="17" >
-		<NeedItem id=""/>
+	<Dungeon id="9916" name="Sky Cruiser Endeavor (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+		dungeonMaxLevel="70" minItemLevel="417" matchingRoleId="17">
+		<NeedItem id="" />
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
 	<!--
-	<Dungeon id="9029" name="Vault of Kaprima" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="410" matchingRoleId="17">
+	<Dungeon id="9029" name="Vault of Kaprima" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="410" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9057" name="Akeron's Inferno (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="26">
+	<Dungeon id="9057" name="Akeron's Inferno (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+	dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="26">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9056" name="Timescape (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="397" matchingRoleId="17">
+	<Dungeon id="9056" name="Timescape (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+	dungeonMaxLevel="70" minItemLevel="397" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9060" name="Kalivan's Dreadnaught (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="17">
+	<Dungeon id="9060" name="Kalivan's Dreadnaught (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-    <Dungeon id="9759" name="Forsaken Island (Hard)" dungeonLevel="66" dungeonMinLevel="66" dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
+    <Dungeon id="9759" name="Forsaken Island (Hard)" dungeonLevel="66" dungeonMinLevel="66"
+	dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
     <DungeonClearCompensation itemTemplateId="150013" itemAmount="1" />
     <DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9067" name="Demokron Factory (Hard)" dungeonLevel="67" dungeonMinLevel="67" dungeonMaxLevel="70" minItemLevel="456" matchingRoleId="29">
+	<Dungeon id="9067" name="Demokron Factory (Hard)" dungeonLevel="67" dungeonMinLevel="67"
+	dungeonMaxLevel="70" minItemLevel="456" matchingRoleId="29">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9068" name="Shadow Sanguinary (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="446" matchingRoleId="17">
+	<Dungeon id="9068" name="Shadow Sanguinary (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="446" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9070" name="Manglemire" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="439" matchingRoleId="17">
+	<Dungeon id="9070" name="Manglemire" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70"
+	minItemLevel="439" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9969" name="Lilith's Keep (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="439" matchingRoleId="17">
+	<Dungeon id="9969" name="Lilith's Keep (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="439" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9970" name="Ruinous Manor (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="451" matchingRoleId="17">
+	<Dungeon id="9970" name="Ruinous Manor (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="451" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9981" name="Velik's Sanctuary (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="450" matchingRoleId="17">
+	<Dungeon id="9981" name="Velik's Sanctuary (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+	dungeonMaxLevel="70" minItemLevel="450" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9710" name="Broken Prison" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="443" matchingRoleId="17">
+	<Dungeon id="9710" name="Broken Prison" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70"
+	minItemLevel="443" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9027" name="Manaya's Core (Hard)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="153">
+	<Dungeon id="9027" name="Manaya's Core (Hard)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="153">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9994" name="Thaumetal Refinery (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="440" matchingRoleId="17">
+	<Dungeon id="9994" name="Thaumetal Refinery (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="440" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9935" name="RK-9 Kennel (Hard)" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
+	<Dungeon id="9935" name="RK-9 Kennel (Hard)" dungeonLevel="70" dungeonMinLevel="70"
+	dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9939" name="Red Refuge (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="448" matchingRoleId="17">
+	<Dungeon id="9939" name="Red Refuge (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="448" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9983" name="Dark Reach Citadel (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="447" matchingRoleId="17">
+	<Dungeon id="9983" name="Dark Reach Citadel (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="447" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
 	-->
 	<!--
-	<Dungeon id="9754" name="Bathysmal Rise" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="417" matchingRoleId="17" >
+	<Dungeon id="9754" name="Bathysmal Rise" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="417" matchingRoleId="17" >
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9716" name="Sky Cruiser Endeavor" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="438" matchingRoleId="17" >
+	<Dungeon id="9716" name="Sky Cruiser Endeavor" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="438" matchingRoleId="17" >
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9757" name="Akeron's Inferno" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="190" matchingRoleId="26">
+	<Dungeon id="9757" name="Akeron's Inferno" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="190" matchingRoleId="26">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="96964" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="96967" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9756" name="Timescape" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="17">
+	<Dungeon id="9756" name="Timescape" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70"
+	minItemLevel="423" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9760" name="Kalivan's Dreadnaught" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="431" matchingRoleId="17">
+	<Dungeon id="9760" name="Kalivan's Dreadnaught" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="431" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9860" name="Kalivan's Challenge" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="412" matchingRoleId="17">
+	<Dungeon id="9860" name="Kalivan's Challenge" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="412" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-    <Dungeon id="9059" name="Forsaken Island" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="438" matchingRoleId="17">
+    <Dungeon id="9059" name="Forsaken Island" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="438" matchingRoleId="17">
 	<DungeonClearCompensation itemTemplateId="150013" itemAmount="1" />
     <DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
     </Dungeon>
-	<Dungeon id="9767" name="Demokron Factory" dungeonLevel="66" dungeonMinLevel="66" dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="29">
+	<Dungeon id="9767" name="Demokron Factory" dungeonLevel="66" dungeonMinLevel="66"
+	dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="29">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9768" name="Shadow Sanguinary" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="437" matchingRoleId="17">
+	<Dungeon id="9768" name="Shadow Sanguinary" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="437" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9769" name="Lilith's Keep" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="431" matchingRoleId="17">
+	<Dungeon id="9769" name="Lilith's Keep" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70"
+	minItemLevel="431" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9811" name="The Abscess (7-Person)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="159"  matchingRoleId="12">
+	<Dungeon id="9811" name="The Abscess (7-Person)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="159"  matchingRoleId="12">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9711" name="The Abscess (Hard)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="175"  matchingRoleId="1">
+	<Dungeon id="9711" name="The Abscess (Hard)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="175"  matchingRoleId="1">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon>
-	<Dungeon id="9043" name="Wonderholme (Hard) (10-Person)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="159" matchingRoleId="13">
+	<Dungeon id="9043" name="Wonderholme (Hard) (10-Person)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="159" matchingRoleId="13">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9743" name="Wonderholme (10-Person)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="171" matchingRoleId="13">
+	<Dungeon id="9743" name="Wonderholme (10-Person)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="171" matchingRoleId="13">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9770" name="Ruinous Manor" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="441" matchingRoleId="17">
+	<Dungeon id="9770" name="Ruinous Manor" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70"
+	minItemLevel="441" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9980" name="Velik's Hold (Hard)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="31">
+	<Dungeon id="9980" name="Velik's Hold (Hard)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="423" matchingRoleId="31">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9794" name="Thaumetal Refinery" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70" minItemLevel="457" matchingRoleId="11">
+	<Dungeon id="9794" name="Thaumetal Refinery" dungeonLevel="68" dungeonMinLevel="68"
+	dungeonMaxLevel="70" minItemLevel="457" matchingRoleId="11">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9720" name="Antaroth's Abyss" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="445" matchingRoleId="17">
+	<Dungeon id="9720" name="Antaroth's Abyss" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="445" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9783" name="Dark Reach Citadel" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="436" matchingRoleId="17">
+	<Dungeon id="9783" name="Dark Reach Citadel" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="436" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="9782" name="Grotto of Lost Souls" dungeonLevel="68" dungeonMinLevel="68" dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
+	<Dungeon id="9782" name="Grotto of Lost Souls" dungeonLevel="68" dungeonMinLevel="68"
+	dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="3018" name="Dark Reach Citadel (7-person)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="444" matchingRoleId="29">
+	<Dungeon id="3018" name="Dark Reach Citadel (7-person)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="444" matchingRoleId="29">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="3019" name="Grotto of Lost Souls (7-person)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="446" matchingRoleId="29">
+	<Dungeon id="3019" name="Grotto of Lost Souls (7-person)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="446" matchingRoleId="29">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="3017" name="Antaroth's Abyss (7-person)" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="447" matchingRoleId="29">
+	<Dungeon id="3017" name="Antaroth's Abyss (7-person)" dungeonLevel="65" dungeonMinLevel="65"
+	dungeonMaxLevel="70" minItemLevel="447" matchingRoleId="29">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="3101" name="Gossamer Vault" dungeonLevel="66" dungeonMinLevel="66" dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
+	<Dungeon id="3101" name="Gossamer Vault" dungeonLevel="66" dungeonMinLevel="66"
+	dungeonMaxLevel="70" minItemLevel="453" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon>
-	<Dungeon id="3034" name="Rampaging RK-9 Kennel" dungeonLevel="70" dungeonMinLevel="70" dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
+	<Dungeon id="3034" name="Rampaging RK-9 Kennel" dungeonLevel="70" dungeonMinLevel="70"
+	dungeonMaxLevel="70" minItemLevel="473" matchingRoleId="17">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon> -->
 
-<!--Removed/Unstested dungeons -->
-	<!--<Dungeon id="9950" name="Harrowhold" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="450" matchingRoleId="30" hide="true"/> -->
-	<!--Dungeon id="9885" name="Dreadspire" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70" minItemLevel="409" matchingRoleId="17" >
+	<!--Removed/Unstested
+	dungeons -->
+	<!--<Dungeon
+	id="9950" name="Harrowhold" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70"
+	minItemLevel="450" matchingRoleId="30" hide="true"/> -->
+	<!--Dungeon
+	id="9885" name="Dreadspire" dungeonLevel="65" dungeonMinLevel="65" dungeonMaxLevel="70"
+	minItemLevel="409" matchingRoleId="17" >
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1" />
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1" />
 	</Dungeon-->
-	<!-- newbieBonusOff "true" If this is the case, the 'Bellik's Abundance Blessing' abnormal state is not visible for the corresponding dungeon, and the 'Butterfly' next to the character is not visible. Same as false if no parameters -->
-	<!-- <Dungeon id="9975" name="Kelsaik's Raid (20-Person)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="153" matchingRoleId="8">
+	<!-- newbieBonusOff "true" If this is the case, the 'Bellik's Abundance Blessing' abnormal state
+	is not visible for the corresponding dungeon, and the 'Butterfly' next to the character is not
+	visible. Same as false if no parameters -->
+	<!-- <Dungeon id="9975" name="Kelsaik's Raid (20-Person)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="153" matchingRoleId="8">
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 	</Dungeon> -->
-	<!-- <Dungeon id="9911" name="Kelsaik's Raid (10-Person)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="147" matchingRoleId="7">
+	<!-- <Dungeon id="9911" name="Kelsaik's Raid (10-Person)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="147" matchingRoleId="7">
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 	</Dungeon> -->
-<!-- T3+ Activates the original Dungeons list that was temporarily removed before the December 1st update version -->
-	<!-- <Dungeon id="9079" name="Saravash's Ascent" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="63" minItemLevel="134">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="356" itemAmount="2"/>
-	</Dungeon> -->
-	<!-- <Dungeon id="9080" name="Sigil Adstringo" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="63" minItemLevel="134">
-		<NeedItem id=""/>
-		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
-		<DungeonClearCompensation itemTemplateId="356" itemAmount="2"/>
-	</Dungeon> -->
-	<!-- <Dungeon id="9082" name="Temple of Temerity" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="63" minItemLevel="124" >
+	<!-- T3+ Activates the original Dungeons list that was temporarily removed before the December
+	1st update version -->
+	<!-- <Dungeon id="9079" name="Saravash's Ascent" dungeonLevel="58" dungeonMinLevel="58"
+	dungeonMaxLevel="63" minItemLevel="134">
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="356" itemAmount="2"/>
 	</Dungeon> -->
-	<!-- <Dungeon id="9773" name="Ebon Tower (Hard)" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="63" minItemLevel="131">
+	<!-- <Dungeon id="9080" name="Sigil Adstringo" dungeonLevel="58" dungeonMinLevel="58"
+	dungeonMaxLevel="63" minItemLevel="134">
+		<NeedItem id=""/>
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
+		<DungeonClearCompensation itemTemplateId="356" itemAmount="2"/>
+	</Dungeon> -->
+	<!-- <Dungeon id="9082" name="Temple of Temerity" dungeonLevel="58" dungeonMinLevel="58"
+	dungeonMaxLevel="63" minItemLevel="124" >
+		<NeedItem id=""/>
+		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
+		<DungeonClearCompensation itemTemplateId="356" itemAmount="2"/>
+	</Dungeon> -->
+	<!-- <Dungeon id="9773" name="Ebon Tower (Hard)" dungeonLevel="58" dungeonMinLevel="58"
+	dungeonMaxLevel="63" minItemLevel="131">
 		<NeedItem id="5127"/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="356" itemAmount="2"/>
 	</Dungeon> -->
-	<!-- <Dungeon id="9775" name="Kelsaik's Nest (Hard)" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="63" minItemLevel="132">
+	<!-- <Dungeon id="9775" name="Kelsaik's Nest (Hard)" dungeonLevel="58" dungeonMinLevel="58"
+	dungeonMaxLevel="63" minItemLevel="132">
 		<NeedItem id="5123"/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="356" itemAmount="2"/>
 	</Dungeon> -->
-	<!-- <Dungeon id="9776" name="Labyrinth of Terror (Hard)" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="63" minItemLevel="131">
+	<!-- <Dungeon id="9776" name="Labyrinth of Terror (Hard)" dungeonLevel="58" dungeonMinLevel="58"
+	dungeonMaxLevel="63" minItemLevel="131">
 		<NeedItem id="5126"/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="356" itemAmount="2"/>
 	</Dungeon> -->
-	<!-- <Dungeon id="9078" name="Suryati's Peak" dungeonLevel="58" dungeonMinLevel="58" dungeonMaxLevel="63" minItemLevel="126">
+	<!-- <Dungeon id="9078" name="Suryati's Peak" dungeonLevel="58" dungeonMinLevel="58"
+	dungeonMaxLevel="63" minItemLevel="126">
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="346" itemAmount="20"/>
 	</Dungeon> -->
-	<!--<Dungeon id="9024" name="Fane of Kaprima" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="138" >
+	<!--<Dungeon
+	id="9024" name="Fane of Kaprima" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70"
+	minItemLevel="138" >
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="2"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 		<ClearCondition huntingZoneId="424" templateId="2000" amount="1" killCount="1" />
 	</Dungeon>-->
-	<!--<Dungeon id="9825" name="Balder's Temple (Solo)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="138"  matchingRoleId="14">
+	<!--<Dungeon
+	id="9825" name="Balder's Temple (Solo)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="138"  matchingRoleId="14">
 		<ClearCondition huntingZoneId="825" templateId="6000" amount="1" killCount="1" />
 	</Dungeon>-->
-	<!--<Dungeon id="9724" name="Fane of Kaprima (Hard))" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="142">
+	<!--<Dungeon
+	id="9724" name="Fane of Kaprima (Hard))" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="142">
 		<NeedItem id=""/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 		<ClearCondition huntingZoneId="724" templateId="2000" amount="1" killCount="1" />
 	</Dungeon>-->
-	<!--<Dungeon id="9725" name="Balder's Temple (Hard)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="142">
+	<!--<Dungeon
+	id="9725" name="Balder's Temple (Hard)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="142">
 		<NeedItem id="45323"/>
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 		<ClearCondition huntingZoneId="725" templateId="8005" amount="1" killCount="1" />
 	</Dungeon>-->
-	<!-- <Dungeon id="9095" name="Crucible of Flame" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="142">
+	<!-- <Dungeon id="9095" name="Crucible of Flame" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="142">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 	</Dungeon> -->
-	<!-- <Dungeon id="9096" name="Sirjuka Gallery" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="147">
+	<!-- <Dungeon id="9096" name="Sirjuka Gallery" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="147">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="" itemAmount=""/>
 	</Dungeon> -->
-	<!-- <Dungeon id="9793" name="Akasha's Hideout (Hard)" dungeonLevel="48" dungeonMinLevel="48" dungeonMaxLevel="56" minItemLevel="110">
+	<!-- <Dungeon id="9793" name="Akasha's Hideout (Hard)" dungeonLevel="48" dungeonMinLevel="48"
+	dungeonMaxLevel="56" minItemLevel="110">
 		<NeedItem id="103"/>
 		<DungeonClearCompensation itemTemplateId="410" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="54" itemAmount="12"/>
 	</Dungeon> -->
-	<!-- <Dungeon id="9726" name="Argon Corpus (Hard)" dungeonLevel="60" dungeonMinLevel="60" dungeonMaxLevel="70" minItemLevel="147">
+	<!-- <Dungeon id="9726" name="Argon Corpus (Hard)" dungeonLevel="60" dungeonMinLevel="60"
+	dungeonMaxLevel="70" minItemLevel="147">
 		<DungeonClearCompensation itemTemplateId="411" itemAmount="1"/>
 		<DungeonClearCompensation itemTemplateId="364" itemAmount="1"/>
 		<ClearCondition huntingZoneId="726" templateId="20000" amount="1" killCount="1" />
 	</Dungeon> -->
-	</DungeonMatching>
+</DungeonMatching>
