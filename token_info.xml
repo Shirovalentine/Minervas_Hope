@@ -54,3 +54,5 @@
 <String id="900000" string="Eternity Token" />
 <String id="900001" string="Materials" />
 <String id="900002" string="Costumes" />
+
+<!-- The item name and tooltip is in StrSheet_Item/StrSheet_Item-00000.xml client side -->
