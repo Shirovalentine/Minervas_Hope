@@ -1,0 +1,56 @@
+<!--
+    The token item id is 900000
+    it has an entry in ItemTemplate.xml server side and ItemData/ItemData-00000.xml client side
+    here we can change the basic item information like sale value etc.
+-->
+
+<!--
+    Next we have an entry in VillagerData/VillagerMenuItem.xml (server side) which ties the item id to a medal id
+    for this I made the medal id the same as the item id.
+-->
+<VillagerMenuItem itemTemplateId="900000" type="MedalStore" id="900000" />
+
+<!--
+    Next we have BuyMenuList.xml (server side), this sets the categories for the token shop.
+    We set the id for <Menu> to our medal id (900000) and each category (<ItemList>) has it's own id.
+    I made the id's increment by 1 from the medal id: 900001, 900002, etc for each category.
+    The stringed option point to a string in StrSheet_Npc (client side) that holds the names of the shop and categories.
+    I will give an example for StrSheet_Npc later in this file.
+-->
+<Menu id="900000" desc="Eternity Token" stringId="900000">
+    <ItemList id="900001" stringed="900001" />
+    <ItemList id="900002" stringed="900002" />
+</Menu>
+
+<!--
+    Next we have BuyList.xml (server side) here we put the items contained in each category.
+    Each <List> will have in id that corresponds to the category id we set in the previous file (900001 for example)
+    and it needs our medal item id too (900000).
+    This example has an item entry for Tier 4 Feedstock, and Masterwork Alkahest.
+    I don't know what priceRevision does but everything has it set to 1 so we will do the same.
+-->
+<List id="900001" desc="Eternity Token (Materials)" NeedMedalItemId="900000"> 	
+    <Item priceRevision="1" itemId="94104" />
+    <Item priceRevision="1" itemId="21351" />
+</List>
+
+<!-- To add a category you simply make an <ItemList> entry within our <Menu> entry in BuyMenuList.xml and a <List> entry in BuyList.xml -->
+
+<!--
+    Next we have ItemMedalExchange.xml (server side) this sets the price of each item.
+    Here we put the item id for one of our items (94104 / Tier 4 feedstock in this example) at a cost of 1 token.
+    and we also put the medal item id (900000).
+    Every item must have an ItemMedalExchange entry or the server will crash.
+-->
+<Exchange itemId="94104" buyPriceMedal="1" medalItemId="900000" />
+
+<!--
+    Lastly we have StrSheet_Npc/StrSheet_Npc-00000.xml
+    This holds the strings for our token shop
+    Here I put the string id's the same as our category id's to keep things simple
+    900000+ is available so I figured why not.
+    When you add a new category make sure to make an entry here with the name of it :)
+-->
+<String id="900000" string="Eternity Token" />
+<String id="900001" string="Materials" />
+<String id="900002" string="Costumes" />

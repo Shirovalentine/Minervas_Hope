@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VillagerMenuItems>
+  <VillagerMenuItem itemTemplateId="259" type="MedalStore" id="259" />
+  <VillagerMenuItem itemTemplateId="561" type="MedalStore" id="143" />
+  <VillagerMenuItem itemTemplateId="91341" type="MedalStore" id="286" />
+  <VillagerMenuItem itemTemplateId="91342" type="MedalStore" id="287" />
+  <VillagerMenuItem itemTemplateId="91343" type="MedalStore" id="288" />
+  <VillagerMenuItem itemTemplateId="91344" type="MedalStore" id="289" />
+  <VillagerMenuItem itemTemplateId="91966" type="MedalStore" id="290" />
+  <VillagerMenuItem itemTemplateId="566" type="MedalStore" id="291" />
+  <!-- 오르피우스의 메달-->
+  <VillagerMenuItem itemTemplateId="92074" type="MedalStore" id="292" />
+  <!-- 외형장비 구매 토큰(성능/외형분리)-->
+  <!--<VillagerMenuItem itemTemplateId="139535" type="MedalStore" id="301"/>-->
+  <!-- 오르피우스 티켓-->
+  <VillagerMenuItem itemTemplateId="95144" type="MedalStore" id="9999001" />
+  <!-- 던전 교관 지원 상점 -->
+  <VillagerMenuItem itemTemplateId="45474" type="MedalStore" id="45474" />
+  <!-- 드래곤 탈것 상점 -->
+  <VillagerMenuItem itemTemplateId="84322" type="MedalStore" id="84322" />
+  <!-- '16 상 서클릿 상점 -->
+  <VillagerMenuItem itemTemplateId="21332" type="MedalStore" id="213320" />
+  <!-- '16 하 서클릿 상점 -->
+  <VillagerMenuItem itemTemplateId="96815" type="MedalStore" id="968150" />
+  <!-- 시공석 상점 -->
+  <VillagerMenuItem itemTemplateId="96816" type="MedalStore" id="968160" />
+  <!-- '15 여름 축제(태양의 축제) 상점 -->
+  <VillagerMenuItem itemTemplateId="96817" type="MedalStore" id="968170" />
+  <!-- '15 여름 축제(피의 축제, 뿔갈이 축제) 상점 -->
+  <VillagerMenuItem itemTemplateId="96818" type="MedalStore" id="144" />
+  <!-- '15 여름 전장토큰 상점 -->
+  <VillagerMenuItem itemTemplateId="19738" type="MedalStore" id="968210" />
+  <!-- '16 여름 축제(피의 축제, 뿔갈이 축제)액세서리 상점-->
+  <VillagerMenuItem itemTemplateId="19739" type="MedalStore" id="968220" />
+  <!-- '16 여름 축제(피의 축제, 뿔갈이 축제)장비 상점-->
+  <VillagerMenuItem itemTemplateId="97312" type="MedalStore" id="973120" />
+  <!-- 원혼석 상점 -->
+  <VillagerMenuItem itemTemplateId="97712" type="MedalStore" id="973130" />
+  <!-- 폭군의 혈석 상점 -->
+  <VillagerMenuItem itemTemplateId="20912" type="MedalStore" id="209120" />
+  <!-- 서큐버스의 마력석 상점 -->
+  <VillagerMenuItem itemTemplateId="20913" type="MedalStore" id="209130" />
+  <!-- (구)하급 아르보레아의 정수 상점 -->
+  <VillagerMenuItem itemTemplateId="20914" type="MedalStore" id="209140" />
+  <!-- (구)중급 아르보레아의 정수 상점 -->
+  <VillagerMenuItem itemTemplateId="20915" type="MedalStore" id="209150" />
+  <!-- (구)상급 아르보레아의 정수 상점 -->
+  <VillagerMenuItem itemTemplateId="21212" type="MedalStore" id="212120" />
+  <!-- 라칸의 지배석 상점 -->
+  <VillagerMenuItem itemTemplateId="21213" type="MedalStore" id="212130" />
+  <!-- 하급 아르보레아의 정수 상점 -->
+  <VillagerMenuItem itemTemplateId="21214" type="MedalStore" id="212140" />
+  <!-- 중급 아르보레아의 정수 상점 -->
+  <VillagerMenuItem itemTemplateId="21215" type="MedalStore" id="212150" />
+  <!-- 상급 아르보레아의 정수 상점 -->
+  <VillagerMenuItem itemTemplateId="98265" type="MedalStore" id="982900" />
+  <!-- '16상 베르고스의 정수 상점 -->
+  <VillagerMenuItem itemTemplateId="21323" type="MedalStore" id="213230" />
+  <!-- '16하 베르고스의 정수 상점 -->
+  <VillagerMenuItem itemTemplateId="59019" type="MedalStore" id="59019" />
+  <!-- 월광무사 문장상점 -->
+  <VillagerMenuItem itemTemplateId="81230" type="MedalStore" id="81230" />
+  <!-- 친구 초대 보상. 친구 65레벨 달성 시 -->
+  <VillagerMenuItem itemTemplateId="201230" type="MedalStore" id="201230" />
+  <!-- 서버시간 [이벤트] 상점 -->
+  <VillagerMenuItem itemTemplateId="6310" type="MedalStore" id="968190" />
+  <!-- 맹수의 비약 교환 상점(독수리)-->
+  <VillagerMenuItem itemTemplateId="6311" type="MedalStore" id="968180" />
+  <!-- 맹수의 비약 교환 상점(사자)-->
+  <VillagerMenuItem itemTemplateId="55672" type="MedalStore" id="968300" />
+  <!-- 던전 소모품 교환 상점 -->
+  <!-- 벨리카 정찰대 고급 문장 교환권 -->
+  <VillagerMenuItem itemTemplateId="97000" type="MedalStore" id="60901" />
+  <VillagerMenuItem itemTemplateId="97001" type="MedalStore" id="60902" />
+  <VillagerMenuItem itemTemplateId="97002" type="MedalStore" id="60903" />
+  <VillagerMenuItem itemTemplateId="97003" type="MedalStore" id="60904" />
+  <VillagerMenuItem itemTemplateId="97004" type="MedalStore" id="60905" />
+  <VillagerMenuItem itemTemplateId="97005" type="MedalStore" id="60906" />
+  <VillagerMenuItem itemTemplateId="97006" type="MedalStore" id="60907" />
+  <VillagerMenuItem itemTemplateId="97007" type="MedalStore" id="60908" />
+  <VillagerMenuItem itemTemplateId="97008" type="MedalStore" id="60909" />
+  <VillagerMenuItem itemTemplateId="55644" type="MedalStore" id="60910" />
+  <VillagerMenuItem itemTemplateId="56052" type="MedalStore" id="60911" />
+  <VillagerMenuItem itemTemplateId="56058" type="MedalStore" id="60912" />
+  <VillagerMenuItem itemTemplateId="20000013" type="FloatingCastlePartsStore" id="20000013" />
+  <!-- 파츠 코인 상점-->
+  <!--아크데바 토벌대 속옷 상점-->
+  <VillagerMenuItem itemTemplateId="201018" type="MedalStore" id="2010180" />
+  <!-- 성장 구간 장비, 고급 문장 교환 토큰 -->
+  <VillagerMenuItem itemTemplateId="98300" type="MedalStore" id="983000" />
+  <VillagerMenuItem itemTemplateId="98301" type="MedalStore" id="983010" />
+  <VillagerMenuItem itemTemplateId="98302" type="MedalStore" id="983020" />
+  <VillagerMenuItem itemTemplateId="98303" type="MedalStore" id="983030" />
+  <VillagerMenuItem itemTemplateId="98304" type="MedalStore" id="983040" />
+  <VillagerMenuItem itemTemplateId="98305" type="MedalStore" id="983050" />
+  <VillagerMenuItem itemTemplateId="98306" type="MedalStore" id="983060" />
+  <VillagerMenuItem itemTemplateId="98307" type="MedalStore" id="983070" />
+  <VillagerMenuItem itemTemplateId="98308" type="MedalStore" id="983080" />
+  <VillagerMenuItem itemTemplateId="98309" type="MedalStore" id="983090" />
+  <VillagerMenuItem itemTemplateId="98310" type="MedalStore" id="983100" />
+  <VillagerMenuItem itemTemplateId="98311" type="MedalStore" id="983110" />
+  <VillagerMenuItem itemTemplateId="98312" type="MedalStore" id="983120" />
+  <VillagerMenuItem itemTemplateId="98313" type="MedalStore" id="983130" />
+  <VillagerMenuItem itemTemplateId="98314" type="MedalStore" id="983140" />
+  <VillagerMenuItem itemTemplateId="98315" type="MedalStore" id="983150" />
+  <VillagerMenuItem itemTemplateId="98316" type="MedalStore" id="983160" />
+  <VillagerMenuItem itemTemplateId="98317" type="MedalStore" id="983170" />
+  <VillagerMenuItem itemTemplateId="98318" type="MedalStore" id="983180" />
+  <VillagerMenuItem itemTemplateId="98414" type="MedalStore" id="984140" />
+  <!-- 재료 교환 토큰 상점 -->
+  <VillagerMenuItem itemTemplateId="98522" type="MedalStore" id="985220" />
+  <VillagerMenuItem itemTemplateId="98523" type="MedalStore" id="985230" />
+  <VillagerMenuItem itemTemplateId="98549" type="MedalStore" id="985490" />
+  <VillagerMenuItem itemTemplateId="98550" type="MedalStore" id="985500" />
+  <!-- 구 제작 첨가제 -->
+  <VillagerMenuItem itemTemplateId="5291" type="MedalStore" id="52910" />
+  <!-- 격전의 쿠폰 -->
+  <VillagerMenuItem itemTemplateId="98595" type="MedalStore" id="985950" />
+  <!-- 격전의 메달 -->
+  <VillagerMenuItem itemTemplateId="98597" type="MedalStore" id="985970" />
+  <!-- 리더보드 전장 순위 보상 토큰 -->
+  <VillagerMenuItem itemTemplateId="98649" type="MedalStore" id="986490" />
+  <!-- 투사의 훈장 -->
+  <VillagerMenuItem itemTemplateId="98650" type="MedalStore" id="986500" />
+  <!-- 시작의 가면 교환권 -->
+  <VillagerMenuItem itemTemplateId="98651" type="MedalStore" id="986510" />
+  <!-- 시작의 가면 교환권 -->
+  <!-- 비행사의 증표 -->
+  <VillagerMenuItem itemTemplateId="99977" type="MedalStore" id="999770" />
+  <!--[이벤트] 승리자의 증표-->
+  <VillagerMenuItem itemTemplateId="98652" type="MedalStore" id="986520" />
+  <!--[이벤트] 영웅의 증표-->
+  <VillagerMenuItem itemTemplateId="98663" type="MedalStore" id="986630" />
+  <VillagerMenuItem itemTemplateId="204005" type="MedalStore" id="2040050" />
+  <!-- 거대 몬스터 토벌대의 증표 -->
+  <VillagerMenuItem itemTemplateId="204022" type="MedalStore" id="2040220" />
+  <!-- 2018 장비 레벨 달성 이벤트 희귀 속옷 교환권 -->
+  <!-- 18 여름 가면 교환권-->
+  <VillagerMenuItem itemTemplateId="88788" type="MedalStore" id="887880" />
+  <!-- 시작의 가면 교환권 -->
+  <VillagerMenuItem itemTemplateId="88789" type="MedalStore" id="887890" />
+  <!-- 무한의 가면 교환권 -->
+  <VillagerMenuItem itemTemplateId="88790" type="MedalStore" id="887900" />
+  <!-- 초월의 가면 교환권 -->
+  <VillagerMenuItem itemTemplateId="202141" type="MedalStore" id="2021410" />
+  <!-- 숙련된 전사의 증표 -->
+  <!-- 액세서리 증폭제 코인 -->
+  <VillagerMenuItem itemTemplateId="88837" type="MedalStore" id="888370" />
+  <!-- 바하르의 증폭제 코인 -->
+  <VillagerMenuItem itemTemplateId="88840" type="MedalStore" id="888400" />
+  <!-- 각인서 가루 -->
+  <VillagerMenuItem itemTemplateId="206300" type="MedalStore" id="2063000" />
+  <!-- 폭염의 가루 I -->
+  <VillagerMenuItem itemTemplateId="206301" type="MedalStore" id="2063010" />
+  <!-- 폭염의 가루 II -->
+  <VillagerMenuItem itemTemplateId="206302" type="MedalStore" id="2063020" />
+  <!-- 폭염의 가루 III -->
+  <VillagerMenuItem itemTemplateId="206303" type="MedalStore" id="2063030" />
+  <!-- 폭염의 가루 IV -->
+  <VillagerMenuItem itemTemplateId="206305" type="MedalStore" id="2063050" />
+  <!-- 심해의 가루 I -->
+  <VillagerMenuItem itemTemplateId="206306" type="MedalStore" id="2063060" />
+  <!-- 심해의 가루 II -->
+  <VillagerMenuItem itemTemplateId="206307" type="MedalStore" id="2063070" />
+  <!-- 심해의 가루 III -->
+  <VillagerMenuItem itemTemplateId="206308" type="MedalStore" id="2063080" />
+  <!-- 심해의 가루 IV -->
+  <VillagerMenuItem itemTemplateId="206310" type="MedalStore" id="2063100" />
+  <!-- 대지의 가루 I -->
+  <VillagerMenuItem itemTemplateId="206311" type="MedalStore" id="2063110" />
+  <!-- 대지의 가루 II -->
+  <VillagerMenuItem itemTemplateId="206312" type="MedalStore" id="2063120" />
+  <!-- 대지의 가루 III -->
+  <VillagerMenuItem itemTemplateId="206313" type="MedalStore" id="2063130" />
+  <!-- 대지의 가루 IV -->
+  <VillagerMenuItem itemTemplateId="206315" type="MedalStore" id="2063150" />
+  <!-- 폭풍의 가루 I -->
+  <VillagerMenuItem itemTemplateId="206316" type="MedalStore" id="2063160" />
+  <!-- 폭풍의 가루 II -->
+  <VillagerMenuItem itemTemplateId="206317" type="MedalStore" id="2063170" />
+  <!-- 폭풍의 가루 III -->
+  <VillagerMenuItem itemTemplateId="206318" type="MedalStore" id="2063180" />
+  <!-- 폭풍의 가루 IV -->
+  <!--pvp속옷 투사의 큐브 토큰-->
+  <VillagerMenuItem itemTemplateId="9387" type="MedalStore" id="9387" />
+  <!-- 투사의 큐브 토큰 -->
+  <!--크리스마스 이벤트-->
+  <VillagerMenuItem itemTemplateId="206757" type="MedalStore" id="2012303" />
+  <VillagerMenuItem itemTemplateId="206758" type="MedalStore" id="2012304" />
+  <VillagerMenuItem itemTemplateId="206854" type="MedalStore" id="2068540" />
+  <!-- 세계의 결정 -->
+  <VillagerMenuItem itemTemplateId="206916" type="MedalStore" id="2069160" />
+  <!-- 별빛을 담은 조각 -->
+  <VillagerMenuItem itemTemplateId="88997" type="MedalStore" id="889970" />
+  <!-- 녹슨 맹세의 장비 교환권 -->
+  <VillagerMenuItem itemTemplateId="602094" type="MedalStore" id="6020940" />
+  <!-- 시공의 교환권 -->
+  <!--클래식 레벨업 이벤트-->
+  <VillagerMenuItem itemTemplateId="95202" type="MedalStore" id="2069162" />
+  <!-- 클래식 서버 레벨업 이벤트 과거의 증표 -->
+  <VillagerMenuItem itemTemplateId="95204" type="MedalStore" id="2069164" />
+  <!-- 클래식 서버 레벨업 이벤트 아프로테의 장비 교환권 -->
+  <VillagerMenuItem itemTemplateId="95205" type="MedalStore" id="2069169" />
+  <!-- 클래식 서버 레벨업 이벤트 카슈바르의 장비 교환권 -->
+  <VillagerMenuItem itemTemplateId="95210" type="MedalStore" id="952100" />
+  <!-- 클래식 서버 코스튬 교환권（클래식·A）상점 -->
+  <VillagerMenuItem itemTemplateId="95211" type="MedalStore" id="952110" />
+  <!-- 클래식 서버 코스튬 교환권（클래식·B）상점 -->
+  <VillagerMenuItem itemTemplateId="98787" type="MedalStore" id="987100" />
+  <!-- 클래식 서버 코스튬 교환권（클래식·A）상점 -->
+  <VillagerMenuItem itemTemplateId="98788" type="MedalStore" id="987110" />
+  <!-- 클래식 서버 코스튬 교환권（클래식·B）상점 -->
+  <VillagerMenuItem itemTemplateId="98814" type="MedalStore" id="988100" />
+  <!-- TW Classic 엘린 코인 상점 -->
+  <!-- TW 클래식 토큰 -->
+  <VillagerMenuItem itemTemplateId="98831" type="MedalStore" id="988300" />
+  <!-- 과거의 증표 -->
+  <VillagerMenuItem itemTemplateId="98833" type="MedalStore" id="988310" />
+  <!-- 아프로테의 장비 교환권 -->
+  <VillagerMenuItem itemTemplateId="98834" type="MedalStore" id="988320" />
+  <!-- 카슈바르의 장비 교환권 -->
+  <!--배그 콜라보 이벤트-->
+  <VillagerMenuItem itemTemplateId="206769" type="MedalStore" id="206769" />
+  <!-- 가챠상자 토큰-->
+  <!--외형 분해 토큰 상점-->
+  <VillagerMenuItem itemTemplateId="202451" type="MedalStore" id="2024510" />
+  <!-- 일반코인 -->
+  <VillagerMenuItem itemTemplateId="202452" type="MedalStore" id="2024520" />
+  <!-- 고급코인 2024520-->
+  <!--부활절 교환 토큰 달걀 상점-->
+  <VillagerMenuItem itemTemplateId="92128" type="MedalStore" id="2024530" />
+  <!-- 붉은 달걀 -->
+  <VillagerMenuItem itemTemplateId="92130" type="MedalStore" id="2024540" />
+  <!-- 파스하 상점 -->
+  <!--환영(몽환)이벤트 상점-->
+  <VillagerMenuItem itemTemplateId="204250" type="MedalStore" id="2024550" />
+  <!-- 몽환의 주화 상점 -->
+  <VillagerMenuItem itemTemplateId="204249" type="MedalStore" id="2024560" />
+  <!-- 몽환의 판금 상점 -->
+  <!--데모로스 이벤트 토큰 상점-->
+  <VillagerMenuItem itemTemplateId="201037" type="MedalStore" id="201037" />
+  <!-- 광명 액세 재료 상점 -->
+  <VillagerMenuItem itemTemplateId="201038" type="MedalStore" id="201038" />
+  <!-- 액세서리 증폭제 II 상점 -->
+  <!--2019 여름축제-->
+  <VillagerMenuItem itemTemplateId="201041" type="MedalStore" id="201041" />
+  <!-- 서버시간 -->
+  <!--2019 가을 축제-->
+  <VillagerMenuItem itemTemplateId="201255" type="MedalStore" id="201255" />
+  <!-- 서버시간 -->
+  <!-- Live82 해외전국가 성장부스팅 상품 -->
+  <VillagerMenuItem itemTemplateId="202678" type="MedalStore" id="202678" />
+  <!-- 성장의 증표 상점-->
+  <VillagerMenuItem itemTemplateId="209091" type="MedalStore" id="2090910" />
+  <!-- 마흐나크의 턱뼈 상점-->
+  <VillagerMenuItem itemTemplateId="209102" type="MedalStore" id="2091020" />
+  <!-- 로열 파르프의 날개가루 상점-->
+  <VillagerMenuItem itemTemplateId="207209" type="MedalStore" id="2072090" />
+  <!--83 Event Dungeon-->
+  <VillagerMenuItem itemTemplateId="209117" type="MedalStore" id="2091170" />
+  <!-- 아비온의 드라니움 조각 상점-->
+  <VillagerMenuItem itemTemplateId="209122" type="MedalStore" id="2091220" />
+  <!-- 아젠반트의 장식 조각 상점-->
+  <VillagerMenuItem itemTemplateId="209123" type="MedalStore" id="2091230" />
+  <!-- 엑소도르 허리띠 토큰 상점-->
+  <VillagerMenuItem itemTemplateId="209124" type="MedalStore" id="2091240" />
+  <!-- 엑소도르 가면 토큰 상점-->
+  <VillagerMenuItem itemTemplateId="209127" type="MedalStore" id="2091270" />
+  <!-- 엑소도르 광명재료 토큰 상점-->
+  <!-- KR_추석 일일접속 이벤트-->
+  <VillagerMenuItem itemTemplateId="207217" type="MedalStore" id="2072170" />
+  <VillagerMenuItem itemTemplateId="201042" type="MedalStore" id="2010420" />
+  <!-- 공용 기린 날탈 경험치 부스팅 이벤트 -->
+  <VillagerMenuItem itemTemplateId="201048" type="MedalStore" id="2010480" />
+  <!-- 공용 아르가프3강 장비 대여 이벤트 -->
+  <VillagerMenuItem itemTemplateId="206969" type="MedalStore" id="206969" />
+  <!-- 광명 재료상점(찬란한 마법 결정)-->
+  <!-- PVP 리더보드용 -->
+  <VillagerMenuItem itemTemplateId="98856" type="MedalStore" id="988560" />
+  <VillagerMenuItem itemTemplateId="98857" type="MedalStore" id="988570" />
+  <!-- 11월 공통 이벤트  -->
+  <VillagerMenuItem itemTemplateId="206787" type="MedalStore" id="207000" />
+  <!-- 각인서 상점 -->
+  <!-- 다크스톤 조각 상점 -->
+  <VillagerMenuItem itemTemplateId="46731" type="MedalStore" id="467310" />
+  <!-- 다크스톤 조각 상점 -->
+  <!-- 바다 수호자의 증표 상점 -->
+  <VillagerMenuItem itemTemplateId="206899" type="MedalStore" id="2068990" />
+  <!-- 바다 수호자의 증표 상점 -->
+  <!-- 길리안 토큰 상점 -->
+  <VillagerMenuItem itemTemplateId="204256" type="MedalStore" id="2042560" />
+  <!-- 거래 불가 전설 장비 토큰 상점 -->
+  <VillagerMenuItem itemTemplateId="89737" type="MedalStore" id="897370" />
+  <!-- 20 PVP 이벤트 낡은 맹세 -->
+  <VillagerMenuItem itemTemplateId="207261" type="MedalStore" id="2072610" />
+  <VillagerMenuItem itemTemplateId="207328" type="MedalStore" id="2073280" />
+  <VillagerMenuItem itemTemplateId="209183" type="MedalStore" id="2091830" />
+  <!-- [이벤트][레어] 각성 타미 등록증 선택권 -->
+  <VillagerMenuItem itemTemplateId="209184" type="MedalStore" id="2091840" />
+  <!-- [이벤트] 각성 타미 등록증 선택권 -->
+  <!-- 각성 퀘스트 문장 교환권 -->
+  <VillagerMenuItem itemTemplateId="89789" type="MedalStore" id="897890" />
+  <!-- 검투사 -->
+  <VillagerMenuItem itemTemplateId="89790" type="MedalStore" id="897900" />
+  <!-- 창기사 -->
+  <VillagerMenuItem itemTemplateId="89791" type="MedalStore" id="897910" />
+  <!-- 무사 -->
+  <VillagerMenuItem itemTemplateId="89792" type="MedalStore" id="897920" />
+  <!-- 광전사 -->
+  <VillagerMenuItem itemTemplateId="89793" type="MedalStore" id="897930" />
+  <!-- 마법사 -->
+  <VillagerMenuItem itemTemplateId="89794" type="MedalStore" id="897940" />
+  <!-- 궁수 -->
+  <VillagerMenuItem itemTemplateId="89795" type="MedalStore" id="897950" />
+  <!-- 사제 -->
+  <VillagerMenuItem itemTemplateId="89796" type="MedalStore" id="897960" />
+  <!-- 정령사 -->
+  <VillagerMenuItem itemTemplateId="89797" type="MedalStore" id="897970" />
+  <!-- 비검사 -->
+  <VillagerMenuItem itemTemplateId="89798" type="MedalStore" id="897980" />
+  <!-- 마공사 -->
+  <VillagerMenuItem itemTemplateId="89799" type="MedalStore" id="897990" />
+  <!-- 권술사 -->
+  <VillagerMenuItem itemTemplateId="89800" type="MedalStore" id="898000" />
+  <!-- 인술사 -->
+  <VillagerMenuItem itemTemplateId="89801" type="MedalStore" id="898010" />
+  <!-- 월광무사 -->
+  <!-- 던전 재배치용 대박 아이템 교환상점 -->
+  <VillagerMenuItem itemTemplateId="206961" type="MedalStore" id="2069610" />
+  <!-- 던전 재배치용 낡맹 장비 토큰 -->
+  <VillagerMenuItem itemTemplateId="206975" type="MedalStore" id="2069750" />
+  <!-- 제작 합성 장비 토큰 -->
+  <VillagerMenuItem itemTemplateId="207444" type="MedalStore" id="2074440" />
+  <!-- 제작 합성 장비 토큰 -->
+  <VillagerMenuItem itemTemplateId="207445" type="MedalStore" id="2074450" />
+  <!-- 만우절 장비 대여 토큰 -->
+  <VillagerMenuItem itemTemplateId="207475" type="MedalStore" id="2074750" />
+  <VillagerMenuItem itemTemplateId="207476" type="MedalStore" id="2074760" />
+  <VillagerMenuItem itemTemplateId="207477" type="MedalStore" id="2074770" />
+  <!-- GLB 93 공용 이벤트 토큰 -->
+  <VillagerMenuItem itemTemplateId="207581" type="MedalStore" id="2075810" />
+  <VillagerMenuItem itemTemplateId="207582" type="MedalStore" id="2075820" />
+  <VillagerMenuItem itemTemplateId="207584" type="MedalStore" id="2075840" />
+  <VillagerMenuItem itemTemplateId="207587" type="MedalStore" id="2075870" />
+  <!-- KR95 배틀패스 -->
+  <VillagerMenuItem itemTemplateId="89816" type="MedalStore" id="898160" />
+  <VillagerMenuItem itemTemplateId="89817" type="MedalStore" id="898170" />
+  <VillagerMenuItem itemTemplateId="89850" type="MedalStore" id="898500" />
+  <VillagerMenuItem itemTemplateId="89815" type="MedalStore" id="898150" />
+  <!-- 희귀 유물/성물 1,2단계 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="21356" type="MedalStore" id="213560" />
+  <VillagerMenuItem itemTemplateId="21357" type="MedalStore" id="213570" />
+  <VillagerMenuItem itemTemplateId="21358" type="MedalStore" id="213580" />
+  <VillagerMenuItem itemTemplateId="21359" type="MedalStore" id="213590" />
+  <VillagerMenuItem itemTemplateId="21360" type="MedalStore" id="213600" />
+  <VillagerMenuItem itemTemplateId="21361" type="MedalStore" id="213610" />
+  <VillagerMenuItem itemTemplateId="21362" type="MedalStore" id="213620" />
+  <VillagerMenuItem itemTemplateId="21363" type="MedalStore" id="213630" />
+  <!-- 아르보레아의 숨결 시즌 2 -->
+  <VillagerMenuItem itemTemplateId="206977" type="MedalStore" id="2069770" />
+  <!-- 레이나의 카드 도감(하) -->
+  <VillagerMenuItem itemTemplateId="206980" type="MedalStore" id="2069800" />
+  <!-- 레이나의 카드 도감(상) -->
+  <VillagerMenuItem itemTemplateId="206981" type="MedalStore" id="20698100" />
+  <!-- 불멸의 투사 의상 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="207662" type="MedalStore" id="20766200" />
+  <!-- 태양의 돌 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89965" type="MedalStore" id="8996500" />
+  <!-- 용암의 돌 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89966" type="MedalStore" id="8996600" />
+  <!-- 빙하의 돌 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89967" type="MedalStore" id="8996700" />
+  <!-- 냉기의 돌 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89968" type="MedalStore" id="8996800" />
+  <!-- 번개의 돌(반지) 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89969" type="MedalStore" id="8996900" />
+  <!-- 번개의 돌(귀걸이) 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89970" type="MedalStore" id="8997000" />
+  <!-- 번개의 돌(목걸이) 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89971" type="MedalStore" id="8997100" />
+  <!-- 번개의 돌(허리띠) 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89972" type="MedalStore" id="8997200" />
+  <!-- 번개의 돌(브로치) 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89973" type="MedalStore" id="8997300" />
+  <!-- KR98.01 옵션 변환 승급권 상품 -->
+  <VillagerMenuItem itemTemplateId="205674" type="MedalStore" id="2056740" />
+  <!-- 정제된 드라니움 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89985" type="MedalStore" id="899850" />
+  <!-- 향상된 드라니움 교환 상점 -->
+  <VillagerMenuItem itemTemplateId="89986" type="MedalStore" id="899860" />
+  <!-- 채집도구 개선 -->
+  <VillagerMenuItem itemTemplateId="208062" type="MedalStore" id="899870" />
+  <VillagerMenuItem itemTemplateId="208063" type="MedalStore" id="899880" />
+  <VillagerMenuItem itemTemplateId="208064" type="MedalStore" id="899890" />
+
+  <!-- Eternity Token -->
+  <VillagerMenuItem itemTemplateId="900000" type="MedalStore" id="900000" />
+</VillagerMenuItems>

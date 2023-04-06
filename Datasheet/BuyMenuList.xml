@@ -1,0 +1,1646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MenuList>
+	<Menu id="43" desc="영주 정치 상점" stringId="43">
+		<ItemList id="9999" stringed="9999" />
+	</Menu>
+	<Menu id="100" desc="저렙 크리스탈  상점 !" stringId="100">
+		<ItemList id="1001" stringed="10001" />
+		<ItemList id="1002" stringed="10002" />
+	</Menu>
+	<Menu id="110" desc="고렙 크리스탈  상점 !" stringId="110">
+		<ItemList id="1101" stringed="10001" />
+		<ItemList id="1102" stringed="10002" />
+	</Menu>
+	<Menu id="111" desc="대장장이" stringId="111">
+		<ItemList id="1111" stringed="1111" />
+	</Menu>
+	<!-- 리리 이벤트 -->
+	<Menu id="112" desc="떡국 상점" stringId="112">
+		<ItemList id="1112" stringed="1112" />
+	</Menu>
+	<Menu id="120" desc="길드전 아이템   상점 !" stringId="120">
+		<ItemList id="1201" stringed="1201" />
+	</Menu>
+	<Menu id="130" desc="호문쿨루스 상점!" stringId="130">
+		<ItemList id="1301" stringed="1301" />
+		<ItemList id="1302" stringed="1302" />
+	</Menu>
+	<Menu id="140" desc="동성 무공훈장 상점!" stringId="140">
+		<ItemList id="1404" stringed="1404" />
+		<ItemList id="1401" stringed="1401" />
+		<ItemList id="1402" stringed="1402" />
+		<ItemList id="1403" stringed="1403" />
+	</Menu>
+	<Menu id="141" desc="전장 평판 승리의 인도자 포인트 상점" stringId="141">
+		<ItemList id="1411" stringed="1411" />		
+		<ItemList id="1412" stringed="1412" />		
+		<ItemList id="1413" stringed="1413" />		
+		<ItemList id="1414" stringed="1414" />		
+	</Menu>
+	<Menu id="143" desc="눈싸움 전장 토큰 상점" stringId="143">
+		<ItemList id="1431" stringed="1431" />
+		<ItemList id="1432" stringed="1432" />
+		<ItemList id="1433" stringed="1433" />
+	</Menu>
+	<Menu id="144" desc="15여름전장승리토큰상점" stringId="144">
+		<ItemList id="1441" stringed="1441" />
+		<ItemList id="1442" stringed="1442" />
+		<ItemList id="1443" stringed="1443" />
+	</Menu>
+	<Menu id="151" desc="10-25 토큰 상점!" stringId="151">
+		<ItemList id="1511" stringed="1511" />
+		<ItemList id="1512" stringed="1512" />
+	</Menu>
+	<Menu id="152" desc="26-40 토큰 상점!" stringId="152">
+		<ItemList id="1521" stringed="1521" />
+		<ItemList id="1522" stringed="1522" />
+	</Menu>
+	<Menu id="153" desc="41-50 토큰 상점!" stringId="153">
+		<ItemList id="1531" stringed="1531" />
+		<ItemList id="1532" stringed="1532" />
+	</Menu>
+	<Menu id="154" desc="51-60 토큰 상점!" stringId="154">
+		<ItemList id="1541" stringed="1541" />
+		<ItemList id="1542" stringed="1542" />
+	</Menu>
+	<Menu id="161" desc="탈 것 스킬 북   상점 !" stringId="161">
+		<ItemList id="1611" stringed="1601" />
+	</Menu>
+	<Menu id="170" desc="길드 상점!" stringId="170">
+		<ItemList id="1701" stringed="1701" />
+	</Menu>
+	<Menu id="171" desc="웨딩채플" stringId="171">
+		<ItemList id="1711" stringed="1711" />
+	</Menu>
+	<Menu id="190" desc="제련 도안 상점 !" stringId="190">
+		<ItemList id="1901" stringed="1901" />
+		<ItemList id="1902" stringed="1902" />
+		<ItemList id="1903" stringed="1903" />
+		<ItemList id="1904" stringed="1904" />
+	</Menu>
+	<Menu id="191" desc="가공 도안 상점 !" stringId="191">
+		<ItemList id="1911" stringed="1911" />
+		<ItemList id="1912" stringed="1912" />
+		<ItemList id="1913" stringed="1913" />
+		<ItemList id="1914" stringed="1914" />
+	</Menu>
+	<Menu id="192" desc="각인 도안 상점 !" stringId="192">
+		<ItemList id="1921" stringed="1921" />
+		<ItemList id="1922" stringed="1922" />
+		<ItemList id="1923" stringed="1923" />
+		<ItemList id="1924" stringed="1924" />
+	</Menu>
+	<Menu id="193" desc="연금 도안 상점 !" stringId="193">
+		<ItemList id="1931" stringed="1931" />
+		<ItemList id="1932" stringed="1932" />
+		<ItemList id="1933" stringed="1933" />
+		<ItemList id="1934" stringed="1934" />
+	</Menu>
+	<Menu id="194" desc="숙련도 상점 !" stringId="194">
+		<ItemList id="1935" stringed="1935" />
+		<ItemList id="1936" stringed="1936" />
+	</Menu>
+	<Menu id="210" desc="저렙 방어구 상점!" stringId="210">
+		<ItemList id="2101" stringed="2101" />
+		<ItemList id="2102" stringed="2102" />
+		<ItemList id="2103" stringed="2103" />
+	</Menu>
+	<Menu id="211" desc="저렙 무기 상점!" stringId="211">
+		<ItemList id="2111" stringed="2111" />
+		<ItemList id="2112" stringed="2112" />
+	</Menu>	
+	<Menu id="221" desc="10-25 토큰 금속무기보상 상점!" stringId="221">
+		<ItemList id="2211" stringed="2211" />
+		<ItemList id="2212" stringed="2212" />
+		<ItemList id="2213" stringed="2213" />
+		<ItemList id="2214" stringed="2214" />
+	</Menu>
+	<Menu id="222" desc="26-40 토큰 금속무기보상 상점!" stringId="222">
+		<ItemList id="2221" stringed="2221" />
+		<ItemList id="2222" stringed="2222" />
+		<ItemList id="2223" stringed="2223" />
+		<ItemList id="2224" stringed="2224" />
+	</Menu>
+	<Menu id="223" desc="41-50 토큰 금속무기보상 상점!" stringId="223">
+		<ItemList id="2231" stringed="2231" />
+		<ItemList id="2232" stringed="2232" />
+		<ItemList id="2233" stringed="2233" />
+		<ItemList id="2234" stringed="2234" />
+	</Menu>
+	<Menu id="224" desc="51-60 토큰 금속무기보상 상점!" stringId="224">
+		<ItemList id="2231" stringed="2231" />
+		<ItemList id="2232" stringed="2232" />
+		<ItemList id="2233" stringed="2233" />
+		<ItemList id="2234" stringed="2234" />
+	</Menu>
+	<Menu id="231" desc="10-25 토큰 마법무기보상 상점!" stringId="231">
+		<ItemList id="2311" stringed="2311" />
+		<ItemList id="2312" stringed="2312" />
+		<ItemList id="2313" stringed="2313" />
+		<ItemList id="2314" stringed="2314" />
+	</Menu>
+	<Menu id="232" desc="26-40 토큰 마법무기보상 상점!" stringId="232">
+		<ItemList id="2321" stringed="2321" />
+		<ItemList id="2322" stringed="2322" />
+		<ItemList id="2323" stringed="2323" />
+		<ItemList id="2324" stringed="2324" />
+	</Menu>
+	<Menu id="233" desc="41-50 토큰 마법무기보상 상점!" stringId="233">
+		<ItemList id="2331" stringed="2331" />
+		<ItemList id="2332" stringed="2332" />
+		<ItemList id="2333" stringed="2333" />
+		<ItemList id="2334" stringed="2334" />
+	</Menu>
+	<Menu id="234" desc="51-60 토큰 마법무기보상 상점!" stringId="234">
+		<ItemList id="2341" stringed="2341" />
+		<ItemList id="2342" stringed="2342" />
+		<ItemList id="2343" stringed="2343" />
+		<ItemList id="2344" stringed="2344" />
+	</Menu>
+	<Menu id="240" desc="염색 아이템 판매 상인!" stringId="240">
+		<ItemList id="2401" stringed="2401" />
+		<ItemList id="2402" stringed="2402" />
+	</Menu>
+	<Menu id="250" desc="명품관!" stringId="250">
+		<ItemList id="2501" stringed="2501" />
+		<ItemList id="2505" stringed="2505" />		
+		<ItemList id="1936" stringed="1936" />		
+	</Menu>
+	<Menu id="251" desc="전장 승부사 상점" stringId="251">		
+		<ItemList id="2511" stringed="2511" />
+	</Menu>
+	<Menu id="252" desc="명품관!(공중섬)" stringId="250">
+		<ItemList id="2501" stringed="2501" />
+		<ItemList id="2506" stringed="2505" />		
+	</Menu>
+	<Menu id="259" desc="소환 몬스터 토벌 증표 상점" stringId="2590">
+		<ItemList id="2591" stringed="2591" />
+	</Menu>	
+
+	<Menu id="270" desc="인던 코인: 역병의 정수!" stringId="270">
+		<ItemList id="2701" stringed="2601" />
+		<ItemList id="2702" stringed="2602" />
+		<ItemList id="2703" stringed="2603" />
+		<ItemList id="2704" stringed="2604" />
+	</Menu>
+	<Menu id="271" desc="인던 코인: 시련의 구슬!" stringId="271">
+		<ItemList id="2711" stringed="2601" />
+		<ItemList id="2712" stringed="2602" />
+		<ItemList id="2713" stringed="2603" />
+		<ItemList id="2714" stringed="2604" />
+	</Menu>
+	<Menu id="272" desc="인던 코인: 사념의 구슬!" stringId="272">
+		<ItemList id="2721" stringed="2721" />
+	</Menu>
+	<Menu id="273" desc="인던 코인: 사념의 구슬!" stringId="273">
+		<ItemList id="2731" stringed="2731" />
+	</Menu>
+	<Menu id="274" desc="이벤트 아이템: 포타의 선물 교환!" stringId="274">
+		<ItemList id="2741" stringed="2741" />
+	</Menu>
+	<Menu id="275" desc="수행의 구슬" stringId="275">
+		<ItemList id="2751" stringed="2751" />
+	</Menu>
+	<Menu id="276" desc="T4.1 하급 목표 방어구 토큰 : 조각난 샨드라의 파편 교환" stringId="276">
+		<ItemList id="2761" stringed="2602" />
+		<ItemList id="2762" stringed="2603" />
+		<ItemList id="2763" stringed="2604" />
+	</Menu>
+	<Menu id="277" desc="T4.1 상급 목표 방어구 토큰 : 완전한 샨드라의 파편 교환" stringId="277">
+		<ItemList id="2771" stringed="2602" />
+		<ItemList id="2772" stringed="2603" />
+		<ItemList id="2773" stringed="2604" />
+	</Menu>
+	<Menu id="280" desc="루룬팡의 선물 교환!" stringId="280">
+		<ItemList id="2801" stringed="2801" />
+	</Menu>
+	<Menu id="281" desc="요키의 선물 교환!" stringId="281">
+		<ItemList id="2811" stringed="2811" />
+	</Menu>
+	<Menu id="282" desc="샤나의 선물 교환!" stringId="282">
+		<ItemList id="2821" stringed="2821" />
+	</Menu>
+	<Menu id="283" desc="네피르의 선물 교환!" stringId="283">
+		<ItemList id="2831" stringed="2831" />
+	</Menu>
+	<Menu id="286" desc="럭셔리 의상 교환!" stringId="286" startPreview="True" guideStringId="2864">
+		<ItemList id="2861" stringed="2861" />
+		<ItemList id="2862" stringed="2862" />
+		<ItemList id="2863" stringed="2863" />
+	</Menu>
+	<Menu id="287" desc="엘레강스 의상 교환!" stringId="287" startPreview="True" guideStringId="2874">
+		<ItemList id="2871" stringed="2871" />
+		<ItemList id="2872" stringed="2872" />
+		<ItemList id="2873" stringed="2873" />
+	</Menu>
+	<Menu id="288" desc="스타일리쉬 의상 교환!" stringId="288" startPreview="True" guideStringId="2884">
+		<ItemList id="2880" stringed="2880" />
+		<ItemList id="2881" stringed="2881" />
+		<ItemList id="2882" stringed="2882" />
+		<ItemList id="2883" stringed="2883" />
+	</Menu>
+	<Menu id="289" desc="판타스틱 의상 교환!" stringId="289" startPreview="True" guideStringId="2894">
+		<ItemList id="2890" stringed="2890" />
+		<ItemList id="2891" stringed="2891" />
+		<ItemList id="2892" stringed="2892" />
+		<ItemList id="2893" stringed="2893" />
+	</Menu>
+	<Menu id="290" desc="강화석 교환(제물상점)" stringId="290">
+		<!-- 강화 리파인 전 제물 상점
+		<ItemList id="2901" stringed="2901" />
+		<ItemList id="2902" stringed="2902" />
+		<ItemList id="2903" stringed="2903" />
+		<ItemList id="2904" stringed="2904" />
+		-->
+		<ItemList id="2933" stringed="2919" />
+	</Menu>
+	<Menu id="291" desc="오르피우스의 메달 교환" stringId="291">
+		<ItemList id="2905" stringed="2905" />
+	</Menu>
+	<Menu id="292" desc="메르무슈뭉 패션 교환권" stringId="292" startPreview="True" guideStringId="2864">
+		<ItemList id="29201" stringed="29201" />
+		<ItemList id="29202" stringed="29202" />
+		<ItemList id="29203" stringed="29203" />
+		<ItemList id="29204" stringed="29204" />
+		<ItemList id="29205" stringed="29205" />
+	</Menu>
+	<Menu id="300" desc="만물상인!" stringId="300">
+		<ItemList id="2900" stringed="2900" />
+	</Menu>
+	<!--
+	<Menu id="301" desc="오르피우스의 특별한 상점!" stringId="301" >
+		<ItemList id="2933" stringed="2933" />
+	</Menu>
+	-->
+	<Menu id="310" desc="명품 문장(알까기) 교환상인!" stringId="310">
+		<ItemList id="2910" stringed="2910" />
+	</Menu>
+	<Menu id="311" desc="명품 문장(무사, 검투사, 광전사, 창기사) 교환상인!" stringId="311">
+		<ItemList id="2911" stringed="2911" />
+		<ItemList id="2912" stringed="2912" />
+		<ItemList id="2913" stringed="2913" />
+		<ItemList id="2914" stringed="2914" />
+	</Menu>
+	<Menu id="312" desc="명품 문장(마법사, 궁수, 사제, 정령사) 교환상인!" stringId="312">
+		<ItemList id="2915" stringed="2915" />
+		<ItemList id="2916" stringed="2916" />
+		<ItemList id="2917" stringed="2917" />
+		<ItemList id="2918" stringed="2918" />
+	</Menu>		
+	<Menu id="316" desc="아르곤 특산물 상점(평판 이용)!" stringId="316">
+		<ItemList id="3010" stringed="3010" />
+	</Menu>
+	<Menu id="317" desc="아르곤 포인트 상점(포인트 사용)!" stringId="317">
+		<ItemList id="3014" stringed="3014" />
+	</Menu>
+	<Menu id="318" desc="카노비아 특산물 상점(평판 이용)!" stringId="318">
+		<ItemList id="3015" stringed="3015" />
+	</Menu>
+	<Menu id="319" desc="카노비아 포인트 상점(포인트 사용)!" stringId="319">
+		<ItemList id="3019" stringed="3019" />
+	</Menu>
+	<Menu id="320" desc="아르곤 특산물 상점(평판 이용)!" stringId="320">
+		<ItemList id="3020" stringed="3020" />
+	</Menu>
+	<Menu id="321" desc="아르곤 포인트 상점(포인트 사용)!" stringId="321">
+		<ItemList id="3024" stringed="3024" />
+	</Menu>
+	<Menu id="322" desc="미마스 특산물 상점(평판 이용)!" stringId="322">
+		<ItemList id="3025" stringed="3025" />
+	</Menu>
+	<Menu id="323" desc="미마스 포인트 상점(포인트 사용)!" stringId="323">
+		<ItemList id="3029" stringed="3029" />
+	</Menu>
+	<Menu id="324" desc="벨리카 연합회 포인트 상점(포인트 사용)!" stringId="324">
+		<ItemList id="3031" stringed="3031" />
+	</Menu>
+	<Menu id="325" desc="경계의 탐색자 보급(포인트 사용)!" stringId="325">
+		<ItemList id="3034" stringed="3034" />
+	</Menu>
+	<Menu id="326" desc="경계의 탐색자 장비(교환 장교)!" stringId="326">
+		<ItemList id="3043" stringed="3043" />
+	</Menu>
+	<Menu id="327" desc="벨리카 특산물 상인!" stringId="327">
+		<ItemList id="3038" stringed="3038" />
+	</Menu>
+	<Menu id="328" desc="아르곤 핵 교환 상인!" stringId="328">
+		<ItemList id="3039" stringed="3039" />
+	</Menu>
+	<Menu id="329" desc="뽀송뽀송 수건 교환 상인!" stringId="329">
+		<ItemList id="3040" stringed="3040" />
+	</Menu>
+	<Menu id="330" desc="아르카이의 깃털 교환 상인!" stringId="330">
+		<ItemList id="3041" stringed="3041" />
+	</Menu>
+	<Menu id="331" desc="할로윈 축제 상인" stringId="331">
+		<ItemList id="9149" stringed="331" />
+		<ItemList id="9150" stringed="332" />
+		<ItemList id="9151" stringed="333" />
+	</Menu>
+	<!-- 교환 불가로 변경
+	<Menu id="365" desc="2015 5월 발키온 주간 보너스 이벤트" stringId="365" >
+		<ItemList id="2989" stringed="2989" />
+	</Menu>	-->
+
+	<Menu id="3400" desc="메르무슈뭉의 패션 코인" stringId="3400">
+		<ItemList id="3401" stringed="3401" />
+		<ItemList id="3402" stringed="3402" />
+		<ItemList id="3403" stringed="3403" />
+	</Menu>
+	
+	<Menu id="510" desc="명품 문장(알까기) - 실유카의 은화 교환 상인 !" stringId="510">
+		<ItemList id="2920" stringed="2910" />
+	</Menu>
+	<Menu id="511" desc="명품 문장(무사, 검투사, 광전사, 창기사) - 실유카의 금화 교환 상인!" stringId="511">
+		<ItemList id="2921" stringed="2911" />
+		<ItemList id="2922" stringed="2912" />
+		<ItemList id="2923" stringed="2913" />
+		<ItemList id="2924" stringed="2914" />
+	</Menu>
+	<Menu id="512" desc="명품 문장(마법사, 궁수, 사제, 정령사) - 실유카의 금화 교환상인!" stringId="512">
+		<ItemList id="2925" stringed="2915" />
+		<ItemList id="2926" stringed="2916" />
+		<ItemList id="2927" stringed="2917" />
+		<ItemList id="2928" stringed="2918" />
+	</Menu>
+	<Menu id="513" desc="알레만시아 포인트 상점!" stringId="513">
+		<ItemList id="3046" stringed="3046" />
+	</Menu>
+	<Menu id="514" desc="거친 항구 포인트 상점!" stringId="514">
+		<ItemList id="3049" stringed="3046" />
+	</Menu>
+	<Menu id="515" desc="알레만시아 평판 상점(골드)!" stringId="515">
+		<ItemList id="3052" stringed="3052" />
+	</Menu>
+	<Menu id="600" desc="떠돌이 상인" stringId="600">
+		<ItemList id="80000" stringed="80000" />
+	</Menu>
+	<Menu id="609" desc="발키온 정찰대 랄프" stringId="609">
+		<ItemList id="6091" stringed="6091" />
+		<ItemList id="6092" stringed="6092" />
+		<ItemList id="6093" stringed="6093" />
+		<ItemList id="6094" stringed="6094" />
+	</Menu>
+	<Menu id="610" desc="과제선택형 솔로잉 던전 메달 상점" stringId="61000">
+		<ItemList id="61002" stringed="61002" />
+		<ItemList id="61003" stringed="61003" />
+	</Menu>
+	<Menu id="6090" desc="발키온 정찰대 강화 크리스탈" stringId="6090">
+		<ItemList id="6095" stringed="6095" />
+		<ItemList id="6096" stringed="6096" />
+		<ItemList id="6097" stringed="6097" />
+		<ItemList id="6098" stringed="6098" />
+	</Menu>
+	<Menu id="6110" desc="하급 수호자 평판 포인트 상점" stringId="6110">
+		<ItemList id="61101" stringed="61101" />		
+	</Menu>
+	<Menu id="6111" desc="중급 수호자 평판 포인트 상점" stringId="6111">
+		<ItemList id="61111" stringed="61111" />
+		<ItemList id="61112" stringed="61122" />		
+	</Menu>
+	<Menu id="6112" desc="상급 수호자 평판 포인트 상점" stringId="6112">
+		<ItemList id="61121" stringed="61121" />
+		<ItemList id="61122" stringed="61122" />		
+	</Menu>
+	<Menu id="6113" desc="주머니 가이드 퀘스트 상점" stringId="61130">
+		<ItemList id="61131" stringed="61131" />
+	</Menu>
+	<Menu id="6114" desc="주머니 가이드 퀘스트 상점" stringId="61140">
+		<ItemList id="61141" stringed="61141" />
+	</Menu>
+	<Menu id="6115" desc="아크마 둔칸 상점" stringId="61150">
+		<ItemList id="61151" stringed="61151" />
+	</Menu>
+	<Menu id="9387" desc="투사의 큐브 상점" stringId="9387">
+		<ItemList id="9388" stringed="9388" />
+	</Menu>	
+	<Menu id="16058" desc="잡화 상점 상점: 발데론 !" stringId="16058">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16058" stringed="1604" />
+	</Menu>
+	<Menu id="16059" desc="잡화 상점 상점: 초승달 마을 !" stringId="16059">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16059" stringed="1604" />
+	</Menu>
+	<Menu id="16060" desc="잡화 상점 상점: 벌목꾼 마을 !" stringId="16060">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16060" stringed="1604" />
+	</Menu>
+	<Menu id="16061" desc="잡화 상점 상점: 캐스타니카 !" stringId="16061">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16061" stringed="1604" />
+	</Menu>
+	<Menu id="16062" desc="잡화 상점 상점: 거친항구 !" stringId="16062">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16062" stringed="1604" />
+	</Menu>
+	<Menu id="16063" desc="잡화 상점 상점: 벨리카 !" stringId="16063">
+		<ItemList id="80001" stringed="80001" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16063" stringed="1604" />
+		<ItemList id="1520001" stringed="1520001" />
+	</Menu>
+	<Menu id="16064" desc="잡화 상점 상점: 보급기지 !" stringId="16064">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16064" stringed="1604" />
+	</Menu>
+	<Menu id="16065" desc="잡화 상점 상점: 선인장 마을 !" stringId="16065">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16065" stringed="1604" />
+	</Menu>
+	<Menu id="16066" desc="잡화 상점 상점: 사막의 쉼터 !" stringId="16066">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16066" stringed="1604" />
+	</Menu>
+	<Menu id="16067" desc="잡화 상점 상점: 포폴리온 !" stringId="16067">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16067" stringed="1604" />
+	</Menu>
+	<Menu id="16068" desc="잡화 상점 상점: 포라 엘리누 !" stringId="16068">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16068" stringed="1604" />
+	</Menu>
+	<Menu id="16069" desc="잡화 상점 상점: 트랄리온 !" stringId="16069">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16069" stringed="1604" />
+	</Menu>
+	<Menu id="16070" desc="잡화 상점 상점: 트리아 !" stringId="16070">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16070" stringed="1604" />
+	</Menu>
+	<Menu id="16071" desc="잡화 상점 상점: 아지스 연구소 !" stringId="16071">
+		<ItemList id="80002" stringed="80002" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16071" stringed="1604" />
+	</Menu>
+	<Menu id="16072" desc="잡화 상점 상점: 알레만시아 !" stringId="16072">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16072" stringed="1604" />
+		<ItemList id="1520001" stringed="1520001" />
+	</Menu>
+	<Menu id="16073" desc="잡화 상점 상점: 아카룸 !" stringId="16073">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16073" stringed="1604" />
+	</Menu>
+	<Menu id="16074" desc="잡화 상점 상점: 뉴 엘레논 !" stringId="16074">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16074" stringed="1604" />
+	</Menu>
+	<Menu id="16075" desc="잡화 상점 상점: 개척민 마을 !" stringId="16075">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16075" stringed="1604" />
+	</Menu>
+	<Menu id="16076" desc="잡화 상점 상점: 북방 감시탑 !" stringId="16076">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16076" stringed="1604" />
+	</Menu>
+	<Menu id="16077" desc="잡화 상점 상점: 전선기지 !" stringId="16077">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16077" stringed="1604" />
+	</Menu>
+	<Menu id="16078" desc="잡화 상점 상점: 임시 피난처 !" stringId="16078">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16078" stringed="1604" />
+	</Menu>
+	<Menu id="16079" desc="잡화 상점 상점: 희망의 마을 !" stringId="16079">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16079" stringed="1604" />
+	</Menu>
+	<Menu id="16080" desc="잡화 상점 상점: 드래곤 폴 !" stringId="16080">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16080" stringed="1604" />
+	</Menu>
+	<Menu id="16081" desc="잡화 상점 상점: 정령의 안식처 !" stringId="16081">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16081" stringed="1604" />
+	</Menu>
+	<Menu id="16083" desc="잡화 상점 상점: 콜드락 !" stringId="16083">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16083" stringed="1604" />
+	</Menu>
+	<Menu id="16084" desc="잡화 상점 상점: 카이아도르 !" stringId="16084">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16084" stringed="1604" />
+		<ItemList id="1520001" stringed="1520001" />
+	</Menu>
+	<Menu id="16085" desc="잡화 상점 상점: 다반의 성지 !" stringId="16085">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16085" stringed="1604" />
+	</Menu>
+	<Menu id="16086" desc="출장 잡화상인 - ducklmg !" stringId="16086">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16086" stringed="1604" />
+	</Menu>
+	<Menu id="16087" desc="A대륙 사냥터 내 출장 잡화상인" stringId="16087" taxGroup="1">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16087" stringed="1604" />
+	</Menu>
+	<Menu id="16088" desc="B대륙 사냥터 내 출장 잡화상인" stringId="16087" taxGroup="1">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16088" stringed="1604" />
+	</Menu>
+	<Menu id="16089" desc="C대륙 사냥터 내 출장 잡화상인" stringId="16087" taxGroup="1">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16089" stringed="1604" />
+	</Menu>
+	<Menu id="16090" desc="여명의 정원 사냥터 내 출장 잡화상인" stringId="16087" taxGroup="1">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16090" stringed="1604" />
+	</Menu>
+	<Menu id="16091" desc="잡화 상점 상점: 65 여명의 정원(마을)" stringId="16091" taxGroup="1">
+		<ItemList id="80001" stringed="80001" />
+		<ItemList id="703111" stringed="703111" />
+		<ItemList id="16091" stringed="1604" />
+	</Menu>
+	<Menu id="16092" desc="잡화 상점 상점: 65 여명의 정원(캠프)" stringId="16092" taxGroup="1">
+		<ItemList id="800010" stringed="80001" />
+		<ItemList id="703111" stringed="703111" />
+		<ItemList id="16091" stringed="1604" />
+	</Menu>
+	<Menu id="16093" desc="잡화 상점 상점: 벨리카 이벤트 경기장" stringId="160">
+		<ItemList id="800010" stringed="1201" />
+		<ItemList id="703111" stringed="1602" />
+		<ItemList id="16093" stringed="1604" />
+	</Menu>
+	<Menu id="16094" desc="낚시 잡화 상점" stringId="16092">
+		<ItemList id="1616" stringed="1609" />
+		<ItemList id="1617" stringed="1610" />
+		<ItemList id="1618" stringed="1611" />
+		<ItemList id="1619" stringed="1612" />
+	</Menu>
+	<Menu id="16095" desc="낚시 토큰 상점" stringId="16094">
+		<ItemList id="1612" stringed="1605" />
+		<ItemList id="1613" stringed="1606" />
+		<ItemList id="1614" stringed="1607" />
+		<ItemList id="1615" stringed="1608" />
+	</Menu>
+	<Menu id="16096" desc="공중섬 낚시 잡화 상점" stringId="16092">
+		<ItemList id="1620" stringed="1609" /> <!--떡밥없는잡화리스트-->
+		<ItemList id="1617" stringed="1610" />
+		<ItemList id="1618" stringed="1611" />
+		<ItemList id="1619" stringed="1612" />
+	</Menu>
+	<Menu id="40000" desc="장비!" stringId="40000">
+		<ItemList id="40001" stringed="40001" />
+		<ItemList id="40002" stringed="40002" />
+		<ItemList id="40003" stringed="40003" />
+	</Menu>
+	<Menu id="40004" desc="크리스탈 잡화!" stringId="40004">
+		<ItemList id="40005" stringed="40005" />
+		<ItemList id="40006" stringed="40006" />
+	</Menu>
+	<Menu id="45474" desc="드래곤 획득" stringId="45474">
+		<ItemList id="454740" stringed="45474" />
+	</Menu>
+	<Menu id="50009" desc="스타일옷장_무기" stringId="50009">
+		<ItemList id="500091" stringed="500091" />
+	</Menu>
+	<Menu id="50010" desc="스타일옷장_액세서리" stringId="50010">
+		<ItemList id="500101" stringed="500101" />
+	</Menu>
+	<Menu id="50011" desc="스타일옷장_등슬롯" stringId="50011">
+		<ItemList id="500111" stringed="500111" />
+	</Menu>
+	<Menu id="50012" desc="스타일옷장_의상(엘린,아만,바라카)" stringId="50012">
+		<ItemList id="500121" stringed="500121" />
+		<ItemList id="500122" stringed="500122" />
+		<ItemList id="500123" stringed="500123" />
+		<ItemList id="500124" stringed="500124" />
+	</Menu>
+	<Menu id="50013" desc="스타일옷장_의상(휴먼,하이엘프)" stringId="50013">
+		<ItemList id="500131" stringed="500131" />
+		<ItemList id="500132" stringed="500132" />
+		<ItemList id="500133" stringed="500133" />
+		<ItemList id="500134" stringed="500134" />
+	</Menu>
+	<Menu id="50014" desc="스타일옷장_의상(케스타닉,포포리)" stringId="50014">
+		<ItemList id="500141" stringed="500141" />
+		<ItemList id="500142" stringed="500142" />
+		<ItemList id="500143" stringed="500143" />
+	</Menu>
+	<Menu id="50015" desc="파츠 UI" stringId="50015">
+		<ItemList id="500151" stringed="500151" />
+		<ItemList id="500152" stringed="500152" />
+		<ItemList id="500153" stringed="500153" />
+		<ItemList id="500154" stringed="500154" />
+		<ItemList id="500155" stringed="500155" />
+	</Menu>
+	<Menu id="52910" desc="숙련공 제작 첨가제" stringId="52910">
+		<ItemList id="52911" stringed="52911" />
+		<ItemList id="52912" stringed="52912" />
+		<ItemList id="52913" stringed="52913" />
+		<ItemList id="52914" stringed="52914" />
+	</Menu>
+	<Menu id="59019" desc="[월광무사] 고급 문장 교환권" stringId="59019">
+		<ItemList id="590191" stringed="59019" />
+	</Menu>
+	<Menu id="59901" desc="잡화 상점 상점: 티아라니아 !" stringId="59901">
+		<ItemList id="1601" stringed="1601" />
+		<ItemList id="1602" stringed="1602" />
+	</Menu>
+	<Menu id="60901" desc="[창기사] 고급 문장 교환권" stringId="60901">
+		<ItemList id="609011" stringed="609011" />
+		<ItemList id="609021" stringed="609012" />
+	</Menu>
+	<Menu id="60902" desc="[검투사] 고급 문장 교환권" stringId="60902">
+		<ItemList id="609031" stringed="609011" />
+		<ItemList id="609041" stringed="609012" />
+	</Menu>
+	<Menu id="60903" desc="[무사] 고급 문장 교환권" stringId="60903">
+		<ItemList id="609051" stringed="609011" />
+		<ItemList id="609061" stringed="609012" />
+	</Menu>
+	<Menu id="60904" desc="[광전사] 고급 문장 교환권" stringId="60904">
+		<ItemList id="609071" stringed="609011" />
+		<ItemList id="609081" stringed="609012" />
+	</Menu>
+	<Menu id="60905" desc="[궁수] 고급 문장 교환권" stringId="60905">
+		<ItemList id="609091" stringed="609011" />
+		<ItemList id="609101" stringed="609012" />
+	</Menu>
+	<Menu id="60906" desc="[마법사] 고급 문장 교환권" stringId="60906">
+		<ItemList id="609111" stringed="609011" />
+		<ItemList id="609121" stringed="609012" />
+	</Menu>
+	<Menu id="60907" desc="[사제] 고급 문장 교환권" stringId="60907">
+		<ItemList id="609131" stringed="609011" />
+		<ItemList id="609141" stringed="609012" />
+	</Menu>
+	<Menu id="60908" desc="[정령사] 고급 문장 교환권" stringId="60908">
+		<ItemList id="609151" stringed="609011" />
+		<ItemList id="609161" stringed="609012" />
+	</Menu>
+	<Menu id="60909" desc="[비검사] 고급 문장 교환권" stringId="60909">
+		<ItemList id="609171" stringed="609011" />
+		<ItemList id="609181" stringed="609012" />
+	</Menu>
+	<Menu id="60910" desc="[마공사] 고급 문장 교환권" stringId="60910">
+		<ItemList id="609191" stringed="609011" />
+		<ItemList id="609201" stringed="609012" />
+	</Menu>
+	<Menu id="60911" desc="[권술사] 고급 문장 교환권" stringId="60911">
+		<ItemList id="609211" stringed="609011" />
+		<ItemList id="609221" stringed="609012" />
+	</Menu>
+	<Menu id="60912" desc="[인술사] 고급 문장 교환권" stringId="60912">
+		<ItemList id="609231" stringed="609011" />
+		<ItemList id="609241" stringed="609012" />
+	</Menu>
+	<Menu id="70001" desc="빙수 상인!" stringId="70001">
+		<ItemList id="7001" stringed="70001" />
+	</Menu>
+	<Menu id="70002" desc="장난감 상인!" stringId="70002">
+		<ItemList id="7002" stringed="70002" />
+	</Menu>
+	<Menu id="70003" desc="잡화 상인!" stringId="70003">
+		<ItemList id="7003" stringed="70003" />
+	</Menu>
+	<Menu id="70013" desc="투기장 상인" stringId="70013">
+		<ItemList id="9145" stringed="70013" />
+	</Menu>
+	<Menu id="70014" desc="풍요의 축제 상인" stringId="70014">
+		<ItemList id="9146" stringed="70015" />
+		<ItemList id="9147" stringed="70016" />
+	</Menu>
+	<Menu id="70017" desc="후카피카 축제 상인" stringId="70017">
+		<ItemList id="9148" stringed="70018" />
+	</Menu>
+	<Menu id="70310" stringId="70311" taxGroup="1" desc="잡화 상점 상점: D대륙(이르카)">
+		<ItemList id="80001" stringed="80001" />
+		<ItemList id="703111" stringed="703111" />
+		<!--
+		<ItemList id="703112" stringed="703112" />
+		-->
+		<ItemList id="703113" stringed="703113" />
+		<ItemList id="1520001" stringed="1520001" />
+	</Menu>
+	<Menu id="70311" stringId="70311" taxGroup="1" desc="잡화 상점 상점: D대륙(캠프)">
+		<ItemList id="800010" stringed="80001" />
+		<ItemList id="703111" stringed="703111" />
+		<!--
+		<ItemList id="703112" stringed="703112" />
+		-->
+		<ItemList id="703113" stringed="703113" />
+	</Menu>
+	<Menu id="70319" stringId="70319" taxGroup="1" desc="잡화 상점 상점: 엑소도르(캠프)">
+		<ItemList id="800010" stringed="80001" />
+		<ItemList id="703111" stringed="703111" />
+		<!--
+		<ItemList id="703112" stringed="703112" />
+		-->
+		<ItemList id="703114" stringed="703114" />
+	</Menu>
+	<Menu id="81230" desc="친구 초대 보상. 65레벨 달성 시 토큰" stringId="81230">
+		<ItemList id="812300" stringed="812300" />
+
+	</Menu>
+	<Menu id="84322" desc="16 상 서클릿 토큰 교환 상점" stringId="84322">
+		<ItemList id="843221" stringed="84322" />
+	</Menu>
+	<Menu id="213320" desc="16 하 서클릿 토큰 교환 상점" stringId="213320">
+		<ItemList id="213321" stringed="213320" />
+	</Menu>
+	<Menu id="887880" desc="18 여름 시작의 가면 교환 상점" stringId="887880">
+		<ItemList id="887881" stringed="88788" />
+	</Menu>
+	<Menu id="887890" desc="18 여름 무한의 가면 교환 상점" stringId="887890">
+		<ItemList id="887891" stringed="88789" />
+	</Menu>
+	<Menu id="887900" desc="18 여름 초월의 가면 교환 상점" stringId="887900">
+		<ItemList id="887901" stringed="88790" />
+	</Menu>
+	<Menu id="888370" desc="액세서리 증폭제 코인" stringId="888370">
+		<ItemList id="888371" stringed="888371" />
+		<ItemList id="888372" stringed="888372" />
+	</Menu>
+	<Menu id="888400" desc="바하르의 증폭제 코인" stringId="888400">
+		<ItemList id="888401" stringed="2935" />
+	</Menu>
+	<Menu id="889970" desc="녹슨 맹세의 장비 교환권" stringId="889970">
+		<ItemList id="889971" stringed="1401" />
+		<ItemList id="889972" stringed="1402" />
+	</Menu>
+	<Menu id="897370" desc="거래 불가 신규 전설 장비 토큰" stringId="897370">
+		<ItemList id="897373" stringed="1431" />
+	</Menu>
+	<Menu id="912100" desc="연맹 보급관!" stringId="912100">
+		<ItemList id="9121" stringed="9121" />
+		<ItemList id="9122" stringed="9122" />
+		<ItemList id="9123" stringed="9123" />
+		<ItemList id="9124" stringed="9124" />
+	</Menu>
+	<Menu id="912200" desc="연맹 간부 상점!" stringId="912200">
+		<ItemList id="9125" stringed="9125" />
+	</Menu>
+	<Menu id="912300" desc="연맹 간부 상점!" stringId="912300">
+		<ItemList id="9130" stringed="9130" />
+	</Menu>
+	<Menu id="912400" desc="연맹 간부 상점!" stringId="912400">
+		<ItemList id="9135" stringed="9135" />
+	</Menu>
+	<Menu id="912500" desc="연맹 공헌도 상점!" stringId="912500">
+		<ItemList id="9125001" stringed="9125001" />
+	</Menu>
+	<Menu id="968160" desc="'15 여름 축제_발로나 장비 교환 상점" stringId="968160">
+		<ItemList id="968161" stringed="968161" />
+		<ItemList id="968162" stringed="968162" />
+		<ItemList id="968163" stringed="968163" />
+		<ItemList id="968164" stringed="968164" />
+	</Menu>
+	<Menu id="968170" desc="'15 여름 축제_시공의 액세서리 교환 상점" stringId="968170">
+		<ItemList id="968171" stringed="968171" />
+		<ItemList id="968172" stringed="968172" />
+		<ItemList id="968173" stringed="968173" />
+	</Menu>
+	<Menu id="968200" desc="던전 소모품 판매 상점" stringId="968200">
+		<ItemList id="968201" stringed="968200" />
+	</Menu>
+	<Menu id="968210" desc="'16 여름 축제_시공의 액세서리 교환 상점" stringId="968210">
+		<ItemList id="968211" stringed="968211" />
+		<ItemList id="968212" stringed="968212" />
+		<ItemList id="968213" stringed="968213" />
+		<ItemList id="968214" stringed="968214" />
+	</Menu>
+	<Menu id="968220" desc="'16 여름 축제_베르노 장비 교환 상점" stringId="968220">
+		<ItemList id="968221" stringed="968221" />
+		<ItemList id="968222" stringed="968222" />
+		<ItemList id="968223" stringed="968223" />
+		<ItemList id="968224" stringed="968224" />
+	</Menu>
+	<Menu id="968300" desc="던전 소모품 교환 상점" stringId="968300">
+		<ItemList id="968301" stringed="968300" />
+	</Menu>
+	<Menu id="973120" desc="원혼석_교환 상점" stringId="973120">
+		<ItemList id="973122" stringed="973122" />
+	</Menu>
+	<Menu id="973130" desc="폭군의 혈석_교환 상점" stringId="973130">
+		<ItemList id="973125" stringed="973125" />
+	</Menu>
+	<Menu id="988560" desc="포화의 전장 시즌 1위 트로피" stringId="988560">
+		<ItemList id="988560" stringed="2971" />
+	</Menu>
+	<Menu id="988570" desc="해안점령지 시즌 1위 트로피" stringId="988560">
+		<ItemList id="988570" stringed="2971" />
+	</Menu>
+	<Menu id="201230" desc="[이벤트] 토큰 상점" stringId="201230">
+		<ItemList id="2012301" stringed="201230" />
+	</Menu>
+	<Menu id="2012303" desc="【이벤트】분실물 크리스마스 선물" stringId="2012303" >
+		<ItemList id="2012303" stringed="2012303"/>
+	</Menu>
+	<Menu id="2012304" desc="【이벤트】족장의 답례" stringId="2012304" >
+		<ItemList id="2012304" stringed="2012304"/>
+	</Menu>
+	<Menu id="2012305" desc="【이벤트】빼앗긴 크리스마스 선물" stringId="2012305" >
+		<ItemList id="2012305" stringed="2012305"/>
+	</Menu>
+	<Menu id="209120" desc="서큐버스의 마법석_교환 상점" stringId="209120">
+		<ItemList id="209122" stringed="209122" />
+	</Menu>
+	<Menu id="209130" desc="(구)하급 아르보레아의 정수 상점" stringId="209130">
+		<ItemList id="209131" stringed="209131" />
+		<ItemList id="209132" stringed="209132" />
+		<ItemList id="209133" stringed="209133" />
+		<ItemList id="209134" stringed="209134" />
+	</Menu>
+	<Menu id="209140" desc="(구)중급 아르보레아의 정수 상점" stringId="209140">
+		<ItemList id="209141" stringed="209141" />
+		<ItemList id="209142" stringed="209142" />
+		<ItemList id="209143" stringed="209143" />
+		<ItemList id="209144" stringed="209144" />
+	</Menu>
+	<Menu id="209150" desc="(구)상급 아르보레아의 정수 상점" stringId="209150">
+		<ItemList id="209151" stringed="209151" />
+		<ItemList id="209152" stringed="209152" />
+		<ItemList id="209153" stringed="209153" />
+		<ItemList id="209154" stringed="209154" />
+	</Menu>
+	<Menu id="212120" desc="라칸의 지배석_교환 상점" stringId="212120">
+		<ItemList id="212121" stringed="212121" />
+		<ItemList id="212122" stringed="212122" />
+		<ItemList id="212123" stringed="212123" />
+	</Menu>
+	<Menu id="212130" desc="하급 아르보레아의 정수 상점" stringId="212130">
+		<ItemList id="212131" stringed="212131" />
+		<ItemList id="212132" stringed="212132" />
+		<ItemList id="212133" stringed="212133" />
+		<ItemList id="212134" stringed="212134" />
+	</Menu>
+	<Menu id="212140" desc="중급 아르보레아의 정수 상점" stringId="212140">
+		<ItemList id="212141" stringed="212141" />
+		<ItemList id="212142" stringed="212142" />
+		<ItemList id="212143" stringed="212143" />
+		<ItemList id="212144" stringed="212144" />
+	</Menu>
+	<Menu id="212150" desc="상급 아르보레아의 정수 상점" stringId="212150">
+		<ItemList id="212151" stringed="212151" />
+		<ItemList id="212152" stringed="212152" />
+		<ItemList id="212153" stringed="212153" />
+		<ItemList id="212154" stringed="212154" />
+	</Menu>
+	<Menu id="213230" desc="베르고스의 정수 상점" stringId="213230">
+		<ItemList id="213231" stringed="213230" />
+	</Menu>
+	<Menu id="982900" desc="베르고스의 정수 상점" stringId="982900">
+		<ItemList id="982901" stringed="982900" />
+	</Menu>
+	<Menu id="983000" desc="Lv.22 장비 교환 상점" stringId="983000">
+		<ItemList id="983001" stringed="983001" />
+	</Menu>
+	<Menu id="983010" desc="Lv.27 장비 교환 상점" stringId="983010">
+		<ItemList id="983011" stringed="983011" />
+	</Menu>
+	<Menu id="983020" desc="Lv.38 장비 교환 상점" stringId="983020">
+		<ItemList id="983021" stringed="983021" />
+	</Menu>
+	<Menu id="983030" desc="Lv.44 장비 교환 상점" stringId="983030">
+		<ItemList id="983031" stringed="983031" />
+	</Menu>
+	<Menu id="983040" desc="Lv.50 장비 교환 상점" stringId="983040">
+		<ItemList id="983041" stringed="983041" />
+	</Menu>
+	<Menu id="983050" desc="Lv.53 장비 교환 상점" stringId="983050">
+		<ItemList id="983051" stringed="983051" />
+	</Menu>
+	<Menu id="983060" desc="Lv.32 장비 교환 상점" stringId="983060">
+		<ItemList id="983061" stringed="983061" />
+	</Menu>
+	<Menu id="983070" desc="Lv.58 장비 교환 상점" stringId="983070">
+		<ItemList id="983071" stringed="983071" />
+		<ItemList id="983072" stringed="983072" />
+	</Menu>
+	<Menu id="983080" desc="Lv.60 장비 교환 상점" stringId="983080">
+		<ItemList id="983081" stringed="983081" />
+		<ItemList id="983082" stringed="983082" />
+		<ItemList id="983083" stringed="983083" />
+	</Menu>
+	<Menu id="983090" desc="Lv.20 장비 교환 상점" stringId="983090">
+		<ItemList id="983091" stringed="983091" />
+		<ItemList id="983092" stringed="983092" />
+		<ItemList id="983093" stringed="983093" />
+	</Menu>
+	<Menu id="983100" desc="Lv.26 장비 교환 상점" stringId="983100">
+		<ItemList id="983101" stringed="983101" />
+		<ItemList id="983102" stringed="983102" />
+		<ItemList id="983103" stringed="983103" />
+	</Menu>
+	<Menu id="983110" desc="Lv.32 장비 교환 상점" stringId="983110">
+		<ItemList id="983111" stringed="983111" />
+		<ItemList id="983112" stringed="983112" />
+		<ItemList id="983113" stringed="983113" />
+	</Menu>
+	<Menu id="983120" desc="Lv.38 장비 교환 상점" stringId="983120">
+		<ItemList id="983121" stringed="983121" />
+		<ItemList id="983122" stringed="983122" />
+		<ItemList id="983123" stringed="983123" />
+	</Menu>
+	<Menu id="983130" desc="Lv.44 장비 교환 상점" stringId="983130">
+		<ItemList id="983131" stringed="983131" />
+		<ItemList id="983132" stringed="983132" />
+		<ItemList id="983133" stringed="983133" />
+	</Menu>
+	<Menu id="983140" desc="Lv.50 장비 교환 상점" stringId="983140">
+		<ItemList id="983141" stringed="983141" />
+		<ItemList id="983142" stringed="983142" />
+		<ItemList id="983143" stringed="983143" />
+	</Menu>
+	<Menu id="983150" desc="Lv.55 장비 교환 상점" stringId="983150">
+		<ItemList id="983151" stringed="983151" />
+		<ItemList id="983152" stringed="983152" />
+		<ItemList id="983153" stringed="983153" />
+	</Menu>
+	<Menu id="983160" desc="Lv.58 장비 교환 상점" stringId="983160">
+		<ItemList id="983161" stringed="983161" />
+		<ItemList id="983162" stringed="983162" />
+		<ItemList id="983163" stringed="983163" />
+		<ItemList id="983164" stringed="983164" />
+	</Menu>
+	<Menu id="983170" desc="Lv.60 장비 교환 상점" stringId="983170">
+		<ItemList id="983171" stringed="983171" />
+		<ItemList id="983172" stringed="983172" />
+		<ItemList id="983173" stringed="983173" />
+		<ItemList id="983174" stringed="983174" />
+	</Menu>
+	<Menu id="983180" desc="Lv.62 장비 교환 상점" stringId="983180">
+		<ItemList id="983181" stringed="983181" />
+		<ItemList id="983182" stringed="983182" />
+		<ItemList id="983183" stringed="983183" />
+		<ItemList id="983184" stringed="983184" />
+	</Menu>
+	<Menu id="985220" desc="변화의 잔재 상점" stringId="985220">
+		<ItemList id="985221" stringed="985221" />
+		<ItemList id="985222" stringed="985222" />
+	</Menu>
+	<Menu id="985230" desc="변화의 증거 상점" stringId="985230">
+		<ItemList id="985231" stringed="985231" />
+	</Menu>
+	<Menu id="984140" desc="하급 여명의 정수 상점" stringId="984140">
+		<ItemList id="984141" stringed="984141" />
+		<ItemList id="984142" stringed="984142" />
+	</Menu>
+	<Menu id="985490" desc="중급 여명의 정수 상점" stringId="985490">
+		<ItemList id="985491" stringed="985491" />
+		<ItemList id="985492" stringed="985492" />
+		<ItemList id="985493" stringed="985493" />
+	</Menu>
+	<Menu id="985500" desc="상급 여명의 정수 상점" stringId="985500">
+		<ItemList id="985501" stringed="985501" />
+		<ItemList id="985503" stringed="985503" />
+		<ItemList id="985502" stringed="985502" />
+	</Menu>	
+	<Menu id="985950" desc="격전의 쿠폰" stringId="985950">
+		<ItemList id="985951" stringed="985951" />
+		<ItemList id="985952" stringed="985952" />
+		<ItemList id="985953" stringed="985953" />
+		<ItemList id="985954" stringed="985954" />
+	</Menu>
+	<Menu id="985970" desc="격전의 메달" stringId="985970">
+		<ItemList id="985971" stringed="985971" />
+	</Menu>
+	<Menu id="986490" desc="투사의 훈장" stringId="986490">
+		<ItemList id="986491" stringed="2935" />
+	</Menu>
+	<Menu id="986500" desc="시작의 가면 교환권" stringId="986500">
+		<ItemList id="986501" stringed="2935" />
+	</Menu>
+	<Menu id="986510" desc="무한의 가면 교환권" stringId="986510">
+		<ItemList id="986511" stringed="2935" />
+	</Menu>
+	<Menu id="986520" desc="[이벤트] 승리자의 증표" stringId="986520">
+		<ItemList id="986521" stringed="2935" />
+	</Menu>
+	<Menu id="986630" desc="[이벤트] 영웅의 증표" stringId="986630">
+		<ItemList id="986631" stringed="2935" />
+	</Menu>
+	<Menu id="999770" desc="비행사의 증표" stringId="999770">
+		<ItemList id="999771" stringed="999771" />
+		<ItemList id="999772" stringed="999772" />
+		<ItemList id="999773" stringed="999773" />
+		<ItemList id="999774" stringed="999774" />
+	</Menu>	
+	<Menu id="1022327" desc="경졔의 탐색자 장비(교환 장교)!" stringId="1022327">
+		<ItemList id="3042" stringed="3042" />
+	</Menu>
+	<Menu id="2010180" desc="아크데바 토벌대 속옷 상점" stringId="2010180">
+		<ItemList id="2010181" stringed="2010181" />
+	</Menu>
+	<Menu id="9122001" desc="연맹 간부 상점!" stringId="9122001">
+		<ItemList id="9126" stringed="9126" />
+	</Menu>
+	<Menu id="9122002" desc="연맹 간부 상점!" stringId="9122002">
+		<ItemList id="9127" stringed="9127" />
+	</Menu>
+	<Menu id="9122003" desc="연맹 간부 상점!" stringId="9122003">
+		<ItemList id="9128" stringed="9128" />
+	</Menu>
+	<Menu id="9122004" desc="연맹 간부 상점!" stringId="9122004">
+		<ItemList id="9129" stringed="9129" />
+	</Menu>
+	<Menu id="9123001" desc="연맹 간부 상점!" stringId="9123001">
+		<ItemList id="9131" stringed="9131" />
+	</Menu>
+	<Menu id="9123002" desc="연맹 간부 상점!" stringId="9123002">
+		<ItemList id="9132" stringed="9132" />
+	</Menu>
+	<Menu id="9123003" desc="연맹 간부 상점!" stringId="9123003">
+		<ItemList id="9133" stringed="9133" />
+	</Menu>
+	<Menu id="9123004" desc="연맹 간부 상점!" stringId="9123004">
+		<ItemList id="9134" stringed="9134" />
+	</Menu>
+	<Menu id="9124001" desc="연맹 간부 상점!" stringId="9124001">
+		<ItemList id="9136" stringed="9136" />
+	</Menu>
+	<Menu id="9124002" desc="연맹 간부 상점!" stringId="9124002">
+		<ItemList id="9137" stringed="9137" />
+	</Menu>
+	<Menu id="9124003" desc="연맹 간부 상점!" stringId="9124003">
+		<ItemList id="9138" stringed="9138" />
+	</Menu>
+	<Menu id="9124004" desc="연맹 간부 상점!" stringId="9124004">
+		<ItemList id="9139" stringed="9139" />
+	</Menu>
+	<Menu id="9999001" desc="잊혀진 던전 탐험대 상점 시즌 1!" stringId="9999001">
+		<ItemList id="9991" stringed="9999002" />
+	</Menu>
+	<Menu id="964610" desc="다르칸의 마석_교환 상점" stringId="964610">
+		<ItemList id="964611" stringed="964611" />
+		<ItemList id="964612" stringed="964612" />
+	</Menu>
+	<Menu id="968150" desc="시공석_교환 상점" stringId="968150">
+		<ItemList id="968153" stringed="968153" />
+		<ItemList id="968154" stringed="968154" />		
+	</Menu>
+	<Menu id="100001" desc="던전 크리스탈 상점_2,3단계 크리스탈 (비밀기지)" stringId="100">
+		<ItemList id="10000101" stringed="2503" />
+		<ItemList id="10000102" stringed="2504" />
+	</Menu>
+	<Menu id="100002" desc="던전 크리스탈 상점_3단계 크리스탈 (밤피르의 저택)" stringId="100">
+		<ItemList id="10000201" stringed="2503" />
+		<ItemList id="10000202" stringed="2504" />
+	</Menu>
+	<Menu id="100003" desc="던전 크리스탈 상점_3,4단계 크리스탈(자바르만 소굴)" stringId="100">
+		<ItemList id="10000301" stringed="2503" />
+		<ItemList id="10000302" stringed="2504" />
+	</Menu>
+	<Menu id="100004" desc="던전 크리스탈 상점_4단계 크리스탈(사교도의 은신처)" stringId="100">
+		<ItemList id="10000401" stringed="2503" />
+		<ItemList id="10000402" stringed="2504" />
+	</Menu>
+	<Menu id="100005" desc="던전 크리스탈 상점_4,5단계 크리스탈(사령술 연구소)" stringId="100">
+		<ItemList id="10000501" stringed="2503" />
+		<ItemList id="10000502" stringed="2504" />
+	</Menu>
+	<Menu id="100006" desc="던전 크리스탈 상점_5단계 크리스탈(황미,아카샤)" stringId="100">
+		<ItemList id="10000601" stringed="2503" />
+		<ItemList id="10000602" stringed="2504" />
+	</Menu>
+	<Menu id="100007" desc="던전 크리스탈 상점_5,6단계 크리스탈(샬레론의 공중정원)" stringId="100">
+		<ItemList id="10000701" stringed="2503" />
+		<ItemList id="10000702" stringed="2504" />
+	</Menu>
+	<Menu id="100008" desc="던전 크리스탈 상점_6단계 크리스탈(공미,검탑,켈사,아르곤,샨드라)" stringId="100">
+		<ItemList id="10000801" stringed="2503" />
+		<ItemList id="10000802" stringed="2504" />
+	</Menu>
+	<Menu id="152001" desc="잡화 상점 : 도시공방전 !" stringId="152001">
+		<ItemList id="80001" stringed="80001" />
+		<ItemList id="1602" stringed="1602" />
+		<ItemList id="16063" stringed="1604" />
+		<ItemList id="1520001" stringed="1520001" />
+	</Menu>
+	<Menu id="152002" desc="전투 소모품 상점 : 도시공방전, 전장 !" stringId="152002">
+		<ItemList id="1551" stringed="1551" />		
+	</Menu>
+	<Menu id="2021410" desc="숙련된 전사의 증표" stringId="2021410">
+		<ItemList id="2021411" stringed="2935" />
+	</Menu>
+	<Menu id="2040050" desc="거대 몬스터 토벌대의 증표" stringId="2040050">
+		<ItemList id="2040051" stringed="2040051" />
+	</Menu>
+	<Menu id="2040220" desc="2018 장비 레벨 달성 이벤트 희귀 속옷 교환권" stringId="2040220">
+		<ItemList id="2040221" stringed="2040221" />
+	</Menu>
+	<Menu id="2063000" desc="폭염의 가루 I" stringId="2063000">
+		<ItemList id="2063001" stringed="2063001" />
+	</Menu>
+	<Menu id="2063010" desc="폭염의 가루 II" stringId="2063010">
+		<ItemList id="2063011" stringed="2063001" />
+		<ItemList id="2063012" stringed="2063002" />
+	</Menu>
+	<Menu id="2063020" desc="폭염의 가루 III" stringId="2063020">
+		<ItemList id="2063021" stringed="2063001" />
+		<ItemList id="2063022" stringed="2063002" />
+	</Menu>
+	<Menu id="2063030" desc="폭염의 가루 IV" stringId="2063030">
+		<ItemList id="2063031" stringed="2063001" />
+		<ItemList id="2063032" stringed="2063002" />
+	</Menu>
+	<Menu id="2063050" desc="심해의 가루 I" stringId="2063050">
+		<ItemList id="2063051" stringed="2063051" />
+	</Menu>
+	<Menu id="2063060" desc="심해의 가루 II" stringId="2063060">
+		<ItemList id="2063061" stringed="2063051" />
+		<ItemList id="2063062" stringed="2063052" />
+	</Menu>
+	<Menu id="2063070" desc="심해의 가루 III" stringId="2063070">
+		<ItemList id="2063071" stringed="2063051" />
+		<ItemList id="2063072" stringed="2063052" />
+	</Menu>
+	<Menu id="2063080" desc="심해의 가루 IV" stringId="2063080">
+		<ItemList id="2063081" stringed="2063051" />
+		<ItemList id="2063082" stringed="2063052" />
+	</Menu>
+	<Menu id="2063100" desc="대지의 가루 I" stringId="2063100">
+		<ItemList id="2063101" stringed="2063101" />
+		<ItemList id="2063102" stringed="2063102" />
+	</Menu>
+	<Menu id="2063110" desc="대지의 가루 II" stringId="2063110">
+		<ItemList id="2063111" stringed="2063101" />
+		<ItemList id="2063112" stringed="2063102" />
+	</Menu>
+	<Menu id="2063120" desc="대지의 가루 III" stringId="2063120">
+		<ItemList id="2063121" stringed="2063101" />
+		<ItemList id="2063122" stringed="2063102" />
+	</Menu>
+	<Menu id="2063130" desc="대지의 가루 IV" stringId="2063130">
+		<ItemList id="2063131" stringed="2063101" />
+		<ItemList id="2063132" stringed="2063102" />
+	</Menu>
+	<Menu id="2063150" desc="폭풍의 가루 I" stringId="2063150">
+		<ItemList id="2063151" stringed="2063151" />
+		<ItemList id="2063152" stringed="2063152" />
+	</Menu>
+	<Menu id="2063160" desc="폭풍의 가루 II" stringId="2063160">
+		<ItemList id="2063161" stringed="2063151" />
+		<ItemList id="2063162" stringed="2063152" />
+	</Menu>
+	<Menu id="2063170" desc="폭풍의 가루 III" stringId="2063170">
+		<ItemList id="2063171" stringed="2063151" />
+		<ItemList id="2063172" stringed="2063152" />
+	</Menu>
+	<Menu id="2063180" desc="폭풍의 가루 IV" stringId="2063180">
+		<ItemList id="2063181" stringed="2063151" />
+		<ItemList id="2063182" stringed="2063152" />
+	</Menu>
+	<Menu id="2068540" desc="세계의 결정" stringId="2068540">
+		<ItemList id="2068541" stringed="2068541" />
+	</Menu>
+	<Menu id="2069160" desc="별빛을 담은 조각" stringId="2069160">
+		<ItemList id="2069161" stringed="2069161" />
+	</Menu>
+	<Menu id="2069162" desc="과거의 증표" stringId="2069162">
+		<ItemList id="2069174" stringed="2069173" />
+		<ItemList id="2069175" stringed="2069174" />
+		<ItemList id="2069176" stringed="2069175" />
+		<ItemList id="2069177" stringed="2069176" />
+	</Menu>
+	<Menu id="2069164" desc="아프로테의 장비 교환권" stringId="2069164">
+		<ItemList id="2069165" stringed="2069165" />
+		<ItemList id="2069166" stringed="2069166" />
+		<ItemList id="2069167" stringed="2069167" />
+		<ItemList id="2069168" stringed="2069168" />
+	</Menu>
+	<Menu id="2069169" desc="카슈바르의 장비 교환권" stringId="2069169">
+		<ItemList id="2069170" stringed="2069170" />
+		<ItemList id="2069171" stringed="2069171" />
+		<ItemList id="2069172" stringed="2069172" />
+	</Menu>
+	<Menu id="2070000" desc="일반 장비 토큰" stringId="2070000">
+		<ItemList id="2070001" stringed="2935" />
+	</Menu>
+	<Menu id="2070010" desc="고급 장비 토큰" stringId="2070010">
+		<ItemList id="2070011" stringed="2935" />
+	</Menu>
+	<Menu id="2070020" desc="희귀 장비 토큰" stringId="2070020">
+		<ItemList id="2070021" stringed="2935" />
+	</Menu>
+	<Menu id="2070030" desc="전설 장비 토큰" stringId="2070030">
+		<ItemList id="2070031" stringed="2935" />
+	</Menu>
+	<Menu id="2070040" desc="더미 장비 토큰" stringId="2070040">
+		<ItemList id="2070041" stringed="2935" />
+	</Menu>
+	<Menu id="2070050" desc="외형일반 장비 토큰" stringId="2070050">
+		<ItemList id="2070051" stringed="2935" />
+	</Menu>
+	<Menu id="2070060" desc="외형고급 장비 토큰" stringId="2070060">
+		<ItemList id="2070061" stringed="2935" />
+	</Menu>	
+	<Menu id="6020940" desc="시공의 교환권" stringId="6020940">
+		<ItemList id="6020941" stringed="6020940" />
+	</Menu>	
+	<Menu id="952100" desc="코스튬 교환권（클래식·A）" stringId="952100">
+		<ItemList id="952101" stringed="952101" />
+		<ItemList id="952102" stringed="952102" />
+		<ItemList id="952103" stringed="952103" />
+	</Menu>	
+	<Menu id="952110" desc="코스튬 교환권（클래식·B）" stringId="952110">
+		<ItemList id="952111" stringed="952111" />
+		<ItemList id="952112" stringed="952112" />
+		<ItemList id="952113" stringed="952113" />
+		<ItemList id="952114" stringed="952114" />
+	</Menu>
+	<!--TW Classic 토큰 상점 -->
+	<Menu id="987100" desc="코스튬 교환권（클래식·A）" stringId="987100">
+		<ItemList id="987871" stringed="987871" />
+		<ItemList id="987872" stringed="987872" />
+		<ItemList id="987873" stringed="987873" />
+	</Menu>	
+	<Menu id="987110" desc="코스튬 교환권（클래식·B）" stringId="987110">
+		<ItemList id="987881" stringed="987881" />
+		<ItemList id="987882" stringed="987882" />
+		<ItemList id="987883" stringed="987883" />
+		<ItemList id="987884" stringed="987884" />
+	</Menu>
+	<Menu id="988100" desc="엘린 클래식 코인 교환 상점" stringId="988100">
+		<ItemList id="988141" stringed="988141" />
+		<ItemList id="988142" stringed="988142" />
+		<ItemList id="988143" stringed="988143" />
+	</Menu>	
+	<Menu id="988300" desc="과거의 증표" stringId="2069162">
+		<ItemList id="988300" stringed="2069162" />
+	</Menu>
+	<Menu id="988310" desc="아프로테의 장비 교환권"	stringId="2069164">
+		<ItemList id="988310" stringed="2069165" />
+		<ItemList id="988311" stringed="2069166" />
+		<ItemList id="988312" stringed="2069167" />
+		<ItemList id="988313" stringed="2069168" />
+	</Menu>	
+	<Menu id="988320" desc="카슈바르의 장비 교환권" stringId="2069169">
+		<ItemList id="988320" stringed="2069170" />
+		<ItemList id="988321" stringed="2069171" />
+		<ItemList id="988322" stringed="2069172" />
+	</Menu>	
+	<Menu id="988410" desc="철기장 바타히르의 레시피 교환권" stringId="988410">
+		<ItemList id="988411" stringed="988411" />
+		<ItemList id="988412" stringed="988412" />
+	</Menu>
+	<Menu id="206769" desc="배그 토큰 상점" stringId="206769">
+		<ItemList id="206769" stringed="206770" />
+	</Menu>
+	<Menu id="201037" desc="[데모로스 이벤트]광명의 액세서리 재료 교환권" stringId="201037">
+		<ItemList id="201037" stringed="2010370" />
+	</Menu>	
+	<Menu id="201038" desc="[데모로스 이벤트]액세서리 증폭제 II 교환권" stringId="201038">
+		<ItemList id="201038" stringed="2010380" />
+	</Menu>	
+	<Menu id="201041" desc="2019 여름축제" stringId="201041">
+		<ItemList id="201041" stringed="6094" />
+		<ItemList id="201042" stringed="6098" />
+		<ItemList id="201043" stringed="201042" />
+		<ItemList id="201044" stringed="201043" />
+	</Menu>		
+	<Menu id="2024510" desc="메르무슈뭉의 패션 코인" stringId="2024510">
+		<ItemList id="2024511" stringed="2935" />
+	</Menu>
+	<Menu id="2024520" desc="메르무슈뭉의 고급 패션 코인" stringId="2024520">
+		<ItemList id="2024521" stringed="2935" />
+	</Menu>
+	<Menu id="2024530" desc="부활절 붉게 물든 달걀" stringId="2024530">
+		<ItemList id="2024531" stringed="2935" />
+	</Menu>
+	<Menu id="2024540" desc="부활절 금화 상점" stringId="2024540">
+		<ItemList id="2024541" stringed="2935" />
+	</Menu>
+	<Menu id="2024550" desc="환영의 상점" stringId="2024550">
+		<ItemList id="2024552" stringed="1441" />
+		<ItemList id="2024553" stringed="2069166" />
+		<ItemList id="2024554" stringed="2069167" />
+	</Menu>
+	<Menu id="2024560" desc="환영의 상점" stringId="2024560">
+		<ItemList id="2024551" stringed="1551" />
+	</Menu>
+	<Menu id="202678" desc="성장의 증표 상점" stringId="202678">
+		<ItemList id="202678" stringed="2935" />
+	</Menu>
+	<Menu id="6160" desc="리베란츠 평판 상점" stringId="6160">
+		<ItemList id="6161" stringed="2934" />
+		<ItemList id="6162" stringed="6162" />
+		<ItemList id="6163" stringed="6163" />
+	</Menu>
+	<Menu id="6170" desc="아르보레아 특무대 평판 상점" stringId="6170">
+		<ItemList id="6171" stringed="2934" />
+		<ItemList id="6172" stringed="6162" />
+		<ItemList id="6173" stringed="6163" />
+	</Menu>
+	<Menu id="3060" desc="???? 평판 상점" stringId="3060">
+		<ItemList id="3060" stringed="3061" />
+	</Menu>	
+	<Menu id="2090910" desc="마흐나크의 턱뼈 상점" stringId="2090910">
+		<ItemList id="2090911" stringed="2935" />
+	</Menu>
+	<Menu id="2091020" desc="로열 파르프의 날개가루 상점" stringId="2091020">
+		<ItemList id="2091021" stringed="1431" />
+		<ItemList id="2091022" stringed="2091022" />
+	</Menu>
+	<Menu id="2091170" desc="아비온의 드라니움 조각 상점" stringId="2091170">
+		<ItemList id="2091171" stringed="2935" />
+	</Menu>
+	<Menu id="2091220" desc="아젠반트의 장식 조각 상점" stringId="2091220">
+		<ItemList id="2091221" stringed="2935" />
+	</Menu>
+	<!-- 엑소도르 아르가프 토큰 드랍 (허리띠/가면/광명재료토큰)-->
+	<Menu id="2091230" desc="아르가프의 군단 인식표 상점" stringId="2091230">
+		<ItemList id="2091231" stringed="2935" />
+	</Menu>
+	<Menu id="2091240" desc="아르가프의 징표 상점" stringId="2091240">
+		<ItemList id="2091241" stringed="2935" />
+	</Menu>
+	<Menu id="2091270" desc="아르가프 토벌 휘장 상점" stringId="2091270">
+		<ItemList id="2091271" stringed="1431" />
+		<ItemList id="2091272" stringed="2091022" />
+	</Menu>
+	<Menu id="2072090" desc="Token: Event Dungeon" stringId="2072090">
+		<ItemList id="2072091" stringed="2072091" />
+	</Menu>	
+	<Menu id="201255" desc="2019 가을 축제" stringId="201255">
+		<ItemList id="201255" stringed="201256" />
+		<ItemList id="201256" stringed="201257" />
+		<ItemList id="201257" stringed="201258" />
+		<ItemList id="201258" stringed="2934" />
+	</Menu>	
+    <!-- KR_추석 일일접속 이벤트-->
+    <Menu id="2072170" desc="[이벤트]신비로운 달토끼 토큰" stringId="2072170">
+		<ItemList id="2072171" stringed="2935" />
+	</Menu>	
+	<Menu id="2010420" desc="기린 이벤트 교환 상점" stringId="2955">
+		<ItemList id="2010421" stringed="2971" />
+	</Menu>
+	<Menu id="2010480" desc="아르가프 장비 교환 상점" stringId="2955">
+		<ItemList id="2010481" stringed="2010480" />
+	</Menu>
+
+	<Menu id="2074750" desc="아르가프 장비 교환 상점1" stringId="2955">
+		<ItemList id="2074750" stringed="2010480" />
+	</Menu>
+
+	<Menu id="2074760" desc="아르가프 장비 교환 상점2" stringId="2955">
+		<ItemList id="2074760" stringed="2010480" />
+	</Menu>
+
+	<Menu id="2074770" desc="아르가프 장비 교환 상점3" stringId="2955">
+		<ItemList id="2074770" stringed="2010480" />
+	</Menu>	
+	<!--- 20 PVP 이벤트 -->
+	<Menu id="2072610" desc="낡은 맹세의 장비 교환권" stringId="20726100">
+		<ItemList id="20726101" stringed="20726101" />
+		<ItemList id="20726102" stringed="20726102" />
+	</Menu>	
+	<Menu id="2073280" desc="낡은 맹세의 장비 교환권_무제한" stringId="20726100">
+		<ItemList id="20732801" stringed="20726101" />
+		<ItemList id="20732802" stringed="20726102" />
+	</Menu>		
+	<!-- 다크스톤 조각 -->
+	<Menu id="467310" desc="다크스톤 조각 상점" stringId="467310">
+		<ItemList id="467311" stringed="2935" />
+	</Menu>
+	<!-- 바다 수호자의 증표  -->
+	<Menu id="2068990" desc="바다 수호자의 증표 상점" stringId="2068990">
+		<ItemList id="2068991" stringed="2935" />
+	</Menu>
+
+	<Menu id="207000" desc="11월 해외 공통" stringId="2070001">
+		<ItemList id="201039" stringed="2070002" />
+		<ItemList id="201040" stringed="2070003" />
+	</Menu>	
+
+	<Menu id="206969" desc="찬란한 마법결정" stringId="2069691">
+		<ItemList id="2069690" stringed="2935" />
+	</Menu>
+	
+	<Menu id="2042560" desc="길리안 코인" stringId="2042560">
+		<ItemList id="2042561" stringed="2042561" />
+		<ItemList id="2042562" stringed="2042562" />
+		<ItemList id="2042563" stringed="2042563" />
+	</Menu>	
+	<!-- 2019 리리 이벤트 -->
+	<Menu id="2042564" desc="떡국 토큰" stringId="2069177">
+		<ItemList id="2042564" stringed="2069177" />
+	</Menu>	
+	<Menu id="2042565" desc="떡국 토큰" stringId="2069178">
+		<ItemList id="2042565" stringed="2069178" />
+	</Menu>	
+	<!-- 기린 이벤트 시즌2 -->
+	<Menu id="2091830" desc="[이벤트][레어] 각성 타미 등록증 선택권" stringId="2091830">
+		<ItemList id="2091830" stringed="2091831" />
+	</Menu>	
+	<Menu id="2091840" desc="[이벤트] 각성 타미 등록증 선택권" stringId="2091840">
+		<ItemList id="2091840" stringed="2091841" />
+	</Menu>	
+	<!-- 각성 퀘스트 문장 교환권 -->
+	<Menu id="897890" desc="검투사 문장 교환권" stringId="897890">
+		<ItemList id="897891" stringed="985953" />
+	</Menu>
+	<Menu id="897900" desc="창기사 문장 교환권" stringId="897900">
+		<ItemList id="897901" stringed="985953" />
+	</Menu>
+	<Menu id="897910" desc="무사 문장 교환권" stringId="897910">
+		<ItemList id="897911" stringed="985953" />
+	</Menu>
+	<Menu id="897920" desc="광전사 문장 교환권" stringId="897920">
+		<ItemList id="897921" stringed="985953" />
+	</Menu>
+	<Menu id="897930" desc="마법사 문장 교환권" stringId="897930">
+		<ItemList id="897931" stringed="985953" />
+	</Menu>
+	<Menu id="897940" desc="궁수 문장 교환권" stringId="897940">
+		<ItemList id="897941" stringed="985953" />
+	</Menu>
+	<Menu id="897950" desc="사제 문장 교환권" stringId="897950">
+		<ItemList id="897951" stringed="985953" />
+	</Menu>
+	<Menu id="897960" desc="정령사 문장 교환권" stringId="897960">
+		<ItemList id="897961" stringed="985953" />
+	</Menu>
+	<Menu id="897970" desc="비검사 문장 교환권" stringId="897970">
+		<ItemList id="897971" stringed="985953" />
+	</Menu>
+	<Menu id="897980" desc="마공사 문장 교환권" stringId="897980">
+		<ItemList id="897981" stringed="985953" />
+	</Menu>
+	<Menu id="897990" desc="권술사 문장 교환권" stringId="897990">
+		<ItemList id="897991" stringed="985953" />
+	</Menu>
+	<Menu id="898000" desc="인술사 문장 교환권" stringId="898000">
+		<ItemList id="898001" stringed="985953" />
+	</Menu>
+	<Menu id="898010" desc="월광무사 문장 교환권" stringId="898010">
+		<ItemList id="898011" stringed="985953" />
+	</Menu>
+	<!-- 던전 재배치용 대박 상자 교환권 -->
+	<Menu id="2069610" desc="아마룬의 숨결" stringId="2069610">
+		<ItemList id="2069611" stringed="206911" />
+	</Menu>
+	<!--- 던전 재배치용 낡맹장비 교환권 -->
+	<Menu id="2069750" desc="낡은 맹세의 장비 교환권" stringId="20726100">
+		<ItemList id="2069751" stringed="20726101" />
+		<ItemList id="2069752" stringed="20726102" />
+	</Menu>		
+	<!-- 제작 합성장비 -->
+	<Menu id="2074440" desc="드라니움 장비 교환권" stringId="20744400">
+		<ItemList id="2074442" stringed="20744401" />
+		<ItemList id="2074441" stringed="20744402" />
+	</Menu>	
+	<Menu id="2074450" desc="찬란한 드라니움 장비 교환권" stringId="20744500">
+		<ItemList id="2074452" stringed="20744501" />
+		<ItemList id="2074451" stringed="20744502" />
+	</Menu>		
+	<!-- GLB 93 공용 이벤트 토큰 -->
+	<Menu id="2075810" desc="곰돌이 등 악세서리 티켓" stringId="2075810">
+		<ItemList id="2075810" stringed="2075811" />
+	</Menu>
+	<Menu id="2075820" desc="던전 모험의 증표" stringId="2075820">
+		<ItemList id="2075820" stringed="2075821" />
+	</Menu>
+	<Menu id="2075840" desc="몬스터 소탕의 증표"	stringId="2075840">
+		<ItemList id="2075840" stringed="2075841" />
+	</Menu>
+	<Menu id="2075870" desc="망토 교환권" stringId="2075870">
+		<ItemList id="2075870" stringed="2075871" />
+	</Menu>	
+	<!-- KR95 배틀패스 -->
+	<Menu id="898160" desc="랜덤 던전 미션 티켓" stringId="898160">
+		<ItemList id="898160" stringed="898161" />
+	</Menu>	
+	<Menu id="898170" desc="확정 던전 미션 티켓" stringId="898170">
+		<ItemList id="898170" stringed="898171" />
+	</Menu>	
+	<Menu id="898500" desc="보상 교환권" stringId="898500">
+		<ItemList id="898500" stringed="898501" />
+	</Menu>	
+	<Menu id="898150" desc="BP조각" stringId="898150">
+		<ItemList id="898150" stringed="898151" />
+	</Menu>	
+	<Menu id="213560" desc="엘리누의 유물I 교환권" stringId="213560">
+		<ItemList id="213560" stringed="213561" />
+	</Menu>	
+	<Menu id="213570" desc="엘리누의 유물II 교환권" stringId="213570">
+		<ItemList id="213570" stringed="213571" />
+	</Menu>	
+	<Menu id="213580" desc="티투스의 유물I 교환권" stringId="213580">
+		<ItemList id="213580" stringed="213581" />
+	</Menu>		
+	<Menu id="213590" desc="티투스의 유물II 교환권" stringId="213590">
+		<ItemList id="213590" stringed="213591" />
+	</Menu>	
+	<Menu id="213600" desc="카라스의 성물I 교환권" stringId="213600">
+		<ItemList id="213600" stringed="213601" />
+	</Menu>	
+	<Menu id="213610" desc="카라스의 성물II 교환권" stringId="213610">
+		<ItemList id="213610" stringed="213611" />
+	</Menu>	
+	<Menu id="213620" desc="다곤의 성물I 교환권" stringId="213620">
+		<ItemList id="213620" stringed="213621" />
+	</Menu>	
+	<Menu id="213630" desc="다곤의 성물II 교환권" stringId="213630">
+		<ItemList id="213630" stringed="213631" />
+	</Menu>	
+	<Menu id="2069770" desc="아마룬의 숨결 시즌 2" stringId="2069770">
+		<ItemList id="2069770" stringed="2069771" />
+	</Menu>
+	<Menu id="2069800" desc="레이나의 카드 도감(하)" stringId="2069800">
+		<ItemList id="2069801" stringed="2069801" />
+		<ItemList id="2069802" stringed="2069802" />
+		<ItemList id="2069803" stringed="2069803" />
+		<ItemList id="2069804" stringed="2069804" />	
+	</Menu>	
+	<Menu id="20698100" desc="레이나의 카드 도감(상)" stringId="2069810">
+		<ItemList id="20698101" stringed="2069811" />
+		<ItemList id="20698102" stringed="2069812" />
+		<ItemList id="20698103" stringed="2069813" />
+		<ItemList id="20698104" stringed="2069814" />	
+	</Menu>		
+	<Menu id="16000" desc="세그리또 이벤트 상점" stringId="16000">
+		<ItemList id="16000" stringed="16001" />		
+	</Menu>	
+	<Menu id="20766200" desc="불멸의 투사 의상 교환 상점" stringId="2076620">
+		<ItemList id="20766201" stringed="2076621" />	
+		<ItemList id="20766202" stringed="2076622" />	
+		<ItemList id="20766203" stringed="2076623" />
+		<ItemList id="20766204" stringed="2076624" />		
+	</Menu>		
+	<Menu id="8996500" desc="태양의 돌 교환 상점" stringId="899650">
+		<ItemList id="8996501" stringed="899651" />		
+	</Menu>		
+	<Menu id="8996600" desc="용암의 돌 교환 상점" stringId="899660">
+		<ItemList id="8996601" stringed="899661" />		
+	</Menu>		
+	<Menu id="8996700" desc="빙하의 돌 교환 상점" stringId="899670">
+		<ItemList id="8996701" stringed="899671" />		
+	</Menu>		
+	<Menu id="8996800" desc="냉기의 돌 교환 상점" stringId="899680">
+		<ItemList id="8996801" stringed="899681" />		
+	</Menu>		
+	<Menu id="8996900" desc="번개의 돌(반지) 교환 상점" stringId="899690">
+		<ItemList id="8996901" stringed="899691" />		
+	</Menu>		
+	<Menu id="8997000" desc="번개의 돌(귀걸이) 교환 상점" stringId="899700">
+		<ItemList id="8997001" stringed="899701" />		
+	</Menu>		
+	<Menu id="8997100" desc="번개의 돌(목걸이) 교환 상점" stringId="899710">
+		<ItemList id="8997101" stringed="899711" />		
+	</Menu>		
+	<Menu id="8997200" desc="번개의 돌(허리띠) 교환 상점" stringId="899720">
+		<ItemList id="8997201" stringed="899721" />		
+	</Menu>		
+	<Menu id="8997300" desc="번개의 돌(브로치) 교환 상점" stringId="899730">
+		<ItemList id="8997301" stringed="899731" />		
+	</Menu>	
+	<Menu id="2056740" desc="옵션 변환, 승급 스크롤 교환 코인" stringId="2056740">
+		<ItemList id="20766205" stringed="2056741" />
+	</Menu>	
+	<Menu id="899850" desc="정제된 드라니움" stringId="8998501">
+		<ItemList id="8998501" stringed="8998502" />		
+		<ItemList id="8998502" stringed="8998503" />				
+	</Menu>			
+	<Menu id="899860" desc="향상된 드라니움" stringId="8998601">
+		<ItemList id="8998601" stringed="8998602" />		
+		<ItemList id="8998602" stringed="8998603" />				
+	</Menu>		
+	<Menu id="899870" desc="중급 채집 도구" stringId="8998701">
+		<ItemList id="8998701" stringed="8998701" />		
+	</Menu>		
+	<Menu id="899880" desc="상급 채집 도구" stringId="8998801">
+		<ItemList id="8998801" stringed="8998801" />		
+	</Menu>		
+	<Menu id="899890" desc="최상급 채집 도구" stringId="8998901">
+		<ItemList id="8998901" stringed="8998901" />		
+	</Menu>
+
+	<!-- Eternity Token -->
+	<Menu id="900000" desc="Eternity Token" stringId="900000">
+		<ItemList id="900001" stringed="900001" />
+		<ItemList id="900002" stringed="900002" />
+	</Menu>
+</MenuList>
