@@ -1,0 +1,60 @@
+<!--
+    This is the code you need to spawn in a teleportal, in this example we use Shadow Sanguinary.
+    There are a few things you will need for your dungeon teleportal:
+        The hunting zone id
+        The teleportal npc id
+        The position of the teleportal
+
+    To get the hunting zone id and npc id, look up the teleportal on teralore, the id of the Shadow Sanguinary teleportal is 001839000.
+    The first 5 digits are the hunting zone id (00183), ignoring the leading zeros we get 183.
+    The remaining digits are the npc id (9000).
+
+    To get the position of the teleportal (or an approximation of it), open the DungeonData file for your dungeon
+    Shadow Sanguinary's dungeon id is 9768 so in our case that is DungeonData_9768.xml, take the exitPos from that file, which in our case is: 34051,10632,6379
+
+    Now we have:
+        Hunting zone id: 183
+        Npc id: 9000
+        Position: 34051,10632,6379
+
+    Open up the TerritoryData file for your hunting zone, in our case TerritoryData_183.xml, and paste the code in.
+
+    The values you have to change for your dungeon are:
+        <TerritoryGroup> id
+        <Territory> id
+        <Npc> instanceId, npcTemplateId, and pos
+
+    The id's are all 8 digit numbers beginning with the hunting zone id, they simply need to be something that isn't currently taken in the TerritoryData file.
+    A good idea is to use our hunting zone id and npc id to make an 8 digit id, it will usually be available, but if it isn't you can modify it to something that isn't taken.
+    So with 183 and 9000 we get an 8 digit id of 18309000, the hunting zone id and the npc id with a zero in between.
+    You can set this as the id for <TerritoryGroup>, <Territory>, and <Npc> instanceId.
+
+    Next we set the npcTemplateId in the <Npc> tag, this is simply our npc id (9000 in our case).
+
+    Lastly we put our position into the pos option of the <Npc> tag, in our case 34051,10632,6379
+
+    With all that done you should have a teleportal spawned in :)
+-->
+
+<TerritoryGroup id="18309000" desc="Shadow Sanguinary Teleportal">
+    <TerritoryList>
+        <Territory id="18309000" desc="Shadow Sanguinary Teleportal" type="normal" addMaxZ="200.000000" subtractMinZ="230.000000" absoluteFenceZ="0.000000" randomPosMinDist="100.000000" peaceMoveNpcCheckDist="100.000000" eventId="0">
+            <Fence pos="2910.56860352,-20828.01367188,849.94396973"/>
+            <Fence pos="3154.61352539,-21058.58789063,1381.63354492"/>
+            <Fence pos="3596.62890625,-21157.27734375,1381.63427734"/>
+            <Fence pos="3720.26416016,-20688.04101563,1247.17163086"/>
+            <Fence pos="3044.24365234,-20208.64062500,1276.93395996"/>
+            <Npc instanceId="18309000" desc="Shadow Sanguinary Teleportal" memberId="0" npcTemplateId="9000" battlefieldTeam="" ai="127" randomPos="false" spawnCount="1" pos="34051,10632,6379" offsetZ="0" dir="75" respawnTime="0" delaySpawnTimeWhenWorldStart="0" isAggressiveMonster="false" viewRadius="300" viewAngle="130" alertRadius="400" alertAngle="360" aggroSendToClanDistance="300" aggroSendToPartyDistance="400" aggroSendToTerritory="" aggroReceiveOnlyInSight="false" aggroIgnorePartyId="" aggroShareGroupId="0" aggroTargetIsUserOnly="false" escapeLocation="0.00000000,0.00000000,0.00000000" isReturn="true" isReturnMyTerritory="false" conditionalSpawn="false" returnDistance="2000" questPatrol="false" peaceStateNoMoving="false" cautionStateNoMoving="false" voidSpawn="false" respawnRandomTime="20000" moveInTerritory="true" popupMsg="" msgProb="0.000000" msgInterval="0" msgBroadcastingChannel="false" excludeAggroLimit="false" aggroCopyFromNpc="" aggroCopyFromNpcDistance="0" isFlying="false" flyMoveSequenceId="0" interactionRuleId="0">
+                <PatrolList type="default" socialDuration="0" randomSocial="false"/>
+                <SocialSet checkInterval="0" probSocial="0.000000"/>
+            </Npc>
+            <Attribute achieveConditionId="0" abnormality="0"/>
+            <DungeonTrigger cameraCurrentZoom="0" cameraMaxZoom="0"/>
+        </Territory>
+    </TerritoryList>
+    <BerserkAi working="false" duration="0" berserkRate="0.000000" combatRatioDiffToBerserk="0.000000"/>
+    <BlastRegenAi working="false" checkType="time" intervalToBlastRegen="0" spawnedRatioToBlastRegen="0.000000"/>
+    <DoorAiList/>
+    <RespawnTimeAi working="false" combatRateToReduceRespawnTime="0.000000" respawnReduceTime="0.000000" duration="0"/>
+    <SpawnNewNpcAi working="false" npcDeadCount="0" duration="0"/>
+</TerritoryGroup>
