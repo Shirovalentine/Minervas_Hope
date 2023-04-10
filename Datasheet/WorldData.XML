@@ -914,7 +914,7 @@
   <Parcel sendParcelTax="50" sendPresentParcelTax="0.01" sendEscrowParcelTax="0.1" escrowReturnWait="86400" maxRecvListCnt="100" warnRecvListCnt="70" maxSendListCnt="100" expireDay="180" expireBeginDate="2013/8/22" />
   <!-- 세컨드 캐릭터 관련 파라미터들 -->
   <!-- 테스트 서버에서 가능한 최대 레벨은 58이라고 함 -->
-  <UserLevelLimit value="60" /> <!--Update 1.1 -->
+  <UserLevelLimit value="61" /> <!--Update 1.2 -->
   <Teleport needEp="10" addPosNeedEp="10" skillMotionId="0" />
   <CharacterChange needEp="10" />
   <!-- 수수료 내면 사용할수있는 기간은 7일= 60 * 60 * 24 * 7= 604800 -->
@@ -3994,6 +3994,7 @@
     <level apply="true" min="29" max="48" ratio="0.8" />
     <level apply="true" min="49" max="58" ratio="0.9" />
 	<level apply="true" min="59" max="60" ratio="1.0" />
+	<level apply="true" min="60" max="61" ratio="0.0001" />
   </WorldExpGainRatio>
   <!-- 슈퍼 아머 -->
   <SuperArmor reactionRate="0" reactionRateSmall="0" reactionRateMedium="0" reactionRateLarge="0" reactionRatePvp="0" inaccessibleDistanceForLarge="40" />

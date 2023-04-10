@@ -561,108 +561,108 @@
     level="60" cost="0" prevSkillId="170100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="170100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="41100" isActive="True" level="61"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="41100" isActive="True" level="60"
     cost="0" prevSkillId="41000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="41000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="100500" isActive="True"
-    level="61" cost="0" prevSkillId="100400" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100400" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100400" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="70300" isActive="True" level="61"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="70300" isActive="True" level="60"
     cost="0" prevSkillId="70200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="70200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="150700" isActive="True"
-    level="61" cost="0" prevSkillId="150600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="180400" isActive="True"
-    level="61" cost="0" prevSkillId="180300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="180300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="180300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="200200" isActive="True"
-    level="61" cost="0" prevSkillId="200100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="200100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="200100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="221000" isActive="True"
-    level="61" cost="0" prevSkillId="220900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="220900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="220900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="290900" isActive="True"
-    level="63" cost="0" prevSkillId="290800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="290800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="290800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="310100" isActive="True"
-    level="63" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="20900" isActive="True" level="63"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="20900" isActive="True" level="60"
     cost="0" prevSkillId="20800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="20800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="51000" isActive="True" level="63"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="51000" isActive="True" level="60"
     cost="0" prevSkillId="50900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="50900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="80600" isActive="True" level="63"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="80600" isActive="True" level="60"
     cost="0" prevSkillId="80500" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="80500" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="90900" isActive="True" level="63"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="90900" isActive="True" level="60"
     cost="0" prevSkillId="90800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="90800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="160600" isActive="True"
-    level="63" cost="0" prevSkillId="160500" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="160500" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="160500" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="190800" isActive="True"
-    level="63" cost="0" prevSkillId="190700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="190700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="190700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="251000" isActive="True"
-    level="63" cost="0" prevSkillId="250900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="250900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="250900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="11200" isActive="True" level="65"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="11200" isActive="True" level="60"
     cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="31100" isActive="True" level="65"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="31100" isActive="True" level="60"
     cost="0" prevSkillId="31000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="31000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Archer" gender="Common" race="Common" skillId="41200" isActive="True" level="65"
+  <SkillList class="Archer" gender="Common" race="Common" skillId="41200" isActive="True" level="60"
     cost="0" prevSkillId="41100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="41100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="141000" isActive="True"
-    level="65" cost="0" prevSkillId="140900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="140900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="140900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="170300" isActive="True"
-    level="65" cost="0" prevSkillId="170200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="170200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="170200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="221100" isActive="True"
-    level="65" cost="0" prevSkillId="221000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="221000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="221000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="230300" isActive="True"
-    level="65" cost="0" prevSkillId="230200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="230200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="230200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="240200" isActive="True"
-    level="65" cost="0" prevSkillId="240100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="240100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="240100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="16026" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="16027" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills="16026" learnType="level"
     isTraitSkill="False" dontSendMsg="true" />
   <SkillList class="Archer" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -672,47 +672,47 @@
   <!--궁수
   각성-->
   <SkillList class="Archer" gender="Common" race="Common" skillId="16039" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="16040" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="16050" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="16060" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="16070" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="16080" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="320300" isActive="True"
-    level="65" cost="0" prevSkillId="320200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="320200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="320200" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="340100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="350100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="360100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Archer" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
 
@@ -1225,67 +1225,67 @@
     prerequisiteActiveSkills="100800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="30800" isActive="True"
-    level="61" cost="0" prevSkillId="30700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="30700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="30700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="130900" isActive="True"
-    level="61" cost="0" prevSkillId="130800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="130800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="141100" isActive="True"
-    level="61" cost="0" prevSkillId="141000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="141000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="141000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="160400" isActive="True"
-    level="61" cost="0" prevSkillId="160300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="160300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="160300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="181100" isActive="True"
-    level="61" cost="0" prevSkillId="181000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="181000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="181000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="190500" isActive="True"
-    level="61" cost="0" prevSkillId="190400" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="190400" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="190400" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="61100" isActive="True"
-    level="63" cost="0" prevSkillId="61000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="61000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="61000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="80200" isActive="True"
-    level="63" cost="0" prevSkillId="80100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="80100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="80100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="121000" isActive="True"
-    level="63" cost="0" prevSkillId="120900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="120900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="120900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="150700" isActive="True"
-    level="63" cost="0" prevSkillId="150600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="110100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="11200" isActive="True"
-    level="65" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="41000" isActive="True"
-    level="65" cost="0" prevSkillId="40900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="40900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="40900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="50900" isActive="True"
-    level="65" cost="0" prevSkillId="50800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="50800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="50800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="71200" isActive="True"
-    level="65" cost="0" prevSkillId="71100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="71100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="71100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="101000" isActive="True"
-    level="65" cost="0" prevSkillId="100900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Assassin" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -1294,43 +1294,43 @@
     unionSkillType="-1" />
 
   <SkillList class="Assassin" gender="Common" race="Common" skillId="93014" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="210100" isActive="True"
-    level="65" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="False"
     awakenGrade="1" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="220100" isActive="True"
-    level="65" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="False"
     awakenGrade="1" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="230100" isActive="True"
-    level="65" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="False"
     awakenGrade="1" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="93009" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="93010" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="93011" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="93012" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="93013" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Assassin" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
 
@@ -1807,103 +1807,103 @@
     prerequisiteActiveSkills="180400" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14072" isActive="False"
-    level="61" cost="0" prevSkillId="14071" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="14071" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills="14071;" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="190300" isActive="True"
-    level="61" cost="0" prevSkillId="190200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="190200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="190200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="210200" isActive="True"
-    level="61" cost="0" prevSkillId="210100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="210100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="210100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="250900" isActive="True"
-    level="61" cost="0" prevSkillId="250800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="250800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="250800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="260100" isActive="True"
-    level="63" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="31100" isActive="True"
-    level="63" cost="0" prevSkillId="31000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="31000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="31000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="101100" isActive="True"
-    level="63" cost="0" prevSkillId="101000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="101000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="101000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="151000" isActive="True"
-    level="63" cost="0" prevSkillId="150900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="160400" isActive="True"
-    level="63" cost="0" prevSkillId="160300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="160300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="160300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="200200" isActive="True"
-    level="63" cost="0" prevSkillId="200100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="200100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="200100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="270100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14080" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="false" unionSkillType="-1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="280100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="300100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="320100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="11200" isActive="True"
-    level="65" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="20200" isActive="True"
-    level="65" cost="0" prevSkillId="20100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="20100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="20100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="40900" isActive="True"
-    level="65" cost="0" prevSkillId="40800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="40800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="40800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="131000" isActive="True"
-    level="65" cost="0" prevSkillId="130900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="130900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="110800" isActive="True"
-    level="65" cost="0" prevSkillId="110700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="110700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="110700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="80600" isActive="True"
-    level="65" cost="0" prevSkillId="80500" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="80500" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="80500" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="61100" isActive="True"
-    level="65" cost="0" prevSkillId="61000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="61000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="61000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="180600" isActive="True"
-    level="65" cost="0" prevSkillId="180500" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="180500" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="180500" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="240200" isActive="True"
-    level="65" cost="0" prevSkillId="240100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="240100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="240100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="311000" isActive="True"
-    level="65" cost="0" prevSkillId="310900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="310900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="310900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Berserker" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -1911,107 +1911,107 @@
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14090" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14081" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14082" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills="14081" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
 
   <!-- 광전사 각성스킬 -->
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14100" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14101" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14102" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14103" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14105" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14106" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14107" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="14108" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="330100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="340100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="350100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="360100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="370100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Berserker" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
 
   <SkillList class="Common" gender="Common" race="Aman" skillId="19400" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Aman" skillId="19401" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Aman" skillId="19402" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Aman" skillId="9020100" isActive="True" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Aman" skillId="9010100" isActive="True" level="52"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="True"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Common" gender="Common" race="Castanic" skillId="19300" isActive="False"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Castanic" skillId="19301" isActive="False"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Castanic" skillId="19302" isActive="False"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Castanic" skillId="9020100" isActive="True"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Castanic" skillId="9010100" isActive="True"
     level="52" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="True"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Common" gender="Common" race="Common" skillId="100011" isActive="False"
     level="0" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
@@ -2400,7 +2400,7 @@
     isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Common" skillId="60401301" isActive="True"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Common" skillId="61905100" isActive="True"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="book" isTraitSkill="False" />
@@ -2599,57 +2599,57 @@
     isTraitSkill="False" unionSkillType="-1" isPkServerOnly="true" />
   <SkillList class="Common" gender="Common" race="Highelf" skillId="19200" isActive="False"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Highelf" skillId="19201" isActive="False"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Highelf" skillId="9020100" isActive="True"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Highelf" skillId="9010100" isActive="True"
     level="40" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="True"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Common" gender="Common" race="Human" skillId="19100" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Human" skillId="19101" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Human" skillId="19102" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Human" skillId="9020100" isActive="True" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Human" skillId="9010100" isActive="True"
     level="12" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="True"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Common" gender="Common" race="Popori" skillId="19500" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Popori" skillId="19501" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Popori" skillId="9020100" isActive="True"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Common" race="Popori" skillId="9030100" isActive="True"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Male" race="Baraka" skillId="19601" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Male" race="Baraka" skillId="19602" isActive="False" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Male" race="Baraka" skillId="9020100" isActive="True" level="1"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Common" gender="Male" race="Baraka" skillId="9010100" isActive="True" level="40"
     cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="True"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <!-- Mystic ? -->
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="10002" isActive="False"
@@ -3229,79 +3229,79 @@
     prerequisiteActiveSkills="271100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="181100" isActive="True"
-    level="61" cost="0" prevSkillId="181000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="181000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="181000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="250300" isActive="True"
-    level="61" cost="0" prevSkillId="250200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="250200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="250200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="410900" isActive="True"
-    level="61" cost="0" prevSkillId="410800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="410800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="410800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="240100" isActive="True"
-    level="63" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="81100" isActive="True"
-    level="63" cost="0" prevSkillId="81000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="81000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="81000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="130400" isActive="True"
-    level="63" cost="0" prevSkillId="130300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="130300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="140200" isActive="True"
-    level="63" cost="0" prevSkillId="140100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="140100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="140100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="231100" isActive="True"
-    level="63" cost="0" prevSkillId="231000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="231000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="231000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="271300" isActive="True"
-    level="63" cost="0" prevSkillId="271200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="271200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="271200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="331200" isActive="True"
-    level="63" cost="0" prevSkillId="331100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="331100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="331100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="421000" isActive="True"
-    level="63" cost="0" prevSkillId="420900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="420900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="420900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="11200" isActive="True"
-    level="65" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="20800" isActive="True"
-    level="65" cost="0" prevSkillId="20700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="20700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="20700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="51000" isActive="True"
-    level="65" cost="0" prevSkillId="50900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="50900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="50900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="150400" isActive="True"
-    level="65" cost="0" prevSkillId="150300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="211000" isActive="True"
-    level="65" cost="0" prevSkillId="210900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="210900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="210900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="340700" isActive="True"
-    level="65" cost="0" prevSkillId="340600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="340600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="340600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="370200" isActive="True"
-    level="65" cost="0" prevSkillId="370100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="370100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="370100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="300300" isActive="True"
-    level="65" cost="0" prevSkillId="300200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="300200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="300200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Elementalist" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -3309,28 +3309,28 @@
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="17000" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
 
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="440100" isActive="True"
-    level="65" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="False"
     awakenGrade="1" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="450100" isActive="True"
-    level="65" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="False"
     awakenGrade="1" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="470100" isActive="True"
-    level="65" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="False"
     awakenGrade="1" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="480100" isActive="True"
-    level="65" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="False"
     awakenGrade="1" />
   <SkillList class="Elementalist" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="False"
     awakenGrade="1" />
   <!-- Gunner -->
@@ -3827,125 +3827,125 @@
     prerequisiteActiveSkills="200800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91008" isActive="False"
-    level="61" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="31100" isActive="True"
-    level="61" cost="0" prevSkillId="31000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="31000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="31000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="40800" isActive="True"
-    level="61" cost="0" prevSkillId="40700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="40700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="40700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="61000" isActive="True"
-    level="61" cost="0" prevSkillId="60900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="60900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="60900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="90900" isActive="True"
-    level="61" cost="0" prevSkillId="90800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="90800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="90800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="20600" isActive="True"
-    level="63" cost="0" prevSkillId="20500" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="20500" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="20500" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="51000" isActive="True"
-    level="63" cost="0" prevSkillId="50900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="50900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="50900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="71100" isActive="True"
-    level="63" cost="0" prevSkillId="71000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="71000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="71000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="100900" isActive="True"
-    level="63" cost="0" prevSkillId="100800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="130200" isActive="True"
-    level="63" cost="0" prevSkillId="130100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="130100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="151100" isActive="True"
-    level="63" cost="0" prevSkillId="151000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="151000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="151000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="180700" isActive="True"
-    level="63" cost="0" prevSkillId="180600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="180600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="180600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="190400" isActive="True"
-    level="63" cost="0" prevSkillId="190300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="190300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="190300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="210300" isActive="True"
-    level="63" cost="0" prevSkillId="210200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="210200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="210200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91009" isActive="False"
-    level="65" cost="0" prevSkillId="91008" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="91008" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills="91008" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="11200" isActive="True"
-    level="65" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="61100" isActive="True"
-    level="65" cost="0" prevSkillId="61000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="61000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="61000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91000" isActive="True"
-    level="65" cost="0" prevSkillId="90900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="90900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="90900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="110800" isActive="True"
-    level="65" cost="0" prevSkillId="110700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="110700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="110700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="201000" isActive="True"
-    level="65" cost="0" prevSkillId="200900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="200900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="200900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
 
 
   <SkillList class="Engineer" gender="Common" race="Common" skillId="410100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="430100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="470100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91019" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91051" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91052" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91053" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91054" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="91055" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Engineer" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
 
@@ -4531,137 +4531,137 @@
     prerequisiteActiveSkills="160900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="50800" isActive="True"
-    level="61" cost="0" prevSkillId="50700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="50700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="50700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="71100" isActive="True"
-    level="61" cost="0" prevSkillId="71000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="71000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="71000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="80900" isActive="True"
-    level="61" cost="0" prevSkillId="80800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="80800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="80800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="30200" isActive="True"
-    level="63" cost="0" prevSkillId="30100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="30100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="30100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="91000" isActive="True"
-    level="63" cost="0" prevSkillId="90900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="90900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="90900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="100800" isActive="True"
-    level="63" cost="0" prevSkillId="100700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="150500" isActive="True"
-    level="63" cost="0" prevSkillId="150400" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150400" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150400" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="161100" isActive="True"
-    level="63" cost="0" prevSkillId="161000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="161000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="161000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="171000" isActive="True"
-    level="63" cost="0" prevSkillId="170900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="170900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="170900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="200700" isActive="True"
-    level="63" cost="0" prevSkillId="200600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="200600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="200600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="140100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="11200" isActive="True"
-    level="65" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="21200" isActive="True"
-    level="65" cost="0" prevSkillId="21100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="21100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="21100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="41100" isActive="True"
-    level="65" cost="0" prevSkillId="41000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="41000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="41000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="60900" isActive="True"
-    level="65" cost="0" prevSkillId="60800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="60800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="60800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="81000" isActive="True"
-    level="65" cost="0" prevSkillId="80900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="80900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="80900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="121000" isActive="True"
-    level="65" cost="0" prevSkillId="120900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="120900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="120900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="130900" isActive="True"
-    level="65" cost="0" prevSkillId="130800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="130800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92018" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92019" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills="92018" learnType="level"
     isTraitSkill="False" dontSendMsg="true" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92020" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92021" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92022" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92023" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" dontSendMsg="true" />
 
   <!-- 권술사 각성 스킬 시작	-->
   <SkillList class="Fighter" gender="Common" race="Common" skillId="220100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="240100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="260100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92013" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92014" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92015" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92016" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Fighter" gender="Common" race="Common" skillId="92017" isActive="false"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <!-- Valykirie -->
@@ -5234,79 +5234,79 @@
     prerequisiteActiveSkills="200699" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="70899" isActive="True"
-    level="61" cost="0" prevSkillId="70799" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="70799" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="70799" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="101099" isActive="True"
-    level="61" cost="0" prevSkillId="100999" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100999" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100999" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="151199" isActive="True"
-    level="61" cost="0" prevSkillId="151099" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="151099" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="151099" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="20799" isActive="True"
-    level="63" cost="0" prevSkillId="20699" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="20699" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="20699" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="30999" isActive="True"
-    level="63" cost="0" prevSkillId="30899" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="30899" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="30899" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="41099" isActive="True"
-    level="63" cost="0" prevSkillId="40999" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="40999" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="40999" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="50599" isActive="True"
-    level="63" cost="0" prevSkillId="50499" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="50499" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="50499" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="110499" isActive="True"
-    level="63" cost="0" prevSkillId="110399" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="110399" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="110399" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="131199" isActive="True"
-    level="63" cost="0" prevSkillId="131099" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="131099" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="131099" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="11299" isActive="True"
-    level="65" cost="0" prevSkillId="11199" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="11199" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11199" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="61299" isActive="True"
-    level="65" cost="0" prevSkillId="61199" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="61199" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="61199" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="70999" isActive="True"
-    level="65" cost="0" prevSkillId="70899" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="70899" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="70899" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="80199" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="91199" isActive="True"
-    level="65" cost="0" prevSkillId="91099" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="91099" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="91099" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="101199" isActive="True"
-    level="65" cost="0" prevSkillId="101099" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="101099" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="101099" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="161299" isActive="True"
-    level="65" cost="0" prevSkillId="161199" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="161199" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="161199" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="181099" isActive="True"
-    level="65" cost="0" prevSkillId="180999" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="180999" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="180999" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="200899" isActive="True"
-    level="65" cost="0" prevSkillId="200799" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="200799" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="200799" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="94023" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Glaiver" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -5315,35 +5315,35 @@
     unionSkillType="-1" />
   <!-- 각성스킬 -->
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="230199" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="240199" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="250199" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="94019" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="94020" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="94021" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="94022" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Glaiver" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <!-- Lancer -->
@@ -5764,87 +5764,87 @@
     prerequisiteActiveSkills="220400" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="270100" isActive="True"
-    level="61" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Lancer" gender="Common" race="Common" skillId="90300" isActive="True" level="61"
+  <SkillList class="Lancer" gender="Common" race="Common" skillId="90300" isActive="True" level="60"
     cost="0" prevSkillId="90200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="90200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="100300" isActive="True"
-    level="61" cost="0" prevSkillId="100200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="131000" isActive="True"
-    level="61" cost="0" prevSkillId="130900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="130900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="230200" isActive="True"
-    level="61" cost="0" prevSkillId="230100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="230100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="230100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="250900" isActive="True"
-    level="61" cost="0" prevSkillId="250800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="250800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="250800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Lancer" gender="Common" race="Common" skillId="30200" isActive="True" level="63"
+  <SkillList class="Lancer" gender="Common" race="Common" skillId="30200" isActive="True" level="60"
     cost="0" prevSkillId="30100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="30100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Lancer" gender="Common" race="Common" skillId="70300" isActive="True" level="63"
+  <SkillList class="Lancer" gender="Common" race="Common" skillId="70300" isActive="True" level="60"
     cost="0" prevSkillId="70200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="70200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Lancer" gender="Common" race="Common" skillId="81100" isActive="True" level="63"
+  <SkillList class="Lancer" gender="Common" race="Common" skillId="81100" isActive="True" level="60"
     cost="0" prevSkillId="81000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="81000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="151000" isActive="True"
-    level="63" cost="0" prevSkillId="150900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="160700" isActive="True"
-    level="63" cost="0" prevSkillId="160600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="160600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="160600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="181100" isActive="True"
-    level="63" cost="0" prevSkillId="181000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="181000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="181000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Lancer" gender="Common" race="Common" skillId="11200" isActive="True" level="65"
+  <SkillList class="Lancer" gender="Common" race="Common" skillId="11200" isActive="True" level="60"
     cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Lancer" gender="Common" race="Common" skillId="40900" isActive="True" level="65"
+  <SkillList class="Lancer" gender="Common" race="Common" skillId="40900" isActive="True" level="60"
     cost="0" prevSkillId="40800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="40800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="111000" isActive="True"
-    level="65" cost="0" prevSkillId="110900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="110900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="110900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="131100" isActive="True"
-    level="65" cost="0" prevSkillId="131000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="131000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="131000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="170200" isActive="True"
-    level="65" cost="0" prevSkillId="170100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="170100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="170100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="210400" isActive="True"
-    level="65" cost="0" prevSkillId="210300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="210300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="210300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="220600" isActive="True"
-    level="65" cost="0" prevSkillId="220500" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="220500" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="220500" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="251000" isActive="True"
-    level="65" cost="0" prevSkillId="250900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="250900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="250900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="12024" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="false" unionSkillType="-1" />
   <SkillList class="Lancer" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -5853,51 +5853,51 @@
     unionSkillType="-1" />
 
   <SkillList class="Lancer" gender="Common" race="Common" skillId="280100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="290100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="300100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
-  <SkillList class="Lancer" gender="Common" race="Common" skillId="20200" isActive="True" level="65"
+  <SkillList class="Lancer" gender="Common" race="Common" skillId="20200" isActive="True" level="60"
     cost="0" prevSkillId="20100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="20100" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="12025" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="12026" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="12027" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="12028" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="12029" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="12031" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Lancer" gender="Common" race="Common" skillId="12032" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <!-- Priest -->
@@ -6494,99 +6494,99 @@
     prerequisiteActiveSkills="300600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="340100" isActive="True"
-    level="61" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Priest" gender="Common" race="Common" skillId="30700" isActive="True" level="61"
+  <SkillList class="Priest" gender="Common" race="Common" skillId="30700" isActive="True" level="60"
     cost="0" prevSkillId="30600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="30600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Priest" gender="Common" race="Common" skillId="60200" isActive="True" level="61"
+  <SkillList class="Priest" gender="Common" race="Common" skillId="60200" isActive="True" level="60"
     cost="0" prevSkillId="60100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="60100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="320200" isActive="True"
-    level="61" cost="0" prevSkillId="320100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="320100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="320100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="401000" isActive="True"
-    level="61" cost="0" prevSkillId="400900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="400900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="400900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="111100" isActive="True"
-    level="63" cost="0" prevSkillId="111000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="111000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="111000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="161100" isActive="True"
-    level="63" cost="0" prevSkillId="161000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="161000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="161000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <!--SkillList
-  class="Priest" gender="Common" race="Common" skillId="170400" isActive="True" level="63" cost="0"
+  class="Priest" gender="Common" race="Common" skillId="170400" isActive="True" level="60" cost="0"
   prevSkillId="170300" prevSkillOverride="True" requiredItems=";" prerequisiteActiveSkills="170300"
   prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" /-->
   <SkillList class="Priest" gender="Common" race="Common" skillId="271100" isActive="True"
-    level="63" cost="0" prevSkillId="271000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="271000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="271000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="290900" isActive="True"
-    level="63" cost="0" prevSkillId="290800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="290800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="290800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="330300" isActive="True"
-    level="63" cost="0" prevSkillId="330200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="330200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="330200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="350400" isActive="True"
-    level="63" cost="0" prevSkillId="350300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="350300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="350300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="410100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Priest" gender="Common" race="Common" skillId="11200" isActive="True" level="65"
+  <SkillList class="Priest" gender="Common" race="Common" skillId="11200" isActive="True" level="60"
     cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="181200" isActive="True"
-    level="65" cost="0" prevSkillId="181100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="181100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="181100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="220500" isActive="True"
-    level="65" cost="0" prevSkillId="220400" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="220400" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="220400" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
-  <SkillList class="Priest" gender="Common" race="Common" skillId="20900" isActive="True" level="65"
+  <SkillList class="Priest" gender="Common" race="Common" skillId="20900" isActive="True" level="60"
     cost="0" prevSkillId="20800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="20800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="190900" isActive="True"
-    level="65" cost="0" prevSkillId="190800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="190800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="190800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="251000" isActive="True"
-    level="65" cost="0" prevSkillId="250900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="250900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="250900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="261000" isActive="True"
-    level="65" cost="0" prevSkillId="260900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="260900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="260900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="300800" isActive="True"
-    level="65" cost="0" prevSkillId="300700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="300700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="300700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="310200" isActive="True"
-    level="65" cost="0" prevSkillId="310100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="310100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="310100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="340200" isActive="True"
-    level="65" cost="0" prevSkillId="340100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="340100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="340100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="370200" isActive="True"
-    level="65" cost="0" prevSkillId="370100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="370100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="370100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Priest" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -6594,47 +6594,47 @@
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="420100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="430100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="28200" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="28210" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="28220" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="28221" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="410200" isActive="True"
-    level="65" cost="0" prevSkillId="410100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="410100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="410100" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="True" awakenGrade="1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="280200" isActive="True"
-    level="65" cost="0" prevSkillId="280100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="280100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="280100" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="True" awakenGrade="1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="28222" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="28223" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Priest" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <!-- Slayer -->
@@ -7138,92 +7138,92 @@
     level="60" cost="0" prevSkillId="130700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
-  <SkillList class="Slayer" gender="Common" race="Common" skillId="40200" isActive="True" level="61"
+  <SkillList class="Slayer" gender="Common" race="Common" skillId="40200" isActive="True" level="60"
     cost="0" prevSkillId="40100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="40100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
-  <SkillList class="Slayer" gender="Common" race="Common" skillId="50300" isActive="True" level="61"
+  <SkillList class="Slayer" gender="Common" race="Common" skillId="50300" isActive="True" level="60"
     cost="0" prevSkillId="50200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="50200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="150700" isActive="True"
-    level="61" cost="0" prevSkillId="150600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="170300" isActive="True"
-    level="61" cost="0" prevSkillId="170200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="170200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="170200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="180200" isActive="True"
-    level="61" cost="0" prevSkillId="180100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="180100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="180100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="190300" isActive="True"
-    level="61" cost="0" prevSkillId="190200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="190200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="190200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
-  <SkillList class="Slayer" gender="Common" race="Common" skillId="21100" isActive="True" level="63"
+  <SkillList class="Slayer" gender="Common" race="Common" skillId="21100" isActive="True" level="60"
     cost="0" prevSkillId="21000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="21000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
-  <SkillList class="Slayer" gender="Common" race="Common" skillId="31100" isActive="True" level="63"
+  <SkillList class="Slayer" gender="Common" race="Common" skillId="31100" isActive="True" level="60"
     cost="0" prevSkillId="31000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="31000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
-  <SkillList class="Slayer" gender="Common" race="Common" skillId="60200" isActive="True" level="63"
+  <SkillList class="Slayer" gender="Common" race="Common" skillId="60200" isActive="True" level="60"
     cost="0" prevSkillId="60100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="60100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="121100" isActive="True"
-    level="63" cost="0" prevSkillId="121000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="121000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="121000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="130900" isActive="True"
-    level="63" cost="0" prevSkillId="130800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="130800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="240900" isActive="True"
-    level="63" cost="0" prevSkillId="240800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="240800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="240800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="13011" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="false" unionSkillType="-1" />
-  <SkillList class="Slayer" gender="Common" race="Common" skillId="11200" isActive="True" level="65"
+  <SkillList class="Slayer" gender="Common" race="Common" skillId="11200" isActive="True" level="60"
     cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
-  <SkillList class="Slayer" gender="Common" race="Common" skillId="81000" isActive="True" level="65"
+  <SkillList class="Slayer" gender="Common" race="Common" skillId="81000" isActive="True" level="60"
     cost="0" prevSkillId="80900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="80900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
-  <SkillList class="Slayer" gender="Common" race="Common" skillId="90800" isActive="True" level="65"
+  <SkillList class="Slayer" gender="Common" race="Common" skillId="90800" isActive="True" level="60"
     cost="0" prevSkillId="90700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="90700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="101000" isActive="True"
-    level="65" cost="0" prevSkillId="100900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="140800" isActive="True"
-    level="65" cost="0" prevSkillId="140700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="140700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="140700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="150800" isActive="True"
-    level="65" cost="0" prevSkillId="150700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="160400" isActive="True"
-    level="65" cost="0" prevSkillId="160300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="160300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="160300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="200200" isActive="True"
-    level="65" cost="0" prevSkillId="200100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="200100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="200100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="230900" isActive="True"
-    level="65" cost="0" prevSkillId="230800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="230800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="230800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -7231,52 +7231,52 @@
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="13062" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <!-- 무사 각성-->
   <SkillList class="Slayer" gender="Common" race="Common" skillId="260100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="0" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="270100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="0" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="280100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills="0" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="13044" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="13050" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="13051" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="13060" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="13061" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="13070" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="200300" isActive="True"
-    level="65" cost="0" prevSkillId="200200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="200200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="200200" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Slayer" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest" isTraitSkill="True"
     awakenGrade="1" />
   <!-- Sorcerer -->
@@ -7825,91 +7825,91 @@
     prerequisiteActiveSkills="270700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="30300" isActive="True"
-    level="61" cost="0" prevSkillId="30200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="30200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="30200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="41100" isActive="True"
-    level="61" cost="0" prevSkillId="41000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="41000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="41000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="61000" isActive="True"
-    level="61" cost="0" prevSkillId="60900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="60900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="60900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="80700" isActive="True"
-    level="61" cost="0" prevSkillId="80600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="80600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="80600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="340200" isActive="True"
-    level="61" cost="0" prevSkillId="340100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="340100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="340100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="220700" isActive="True"
-    level="61" cost="0" prevSkillId="220600" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="220600" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="220600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="250400" isActive="True"
-    level="61" cost="0" prevSkillId="250300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="250300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="250300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="300900" isActive="True"
-    level="61" cost="0" prevSkillId="300800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="300800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="300800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="21000" isActive="True"
-    level="63" cost="0" prevSkillId="20900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="20900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="20900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="100300" isActive="True"
-    level="63" cost="0" prevSkillId="100200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="130300" isActive="True"
-    level="63" cost="0" prevSkillId="130200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="130200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="130200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="160800" isActive="True"
-    level="63" cost="0" prevSkillId="160700" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="160700" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="160700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="170400" isActive="True"
-    level="63" cost="0" prevSkillId="170300" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="170300" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="170300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="230200" isActive="True"
-    level="63" cost="0" prevSkillId="230100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="230100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="230100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="270900" isActive="True"
-    level="63" cost="0" prevSkillId="270800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="270800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="270800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="11200" isActive="True"
-    level="65" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="41200" isActive="True"
-    level="65" cost="0" prevSkillId="41100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="41100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="41100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="111100" isActive="True"
-    level="65" cost="0" prevSkillId="111000" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="111000" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="111000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="120900" isActive="True"
-    level="65" cost="0" prevSkillId="120800" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="120800" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="120800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="141000" isActive="True"
-    level="65" cost="0" prevSkillId="140900" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="140900" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="140900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="180600" isActive="True"
-    level="65" cost="0" prevSkillId="180500" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="180500" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="180500" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="200500" isActive="True"
-    level="65" cost="0" prevSkillId="200400" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="200400" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="200400" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" />
   <SkillList class="Sorcerer" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -7918,51 +7918,51 @@
     unionSkillType="-1" />
   <!-- 마법사 각성 -->
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="15050" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="15060" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="15070" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="15080" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="15090" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="15109" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="15110" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False"
     unionSkillType="-1" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="15111" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False"
     unionSkillType="-1" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="350100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="360100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="390100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="Sorcerer" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <!-- Warrior -->
@@ -8565,159 +8565,159 @@
   <!--This
   is the lv 65 skills -->
   <SkillList class="Warrior" gender="Common" race="Common" skillId="340100" isActive="True"
-    level="61" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False"
     unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="30200" isActive="True"
-    level="61" cost="0" prevSkillId="30100" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="30100" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="30100" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="30100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="80400" isActive="True"
-    level="61" cost="0" prevSkillId="80300" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="80300" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="80300" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="80300" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="90200" isActive="True"
-    level="61" cost="0" prevSkillId="90100" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="90100" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="90100" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="90100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="210500" isActive="True"
-    level="61" cost="0" prevSkillId="210400" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="210400" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="210400" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="210400" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="220200" isActive="True"
-    level="61" cost="0" prevSkillId="220100" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="220100" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="220100" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="220100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="230600" isActive="True"
-    level="61" cost="0" prevSkillId="230500" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="230500" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="230500" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="230500" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="240200" isActive="True"
-    level="61" cost="0" prevSkillId="240100" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="240100" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="240100" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="240100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="40900" isActive="True"
-    level="63" cost="0" prevSkillId="40800" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="40800" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="40800" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="40800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="50300" isActive="True"
-    level="63" cost="0" prevSkillId="50200" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="50200" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="50200" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="50200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="100700" isActive="True"
-    level="63" cost="0" prevSkillId="100600" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="100600" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="100600" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="100600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="161000" isActive="True"
-    level="63" cost="0" prevSkillId="160900" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="160900" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="160900" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="160900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="181100" isActive="True"
-    level="63" cost="0" prevSkillId="181000" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="181000" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="181000" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="181000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="191100" isActive="True"
-    level="63" cost="0" prevSkillId="191000" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="191000" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="191000" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="191000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="310800" isActive="True"
-    level="63" cost="0" prevSkillId="310700" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="310700" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="310700" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="310700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="330200" isActive="True"
-    level="63" cost="0" prevSkillId="330100" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="330100" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="330100" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="330100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="350100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False"
     unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="11200" isActive="True"
-    level="65" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="11100" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="11100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="30300" isActive="True"
-    level="65" cost="0" prevSkillId="30200" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="30200" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="30200" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="30200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="111100" isActive="True"
-    level="65" cost="0" prevSkillId="111000" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="111000" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="111000" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="111000" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="120800" isActive="True"
-    level="65" cost="0" prevSkillId="120700" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="120700" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="120700" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="120700" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="131000" isActive="True"
-    level="65" cost="0" prevSkillId="130900" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="130900" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="130900" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="130900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="170700" isActive="True"
-    level="65" cost="0" prevSkillId="170600" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="170600" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="170600" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="170600" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="200200" isActive="True"
-    level="65" cost="0" prevSkillId="200100" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="200100" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="200100" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="200100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <!--SkillList
-  class="Warrior" gender="Common" race="Common" skillId="270400" isActive="True" level="65" cost="0"
+  class="Warrior" gender="Common" race="Common" skillId="270400" isActive="True" level="60" cost="0"
   prevSkillId="270300" prevSkillOverride="True" requiredItems=";" prerequisiteActiveSkills="270300"
-  prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" unionSkillType="-1" /-->
+  prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" unionSkillType="-1" /-->
   <SkillList class="Warrior" gender="Common" race="Common" skillId="281000" isActive="True"
-    level="65" cost="0" prevSkillId="280900" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="280900" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="280900" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="280900" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="290900" isActive="True"
-    level="65" cost="0" prevSkillId="290800" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="290800" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="290800" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="290800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="300900" isActive="True"
-    level="65" cost="0" prevSkillId="300800" prevSkillOverride="True" requiredItems=";"
-    prerequisiteActiveSkills="300800" prerequisitePassiveSkills=";" learnType="npc"
+    level="60" cost="0" prevSkillId="300800" prevSkillOverride="True" requiredItems=";"
+    prerequisiteActiveSkills="300800" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Popori" skillId="9010100" isActive="True"
     level="12" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="True"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="400100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="410100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="420100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="11049" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="11050" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="11051" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="11052" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="11053" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False" />
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False" />
   <SkillList class="Warrior" gender="Common" race="Common" skillId="11054" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
-    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="npc" isTraitSkill="False"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="False"
     unionSkillType="-1" />
 
   <SkillList class="soulless" gender="Common" race="Common" skillId="90001" isActive="False"
@@ -8821,95 +8821,95 @@
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="120200" isActive="True"
-    level="61" cost="0" prevSkillId="120100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="120100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="120100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="150300" isActive="True"
-    level="61" cost="0" prevSkillId="150200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="150200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="150200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="50300" isActive="True"
-    level="63" cost="0" prevSkillId="50200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="50200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="50200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="60200" isActive="True"
-    level="63" cost="0" prevSkillId="60100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="60100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="60100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="80200" isActive="True"
-    level="63" cost="0" prevSkillId="80100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="80100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="80100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="110200" isActive="True"
-    level="63" cost="0" prevSkillId="110100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="110100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="110100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="10300" isActive="True"
-    level="65" cost="0" prevSkillId="10200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="10200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="10200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="30300" isActive="True"
-    level="65" cost="0" prevSkillId="30200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="30200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="30200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="40300" isActive="True"
-    level="65" cost="0" prevSkillId="40200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="40200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="40200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="100200" isActive="True"
-    level="65" cost="0" prevSkillId="100100" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="100100" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="100100" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="140300" isActive="True"
-    level="65" cost="0" prevSkillId="140200" prevSkillOverride="True" requiredItems=";"
+    level="60" cost="0" prevSkillId="140200" prevSkillOverride="True" requiredItems=";"
     prerequisiteActiveSkills="140200" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="180100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="false" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="190100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="210100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="230100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="90006" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="false" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="90007" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="90008" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="90009" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="90010" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="90011" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" dontSendMsg="true" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="90012" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="false" unionSkillType="-1" awakenGrade="1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="90013" isActive="False"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
     isTraitSkill="False" unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Popori" skillId="9010100" isActive="True"
@@ -8917,7 +8917,7 @@
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level" isTraitSkill="True"
     unionSkillType="-1" />
   <SkillList class="soulless" gender="Common" race="Common" skillId="9100100" isActive="True"
-    level="65" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
+    level="60" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
 

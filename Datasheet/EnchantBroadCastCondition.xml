@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EnchantBroadCastCondition>	
+	<!--
+	BroadCastItem@
+	isUse : 해당 내역을 사용할지 여부. 사용하지 않으면 메시지가 어떠한 경우에도 뜨지 않는다.
+	broadCastItemRank : 출력할 아이템의 랭크. 지정된 랭크이상의 아이템만 출력한다.
+	broadCastEnchantGrade : 메시지를 출력할 강화 단계. 중복 처리 가능하다 (콤마로 구분)
+	broadCastMasterpiece : 명품에 대해 메시지 띄울 지 확인. default는 false. 파라미터가 없을 경우 false로 처리
+	broadCastArea : 출력할 영역 지정
+			Default : 개인범위(메시지 출력 없음)
+			Guard : 동 가드내 유저
+			World : 월드 전체 출력
+		
+		ExceptionalItem@
+		itemTemplateId : 랭크와는 관계없이 띄워주고 싶은 아이템의 리스트
+	-->
+	
+	<!-- 2019 6월 신규스텟 장비 -->
+	<BroadCastItem isUse="TRUE" broadCastItemRank="3" broadCastEnchantGrade="11,12,13" broadCastArea="World"/>
+	<BroadCastItem isUse="TRUE" broadCastItemRank="22" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="World"/>
+	<BroadCastItem isUse="TRUE" broadCastItemRank="21" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="World"/>
+	<BroadCastItem isUse="TRUE" broadCastItemRank="20" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="Guard"/>
+	<BroadCastItem isUse="TRUE" broadCastItemRank="19" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="Guard"/>
+	
+	
+	<!--<BroadCastItem isUse="TRUE" broadCastItemRank="12" broadCastEnchantGrade="9" broadCastArea="World">-->
+		<!--ExceptionalItem itemTemplateId="0"/-->
+		<!--ExceptionalItem itemTemplateId="1"/-->
+	<!--</BroadCastItem>-->
+	
+</EnchantBroadCastCondition>
