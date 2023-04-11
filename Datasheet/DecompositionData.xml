@@ -1,0 +1,3315 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DecompositionData progressTime="2000">
+  <!-- ID 규칙
+분해 아이디를 하나의 아이템만 쓰거나, 단발성으로 사용하여 관리가 필요없는 그룹이 쓰는 경우(ex. 이벤트)
+- 아이템 ID와 분해 ID를 같게 설정
+- 그룹이면 아이템 리스트 중 하나의 ID로 분해 ID 설정
+
+분해 아이디를 특정 조건에 따라 여러 아이템이 쓰는 경우
+- 여러개 중 하나를 아이템 ID와 분해 ID를 같게 하여 사용
+- desc에 어떤 조건인지 명시
+
+분해 아이디를 특정 조건에 맞는 아이템들에 일괄 사용할 경우(엄청 많은 아이템이 사용하는 경우)
+- ID 1~2000번 사이에서 빈 아이디를 사용. description 반드시 적어야하고, 빈아이디가 아닌지 확인해야함.
+-->
+  <!--분해 아이디를 특정 조건에 맞는 아이템들에 일괄 사용하는 데이터 리스트-->
+  <!--프리미엄 외형 분해 off상태(on하려면 아이디를 1~6으로 변경)-->
+  <Decomposition id="1" desc="프리미엄 스타일 머리">
+    <RandomOutput>
+      <Output templateId="202452" probability="1" min="180" max="240" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="2" desc="프리미엄 스타일 얼굴">
+    <RandomOutput>
+      <Output templateId="202452" probability="1" min="180" max="240" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="3" desc="프리미엄 스타일 무기">
+    <RandomOutput>
+      <Output templateId="202452" probability="1" min="860" max="1100" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="4" desc="프리미엄 스타일 스탬프">
+    <RandomOutput>
+      <Output templateId="202452" probability="1" min="400" max="580" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="5" desc="프리미엄 스타일 등">
+    <RandomOutput>
+      <Output templateId="202452" probability="1" min="400" max="580" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="6" desc="프리미엄 스타일 의상">
+    <RandomOutput>
+      <Output templateId="202452" probability="1" min="600" max="800" />
+    </RandomOutput>
+  </Decomposition>
+  <!--프리미엄 외형 분해 종료-->
+  <!--아래 주석은 컨버터용 아이디. 다른 데이터에 절대 사용하면안됨-->
+  <!--
+  <Decomposition id="7" desc="프리미엄 스타일 유럽 전용 머리. 거래가능/귀속아님">
+  </Decomposition>
+  <Decomposition id="8" desc="프리미엄 스타일 유럽 전용 얼굴. 거래가능/귀속아님">
+  </Decomposition>
+  <Decomposition id="9" desc="프리미엄 스타일 유럽 전용 무기. 거래가능/귀속아님">
+  </Decomposition>
+  <Decomposition id="10" desc="프리미엄 스타일 유럽 전용 스탬프. 거래가능/귀속아님">
+  </Decomposition>
+  <Decomposition id="11" desc="프리미엄 스타일 유럽 전용 등. 거래가능/귀속아님">
+  </Decomposition>
+  <Decomposition id="12" desc="프리미엄 스타일 유럽 전용 의상. 거래가능/귀속아님">
+  </Decomposition>
+  <Decomposition id="13" desc="프리미엄 스타일 태국 전용 머리. 거래불가/귀속">
+  </Decomposition>
+  <Decomposition id="14" desc="프리미엄 스타일 태국 전용 얼굴. 거래불가/귀속">
+  </Decomposition>
+  <Decomposition id="15" desc="프리미엄 스타일 태국 전용 무기. 거래불가/귀속">
+  </Decomposition>
+  <Decomposition id="16" desc="프리미엄 스타일 태국 전용 스탬프. 거래불가/귀속">
+  </Decomposition>
+  <Decomposition id="17" desc="프리미엄 스타일 태국 전용 등. 거래불가/귀속">
+  </Decomposition>
+  <Decomposition id="18" desc="프리미엄 스타일 태국 전용 의상. 거래불가/귀속">
+  </Decomposition>-->
+  <!-- 이 아래로 id=25번부터 사용-->
+  <!--특정 조건 없이 분해하는 데이터 리스트-->
+  <Decomposition id="52">
+    <FixedOutput>
+      <Output templateId="98522" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="53">
+    <FixedOutput>
+      <Output templateId="98522" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="430">
+    <FixedOutput>
+      <Output templateId="98522" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="447">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="790">
+    <FixedOutput>
+      <Output templateId="98522" amount="7" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="791">
+    <FixedOutput>
+      <Output templateId="98522" amount="7" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="70102">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="70139">
+    <FixedOutput>
+      <Output templateId="98522" amount="7" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="70141">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="99435">
+    <FixedOutput>
+      <Output templateId="98522" amount="7" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="99436">
+    <FixedOutput>
+      <Output templateId="98522" amount="7" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="100501">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="100502">
+    <FixedOutput>
+      <Output templateId="98522" amount="16" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149075">
+    <FixedOutput>
+      <Output templateId="98522" amount="30" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="151666">
+    <FixedOutput>
+      <Output templateId="98522" amount="7" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="178812">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="180859">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212743">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212744">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212745">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212746">
+    <FixedOutput>
+      <Output templateId="98522" amount="28" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="71">
+    <FixedOutput>
+      <Output templateId="98522" amount="100" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="93">
+    <FixedOutput>
+      <Output templateId="98522" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="94">
+    <FixedOutput>
+      <Output templateId="98522" amount="20" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="398">
+    <FixedOutput>
+      <Output templateId="98522" amount="20" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="911">
+    <FixedOutput>
+      <Output templateId="98522" amount="20" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="912">
+    <FixedOutput>
+      <Output templateId="98522" amount="20" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="81208">
+    <FixedOutput>
+      <Output templateId="98522" amount="20" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="94000">
+    <FixedOutput>
+      <Output templateId="98522" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="94001">
+    <FixedOutput>
+      <Output templateId="98522" amount="8000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="100717">
+    <FixedOutput>
+      <Output templateId="98522" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="100976">
+    <FixedOutput>
+      <Output templateId="98522" amount="120" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="100977">
+    <FixedOutput>
+      <Output templateId="98522" amount="1600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="139710">
+    <FixedOutput>
+      <Output templateId="98522" amount="120" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="139804">
+    <FixedOutput>
+      <Output templateId="98522" amount="1600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149059">
+    <FixedOutput>
+      <Output templateId="98522" amount="1600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149193">
+    <FixedOutput>
+      <Output templateId="98522" amount="20" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149194">
+    <FixedOutput>
+      <Output templateId="98522" amount="120" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149179">
+    <FixedOutput>
+      <Output templateId="98522" amount="1600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149243">
+    <FixedOutput>
+      <Output templateId="98522" amount="120" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149270">
+    <FixedOutput>
+      <Output templateId="98522" amount="120" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149271">
+    <FixedOutput>
+      <Output templateId="98522" amount="1600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149673">
+    <FixedOutput>
+      <Output templateId="98522" amount="120" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="179885">
+    <FixedOutput>
+      <Output templateId="98522" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="179886">
+    <FixedOutput>
+      <Output templateId="98522" amount="8000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="181961">
+    <FixedOutput>
+      <Output templateId="98522" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="181962">
+    <FixedOutput>
+      <Output templateId="98522" amount="8000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212731">
+    <FixedOutput>
+      <Output templateId="98522" amount="100" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212733">
+    <FixedOutput>
+      <Output templateId="98522" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212747">
+    <FixedOutput>
+      <Output templateId="98522" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212748">
+    <FixedOutput>
+      <Output templateId="98522" amount="8000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="220359">
+    <FixedOutput>
+      <Output templateId="98522" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="94112">
+    <FixedOutput>
+      <Output templateId="98522" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="445">
+    <FixedOutput>
+      <Output templateId="15" amount="40" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="811">
+    <FixedOutput>
+      <Output templateId="98522" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="812">
+    <FixedOutput>
+      <Output templateId="98522" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212741">
+    <FixedOutput>
+      <Output templateId="98522" amount="40" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="97713">
+    <FixedOutput>
+      <Output templateId="98522" amount="17000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="97714">
+    <FixedOutput>
+      <Output templateId="98522" amount="170" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="97715">
+    <FixedOutput>
+      <Output templateId="98522" amount="34" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6515">
+    <FixedOutput>
+      <Output templateId="98522" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6516">
+    <FixedOutput>
+      <Output templateId="98522" amount="18" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21206">
+    <FixedOutput>
+      <Output templateId="98523" amount="18000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21207">
+    <FixedOutput>
+      <Output templateId="98522" amount="900" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21208">
+    <FixedOutput>
+      <Output templateId="98523" amount="10800" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21209">
+    <FixedOutput>
+      <Output templateId="98523" amount="3600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21204">
+    <FixedOutput>
+      <Output templateId="98522" amount="36" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21205">
+    <FixedOutput>
+      <Output templateId="98522" amount="120" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21290">
+    <FixedOutput>
+      <Output templateId="98522" amount="15" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21291">
+    <FixedOutput>
+      <Output templateId="98522" amount="1500" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21333">
+    <FixedOutput>
+      <Output templateId="98522" amount="30" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21334">
+    <FixedOutput>
+      <Output templateId="98522" amount="100" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21335">
+    <FixedOutput>
+      <Output templateId="98522" amount="1800" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21343">
+    <FixedOutput>
+      <Output templateId="98523" amount="4320" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21336">
+    <FixedOutput>
+      <Output templateId="98522" amount="1000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21344">
+    <FixedOutput>
+      <Output templateId="98523" amount="2400" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21337">
+    <FixedOutput>
+      <Output templateId="98522" amount="1500" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21345">
+    <FixedOutput>
+      <Output templateId="98523" amount="3600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="399">
+    <FixedOutput>
+      <Output templateId="98522" amount="1000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="154525">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="100503">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149058">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149178">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149269">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149320">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149674">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149823">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="80096">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="81214">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="212740">
+    <FixedOutput>
+      <Output templateId="98522" amount="1000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="215009">
+    <FixedOutput>
+      <Output templateId="98522" amount="250" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 신 장비 성장 관련 아이템 분해 -->
+  <Decomposition id="98500">
+    <FixedOutput>
+      <Output templateId="98523" amount="15" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98501">
+    <FixedOutput>
+      <Output templateId="98523" amount="36" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98502">
+    <FixedOutput>
+      <Output templateId="98523" amount="90" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98503">
+    <FixedOutput>
+      <Output templateId="98523" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98504">
+    <FixedOutput>
+      <Output templateId="98523" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98505">
+    <FixedOutput>
+      <Output templateId="98523" amount="30" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98506">
+    <FixedOutput>
+      <Output templateId="98523" amount="100" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98507">
+    <FixedOutput>
+      <Output templateId="98523" amount="100" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98508">
+    <FixedOutput>
+      <Output templateId="98523" amount="200" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98509">
+    <FixedOutput>
+      <Output templateId="98523" amount="1000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98510">
+    <FixedOutput>
+      <Output templateId="98523" amount="320" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98511">
+    <FixedOutput>
+      <Output templateId="98523" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98512">
+    <FixedOutput>
+      <Output templateId="98523" amount="1000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98513">
+    <FixedOutput>
+      <Output templateId="98523" amount="4000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98514">
+    <FixedOutput>
+      <Output templateId="98523" amount="15" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98515">
+    <FixedOutput>
+      <Output templateId="98523" amount="36" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98516">
+    <FixedOutput>
+      <Output templateId="98523" amount="90" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98517">
+    <FixedOutput>
+      <Output templateId="98523" amount="3" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98518">
+    <FixedOutput>
+      <Output templateId="98523" amount="50" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98519">
+    <FixedOutput>
+      <Output templateId="98523" amount="200" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98520">
+    <FixedOutput>
+      <Output templateId="98523" amount="400" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98521">
+    <FixedOutput>
+      <Output templateId="98523" amount="2800" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98590">
+    <FixedOutput>
+      <Output templateId="98523" amount="6000" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 각인서 분해 -->
+  <Decomposition id="6341">
+    <!-- 갑옷 각인서 I -->
+    <FixedOutput>
+      <Output templateId="206305" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6345">
+    <!-- 갑옷 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206306" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6349">
+    <!-- 갑옷 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206307" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6353">
+    <!-- 무기 각인서 I -->
+    <FixedOutput>
+      <Output templateId="206300" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6358">
+    <!-- 무기 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206301" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6363">
+    <!-- 무기 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206302" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6368">
+    <!-- 신발 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206306" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6372">
+    <!-- 신발 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206307" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6376">
+    <!-- 장갑 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206301" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6381">
+    <!-- 장갑 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206302" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="20800">
+    <!-- 갑옷 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89922" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89922">
+    <!-- 갑옷 파편 -->
+    <FixedOutput>
+      <Output templateId="206308" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="20806">
+    <!-- 무기 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89920" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89920">
+    <!-- 무기 파편 -->
+    <FixedOutput>
+      <Output templateId="206303" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="20814">
+    <!-- 신발 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89923" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89923">
+    <!-- 신발 파편 -->
+    <FixedOutput>
+      <Output templateId="206308" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="20817">
+    <!-- 장갑 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89921" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89921">
+    <!-- 장갑 파편 -->
+    <FixedOutput>
+      <Output templateId="206303" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6526">
+    <!-- 강력한 무기 각인서 I -->
+    <FixedOutput>
+      <Output templateId="206300" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6531">
+    <!-- 강력한 갑옷 각인서 I -->
+    <FixedOutput>
+      <Output templateId="206305" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6404">
+    <!-- 강력한 갑옷 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206306" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6408">
+    <!-- 강력한 갑옷 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206307" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6412">
+    <!-- 강력한 무기 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206301" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6417">
+    <!-- 강력한 무기 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206302" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6422">
+    <!-- 강력한 신발 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206306" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6426">
+    <!-- 강력한 신발 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206307" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6430">
+    <!-- 강력한 장갑 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206301" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6435">
+    <!-- 강력한 장갑 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206302" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="20850">
+    <!-- 강력한 갑옷 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89922" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="20855">
+    <!-- 강력한 무기 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89920" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="20860">
+    <!-- 강력한 신발 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89923" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="20865">
+    <!-- 강력한 장갑 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89921" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6680">
+    <!-- 목걸이 각인서 I -->
+    <FixedOutput>
+      <Output templateId="206310" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6690">
+    <!-- 목걸이 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206311" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6700">
+    <!-- 목걸이 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206312" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6710">
+    <!-- 목걸이 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89926" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89926">
+    <!-- 목걸이 파편 -->
+    <FixedOutput>
+      <Output templateId="206313" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6695">
+    <!-- 강력한 목걸이 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206311" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6705">
+    <!-- 강력한 목걸이 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206312" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6715">
+    <!-- 강력한 목걸이 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89926" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6760">
+    <!-- 귀걸이 각인서 I -->
+    <FixedOutput>
+      <Output templateId="206310" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6770">
+    <!-- 귀걸이 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206311" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6780">
+    <!-- 귀걸이 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206312" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6790">
+    <!-- 귀걸이 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89925" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89925">
+    <!-- 귀걸이 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="206313" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6775">
+    <!-- 강력한 귀걸이 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206311" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6785">
+    <!-- 강력한 귀걸이 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206312" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6795">
+    <!-- 강력한 귀걸이 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89925" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6840">
+    <!-- 반지 각인서 I -->
+    <FixedOutput>
+      <Output templateId="206315" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6850">
+    <!-- 반지 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206316" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6860">
+    <!-- 반지 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206317" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6870">
+    <!-- 반지 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89924" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89924">
+    <!-- 반지 파편 -->
+    <FixedOutput>
+      <Output templateId="206318" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6855">
+    <!-- 강력한 반지 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206316" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6865">
+    <!-- 강력한 반지 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206317" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6875">
+    <!-- 강력한 반지 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89924" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6920">
+    <!-- 허리띠 각인서 I -->
+    <FixedOutput>
+      <Output templateId="206315" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6930">
+    <!-- 허리띠 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206316" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6940">
+    <!-- 허리띠 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206317" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6950">
+    <!-- 허리띠 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89927" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89927">
+    <!-- 허리띠 파편 -->
+    <FixedOutput>
+      <Output templateId="206318" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6935">
+    <!-- 강력한 허리띠 각인서 II -->
+    <FixedOutput>
+      <Output templateId="206316" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6945">
+    <!-- 강력한 허리띠 각인서 III -->
+    <FixedOutput>
+      <Output templateId="206317" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6955">
+    <!-- 강력한 허리띠 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89927" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6956">
+    <!-- 브로치 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89928" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6957">
+    <!-- 강력한 브로치 각인서 IV -->
+    <FixedOutput>
+      <Output templateId="89928" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 증거 상점에서 살 수 있는 구재료 -->
+  <Decomposition id="21347">
+    <FixedOutput>
+      <Output templateId="98523" amount="432" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21348">
+    <FixedOutput>
+      <Output templateId="98523" amount="10800" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21349">
+    <FixedOutput>
+      <Output templateId="98523" amount="180" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21350">
+    <FixedOutput>
+      <Output templateId="98523" amount="18000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21351">
+    <FixedOutput>
+      <Output templateId="15" amount="12" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21353">
+    <FixedOutput>
+      <Output templateId="98523" amount="24" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="21354">
+    <FixedOutput>
+      <Output templateId="98523" amount="1440" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98522">
+    <!-- 잔재 -> 증거 -->
+    <FixedOutput>
+      <Output templateId="98523" amount="12" />
+    </FixedOutput>
+  </Decomposition>
+  <!--'18 2월 KR 글자조합 이벤트-->
+  <Decomposition id="142732">
+    <FixedOutput>
+      <Output templateId="142736" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="142733">
+    <FixedOutput>
+      <Output templateId="142736" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="142734">
+    <FixedOutput>
+      <Output templateId="142736" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="142735">
+    <FixedOutput>
+      <Output templateId="142736" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <!--'18 6월 신규 액세서리 재료-->
+  <Decomposition id="98598">
+    <FixedOutput>
+      <Output templateId="98523" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98599">
+    <FixedOutput>
+      <Output templateId="98523" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98600">
+    <FixedOutput>
+      <Output templateId="98523" amount="600" />
+    </FixedOutput>
+  </Decomposition>
+  <!--'18 7월 가면 분해 -->
+  <Decomposition id="88631" onlyBoundedPc="true">
+    <FixedOutput>
+      <Output templateId="88788" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88635" onlyBoundedPc="true">
+    <FixedOutput>
+      <Output templateId="88789" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88784" onlyBoundedPc="true">
+    <FixedOutput>
+      <Output templateId="88790" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!--'18 7월 재료 분해 -->
+  <Decomposition id="98654">
+    <FixedOutput>
+      <Output templateId="98653" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98655">
+    <FixedOutput>
+      <Output templateId="98653" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98656">
+    <FixedOutput>
+      <Output templateId="98653" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <!--'18 7월 세공 첨가제 분해 -->
+  <Decomposition id="88827">
+    <FixedOutput>
+      <Output templateId="88837" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88828">
+    <FixedOutput>
+      <Output templateId="88837" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88829">
+    <FixedOutput>
+      <Output templateId="88837" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88830">
+    <FixedOutput>
+      <Output templateId="88837" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88831">
+    <FixedOutput>
+      <Output templateId="88837" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88832">
+    <FixedOutput>
+      <Output templateId="88837" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88833">
+    <FixedOutput>
+      <Output templateId="88837" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88834">
+    <FixedOutput>
+      <Output templateId="88837" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88835">
+    <FixedOutput>
+      <Output templateId="88837" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="88836">
+    <FixedOutput>
+      <Output templateId="88837" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 구 제작 첨가제 -->
+  <Decomposition id="6329">
+    <FixedOutput>
+      <Output templateId="5291" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="6474">
+    <FixedOutput>
+      <Output templateId="5291" amount="35" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="99019">
+    <FixedOutput>
+      <Output templateId="5291" amount="105" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="99020">
+    <FixedOutput>
+      <Output templateId="5291" amount="1000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="99021">
+    <FixedOutput>
+      <Output templateId="5291" amount="50" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="99022">
+    <FixedOutput>
+      <Output templateId="5291" amount="500" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149509">
+    <FixedOutput>
+      <Output templateId="5291" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149510">
+    <FixedOutput>
+      <Output templateId="5291" amount="35" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149829">
+    <FixedOutput>
+      <Output templateId="5291" amount="105" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="149830">
+    <FixedOutput>
+      <Output templateId="5291" amount="1000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="152900">
+    <FixedOutput>
+      <Output templateId="5291" amount="105" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="152901">
+    <FixedOutput>
+      <Output templateId="5291" amount="1000" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="179071">
+    <FixedOutput>
+      <Output templateId="5291" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="179257">
+    <FixedOutput>
+      <Output templateId="5291" amount="35" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="181119">
+    <FixedOutput>
+      <Output templateId="5291" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="181339">
+    <FixedOutput>
+      <Output templateId="5291" amount="35" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="211818">
+    <FixedOutput>
+      <Output templateId="5291" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="211935">
+    <FixedOutput>
+      <Output templateId="5291" amount="35" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="854581">
+    <FixedOutput>
+      <Output templateId="5291" amount="35" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="855849">
+    <FixedOutput>
+      <Output templateId="5291" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <!--TH 글자 분해-->
+  <Decomposition id="856404">
+    <FixedOutput>
+      <Output templateId="856408" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="856405">
+    <FixedOutput>
+      <Output templateId="856408" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="856406">
+    <FixedOutput>
+      <Output templateId="856408" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="856407">
+    <FixedOutput>
+      <Output templateId="856408" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 물고기 분해 -->
+  <Decomposition id="206400">
+    <FixedOutput>
+      <Output templateId="204052" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206402">
+    <FixedOutput>
+      <Output templateId="204052" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206404">
+    <FixedOutput>
+      <Output templateId="204052" amount="6" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206406">
+    <FixedOutput>
+      <Output templateId="204052" amount="8" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206408">
+    <FixedOutput>
+      <Output templateId="204052" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206411">
+    <FixedOutput>
+      <Output templateId="204052" amount="12" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206414">
+    <FixedOutput>
+      <Output templateId="204052" amount="14" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206418">
+    <FixedOutput>
+      <Output templateId="204052" amount="16" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206422">
+    <FixedOutput>
+      <Output templateId="204052" amount="19" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206426">
+    <FixedOutput>
+      <Output templateId="204052" amount="22" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206431">
+    <FixedOutput>
+      <Output templateId="204052" amount="25" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206500">
+    <FixedOutput>
+      <Output templateId="204052" amount="50" />
+    </FixedOutput>
+  </Decomposition>
+  <!--공중섬 물고기 분해 -->
+  <Decomposition id="206436">
+    <FixedOutput>
+      <Output templateId="206215" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206437">
+    <FixedOutput>
+      <Output templateId="206215" amount="6" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206439">
+    <FixedOutput>
+      <Output templateId="206215" amount="8" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206441">
+    <FixedOutput>
+      <Output templateId="206215" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206443">
+    <FixedOutput>
+      <Output templateId="206215" amount="12" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206445">
+    <FixedOutput>
+      <Output templateId="206215" amount="14" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206447">
+    <FixedOutput>
+      <Output templateId="206215" amount="16" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206449">
+    <FixedOutput>
+      <Output templateId="206215" amount="19" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206451">
+    <FixedOutput>
+      <Output templateId="206215" amount="22" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206454">
+    <FixedOutput>
+      <Output templateId="206215" amount="25" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206506">
+    <FixedOutput>
+      <Output templateId="206215" amount="50" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206516">
+    <FixedOutput>
+      <Output templateId="366" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206517">
+    <FixedOutput>
+      <Output templateId="207500" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206518">
+    <FixedOutput>
+      <Output templateId="206854" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!--PVP 속옷 분해-->
+  <Decomposition id="9371">
+    <FixedOutput>
+      <Output templateId="9393" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9372">
+    <FixedOutput>
+      <Output templateId="9394" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9373">
+    <FixedOutput>
+      <Output templateId="9394" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9374">
+    <FixedOutput>
+      <Output templateId="9394" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9375">
+    <FixedOutput>
+      <Output templateId="9395" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9376">
+    <FixedOutput>
+      <Output templateId="9395" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9377">
+    <FixedOutput>
+      <Output templateId="9395" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9381">
+    <FixedOutput>
+      <Output templateId="9396" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9382">
+    <FixedOutput>
+      <Output templateId="9396" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9383">
+    <FixedOutput>
+      <Output templateId="9396" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9384">
+    <FixedOutput>
+      <Output templateId="9396" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9385">
+    <FixedOutput>
+      <Output templateId="9396" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="9386">
+    <FixedOutput>
+      <Output templateId="9396" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 기존 던전 초기화 주문서를 모험의 주화(120)로 -->
+  <Decomposition id="99972">
+    <FixedOutput>
+      <Output templateId="205129" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="99973">
+    <FixedOutput>
+      <Output templateId="205129" amount="4" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="99974">
+    <FixedOutput>
+      <Output templateId="205129" amount="8" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="202092">
+    <FixedOutput>
+      <Output templateId="205129" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="202093">
+    <FixedOutput>
+      <Output templateId="205129" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="202094">
+    <FixedOutput>
+      <Output templateId="205129" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="202095">
+    <FixedOutput>
+      <Output templateId="205129" amount="7" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="202096">
+    <FixedOutput>
+      <Output templateId="205129" amount="7" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="202097">
+    <FixedOutput>
+      <Output templateId="205129" amount="14" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 성장구간 무기 분해 -->
+  <Decomposition id="19487">
+    <!--세렌, 이스렌, 엘리누, 티투스-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="94113" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="94113" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="94113" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="94113" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19898">
+    <!--아마룬, 주라스, 기드, 카라스-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="94114" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="94114" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="94114" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="94114" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19946">
+    <!--다곤, 이샤라-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19972">
+    <!--오린, 바하르-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="80396">
+    <!--비밀스러운 흑단의 비검-->
+    <FixedOutput>
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 성장구간 방어구 분해 -->
+  <Decomposition id="15613">
+    <!--요정-->
+    <FixedOutput>
+      <Output templateId="94116" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19740">
+    <!--휘어진 뿔, 파수견, 자바르만-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="94116" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="94116" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="94116" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="94116" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19767">
+    <!--이계, 사로잡힌 카이둔, 황금 미궁, 폐허-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="94117" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="94117" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="94117" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="94117" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19803">
+    <!--공포, 발키온 정찰대-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19821">
+    <!--이르카 경비대-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 성장 구간 액세서리 분해 -->
+  <Decomposition id="19830">
+    <!--데바 산적단 목걸이, 비밀의 목걸이, 베르베로스의 목걸이, 자바르만의 목걸이-->
+    <FixedOutput>
+      <Output templateId="94113" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19831">
+    <!--데바 산적단 귀걸이, 드라크 무르단의 귀걸이, 공작 볼페론의 귀걸이, 글리더의 귀걸이-->
+    <FixedOutput>
+      <Output templateId="94116" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19832">
+    <!--데바 산적단 반지, 테트라 아니아스크의 반지, 공작부인 티라니아의 반지, 글리더의 반지-->
+    <FixedOutput>
+      <Output templateId="94113" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19839">
+    <!--선혈의 목걸이, 베르크라마의 목걸이, 빛나는 뱀가죽 목걸이, 라크네르스의 목걸이-->
+    <FixedOutput>
+      <Output templateId="94114" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19840">
+    <!--갈란의 귀걸이, 벨레크 부족 귀걸이, 빛나는 뱀가죽 귀걸이, 강력한 권세의 귀걸이-->
+    <FixedOutput>
+      <Output templateId="94117" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19841">
+    <!--미혹의 반지, 크루얼 미스트의 반지, 타오르는 폭염의 반지, 강력한 저주의 반지-->
+    <FixedOutput>
+      <Output templateId="94114" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19851">
+    <!--권능의 목걸이, 발키온 정찰대 목걸이, 이르카 경비대 목걸이-->
+    <FixedOutput>
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19852">
+    <!--권능의 귀걸이, 발키온 정찰대 귀걸이, 이르카 경비대 귀걸이-->
+    <FixedOutput>
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19853">
+    <!--강력한 변이의 반지, 발키온 정찰대 반지, 이르카 경비대 반지-->
+    <FixedOutput>
+      <Output templateId="94115" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="19857">
+    <!--발키온 정찰대 허리띠, 이르카 경비대 허리띠-->
+    <FixedOutput>
+      <Output templateId="94118" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98677">
+    <!--상급 무기 강화석-->
+    <RandomOutput>
+      <Output templateId="98675" probability="1" min="2" max="4" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="98678">
+    <!--상급 방어구 강화석-->
+    <RandomOutput>
+      <Output templateId="98676" probability="1" min="2" max="4" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="98779">
+    <!--다크샤드 결정체-->
+    <FixedOutput>
+      <Output templateId="98778" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89769">
+    <!--2020 수호자 대체 장비 중급 무기 강화재료-->
+    <FixedOutput>
+      <Output templateId="89768" amount="25" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89770">
+    <!--2020 수호자 대체 장비 상급 무기 강화재료-->
+    <FixedOutput>
+      <Output templateId="89769" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89772">
+    <!--2020 수호자 대체 장비 중급 방어구 강화재료-->
+    <FixedOutput>
+      <Output templateId="89771" amount="25" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89773">
+    <!--2020 수호자 대체 장비 상급 방어구 강화재료-->
+    <FixedOutput>
+      <Output templateId="89772" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89157">
+    <!--고급 신규 무기-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="89910" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="98675" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98675" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98675" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98675" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98675" amount="5" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98675" amount="7" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98675" amount="9" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98675" amount="11" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98675" amount="13" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98675" amount="15" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98675" amount="18" />
+      <Output templateId="98677" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98675" amount="21" />
+      <Output templateId="98677" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98675" amount="24" />
+      <Output templateId="98677" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98675" amount="27" />
+      <Output templateId="98677" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98675" amount="30" />
+      <Output templateId="98677" amount="5" />
+    </FixedOutput>
+    <RandomOutput enchantStep="0">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="1">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="2">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="3">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="4">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="5">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="6">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="7">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="8">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="9">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="10">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="11">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="12">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="13">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="14">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="15">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="89261">
+    <!--고급 신규 방어구-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="89910" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="98676" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98676" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98676" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98676" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98676" amount="5" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98676" amount="7" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98676" amount="9" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98676" amount="11" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98676" amount="13" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98676" amount="15" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98676" amount="18" />
+      <Output templateId="98678" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98676" amount="21" />
+      <Output templateId="98678" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98676" amount="24" />
+      <Output templateId="98678" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98676" amount="27" />
+      <Output templateId="98678" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98676" amount="30" />
+      <Output templateId="98678" amount="5" />
+    </FixedOutput>
+    <RandomOutput enchantStep="0">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="1">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="2">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="3">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="4">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="5">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="6">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="7">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="8">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="9">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="10">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="11">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="12">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="13">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="14">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="15">
+      <Output templateId="98679" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.082691" min="4" max="6" />
+      <Output templateId="98713" probability="0.000885" min="1" max="1" />
+      <Output templateId="98714" probability="0.002124" min="1" max="1" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="89333">
+    <!--희귀 신규 무기-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="89910" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="98675" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98675" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98675" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98675" amount="8" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98675" amount="10" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98675" amount="13" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98675" amount="16" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98675" amount="19" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98675" amount="22" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98675" amount="25" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98675" amount="28" />
+      <Output templateId="98677" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98675" amount="31" />
+      <Output templateId="98677" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98675" amount="34" />
+      <Output templateId="98677" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98675" amount="37" />
+      <Output templateId="98677" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98675" amount="40" />
+      <Output templateId="98677" amount="5" />
+    </FixedOutput>
+    <RandomOutput enchantStep="0">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="1">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="2">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="3">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="4">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="5">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="6">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="7">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="8">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="9">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="10">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="11">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="12">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="13">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="14">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="15">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="89437">
+    <!--희귀 신규 방어구-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="89910" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="98676" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98676" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98676" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98676" amount="8" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98676" amount="10" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98676" amount="13" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98676" amount="16" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98676" amount="19" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98676" amount="22" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98676" amount="25" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98676" amount="28" />
+      <Output templateId="98678" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98676" amount="31" />
+      <Output templateId="98678" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98676" amount="34" />
+      <Output templateId="98678" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98676" amount="37" />
+      <Output templateId="98678" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98676" amount="40" />
+      <Output templateId="98678" amount="5" />
+    </FixedOutput>
+    <RandomOutput enchantStep="0">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="1">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="2">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="3">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="4">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="5">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="6">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="7">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="8">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="9">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="10">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="11">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="12">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="13">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="14">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="15">
+      <Output templateId="98680" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.070655" min="40" max="60" />
+      <Output templateId="98713" probability="0.004425" min="1" max="1" />
+      <Output templateId="98714" probability="0.010620" min="1" max="1" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="89509">
+    <!--전설 신규 무기-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="89910" amount="40" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="98675" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98675" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98675" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98675" amount="8" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98675" amount="11" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98675" amount="14" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98675" amount="18" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98675" amount="22" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98675" amount="26" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98675" amount="30" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98675" amount="34" />
+      <Output templateId="98677" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98675" amount="38" />
+      <Output templateId="98677" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98675" amount="42" />
+      <Output templateId="98677" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98675" amount="46" />
+      <Output templateId="98677" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98675" amount="50" />
+      <Output templateId="98677" amount="5" />
+    </FixedOutput>
+    <RandomOutput enchantStep="0">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="1">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="2">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="3">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="4">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="5">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="6">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="7">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="8">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="9">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="10">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="11">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="12">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="13">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="14">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="15">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="89613">
+    <!--전설 신규 방어구-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="89910" amount="40" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="98676" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98676" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98676" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98676" amount="8" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98676" amount="11" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98676" amount="14" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98676" amount="18" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98676" amount="22" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98676" amount="26" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98676" amount="30" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98676" amount="34" />
+      <Output templateId="98678" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98676" amount="38" />
+      <Output templateId="98678" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98676" amount="42" />
+      <Output templateId="98678" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98676" amount="46" />
+      <Output templateId="98678" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98676" amount="50" />
+      <Output templateId="98678" amount="5" />
+    </FixedOutput>
+    <RandomOutput enchantStep="0">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="1">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="2">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="3">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="4">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="5">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="6">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="7">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="8">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="9">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="10">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="11">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="12">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="13">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="14">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+    <RandomOutput enchantStep="15">
+      <Output templateId="98681" probability="0.914300" min="14" max="21" />
+      <Output templateId="98682" probability="0.010475" min="400" max="600" />
+      <Output templateId="98713" probability="0.022125" min="1" max="1" />
+      <Output templateId="98714" probability="0.053100" min="1" max="1" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="90747">
+    <!--신화 신규 무기-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="89910" amount="80" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="98675" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98675" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98675" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98675" amount="8" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98675" amount="11" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98675" amount="14" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98675" amount="18" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98675" amount="22" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98675" amount="26" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98675" amount="30" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98675" amount="34" />
+      <Output templateId="98677" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98675" amount="38" />
+      <Output templateId="98677" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98675" amount="42" />
+      <Output templateId="98677" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98675" amount="46" />
+      <Output templateId="98677" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98675" amount="50" />
+      <Output templateId="98677" amount="5" />
+    </FixedOutput>
+    <RandomOutput enchantStep="0">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="1">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="2">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="3">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="4">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="5">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="6">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="7">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="8">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="9">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="10">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="11">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="12">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="13">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="14">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="15">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="90851">
+    <!--신화 신규 방어구-->
+    <FixedOutput enchantStep="0">
+      <Output templateId="89910" amount="80" />
+    </FixedOutput>
+    <FixedOutput enchantStep="1">
+      <Output templateId="98676" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98676" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98676" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98676" amount="8" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98676" amount="11" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98676" amount="14" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98676" amount="18" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98676" amount="22" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98676" amount="26" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98676" amount="30" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98676" amount="34" />
+      <Output templateId="98678" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98676" amount="38" />
+      <Output templateId="98678" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98676" amount="42" />
+      <Output templateId="98678" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98676" amount="46" />
+      <Output templateId="98678" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98676" amount="50" />
+      <Output templateId="98678" amount="5" />
+    </FixedOutput>
+    <RandomOutput enchantStep="0">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="1">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="2">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="3">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="4">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="5">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="6">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="7">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="8">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="9">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="10">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="11">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="12">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="13">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="14">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+    <RandomOutput enchantStep="15">
+      <Output templateId="98681" probability="1" min="21" max="25" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="89693">
+    <!--거래 불가 전설 무기-->
+    <FixedOutput enchantStep="1">
+      <Output templateId="98675" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98675" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98675" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98675" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98675" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98675" amount="7" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98675" amount="9" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98675" amount="11" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98675" amount="13" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98675" amount="15" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98675" amount="17" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98675" amount="19" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98675" amount="21" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98675" amount="23" />
+      <Output templateId="98677" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98675" amount="25" />
+      <Output templateId="98677" amount="3" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89719">
+    <!--거래 불가 전설 방어구-->
+    <FixedOutput enchantStep="1">
+      <Output templateId="98676" amount="1" />
+    </FixedOutput>
+    <FixedOutput enchantStep="2">
+      <Output templateId="98676" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="3">
+      <Output templateId="98676" amount="3" />
+    </FixedOutput>
+    <FixedOutput enchantStep="4">
+      <Output templateId="98676" amount="4" />
+    </FixedOutput>
+    <FixedOutput enchantStep="5">
+      <Output templateId="98676" amount="6" />
+    </FixedOutput>
+    <FixedOutput enchantStep="6">
+      <Output templateId="98676" amount="7" />
+    </FixedOutput>
+    <FixedOutput enchantStep="7">
+      <Output templateId="98676" amount="9" />
+    </FixedOutput>
+    <FixedOutput enchantStep="8">
+      <Output templateId="98676" amount="11" />
+    </FixedOutput>
+    <FixedOutput enchantStep="9">
+      <Output templateId="98676" amount="13" />
+    </FixedOutput>
+    <FixedOutput enchantStep="10">
+      <Output templateId="98676" amount="15" />
+    </FixedOutput>
+    <FixedOutput enchantStep="11">
+      <Output templateId="98676" amount="17" />
+    </FixedOutput>
+    <FixedOutput enchantStep="12">
+      <Output templateId="98676" amount="19" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98676" amount="21" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98676" amount="23" />
+      <Output templateId="98678" amount="2" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98676" amount="25" />
+      <Output templateId="98678" amount="3" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89740">
+    <!--2020 수호자 대체 신규 무기-->
+    <FixedOutput enchantStep="12">
+      <Output templateId="98675" amount="40" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98675" amount="60" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98675" amount="80" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98675" amount="100" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89753">
+    <!--2020 수호자 대체 신규 방어구-->
+    <FixedOutput enchantStep="12">
+      <Output templateId="98676" amount="40" />
+    </FixedOutput>
+    <FixedOutput enchantStep="13">
+      <Output templateId="98676" amount="60" />
+    </FixedOutput>
+    <FixedOutput enchantStep="14">
+      <Output templateId="98676" amount="80" />
+    </FixedOutput>
+    <FixedOutput enchantStep="15">
+      <Output templateId="98676" amount="100" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98697">
+    <!--아스란 무기 재료 분해-->
+    <RandomOutput>
+      <Output templateId="98683" probability="1" min="1" max="3" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="149087" desc="KR이벤트 루파넬의 시간역행 액세서리 조각">
+    <FixedOutput>
+      <Output templateId="143481" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="98719">
+    <!--화염 무기 재료 분해-->
+    <RandomOutput>
+      <Output templateId="98718" probability="1" min="1" max="3" />
+    </RandomOutput>
+  </Decomposition>
+  <Decomposition id="98720">
+    <!--냉기 무기 재료 분해-->
+    <RandomOutput>
+      <Output templateId="98718" probability="1" min="1" max="3" />
+    </RandomOutput>
+  </Decomposition>
+  <!-- 11월 해외 공통 이벤트 분해 -->
+  <Decomposition id="149090" desc="11월 해외 공통 이벤트 칩 분해">
+    <FixedOutput>
+      <Output templateId="206782" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 길리안의 숲 보상 증폭제 길리안 토큰으로 분해 -->
+  <Decomposition id="204257" desc="길리안 보상 증폭제1단계 분해">
+    <FixedOutput>
+      <Output templateId="204256" amount="5" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="204258" desc="길리안 보상 증폭제2단계 분해">
+    <FixedOutput>
+      <Output templateId="204256" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="209190" desc="[이벤트] 상자를 삼킨 상어">
+    <FixedOutput>
+      <Output templateId="209193" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="209191" desc="[이벤트] 은빛 상자를 삼킨 상어">
+    <FixedOutput>
+      <Output templateId="209194" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="209192" desc="[이벤트] 금빛 상자를 삼킨 상어">
+    <FixedOutput>
+      <Output templateId="209195" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 9주년 이벤트 분해 -->
+  <Decomposition id="207294" desc="9주년 T">
+    <FixedOutput>
+      <Output templateId="207299" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="207295" desc="9주년 E">
+    <FixedOutput>
+      <Output templateId="207299" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="207296" desc="9주년 R">
+    <FixedOutput>
+      <Output templateId="207299" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="207297" desc="9주년 A">
+    <FixedOutput>
+      <Output templateId="207299" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="207298" desc="9주년 대박 열쇠 분해">
+    <FixedOutput>
+      <Output templateId="207299" amount="13" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- LIVE93 라이브대응 윌슨지도 -->
+  <Decomposition id="206855" desc="윌슨지도 왼쪽">
+    <FixedOutput>
+      <Output templateId="206858" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206856" desc="윌슨지도 오른쪽">
+    <FixedOutput>
+      <Output templateId="206858" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- KR 삼일절 이벤트 분해 -->
+  <Decomposition id="148448" desc="KR_삼일절 이벤트_1번 우표분해">
+    <FixedOutput>
+      <Output templateId="148453" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="148449" desc="KR_삼일절 이벤트_2번 우표분해">
+    <FixedOutput>
+      <Output templateId="148453" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="148450" desc="KR_삼일절 이벤트_3번 우표분해">
+    <FixedOutput>
+      <Output templateId="148453" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="148451" desc="KR_삼일절 이벤트_4번 우표분해">
+    <FixedOutput>
+      <Output templateId="148453" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- EU 8주년 이벤트 -->
+  <Decomposition id="156377" desc="EU_8주년_Fragment Eating Shark">
+    <FixedOutput>
+      <Output templateId="156367" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="156378" desc="EU_8주년_Crystal Eating Shark">
+    <FixedOutput>
+      <Output templateId="156366" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="156379" desc="EU_8주년_Crystal Box Eating Shark">
+    <FixedOutput>
+      <Output templateId="156365" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89805" desc="투신의 반지 분해">
+    <FixedOutput>
+      <Output templateId="207627" amount="10" />
+      <Output templateId="89919" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89807" desc="투신의 목걸이 분해">
+    <FixedOutput>
+      <Output templateId="207628" amount="10" />
+      <Output templateId="89919" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89809" desc="바다의 반지 세공석 분해">
+    <FixedOutput>
+      <Output templateId="207627" amount="20" />
+      <Output templateId="89919" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89810" desc="화염의 목걸이 세공석 분해">
+    <FixedOutput>
+      <Output templateId="207628" amount="20" />
+      <Output templateId="89919" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89898" desc="투신의 귀걸이 분해">
+    <FixedOutput>
+      <Output templateId="89905" amount="10" />
+      <Output templateId="89919" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89900" desc="투신의 서클릿 분해">
+    <FixedOutput>
+      <Output templateId="89906" amount="10" />
+      <Output templateId="89919" amount="1" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89901" desc="대지의 귀걸이 세공석">
+    <FixedOutput>
+      <Output templateId="89905" amount="10" />
+      <Output templateId="89919" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="89902" desc="바람의 서클릿 세공석">
+    <FixedOutput>
+      <Output templateId="89906" amount="10" />
+      <Output templateId="89919" amount="2" />
+    </FixedOutput>
+  </Decomposition>
+  <!-- 기존 채집도구 분해 추가 -->
+  <Decomposition id="206602" desc="하급 낫">
+    <FixedOutput>
+      <Output templateId="206652" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206612" desc="하급 곡괭이">
+    <FixedOutput>
+      <Output templateId="206652" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206622" desc="하급 추출기">
+    <FixedOutput>
+      <Output templateId="206652" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206603" desc="중급 낫">
+    <FixedOutput>
+      <Output templateId="206653" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206613" desc="중급 곡괭이">
+    <FixedOutput>
+      <Output templateId="206653" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206623" desc="중급 추출기">
+    <FixedOutput>
+      <Output templateId="206653" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206604" desc="상급 낫">
+    <FixedOutput>
+      <Output templateId="206654" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206614" desc="상급 곡괭이">
+    <FixedOutput>
+      <Output templateId="206654" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206624" desc="상급 추출기">
+    <FixedOutput>
+      <Output templateId="206654" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206605" desc="최상급 낫">
+    <FixedOutput>
+      <Output templateId="206655" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206615" desc="최상급 곡괭이">
+    <FixedOutput>
+      <Output templateId="206655" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+  <Decomposition id="206625" desc="최상급 추출기">
+    <FixedOutput>
+      <Output templateId="206655" amount="10" />
+    </FixedOutput>
+  </Decomposition>
+</DecompositionData>
