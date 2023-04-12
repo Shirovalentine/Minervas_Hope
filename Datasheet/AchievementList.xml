@@ -1307,6 +1307,9 @@
     iconName="Icon_Achievement.Icon_Achievement_Title_lord_Tex">
     <Condition id="0" type="count" templateId="1031" value1="2" max="2" string="@Achievement:314800" />
   </Achievement>
+<!-- Error on server so removing it till next update  -->
+<!-- 
+
   <Achievement compareId="4007" id="357" categoryId="608" serverUnique="none" point="20" grade="0"
     classes="common" name="@Achievement:357001" description="@Achievement:357002"
     detail="@Achievement:357003" active="False" hidden="True" compare="True"
@@ -1314,6 +1317,7 @@
     iconName="Icon_Achievement.Icon_Achievement_Title_lord_Tex">
     <Condition id="0" type="check" templateId="4025" value1="5" string="@Achievement:357800" />
   </Achievement>
+
   <Achievement compareId="4008" id="358" categoryId="608" serverUnique="none" point="20" grade="0"
     classes="common" name="@Achievement:358001" description="@Achievement:358002"
     detail="@Achievement:358003" active="False" hidden="True" compare="True"
@@ -1321,6 +1325,8 @@
     iconName="Icon_Achievement.Icon_Achievement_Title_lord_Tex">
     <Condition id="0" type="check" templateId="4025" value1="12" string="@Achievement:358800" />
   </Achievement>
+  
+-->
   <Achievement compareId="4009" id="359" categoryId="608" serverUnique="none" point="20" grade="0"
     classes="common" name="@Achievement:359001" description="@Achievement:359002"
     detail="@Achievement:359003" active="False" hidden="True" compare="True"
@@ -4771,7 +4777,7 @@
     <Condition id="0" type="count" templateId="1042" value1="30" max="30"
       string="@Achievement:356800" />
   </Achievement>
-  <!-- Removed Auto healing Pets  -->
+  <!-- Removed Auto healing Pets quest 1 -->
   <!-- 
   <Achievement compareId="14999" id="1885" categoryId="602" serverUnique="none" point="10" grade="0"
   classes="common" name="@Achievement:6900" description="@Achievement:6901"
@@ -5703,6 +5709,8 @@
     <Condition id="1" type="check" templateId="4023" value1="497" string="@Achievement:853801" />
     <Condition id="2" type="check" templateId="4023" value1="498" string="@Achievement:853802" />
   </Achievement>
+  <!--Removing another pet achivement -->
+  <!--
   <Achievement compareId="20046" id="854" categoryId="500" serverUnique="none" point="70" grade="2"
     classes="common" name="@Achievement:854001" description="@Achievement:854002"
     detail="@Achievement:854003" active="True" hidden="False" compare="True"
@@ -5714,6 +5722,7 @@
     <Condition id="0" type="check" templateId="4023" value1="848" string="@Achievement:854800" />
     <Condition id="1" type="check" templateId="4023" value1="846" string="@Achievement:854801" />
   </Achievement>
+-->
   <Achievement compareId="20047" id="855" categoryId="401" serverUnique="none" point="20" grade="0"
     classes="common" name="@Achievement:855001" description="@Achievement:855002"
     detail="@Achievement:855003" active="True" hidden="False" compare="True"
@@ -6462,6 +6471,8 @@
     <Condition id="0" type="check" templateId="4209" value1="74" value2="7400001"
       string="@Achievement:942800" />
   </Achievement>
+  <!-- Removing World Class Pet Auto Heal  -->
+<!-- 
   <Achievement compareId="20134" id="943" categoryId="200" serverUnique="none" point="40" grade="2"
     classes="common" name="@Achievement:943001" description="@Achievement:943002"
     detail="@Achievement:943003" active="True" hidden="False" compare="True"
@@ -6473,6 +6484,7 @@
     <Condition id="0" type="check" templateId="4023" value1="224" string="@Achievement:943800" />
     <Condition id="1" type="check" templateId="4023" value1="285" string="@Achievement:943801" />
   </Achievement>
+-->
   <Achievement compareId="20135" id="944" categoryId="200" serverUnique="none" point="50" grade="2"
     classes="common" name="@Achievement:944001" description="@Achievement:944002"
     detail="@Achievement:944003" active="True" hidden="False" compare="True"

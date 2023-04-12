@@ -15,13 +15,15 @@
 		itemTemplateId : 랭크와는 관계없이 띄워주고 싶은 아이템의 리스트
 	-->
 	
-	<!-- 2019 6월 신규스텟 장비 -->
+	<!-- Items that we are curently using -->
 	<BroadCastItem isUse="TRUE" broadCastItemRank="3" broadCastEnchantGrade="11,12,13" broadCastArea="World"/>
+	<BroadCastItem isUse="TRUE" broadCastItemRank="4" broadCastEnchantGrade="11,12,13" broadCastArea="World"/>
+	<!--
 	<BroadCastItem isUse="TRUE" broadCastItemRank="22" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="World"/>
 	<BroadCastItem isUse="TRUE" broadCastItemRank="21" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="World"/>
 	<BroadCastItem isUse="TRUE" broadCastItemRank="20" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="Guard"/>
 	<BroadCastItem isUse="TRUE" broadCastItemRank="19" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="Guard"/>
-	
+	-->
 	
 	<!--<BroadCastItem isUse="TRUE" broadCastItemRank="12" broadCastEnchantGrade="9" broadCastArea="World">-->
 		<!--ExceptionalItem itemTemplateId="0"/-->

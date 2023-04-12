@@ -1,7 +1,6 @@
 <StrSheet_UI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_UI StrSheet_UI.xsd"
     xmlns="https://vezel.dev/novadrop/dc/StrSheet_UI">
-
     <String string="Skills" stringId="$001001" />
     <String string="Extended Skills" stringId="$001002" />
     <String string="Chat" stringId="$001003" />

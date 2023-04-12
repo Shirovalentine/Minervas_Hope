@@ -1,6 +1,7 @@
 <StrSheet_SystemMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_SystemMessage StrSheet_SystemMessage.xsd"
     xmlns="https://vezel.dev/novadrop/dc/StrSheet_SystemMessage">
+
     <String string="You can't do that during combat." delayTime="0"
         readableId="SMT_IMPOSSIBLE_IN_COMBAT" effect="-1" sound="-1" style="SMS_CHAT_ERROR_INFO"
         chatChannel="203" displayChat="true" />
@@ -2791,7 +2792,7 @@
         readableId="SMT_CHAT_PENALTY_START" effect="-1" sound="-1" style="SMS_CHAT_ERROR_INFO"
         chatChannel="203" displayChat="true" />
     <String
-        string="Have fun in Arborea,and remeber any sort of 3rd party sofware will get you ban :D tread carefully!"
+        string="Enjoy your time in Arborea, but be mindful that the usage of any unauthorized software from a third party may result in a ban. Therefore, it would be wise to exercise caution and be vigilant in your actions."
         delayTime="0" readableId="SMT_CHAT_QNA_NOTICE" effect="-1" sound="-1"
         style="SMS_CHAT_ERROR_INFO" chatChannel="203" displayChat="true" />
     <String string="The TERA Team &lt;3s you!" delayTime="0" readableId="SMT_CHAT_QNA_NOTICE_LINK"
