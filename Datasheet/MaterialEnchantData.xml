@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MaterialEnchantData>
 
-<!--Nexus Gear Set -->
+<!--Nexus/Queen Gear Set -->
 	<!--Weapon -->
 	<ItemEnchant materialEnchantId="20001" maxEnchantCount="12">
 		<MaterialItem enchantStep="0" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
@@ -167,6 +167,342 @@
 			<Material type="item" id="94104" amount="9"/>
 		</MaterialItem>
 	</ItemEnchant>
+
+<!--Regent/PvP Gear Set -->
+	<!--Weapon -->
+	<ItemEnchant materialEnchantId="21001" maxEnchantCount="12">
+		<MaterialItem enchantStep="0" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="6"/>
+			<Material type="item" id="94104" amount="3"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="1" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="8"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="2" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="9"/>
+			<Material type="item" id="94104" amount="5"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="3" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="10"/>
+			<Material type="item" id="94104" amount="6"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="4" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="11"/>
+			<Material type="item" id="94104" amount="7"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="5" enchantProb="0.75" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="12"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="6" enchantProb="0.6" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="12"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="7" enchantProb="0.3" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="4"/>
+			<Material type="item" id="94104" amount="10"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="8" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="5"/>
+			<Material type="item" id="94104" amount="12"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="9" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="6"/>
+			<Material type="item" id="94104" amount="14"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="10" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="8"/>
+			<Material type="item" id="94104" amount="16"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="11" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="10"/>
+			<Material type="item" id="94104" amount="18"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="12" enchantProb="0.045" failRevisionProb="0" requiredMoney="0">
+			<Material type="item" id="21351" amount="12"/>
+			<Material type="item" id="94104" amount="18"/>
+		</MaterialItem>
+	</ItemEnchant>
+	<!--Armor -->
+	<ItemEnchant materialEnchantId="21002" maxEnchantCount="12">
+		<MaterialItem enchantStep="0" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="6"/>
+			<Material type="item" id="94104" amount="3"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="1" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="8"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="2" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="9"/>
+			<Material type="item" id="94104" amount="5"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="3" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="10"/>
+			<Material type="item" id="94104" amount="6"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="4" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="11"/>
+			<Material type="item" id="94104" amount="7"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="5" enchantProb="0.75" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="12"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="6" enchantProb="0.6" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="12"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="7" enchantProb="0.3" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="4"/>
+			<Material type="item" id="94104" amount="10"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="8" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="5"/>
+			<Material type="item" id="94104" amount="12"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="9" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="6"/>
+			<Material type="item" id="94104" amount="14"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="10" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="8"/>
+			<Material type="item" id="94104" amount="16"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="11" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="10"/>
+			<Material type="item" id="94104" amount="18"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="12" enchantProb="0.045" failRevisionProb="0" requiredMoney="0">
+			<Material type="item" id="21351" amount="12"/>
+			<Material type="item" id="94104" amount="18"/>
+		</MaterialItem>
+	</ItemEnchant>
+	<!--Boots and Gloves -->
+	<ItemEnchant materialEnchantId="21003" maxEnchantCount="12">
+		<MaterialItem enchantStep="0" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="3"/>
+			<Material type="item" id="94104" amount="1"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="1" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="4"/>
+			<Material type="item" id="94104" amount="2"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="2" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="4"/>
+			<Material type="item" id="94104" amount="2"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="3" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="5"/>
+			<Material type="item" id="94104" amount="3"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="4" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="5"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="5" enchantProb="0.75" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="6"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="6" enchantProb="0.6" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="6"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="7" enchantProb="0.3" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="2"/>
+			<Material type="item" id="94104" amount="5"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="8" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="2"/>
+			<Material type="item" id="94104" amount="6"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="9" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="3"/>
+			<Material type="item" id="94104" amount="7"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="10" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="4"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="11" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="5"/>
+			<Material type="item" id="94104" amount="9"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="12" enchantProb="0.045" failRevisionProb="0" requiredMoney="0">
+			<Material type="item" id="21351" amount="6"/>
+			<Material type="item" id="94104" amount="9"/>
+		</MaterialItem>
+	</ItemEnchant>
+
+<!--VM/Bloodrave Gear Set -->
+	<!--Weapon -->
+	<ItemEnchant materialEnchantId="22001" maxEnchantCount="12">
+		<MaterialItem enchantStep="0" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="6"/>
+			<Material type="item" id="94104" amount="3"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="1" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="8"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="2" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="9"/>
+			<Material type="item" id="94104" amount="5"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="3" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="10"/>
+			<Material type="item" id="94104" amount="6"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="4" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="11"/>
+			<Material type="item" id="94104" amount="7"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="5" enchantProb="0.75" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="12"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="6" enchantProb="0.6" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="12"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="7" enchantProb="0.3" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="4"/>
+			<Material type="item" id="94104" amount="10"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="8" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="5"/>
+			<Material type="item" id="94104" amount="12"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="9" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="6"/>
+			<Material type="item" id="94104" amount="14"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="10" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="8"/>
+			<Material type="item" id="94104" amount="16"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="11" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="10"/>
+			<Material type="item" id="94104" amount="18"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="12" enchantProb="0.045" failRevisionProb="0" requiredMoney="0">
+			<Material type="item" id="21351" amount="12"/>
+			<Material type="item" id="94104" amount="18"/>
+		</MaterialItem>
+	</ItemEnchant>
+	<!--Armor -->
+	<ItemEnchant materialEnchantId="22002" maxEnchantCount="12">
+		<MaterialItem enchantStep="0" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="6"/>
+			<Material type="item" id="94104" amount="3"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="1" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="8"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="2" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="9"/>
+			<Material type="item" id="94104" amount="5"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="3" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="10"/>
+			<Material type="item" id="94104" amount="6"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="4" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="11"/>
+			<Material type="item" id="94104" amount="7"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="5" enchantProb="0.75" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="12"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="6" enchantProb="0.6" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="12"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="7" enchantProb="0.3" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="4"/>
+			<Material type="item" id="94104" amount="10"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="8" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="5"/>
+			<Material type="item" id="94104" amount="12"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="9" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="6"/>
+			<Material type="item" id="94104" amount="14"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="10" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="8"/>
+			<Material type="item" id="94104" amount="16"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="11" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="10"/>
+			<Material type="item" id="94104" amount="18"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="12" enchantProb="0.045" failRevisionProb="0" requiredMoney="0">
+			<Material type="item" id="21351" amount="12"/>
+			<Material type="item" id="94104" amount="18"/>
+		</MaterialItem>
+	</ItemEnchant>
+	<!--Boots and Gloves -->
+	<ItemEnchant materialEnchantId="22003" maxEnchantCount="12">
+		<MaterialItem enchantStep="0" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="3"/>
+			<Material type="item" id="94104" amount="1"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="1" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="4"/>
+			<Material type="item" id="94104" amount="2"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="2" enchantProb="1" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="4"/>
+			<Material type="item" id="94104" amount="2"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="3" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="5"/>
+			<Material type="item" id="94104" amount="3"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="4" enchantProb="0.9" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="5"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="5" enchantProb="0.75" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="6"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="6" enchantProb="0.6" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="15" amount="6"/>
+			<Material type="item" id="94104" amount="4"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="7" enchantProb="0.3" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="2"/>
+			<Material type="item" id="94104" amount="5"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="8" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="2"/>
+			<Material type="item" id="94104" amount="6"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="9" enchantProb="0.15" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="3"/>
+			<Material type="item" id="94104" amount="7"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="10" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="4"/>
+			<Material type="item" id="94104" amount="8"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="11" enchantProb="0.0756" failRevisionProb="0.01" requiredMoney="0">
+			<Material type="item" id="21351" amount="5"/>
+			<Material type="item" id="94104" amount="9"/>
+		</MaterialItem>
+		<MaterialItem enchantStep="12" enchantProb="0.045" failRevisionProb="0" requiredMoney="0">
+			<Material type="item" id="21351" amount="6"/>
+			<Material type="item" id="94104" amount="9"/>
+		</MaterialItem>
+	</ItemEnchant>
+
+
 
 	
 	<ItemEnchant materialEnchantId="1" maxEnchantCount="9"> <!-- 유물 무기 데이터 -->

@@ -16,8 +16,8 @@
 	-->
 	
 	<!-- Items that we are curently using -->
-	<BroadCastItem isUse="TRUE" broadCastItemRank="3" broadCastEnchantGrade="11,12,13" broadCastArea="World"/>
-	<BroadCastItem isUse="TRUE" broadCastItemRank="4" broadCastEnchantGrade="11,12,13" broadCastArea="World"/>
+	<BroadCastItem isUse="TRUE" broadCastItemRank="3" broadCastEnchantGrade="11,12" broadCastArea="World"/>
+	<BroadCastItem isUse="TRUE" broadCastItemRank="4" broadCastEnchantGrade="11,12" broadCastArea="World"/>
 	<!--
 	<BroadCastItem isUse="TRUE" broadCastItemRank="22" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="World"/>
 	<BroadCastItem isUse="TRUE" broadCastItemRank="21" broadCastEnchantGrade="11,12,13,14,15" broadCastArea="World"/>

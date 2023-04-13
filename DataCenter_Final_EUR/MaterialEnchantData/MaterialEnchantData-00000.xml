@@ -1,5 +1,5 @@
 <MaterialEnchantData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/MaterialEnchantData MaterialEnchantData.xsd" xmlns="https://vezel.dev/novadrop/dc/MaterialEnchantData">
-    <!--Nexus Gear Set -->
+<!--Nexus Gear Set -->
 	<!-- Weapon -->
 	<ItemEnchant materialEnchantId="20001" maxEnchantCount="12">
 		<MaterialItem>
@@ -154,7 +154,315 @@
         </MaterialItem>
 	</ItemEnchant>
 
+<!--Regent/Queen Gear Set -->
+	<!--Weapon -->
+	<ItemEnchant materialEnchantId="21001" maxEnchantCount="12">
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+	</ItemEnchant>
+    <!-- Armor -->
+	<ItemEnchant materialEnchantId="21002" maxEnchantCount="12">
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+	</ItemEnchant>
+    <!--Boots and Gloves -->
+	<ItemEnchant materialEnchantId="21003" maxEnchantCount="12">
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+	</ItemEnchant>
 
+<!--VM Gear Set -->
+	<!--Weapon -->
+	<ItemEnchant materialEnchantId="22001" maxEnchantCount="12">
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+	</ItemEnchant>
+    <!-- Armor -->
+	<ItemEnchant materialEnchantId="21002" maxEnchantCount="12">
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+	</ItemEnchant>
+    <!--Boots and Gloves -->
+	<ItemEnchant materialEnchantId="21003" maxEnchantCount="12">
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+		<MaterialItem>
+            <Material type="item" />
+            <Material type="item" />
+        </MaterialItem>
+	</ItemEnchant>
 	<!-- End of custom set-->
 
 
