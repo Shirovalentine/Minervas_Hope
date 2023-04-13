@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemMedalExchange>
   <ExchangeList>
+	<!-- Eternity Token -->
+	<Exchange itemId="94104" buyPriceMedal="1" medalItemId="4001" />
+	<Exchange itemId="21351" buyPriceMedal="1" medalItemId="4001" />
+	<Exchange itemId="131030" buyPriceMedal="1" medalItemId="4001" />
+
     <Exchange itemId="118" buyPriceMedal="25" medalItemId="14" />
     <Exchange itemId="119" buyPriceMedal="20" medalItemId="14" />
     <Exchange itemId="120" buyPriceMedal="20" medalItemId="14" />
@@ -7543,10 +7548,5 @@
 	<Exchange itemId="208071" buyPriceMedal="1" medalItemId="208064" />	
 	<Exchange itemId="208072" buyPriceMedal="1" medalItemId="208064" />	
 	<Exchange itemId="208073" buyPriceMedal="1" medalItemId="208064" />		
-
-	<!-- Eternity Token -->
-	<Exchange itemId="94104" buyPriceMedal="1" medalItemId="900000" />
-	<Exchange itemId="21351" buyPriceMedal="1" medalItemId="900000" />
-	<Exchange itemId="131030" buyPriceMedal="1" medalItemId="900000" />
   </ExchangeList> 
 </ItemMedalExchange>
