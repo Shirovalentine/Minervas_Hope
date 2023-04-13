@@ -7966,6 +7966,7 @@
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="quest"
     isTraitSkill="False" awakenGrade="1" />
   <!-- Warrior -->
+  
   <SkillList class="Warrior" gender="Common" race="Common" skillId="10001" isActive="False"
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="level"
@@ -9915,5 +9916,7 @@
     level="1" cost="0" prevSkillId="0" prevSkillOverride="False" requiredItems=";"
     prerequisiteActiveSkills=";" prerequisitePassiveSkills=";" learnType="book" isTraitSkill="False"
     dontSendMsg="true" />
+
+
 
 </SkillGetConList>
