@@ -1,4 +1,9 @@
 <StrSheet_Npc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_Npc StrSheet_Npc.xsd" xmlns="https://vezel.dev/novadrop/dc/StrSheet_Npc">
+    <!-- Eternity Token -->
+    <String id="4001" string="Eternity Token" />
+    <String id="4002" string="Materials" />
+    <String id="4003" string="Costumes" />
+
     <String id="1" string="Dialog" />
     <String id="2" string="Quest" />
     <String id="3" string="Shop" />
@@ -1926,9 +1931,4 @@
     <String id="21500361" string="" />
     <String id="41150171" string="Awakened equipment." />
     <String id="41150172" string="Enchant Awakened equipment." />
-
-    <!-- Eternity Token -->
-    <String id="900000" string="Eternity Token" />
-    <String id="900001" string="Materials" />
-    <String id="900002" string="Costumes" />
 </StrSheet_Npc>

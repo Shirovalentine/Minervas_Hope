@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <VillagerMenuItems>
+  <!-- Eternity Token -->
+  <VillagerMenuItem itemTemplateId="4001" type="MedalStore" id="4001" />
+
   <VillagerMenuItem itemTemplateId="259" type="MedalStore" id="259" />
   <VillagerMenuItem itemTemplateId="561" type="MedalStore" id="143" />
   <VillagerMenuItem itemTemplateId="91341" type="MedalStore" id="286" />
@@ -392,7 +395,4 @@
   <VillagerMenuItem itemTemplateId="208062" type="MedalStore" id="899870" />
   <VillagerMenuItem itemTemplateId="208063" type="MedalStore" id="899880" />
   <VillagerMenuItem itemTemplateId="208064" type="MedalStore" id="899890" />
-
-  <!-- Eternity Token -->
-  <VillagerMenuItem itemTemplateId="900000" type="MedalStore" id="900000" />
 </VillagerMenuItems>
