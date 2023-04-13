@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MenuList>
+	<!-- Eternity Token -->
+	<Menu id="4001" desc="Eternity Token" stringId="4001">
+		<ItemList id="4002" stringed="4002" />
+		<ItemList id="4003" stringed="4003" />
+	</Menu>
+
 	<Menu id="43" desc="영주 정치 상점" stringId="43">
 		<ItemList id="9999" stringed="9999" />
 	</Menu>
@@ -1636,11 +1642,5 @@
 	</Menu>		
 	<Menu id="899890" desc="최상급 채집 도구" stringId="8998901">
 		<ItemList id="8998901" stringed="8998901" />		
-	</Menu>
-
-	<!-- Eternity Token -->
-	<Menu id="900000" desc="Eternity Token" stringId="900000">
-		<ItemList id="900001" stringed="900001" />
-		<ItemList id="900002" stringed="900002" />
 	</Menu>
 </MenuList>

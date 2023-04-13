@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemSellList>
+  <!-- Eternity Token -->
+  <List id="4002" desc="Eternity Token (Materials)" NeedMedalItemId="4001"> 	
+      <Item priceRevision="1" itemId="94104" />
+      <Item priceRevision="1" itemId="21351" />
+  </List>
+  <List id="4003" desc="Eternity Token (Costumes)" NeedMedalItemId="4001"> 	
+      <Item priceRevision="1" itemId="131030" />
+  </List>
+
   <List id="1001">
     <Item priceRevision="1" itemId="8242" />
     <Item priceRevision="1" itemId="8314" />
@@ -10450,14 +10459,5 @@
     <Item priceRevision="1" itemId="208071" />
     <Item priceRevision="1" itemId="208072" />
     <Item priceRevision="1" itemId="208073" />
-  </List>
-
-  <!-- Eternity Token -->
-  <List id="900001" desc="Eternity Token (Materials)" NeedMedalItemId="900000"> 	
-      <Item priceRevision="1" itemId="94104" />
-      <Item priceRevision="1" itemId="21351" />
-  </List>
-  <List id="900002" desc="Eternity Token (Costumes)" NeedMedalItemId="900000"> 	
-      <Item priceRevision="1" itemId="131030" />
   </List>
 </ItemSellList>
