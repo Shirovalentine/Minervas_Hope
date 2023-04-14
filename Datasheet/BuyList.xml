@@ -9,6 +9,121 @@
       <Item priceRevision="1" itemId="131030" />
   </List>
 
+  <!-- Belicarium Store -->
+  <List id="1411" desc="징벌 승리의 인도자 평판 포인트 상점" NeedPointNpcGuildId="901">
+    <!-- 18 하반기 PVP 장비 승리의 인도자 평판상점 -->
+    <Item priceRevision="1" itemId="18973"/>
+    <!-- 
+    <Item priceRevision="1" itemId="90201" />
+    <Item priceRevision="1" itemId="90202" />
+    <Item priceRevision="1" itemId="90203" />
+    <Item priceRevision="1" itemId="90204" />
+    <Item priceRevision="1" itemId="90205" />
+    <Item priceRevision="1" itemId="90206" />
+    <Item priceRevision="1" itemId="90207" />
+    <Item priceRevision="1" itemId="90208" />
+    <Item priceRevision="1" itemId="90209" />
+    <Item priceRevision="1" itemId="90210" />
+    <Item priceRevision="1" itemId="90211" />
+    <Item priceRevision="1" itemId="90212" />
+    <Item priceRevision="1" itemId="90213" />
+    <Item priceRevision="1" itemId="90214" />
+    <Item priceRevision="1" itemId="90215" />
+    <Item priceRevision="1" itemId="90216" />
+    <Item priceRevision="1" itemId="90217" />
+    <Item priceRevision="1" itemId="90218" />
+    <Item priceRevision="1" itemId="90219" />
+    <Item priceRevision="1" itemId="90220" />
+    <Item priceRevision="1" itemId="90221" />
+    <Item priceRevision="1" itemId="90222" />
+        -->
+  </List>
+
+  <List id="1412" desc="조화 승리의 인도자 평판 포인트 상점" NeedPointNpcGuildId="901">
+    <!-- 18 하반기 PVP 장비 승리의 인도자 평판상점 -->
+    <Item priceRevision="1" itemId="18972"/>
+ <!-- 
+    <Item priceRevision="1" itemId="90301" />
+    <Item priceRevision="1" itemId="90302" />
+    <Item priceRevision="1" itemId="90303" />
+    <Item priceRevision="1" itemId="90304" />
+    <Item priceRevision="1" itemId="90305" />
+    <Item priceRevision="1" itemId="90306" />
+    <Item priceRevision="1" itemId="90307" />
+    <Item priceRevision="1" itemId="90308" />
+    <Item priceRevision="1" itemId="90309" />
+    <Item priceRevision="1" itemId="90310" />
+    <Item priceRevision="1" itemId="90311" />
+    <Item priceRevision="1" itemId="90312" />
+    <Item priceRevision="1" itemId="90313" />
+    <Item priceRevision="1" itemId="90314" />
+    <Item priceRevision="1" itemId="90315" />
+    <Item priceRevision="1" itemId="90316" />
+    <Item priceRevision="1" itemId="90317" />
+    <Item priceRevision="1" itemId="90318" />
+    <Item priceRevision="1" itemId="90319" />
+    <Item priceRevision="1" itemId="90320" />
+    <Item priceRevision="1" itemId="90321" />
+    <Item priceRevision="1" itemId="90322" />
+    -->
+  </List>
+  <List id="1413" desc="철벽 승리의 인도자 평판 포인트 상점" NeedPointNpcGuildId="901">
+    <Item priceRevision="1" itemId="18971" />
+    <!-- 18상반기 전장 승리의 인도자 평판상점 -->
+    <!-- 
+    <Item priceRevision="1" itemId="90401" />
+    <Item priceRevision="1" itemId="90402" />
+    <Item priceRevision="1" itemId="90403" />
+    <Item priceRevision="1" itemId="90404" />
+    <Item priceRevision="1" itemId="90405" />
+    <Item priceRevision="1" itemId="90406" />
+    <Item priceRevision="1" itemId="90407" />
+    <Item priceRevision="1" itemId="90408" />
+    <Item priceRevision="1" itemId="90409" />
+    <Item priceRevision="1" itemId="90410" />
+    <Item priceRevision="1" itemId="90411" />
+    <Item priceRevision="1" itemId="90412" />
+    <Item priceRevision="1" itemId="90413" />
+    <Item priceRevision="1" itemId="90414" />
+    <Item priceRevision="1" itemId="90415" />
+    <Item priceRevision="1" itemId="90416" />
+    <Item priceRevision="1" itemId="90417" />
+    <Item priceRevision="1" itemId="90418" />
+    <Item priceRevision="1" itemId="90419" />
+    <Item priceRevision="1" itemId="90420" />
+    <Item priceRevision="1" itemId="90421" />
+    <Item priceRevision="1" itemId="90422" />
+    -->
+  </List>
+  <List id="1414" desc="재료아이템 승리의 인도자 평판 포인트 상점" NeedPointNpcGuildId="901">
+    <Item priceRevision="1" itemId="19151" />
+
+    <!-- 18상반기 전장 승리의 인도자 평판상점 -->
+    <!-- 
+    <Item priceRevision="1" itemId="98514" />
+    <Item priceRevision="1" itemId="9371" />
+    <Item priceRevision="1" itemId="90600" />
+    <Item priceRevision="1" itemId="9351" />
+    <Item priceRevision="1" itemId="9352" />
+    <Item priceRevision="1" itemId="9353" />
+    <Item priceRevision="1" itemId="9354" />
+    <Item priceRevision="1" itemId="9365" />
+    <Item priceRevision="1" itemId="98598" />
+    <Item priceRevision="1" itemId="98599" />
+    <Item priceRevision="1" itemId="98600" />
+    <Item priceRevision="1" itemId="98866" />
+    <Item priceRevision="1" itemId="98671" />
+    <Item priceRevision="1" itemId="98672" />
+    <Item priceRevision="1" itemId="98673" />
+    <Item priceRevision="1" itemId="98674" />
+    <Item priceRevision="1" itemId="98713" />
+    <Item priceRevision="1" itemId="98714" />
+    <Item priceRevision="1" itemId="98679" />
+    -->
+  </List>
+
+  <!-- End of the custom store -->
+
   <List id="1001">
     <Item priceRevision="1" itemId="8242" />
     <Item priceRevision="1" itemId="8314" />
@@ -190,103 +305,7 @@
   <List id="1404" NeedMedalItemId="45">
     <Item priceRevision="1" itemId="46" />
   </List>
-  <List id="1411" desc="징벌 승리의 인도자 평판 포인트 상점" NeedPointNpcGuildId="901">
-    <!-- 18 하반기 PVP 장비 승리의 인도자 평판상점 -->
-    <Item priceRevision="1" itemId="90201" />
-    <Item priceRevision="1" itemId="90202" />
-    <Item priceRevision="1" itemId="90203" />
-    <Item priceRevision="1" itemId="90204" />
-    <Item priceRevision="1" itemId="90205" />
-    <Item priceRevision="1" itemId="90206" />
-    <Item priceRevision="1" itemId="90207" />
-    <Item priceRevision="1" itemId="90208" />
-    <Item priceRevision="1" itemId="90209" />
-    <Item priceRevision="1" itemId="90210" />
-    <Item priceRevision="1" itemId="90211" />
-    <Item priceRevision="1" itemId="90212" />
-    <Item priceRevision="1" itemId="90213" />
-    <Item priceRevision="1" itemId="90214" />
-    <Item priceRevision="1" itemId="90215" />
-    <Item priceRevision="1" itemId="90216" />
-    <Item priceRevision="1" itemId="90217" />
-    <Item priceRevision="1" itemId="90218" />
-    <Item priceRevision="1" itemId="90219" />
-    <Item priceRevision="1" itemId="90220" />
-    <Item priceRevision="1" itemId="90221" />
-    <Item priceRevision="1" itemId="90222" />
-  </List>
-  <List id="1412" desc="조화 승리의 인도자 평판 포인트 상점" NeedPointNpcGuildId="901">
-    <!-- 18 하반기 PVP 장비 승리의 인도자 평판상점 -->
-    <Item priceRevision="1" itemId="90301" />
-    <Item priceRevision="1" itemId="90302" />
-    <Item priceRevision="1" itemId="90303" />
-    <Item priceRevision="1" itemId="90304" />
-    <Item priceRevision="1" itemId="90305" />
-    <Item priceRevision="1" itemId="90306" />
-    <Item priceRevision="1" itemId="90307" />
-    <Item priceRevision="1" itemId="90308" />
-    <Item priceRevision="1" itemId="90309" />
-    <Item priceRevision="1" itemId="90310" />
-    <Item priceRevision="1" itemId="90311" />
-    <Item priceRevision="1" itemId="90312" />
-    <Item priceRevision="1" itemId="90313" />
-    <Item priceRevision="1" itemId="90314" />
-    <Item priceRevision="1" itemId="90315" />
-    <Item priceRevision="1" itemId="90316" />
-    <Item priceRevision="1" itemId="90317" />
-    <Item priceRevision="1" itemId="90318" />
-    <Item priceRevision="1" itemId="90319" />
-    <Item priceRevision="1" itemId="90320" />
-    <Item priceRevision="1" itemId="90321" />
-    <Item priceRevision="1" itemId="90322" />
-  </List>
-  <List id="1413" desc="철벽 승리의 인도자 평판 포인트 상점" NeedPointNpcGuildId="901">
-    <!-- 18상반기 전장 승리의 인도자 평판상점 -->
-    <Item priceRevision="1" itemId="90401" />
-    <Item priceRevision="1" itemId="90402" />
-    <Item priceRevision="1" itemId="90403" />
-    <Item priceRevision="1" itemId="90404" />
-    <Item priceRevision="1" itemId="90405" />
-    <Item priceRevision="1" itemId="90406" />
-    <Item priceRevision="1" itemId="90407" />
-    <Item priceRevision="1" itemId="90408" />
-    <Item priceRevision="1" itemId="90409" />
-    <Item priceRevision="1" itemId="90410" />
-    <Item priceRevision="1" itemId="90411" />
-    <Item priceRevision="1" itemId="90412" />
-    <Item priceRevision="1" itemId="90413" />
-    <Item priceRevision="1" itemId="90414" />
-    <Item priceRevision="1" itemId="90415" />
-    <Item priceRevision="1" itemId="90416" />
-    <Item priceRevision="1" itemId="90417" />
-    <Item priceRevision="1" itemId="90418" />
-    <Item priceRevision="1" itemId="90419" />
-    <Item priceRevision="1" itemId="90420" />
-    <Item priceRevision="1" itemId="90421" />
-    <Item priceRevision="1" itemId="90422" />
-  </List>
-  <List id="1414" desc="재료아이템 승리의 인도자 평판 포인트 상점" NeedPointNpcGuildId="901">
-    <!-- 18상반기 전장 승리의 인도자 평판상점 -->
-    <Item priceRevision="1" itemId="98514" />
-    <Item priceRevision="1" itemId="9371" />
-    <Item priceRevision="1" itemId="90600" />
-    <Item priceRevision="1" itemId="9351" />
-    <Item priceRevision="1" itemId="9352" />
-    <Item priceRevision="1" itemId="9353" />
-    <Item priceRevision="1" itemId="9354" />
-    <Item priceRevision="1" itemId="9365" />
-    <Item priceRevision="1" itemId="98598" />
-    <Item priceRevision="1" itemId="98599" />
-    <Item priceRevision="1" itemId="98600" />
-    <Item priceRevision="1" itemId="98866" />
-    <Item priceRevision="1" itemId="98671" />
-    <Item priceRevision="1" itemId="98672" />
-    <Item priceRevision="1" itemId="98673" />
-    <Item priceRevision="1" itemId="98674" />
-    <Item priceRevision="1" itemId="98713" />
-    <Item priceRevision="1" itemId="98714" />
-    <Item priceRevision="1" itemId="98679" />
-  </List>
+
   <List id="1431" NeedMedalItemId="561">
     <Item priceRevision="1" itemId="98509" />
     <Item priceRevision="1" itemId="98513" />

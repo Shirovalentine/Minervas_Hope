@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReputationItem>
+  <SellItem>
+    <!-- Belicarium Store Prices-->
+    <NpcGuild id="901">	
+
+    <Item id="19151" name="Atrium, Ventricle" grade="5" reputationPoint="18000" />
+
+    <Item id="18971" name="Atrium, Ventricle" grade="5" reputationPoint="18000" />
+
+    <Item id="18972" name="Atrium, Ventricle" grade="5" reputationPoint="18000" />
+    
+    <Item id="18973" name="Atrium, Ventricle" grade="5" reputationPoint="18000" />
+    
+    <!--  
+	  <Item id="98598" name="낡은 보급품" grade="5" reputationPoint="18000" />
+	  <Item id="98599" name="악마의 발톱" grade="5" reputationPoint="24000" />
+	  <Item id="98600" name="용의 두개골" grade="5" reputationPoint="24000" />
+	  <Item id="98500" name="아르보레아의 금빛 결정체" grade="5" reputationPoint="3000" />
+	  <Item id="98514" name="아르보레아의 은빛 결정체" grade="5" reputationPoint="3000" />
+	  <Item id="98866" name="스킬 연마 경험치북 20만" grade="5" reputationPoint="1000000" />
+	  <Item id="98671" name="순수한 보석 나비의 날개 가루" grade="5" reputationPoint="200000" />
+	  <Item id="98672" name="순수한 보석 나비의 보석 샘" grade="5" reputationPoint="200000" />
+	  <Item id="98673" name="정화된 신수의 고리 조각" grade="5" reputationPoint="200000" />
+	  <Item id="98674" name="정화된 신수의 장식 조각" grade="5" reputationPoint="200000" />
+	  <Item id="98713" name="예리한 다크샤드 응집 비법" grade="5" reputationPoint="1500000" />
+	  <Item id="98714" name="단단한 다크샤드 응집 비법" grade="5" reputationPoint="1000000" />
+	  <Item id="98679" name="드라니움 가공석 조각" grade="5" reputationPoint="10000" />
+    -->
+
+	  <!-- 18 PVP 장비-->
+    <!-- 
+	  <Item id="9351" name="아르보레아의 보랏빛 결정체" grade="5" reputationPoint="3125" />
+	  <Item id="9352" name="아르보레아의 보랏빛 조각" grade="5" reputationPoint="21875" />
+	  <Item id="9353" name="아르보레아의 푸른빛 결정체" grade="5" reputationPoint="3125" />
+	  <Item id="9354" name="아르보레아의 푸른빛 조각" grade="5" reputationPoint="21875" />
+	  <Item id="90600" name="명예의 휘장 [0등급]" grade="5" reputationPoint="135000" />	  
+	  <Item id="9365" name="수호자의 전장 보상 상자" grade="5" reputationPoint="150000" />
+	  <Item id="9371" name="투사의 일체형 잿빛 속옷 [고급]" grade="5" reputationPoint="100000" />
+    -->
+
+	  <!-- 
+	  <Item id="90201" name="징벌의 쌍검" grade="5" reputationPoint="135000" />
+	  <Item id="90202" name="징벌의 창" grade="5" reputationPoint="135000" />
+	  <Item id="90203" name="징벌의 대검" grade="5" reputationPoint="135000" />
+	  <Item id="90204" name="징벌의 도끼" grade="5" reputationPoint="135000" />
+	  <Item id="90205" name="징벌의 원반" grade="5" reputationPoint="135000" />
+	  <Item id="90206" name="징벌의 활" grade="5" reputationPoint="135000" />
+	  <Item id="90207" name="징벌의 지팡이" grade="5" reputationPoint="135000" />
+	  <Item id="90208" name="징벌의 마법봉" grade="5" reputationPoint="135000" />
+	  <Item id="90209" name="징벌의 비검" grade="5" reputationPoint="135000" />
+	  <Item id="90210" name="징벌의 마공포" grade="5" reputationPoint="135000" />
+	  <Item id="90211" name="징벌의 권갑" grade="5" reputationPoint="135000" />
+	  <Item id="90212" name="징벌의 수리검" grade="5" reputationPoint="135000" />
+	  <Item id="90213" name="징벌의 월광도" grade="5" reputationPoint="135000" />
+	  <Item id="90214" name="징벌의 중갑" grade="5" reputationPoint="135000" />
+	  <Item id="90215" name="징벌의 경갑" grade="5" reputationPoint="135000" />
+	  <Item id="90216" name="징벌의 로브" grade="5" reputationPoint="135000" />
+	  <Item id="90217" name="징벌의 중갑 장갑" grade="5" reputationPoint="135000" />
+	  <Item id="90218" name="징벌의 경갑 장갑" grade="5" reputationPoint="135000" />
+	  <Item id="90219" name="징벌의 글로브" grade="5" reputationPoint="135000" />
+	  <Item id="90220" name="징벌의 중갑 신발" grade="5" reputationPoint="135000" />
+	  <Item id="90221" name="징벌의 경갑 신발" grade="5" reputationPoint="135000" />
+	  <Item id="90222" name="징벌의 슈즈" grade="5" reputationPoint="135000" />
+    -->
+
+    <!-- 
+	  <Item id="90301" name="철벽의 쌍검" grade="5" reputationPoint="135000" />
+	  <Item id="90302" name="철벽의 창" grade="5" reputationPoint="135000" />
+	  <Item id="90303" name="철벽의 대검" grade="5" reputationPoint="135000" />
+	  <Item id="90304" name="철벽의 도끼" grade="5" reputationPoint="135000" />
+	  <Item id="90305" name="철벽의 원반" grade="5" reputationPoint="135000" />
+	  <Item id="90306" name="철벽의 활" grade="5" reputationPoint="135000" />
+	  <Item id="90307" name="철벽의 지팡이" grade="5" reputationPoint="135000" />
+	  <Item id="90308" name="철벽의 마법봉" grade="5" reputationPoint="135000" />
+	  <Item id="90309" name="철벽의 비검" grade="5" reputationPoint="135000" />
+	  <Item id="90310" name="철벽의 마공포" grade="5" reputationPoint="135000" />
+	  <Item id="90311" name="철벽의 권갑" grade="5" reputationPoint="135000" />
+	  <Item id="90312" name="철벽의 수리검" grade="5" reputationPoint="135000" />
+	  <Item id="90313" name="철벽의 월광도" grade="5" reputationPoint="135000" />
+	  <Item id="90314" name="철벽의 중갑" grade="5" reputationPoint="135000" />
+	  <Item id="90315" name="철벽의 경갑" grade="5" reputationPoint="135000" />
+	  <Item id="90316" name="철벽의 로브" grade="5" reputationPoint="135000" />
+	  <Item id="90317" name="철벽의 중갑 장갑" grade="5" reputationPoint="135000" />
+	  <Item id="90318" name="철벽의 경갑 장갑" grade="5" reputationPoint="135000" />
+	  <Item id="90319" name="철벽의 글러브" grade="5" reputationPoint="135000" />
+	  <Item id="90320" name="철벽의 중갑 신발" grade="5" reputationPoint="135000" />
+	  <Item id="90321" name="철벽의 경갑 신발" grade="5" reputationPoint="135000" />
+	  <Item id="90322" name="철벽의 슈즈" grade="5" reputationPoint="135000" />
+	  -->
+
+    <!-- 
+	  <Item id="90401" name="철벽의 쌍검" grade="5" reputationPoint="135000" />
+	  <Item id="90402" name="철벽의 창" grade="5" reputationPoint="135000" />
+	  <Item id="90403" name="철벽의 대검" grade="5" reputationPoint="135000" />
+	  <Item id="90404" name="철벽의 도끼" grade="5" reputationPoint="135000" />
+	  <Item id="90405" name="철벽의 원반" grade="5" reputationPoint="135000" />
+	  <Item id="90406" name="철벽의 활" grade="5" reputationPoint="135000" />
+	  <Item id="90407" name="철벽의 지팡이" grade="5" reputationPoint="135000" />
+	  <Item id="90408" name="철벽의 마법봉" grade="5" reputationPoint="135000" />
+	  <Item id="90409" name="철벽의 비검" grade="5" reputationPoint="135000" />
+	  <Item id="90410" name="철벽의 마공포" grade="5" reputationPoint="135000" />
+	  <Item id="90411" name="철벽의 권갑" grade="5" reputationPoint="135000" />
+	  <Item id="90412" name="철벽의 수리검" grade="5" reputationPoint="135000" />
+	  <Item id="90413" name="철벽의 월광도" grade="5" reputationPoint="135000" />
+	  <Item id="90414" name="철벽의 중갑" grade="5" reputationPoint="135000" />
+	  <Item id="90415" name="철벽의 경갑" grade="5" reputationPoint="135000" />
+	  <Item id="90416" name="철벽의 로브" grade="5" reputationPoint="135000" />
+	  <Item id="90417" name="철벽의 중갑 장갑" grade="5" reputationPoint="135000" />
+	  <Item id="90418" name="철벽의 경갑 장갑" grade="5" reputationPoint="135000" />
+	  <Item id="90419" name="철벽의 글러브" grade="5" reputationPoint="135000" />
+	  <Item id="90420" name="철벽의 중갑 신발" grade="5" reputationPoint="135000" />
+	  <Item id="90421" name="철벽의 경갑 신발" grade="5" reputationPoint="135000" />
+	  <Item id="90422" name="철벽의 슈즈" grade="5" reputationPoint="135000" />
+    -->
+
+    </NpcGuild>
+
+    <!-- End Of current custom stuff-->
+
+
+
+
+
+
+    <NpcGuild id="601"><!-- 아르곤 연구소 -->
+      <Item id="45366" name="티르카이 곰 고기" grade="7" reputationPoint="1500" /><!-- 일반 퀘스트 요구 아이템 -->
+      <Item id="50021" name="갈색 해적 모자" grade="7" reputationPoint="500" />
+      <Item id="50022" name="붉은색 해적 모자" grade="7" reputationPoint="500" />
+      <Item id="50023" name="녹색 해적 모자" grade="7" reputationPoint="500" />
+      <Item id="50024" name="풀색 해적 모자" grade="7" reputationPoint="500" />
+      <Item id="50048" name="빈티지 고글 모자" grade="8" reputationPoint="11" />
+      <Item id="50049" name="보라색 빈티지 고글 모자" grade="8" reputationPoint="11" />
+      <Item id="50050" name="녹색 빈티지 고글 모자" grade="8" reputationPoint="11" />
+      <Item id="50051" name="푸른색 빈티지 고글 모자" grade="8" reputationPoint="11" />      
+    </NpcGuild>
+    <NpcGuild id="602"><!-- 카노비아 유격대 -->
+      <Item id="45368" name="부드럽게 손질된 가죽" grade="7" reputationPoint="1500" /><!-- 일반 퀘스트 요구 아이템 -->
+      <Item id="50061" name="흰색 깃털장식" grade="8" reputationPoint="1500" />
+      <Item id="50062" name="검은 깃털장식" grade="8" reputationPoint="1500" />
+      <Item id="50063" name="푸른 깃털장식" grade="8" reputationPoint="1500" />
+      <Item id="50064" name="금빛 길털장식" grade="8" reputationPoint="1500" />
+      <Item id="50025" name="회색 모험가의 모자" grade="6" reputationPoint="200" />
+      <Item id="50026" name="붉은색 모험가의 모자" grade="6" reputationPoint="200" />
+      <Item id="50027" name="푸른색 모험가의 모자" grade="6" reputationPoint="200" />
+      <Item id="50028" name="녹색 모험가의 모자" grade="6" reputationPoint="200" />
+    </NpcGuild>
+    <NpcGuild id="603"><!-- 아르곤 헌터 -->
+      <Item id="45370" name="가죽 재갈" grade="7" reputationPoint="3500" /><!-- 일반 퀘스트 요구 아이템 -->
+      <Item id="50043" name="붉은 벨벳 왕관" grade="8" reputationPoint="1500" />
+      <Item id="50044" name="푸른 벨벳 왕관" grade="8" reputationPoint="1500" />
+      <Item id="50045" name="노란 벨벳 왕관" grade="8" reputationPoint="1500" />
+      <Item id="50046" name="보라색 벨벳 왕관" grade="8" reputationPoint="1500" />
+      <Item id="50052" name="붉은색 후드" grade="8" reputationPoint="3000" />
+      <Item id="50053" name="녹색 후드" grade="8" reputationPoint="3000" />
+      <Item id="50054" name="자주색 후드" grade="8" reputationPoint="3000" />
+      <Item id="50055" name="보라색 후드" grade="8" reputationPoint="3000" />
+    </NpcGuild>
+    <NpcGuild id="604"><!-- 미마스 -->
+      <Item id="45372" name="개다래나무 가지" grade="7" reputationPoint="1500" /><!-- 일반 퀘스트 요구 아이템 -->
+      <Item id="45394" name="정체 모를 새의 알" grade="9" reputationPoint="500" />
+      <Item id="50057" name="파란 후카 전통 모자" grade="8" reputationPoint="1500" />
+      <Item id="50058" name="노란 후카 전통 모자" grade="8" reputationPoint="1500" />
+      <Item id="50059" name="포라색 후카 전통 모자" grade="8" reputationPoint="1500" />
+      <Item id="50060" name="녹색 후카 전통 모자" grade="8" reputationPoint="1500" />
+      <Item id="50029" name="노랑 병아리 둥지" grade="7" reputationPoint="500" />
+      <Item id="50030" name="분홍 병아리 둥지" grade="7" reputationPoint="500" />
+      <Item id="50031" name="파랑 병아리 둥지" grade="7" reputationPoint="500" />
+      <Item id="50032" name="빨강 병아리 둥지" grade="7" reputationPoint="500" />
+    </NpcGuild>
+    <NpcGuild id="605"><!-- 벨리카 연합회 -->
+      <Item id="45374" name="강력한 진정제" grade="7" reputationPoint="1500" /><!-- 일반 퀘스트 요구 아이템 -->
+      <Item id="50033" name="너구리 인형 모자" grade="7" reputationPoint="1500" />
+      <Item id="50034" name="파란 너구리 인형 모자" grade="7" reputationPoint="1500" />
+      <Item id="50035" name="핫핑크 너구리 인형 모자" grade="7" reputationPoint="1500" />
+      <Item id="50036" name="보라색 너구리 인형 모자" grade="7" reputationPoint="1500" />
+      <Item id="50039" name="녹색 파티 모자" grade="4" reputationPoint="20" />
+      <Item id="50040" name="남색 파티 모자" grade="4" reputationPoint="20" />
+      <Item id="50037" name="파란 파티 모자" grade="4" reputationPoint="20" />
+      <Item id="50038" name="벨릭의 축제 모자" grade="4" reputationPoint="20" />
+    </NpcGuild>
+    <NpcGuild id="607"><!-- 마도 공학 연구회 평판 -->
+      <Item id="489" name="거미형 4족 보행(275)" grade="9" reputationPoint="9000" /><!-- 탈 것 -->
+    </NpcGuild>
+    <NpcGuild id="609"><!-- 발키온 정찰대 -->
+      <!-- 장비 정제 큐브 -->
+	  <Item id="200940" name="엑소도르 장비 정제 큐브 [무기]" grade="6" reputationPoint="500" />
+	  <Item id="200941" name="엑소도르 장비 정제 큐브 [갑옷]" grade="6" reputationPoint="300" />
+	  <Item id="200942" name="엑소도르 장비 정제 큐브 [장갑]" grade="6" reputationPoint="300" />
+	  <Item id="200943" name="엑소도르 장비 정제 큐브 [신발]" grade="6" reputationPoint="300" />
+	  <!-- 장비 -->
+      <Item id="98415" name="지원품: 고대유물 무기 상자 I" grade="6" reputationPoint="350" />
+      <Item id="98423" name="지원품: 고대유물 무기 상자 IX" grade="6" reputationPoint="2500" />
+	  <Item id="90168" name="연합 보급품: 엑소도르 정찰대 장비 상자" grade="6" reputationPoint="5" />	
+	  <Item id="89787" name="연합 보급품: 악세서리 상자" grade="6" reputationPoint="15" />	
+      <!-- 고급 문장 -->
+      <Item id="97000" name="[창기사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="97001" name="[검투사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="97002" name="[무사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="97003" name="[광전사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="97004" name="[궁수] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="97005" name="[마법사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="97006" name="[사제] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="97007" name="[정령사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="97008" name="[비검사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="55644" name="[마공사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="56052" name="[권술사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <Item id="56058" name="[인술사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+	  <Item id="59019" name="[월광무사] 고급 문장 교환권" grade="6" reputationPoint="300" />
+      <!-- 강화 재료 상자 & 녹탄-->
+	  <Item id="200930" name="녹테늄 강화탄 정제기" grade="6" reputationPoint="700" />
+      <Item id="97010" name="발키온 정찰대 소모품 상자" grade="6" reputationPoint="190" />	  
+      <!-- 부캐 키우기 아이템 -->
+      <Item id="139096" name="레벨 증가 주문서 I" grade="6" reputationPoint="500" />
+      <Item id="139097" name="레벨 증가 주문서 II" grade="6" reputationPoint="700" />
+      <Item id="139098" name="레벨 증가 주문서 III" grade="6" reputationPoint="1000" />
+      <Item id="139099" name="레벨 증가 주문서 IV" grade="6" reputationPoint="1500" />
+	  <!-- 카드 -->
+	  <Item id="340006" name="기록 카드 - 이르카" grade="6" reputationPoint="4500" />
+	  <Item id="341006" name="기록 카드 - 이르카" grade="6" reputationPoint="18000" />
+      <!-- 스타일 상자 -->
+      <Item id="97011" name="발키온 정찰대 스타일 상자" grade="6" reputationPoint="2700" />
+      <!-- 염색약 -->
+      <Item id="208" name="알쏭달쏭 염색약 묶음" grade="6" reputationPoint="30" />
+      <Item id="201" name="코치닐 염색약 묶음" grade="6" reputationPoint="35" />
+      <Item id="202" name="알리자린 염색약 묶음" grade="6" reputationPoint="35" />
+      <Item id="203" name="베니바나 염색약 묶음" grade="6" reputationPoint="35" />
+      <Item id="204" name="말라카이트 염색약 묶음" grade="6" reputationPoint="35" />
+      <Item id="205" name="인디고 염색약 묶음" grade="6" reputationPoint="35" />
+      <Item id="207" name="티리언 염색약 묶음" grade="6" reputationPoint="35" />
+      <Item id="238" name="고급 코치닐 염색약 묶음" grade="6" reputationPoint="60" />
+      <Item id="239" name="고급 알리자린 염색약 묶음" grade="6" reputationPoint="60" />
+      <Item id="240" name="고급 베니바나 염색약 묶음" grade="6" reputationPoint="60" />
+      <Item id="241" name="고급 말라카이트 염색약 묶음" grade="6" reputationPoint="60" />
+      <Item id="242" name="고급 인디고 염색약 묶음" grade="6" reputationPoint="60" />
+      <Item id="244" name="고급 티리언 염색약 묶음" grade="6" reputationPoint="60" />
+      <!-- 강화 크리스탈 -->
+      <Item id="8112" name="강화 크리스탈 - 파괴자의 위용 VI" grade="6" reputationPoint="100" />
+      <Item id="8126" name="강화 크리스탈 - 파괴자의 분노 VI" grade="6" reputationPoint="100" />
+      <Item id="8113" name="강화 크리스탈 - 파괴자의 위용 VII" grade="6" reputationPoint="400" />
+      <Item id="8127" name="강화 크리스탈 - 파괴자의 분노 VII" grade="6" reputationPoint="400" />
+      <Item id="8155" name="강화 크리스탈 - 수호자의 분노 VII" grade="6" reputationPoint="400" />
+      <Item id="8169" name="강화 크리스탈 - 심판자의 분노 VII" grade="6" reputationPoint="400" />
+      <Item id="8621" name="강화 크리스탈 - 필사의 일격 VII" grade="6" reputationPoint="400" />
+      <Item id="8622" name="강화 크리스탈 - 필사의 반격 VII" grade="6" reputationPoint="400" />
+      <Item id="8626" name="강화 크리스탈 - 분노의 종결자 VII" grade="6" reputationPoint="400" />
+      <Item id="8627" name="강화 크리스탈 - 맹독의 칼날 VII" grade="6" reputationPoint="400" />
+      <Item id="8628" name="강화 크리스탈 - 무자비 VII" grade="6" reputationPoint="400" />
+      <Item id="8629" name="강화 크리스탈 - 기회 포착 VII" grade="6" reputationPoint="400" />
+      <Item id="8630" name="강화 크리스탈 - 약점 강타 VII" grade="6" reputationPoint="400" />
+      <Item id="8633" name="강화 크리스탈 - 비열한 일격 VII" grade="6" reputationPoint="400" />
+      <Item id="8635" name="강화 크리스탈 - 각성 VII" grade="6" reputationPoint="400" />
+      <Item id="8636" name="강화 크리스탈 - 반격 준비 VII" grade="6" reputationPoint="400" />
+      <Item id="8637" name="강화 크리스탈 - 몰아치기 VII" grade="6" reputationPoint="400" />
+      <Item id="8638" name="강화 크리스탈 - 전투의 속도 VII" grade="6" reputationPoint="400" />
+      <Item id="8639" name="강화 크리스탈 - 마나의 흐름 VII" grade="6" reputationPoint="400" />
+      <Item id="8640" name="강화 크리스탈 - 정밀 타격 VII" grade="6" reputationPoint="400" />
+      <Item id="8641" name="강화 크리스탈 - 맹공의 투사 VII" grade="6" reputationPoint="400" />
+      <Item id="8642" name="강화 크리스탈 - 전사의 사슬 VII" grade="6" reputationPoint="400" />
+      <Item id="8140" name="강화 크리스탈 - 파괴자의 의지 VI" grade="6" reputationPoint="100" />
+      <Item id="8141" name="강화 크리스탈 - 파괴자의 의지 VII" grade="6" reputationPoint="400" />
+      <Item id="8653" name="강화 크리스탈 - 최후의 저항 VII" grade="6" reputationPoint="400" />
+      <Item id="8654" name="강화 크리스탈 - 최후의 의지 VII" grade="6" reputationPoint="400" />
+      <Item id="8658" name="강화 크리스탈 - 냉철한 의지 VII" grade="6" reputationPoint="400" />
+      <Item id="8659" name="강화 크리스탈 - 냉철한 대응 VII" grade="6" reputationPoint="400" />
+      <Item id="8660" name="강화 크리스탈 - 구원의 축복 VII" grade="6" reputationPoint="400" />
+      <Item id="8661" name="강화 크리스탈 - 구원의 손길 VII" grade="6" reputationPoint="400" />
+      <Item id="8664" name="강화 크리스탈 - 인내 VII" grade="6" reputationPoint="400" />
+      <Item id="8665" name="강화 크리스탈 - 평화의 속도 VII" grade="6" reputationPoint="400" />
+      <Item id="8666" name="강화 크리스탈 - 회복의 흐름 VII" grade="6" reputationPoint="400" />
+      <Item id="8667" name="강화 크리스탈 - 응징의 투사 VII" grade="6" reputationPoint="400" />
+      <Item id="8912" name="강화 크리스탈 - 힘의 역류 I" grade="6" reputationPoint="150" />
+      <Item id="8913" name="강화 크리스탈 - 인내의 가르침 I" grade="6" reputationPoint="150" />
+      <Item id="8914" name="강화 크리스탈 - 파멸의 역류 I" grade="6" reputationPoint="150" />
+      <Item id="8915" name="강화 크리스탈 - 균형의 가르침 I" grade="6" reputationPoint="150" />
+      <Item id="8916" name="강화 크리스탈 - 분노의 역류 I" grade="6" reputationPoint="150" />
+      <Item id="8917" name="강화 크리스탈 - 저항의 가르침 I" grade="6" reputationPoint="150" />
+      <Item id="8918" name="강화 크리스탈 - 체력의 진수 I" grade="6" reputationPoint="150" />
+      <Item id="8919" name="강화 크리스탈 - 마력의 진수 I" grade="6" reputationPoint="150" />
+      <Item id="8920" name="강화 크리스탈 - 쾌속의 역류 I" grade="6" reputationPoint="150" />
+      <Item id="8926" name="강화 크리스탈 - 치유의 손길 I" grade="6" reputationPoint="150" />
+      <Item id="8927" name="강화 크리스탈 - 전사의 포효 I" grade="6" reputationPoint="150" />
+      <Item id="8940" name="강화 크리스탈 - 힘의 역류 II" grade="6" reputationPoint="600" />
+      <Item id="8941" name="강화 크리스탈 - 인내의 가르침 II" grade="6" reputationPoint="600" />
+      <Item id="8942" name="강화 크리스탈 - 파멸의 역류 II" grade="6" reputationPoint="600" />
+      <Item id="8943" name="강화 크리스탈 - 균형의 가르침 II" grade="6" reputationPoint="600" />
+      <Item id="8944" name="강화 크리스탈 - 분노의 역류 II" grade="6" reputationPoint="600" />
+      <Item id="8945" name="강화 크리스탈 - 저항의 가르침 II" grade="6" reputationPoint="600" />
+      <Item id="8946" name="강화 크리스탈 - 체력의 진수 II" grade="6" reputationPoint="600" />
+      <Item id="8947" name="강화 크리스탈 - 마력의 진수 II" grade="6" reputationPoint="600" />
+      <Item id="8948" name="강화 크리스탈 - 쾌속의 역류 II" grade="6" reputationPoint="600" />
+      <Item id="8954" name="강화 크리스탈 - 치유의 손길 II" grade="6" reputationPoint="600" />
+      <Item id="8955" name="강화 크리스탈 - 전사의 포효 II" grade="6" reputationPoint="600" />
+	  <Item id="1426" name="강화 크리스탈 - 위선자의 가르침 I" grade="6" reputationPoint="150" />
+	  <Item id="1427" name="강화 크리스탈 - 위선자의 의지 I" grade="6" reputationPoint="150" />
+      <!-- 스타일 샵 판매 아이템 -->
+      <Item id="92078" name="패기의 쌍검" grade="6" reputationPoint="100" />
+      <Item id="92079" name="패기의 창" grade="6" reputationPoint="100" />
+      <Item id="92080" name="패기의 대검" grade="6" reputationPoint="100" />
+      <Item id="92081" name="패기의 도끼" grade="6" reputationPoint="100" />
+      <Item id="92082" name="패기의 원반" grade="6" reputationPoint="100" />
+      <Item id="92083" name="패기의 활" grade="6" reputationPoint="100" />
+      <Item id="92084" name="패기의 지팡이" grade="6" reputationPoint="100" />
+      <Item id="92085" name="패기의 마법봉" grade="6" reputationPoint="100" />
+      <Item id="92086" name="패기의 비검" grade="6" reputationPoint="100" />
+      <Item id="93112" name="[염색맞춤] 수호 컬렉션 중갑" grade="6" reputationPoint="100" />
+      <Item id="93115" name="[메르무슈뭉] 우상의 중갑" grade="6" reputationPoint="100" />
+      <Item id="93111" name="[염색맞춤] 수호 컬렉션 경갑" grade="6" reputationPoint="100" />
+      <Item id="93114" name="[메르무슈뭉] 우상의 경갑" grade="6" reputationPoint="100" />
+      <Item id="93113" name="[염색맞춤] 수호 컬렉션 로브" grade="6" reputationPoint="100" />
+      <Item id="93116" name="[메르무슈뭉] 우상의 로브" grade="6" reputationPoint="100" />
+      <Item id="93106" name="[염색맞춤] 미지 컬렉션 중갑" grade="6" reputationPoint="100" />
+      <Item id="93109" name="[메르무슈뭉] 영예의 증표 중갑" grade="6" reputationPoint="100" />
+      <Item id="93105" name="[염색맞춤] 미지 컬렉션 경갑" grade="6" reputationPoint="100" />
+      <Item id="93108" name="[메르무슈뭉] 문양의 경갑" grade="6" reputationPoint="100" />
+      <Item id="93107" name="[염색맞춤] 미지 컬렉션 로브" grade="6" reputationPoint="100" />
+      <Item id="93110" name="[메르무슈뭉] 설국의 로브" grade="6" reputationPoint="100" />
+      <Item id="92076" name="[염색맞춤] 프릴 컬렉션 중갑" grade="6" reputationPoint="100" />
+      <Item id="93103" name="[메르무슈뭉] 폭설의 중갑" grade="6" reputationPoint="100" />
+      <Item id="92075" name="[염색맞춤] 프릴 컬렉션 경갑" grade="6" reputationPoint="100" />
+      <Item id="93102" name="[메르무슈뭉] 폭설의 경갑" grade="6" reputationPoint="100" />
+      <Item id="92077" name="[염색맞춤] 프릴 컬렉션 로브" grade="6" reputationPoint="100" />
+      <Item id="93104" name="[메르무슈뭉] 폭설의 로브" grade="6" reputationPoint="100" />
+      <Item id="91500" name="레드 퍼 원피스" grade="6" reputationPoint="100" />
+      <Item id="91510" name="브라운 퍼 원피스" grade="6" reputationPoint="100" />
+      <Item id="91513" name="실버 퍼 원피스" grade="6" reputationPoint="100" />
+      <Item id="91511" name="그린 퍼 원피스" grade="6" reputationPoint="100" />
+      <Item id="91514" name="블랙 퍼 원피스" grade="6" reputationPoint="100" />
+      <Item id="91512" name="골드 퍼 원피스" grade="6" reputationPoint="100" />
+      <Item id="91501" name="레드 퍼 체크 원피스" grade="6" reputationPoint="100" />
+      <Item id="91520" name="핑크 퍼 체크 원피스" grade="6" reputationPoint="100" />
+      <Item id="91523" name="화이트 퍼 체크 원피스" grade="6" reputationPoint="100" />
+      <Item id="91521" name="블루 퍼 체크 원피스" grade="6" reputationPoint="100" />
+      <Item id="91524" name="블랙 퍼 체크 원피스" grade="6" reputationPoint="100" />
+      <Item id="91522" name="그린 퍼 체크 원피스" grade="6" reputationPoint="100" />
+      <Item id="91502" name="붉은 장미의 고딕 드레스" grade="6" reputationPoint="100" />
+      <Item id="91530" name="보라 장미의 고딕 드레스" grade="6" reputationPoint="100" />
+      <Item id="91533" name="분홍 장미의 고딕 드레스" grade="6" reputationPoint="100" />
+      <Item id="91531" name="파란 장미의 고딕 드레스" grade="6" reputationPoint="100" />
+      <Item id="91534" name="검은 장미의 고딕 드레스" grade="6" reputationPoint="100" />
+      <Item id="91532" name="녹색 장미의 고딕 드레스" grade="6" reputationPoint="100" />
+      <Item id="91504" name="엘리건트 숄더 레드 드레스" grade="6" reputationPoint="100" />
+      <Item id="91550" name="엘리건트 숄더 퍼플 드레스" grade="6" reputationPoint="100" />
+      <Item id="91551" name="엘리건트 숄더 블루 드레스" grade="6" reputationPoint="100" />
+      <Item id="91552" name="엘리건트 숄더 그린 드레스" grade="6" reputationPoint="100" />
+      <Item id="91553" name="엘리건트 숄더 화이트 드레스" grade="6" reputationPoint="100" />
+      <Item id="91554" name="엘리건트 숄더 블랙 드레스" grade="6" reputationPoint="100" />
+      <!-- 강화 크리스탈 상자 -->
+      <Item id="96107" name="강화 크리스탈 원석 VII" grade="6" reputationPoint="100" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(로브) -->
+      <Item id="200530" name="[스타일] 발키온_로브_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200531" name="[스타일] 발키온_로브_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200532" name="[스타일] 발키온_로브_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200533" name="[스타일] 발키온_로브_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200534" name="[스타일] 발키온_로브_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200535" name="[스타일] 발키온_로브_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200536" name="[스타일] 발키온_로브_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200537" name="[스타일] 발키온_로브_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200538" name="[스타일] 발키온_로브_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200539" name="[스타일] 발키온_로브_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200540" name="[스타일] 발키온_로브_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200541" name="[스타일] 발키온_로브_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200542" name="[스타일] 발키온_로브_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200543" name="[스타일] 발키온_로브_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200544" name="[스타일] 발키온_로브_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200545" name="[스타일] 발키온_로브_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200546" name="[스타일] 발키온_로브_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200547" name="[스타일] 발키온_로브_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200548" name="[스타일] 발키온_로브_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200549" name="[스타일] 발키온_로브_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200550" name="[스타일] 발키온_로브_20단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(경갑) -->
+      <Item id="200551" name="[스타일] 발키온_경갑_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200552" name="[스타일] 발키온_경갑_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200553" name="[스타일] 발키온_경갑_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200554" name="[스타일] 발키온_경갑_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200555" name="[스타일] 발키온_경갑_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200556" name="[스타일] 발키온_경갑_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200557" name="[스타일] 발키온_경갑_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200558" name="[스타일] 발키온_경갑_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200559" name="[스타일] 발키온_경갑_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200560" name="[스타일] 발키온_경갑_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200561" name="[스타일] 발키온_경갑_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200562" name="[스타일] 발키온_경갑_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200563" name="[스타일] 발키온_경갑_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200564" name="[스타일] 발키온_경갑_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200565" name="[스타일] 발키온_경갑_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200566" name="[스타일] 발키온_경갑_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200567" name="[스타일] 발키온_경갑_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200568" name="[스타일] 발키온_경갑_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200569" name="[스타일] 발키온_경갑_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200570" name="[스타일] 발키온_경갑_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200571" name="[스타일] 발키온_경갑_20단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(중갑) -->
+      <Item id="200572" name="[스타일] 발키온_중갑_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200573" name="[스타일] 발키온_중갑_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200574" name="[스타일] 발키온_중갑_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200575" name="[스타일] 발키온_중갑_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200576" name="[스타일] 발키온_중갑_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200577" name="[스타일] 발키온_중갑_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200578" name="[스타일] 발키온_중갑_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200579" name="[스타일] 발키온_중갑_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200580" name="[스타일] 발키온_중갑_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200581" name="[스타일] 발키온_중갑_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200582" name="[스타일] 발키온_중갑_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200583" name="[스타일] 발키온_중갑_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200584" name="[스타일] 발키온_중갑_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200585" name="[스타일] 발키온_중갑_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200586" name="[스타일] 발키온_중갑_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200587" name="[스타일] 발키온_중갑_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200588" name="[스타일] 발키온_중갑_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200589" name="[스타일] 발키온_중갑_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200590" name="[스타일] 발키온_중갑_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200591" name="[스타일] 발키온_중갑_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200592" name="[스타일] 발키온_중갑_20단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(쌍검) -->
+      <Item id="200593" name="[스타일] 발키온_쌍검_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200594" name="[스타일] 발키온_쌍검_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200595" name="[스타일] 발키온_쌍검_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200596" name="[스타일] 발키온_쌍검_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200597" name="[스타일] 발키온_쌍검_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200598" name="[스타일] 발키온_쌍검_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200599" name="[스타일] 발키온_쌍검_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200600" name="[스타일] 발키온_쌍검_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200601" name="[스타일] 발키온_쌍검_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200602" name="[스타일] 발키온_쌍검_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200603" name="[스타일] 발키온_쌍검_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200604" name="[스타일] 발키온_쌍검_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200605" name="[스타일] 발키온_쌍검_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200606" name="[스타일] 발키온_쌍검_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200607" name="[스타일] 발키온_쌍검_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200608" name="[스타일] 발키온_쌍검_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200609" name="[스타일] 발키온_쌍검_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200610" name="[스타일] 발키온_쌍검_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200611" name="[스타일] 발키온_쌍검_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200612" name="[스타일] 발키온_쌍검_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200613" name="[스타일] 발키온_쌍검_20단계" grade="6" reputationPoint="2800" />
+      <Item id="200614" name="[스타일] 발키온_쌍검_21단계" grade="6" reputationPoint="2800" />
+      <Item id="200615" name="[스타일] 발키온_쌍검_22단계" grade="6" reputationPoint="2800" />
+      <Item id="200616" name="[스타일] 발키온_쌍검_23단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(창) -->
+      <Item id="200617" name="[스타일] 발키온_창_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200618" name="[스타일] 발키온_창_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200619" name="[스타일] 발키온_창_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200620" name="[스타일] 발키온_창_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200621" name="[스타일] 발키온_창_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200622" name="[스타일] 발키온_창_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200623" name="[스타일] 발키온_창_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200624" name="[스타일] 발키온_창_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200625" name="[스타일] 발키온_창_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200626" name="[스타일] 발키온_창_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200627" name="[스타일] 발키온_창_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200628" name="[스타일] 발키온_창_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200629" name="[스타일] 발키온_창_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200630" name="[스타일] 발키온_창_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200631" name="[스타일] 발키온_창_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200632" name="[스타일] 발키온_창_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200633" name="[스타일] 발키온_창_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200634" name="[스타일] 발키온_창_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200635" name="[스타일] 발키온_창_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200636" name="[스타일] 발키온_창_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200637" name="[스타일] 발키온_창_20단계" grade="6" reputationPoint="2800" />
+      <Item id="200638" name="[스타일] 발키온_창_21단계" grade="6" reputationPoint="2800" />
+      <Item id="200639" name="[스타일] 발키온_창_22단계" grade="6" reputationPoint="2800" />
+      <Item id="200640" name="[스타일] 발키온_창_23단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(대검) -->
+      <Item id="200641" name="[스타일] 발키온_대검_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200642" name="[스타일] 발키온_대검_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200643" name="[스타일] 발키온_대검_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200644" name="[스타일] 발키온_대검_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200645" name="[스타일] 발키온_대검_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200646" name="[스타일] 발키온_대검_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200647" name="[스타일] 발키온_대검_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200648" name="[스타일] 발키온_대검_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200649" name="[스타일] 발키온_대검_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200650" name="[스타일] 발키온_대검_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200651" name="[스타일] 발키온_대검_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200652" name="[스타일] 발키온_대검_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200653" name="[스타일] 발키온_대검_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200654" name="[스타일] 발키온_대검_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200655" name="[스타일] 발키온_대검_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200656" name="[스타일] 발키온_대검_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200657" name="[스타일] 발키온_대검_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200658" name="[스타일] 발키온_대검_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200659" name="[스타일] 발키온_대검_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200660" name="[스타일] 발키온_대검_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200661" name="[스타일] 발키온_대검_20단계" grade="6" reputationPoint="2800" />
+      <Item id="200662" name="[스타일] 발키온_대검_21단계" grade="6" reputationPoint="2800" />
+      <Item id="200663" name="[스타일] 발키온_대검_22단계" grade="6" reputationPoint="2800" />
+      <Item id="200664" name="[스타일] 발키온_대검_23단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(도끼) -->
+      <Item id="200665" name="[스타일] 발키온_도끼_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200666" name="[스타일] 발키온_도끼_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200667" name="[스타일] 발키온_도끼_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200668" name="[스타일] 발키온_도끼_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200669" name="[스타일] 발키온_도끼_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200670" name="[스타일] 발키온_도끼_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200671" name="[스타일] 발키온_도끼_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200672" name="[스타일] 발키온_도끼_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200673" name="[스타일] 발키온_도끼_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200674" name="[스타일] 발키온_도끼_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200675" name="[스타일] 발키온_도끼_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200676" name="[스타일] 발키온_도끼_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200677" name="[스타일] 발키온_도끼_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200678" name="[스타일] 발키온_도끼_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200679" name="[스타일] 발키온_도끼_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200680" name="[스타일] 발키온_도끼_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200681" name="[스타일] 발키온_도끼_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200682" name="[스타일] 발키온_도끼_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200683" name="[스타일] 발키온_도끼_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200684" name="[스타일] 발키온_도끼_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200685" name="[스타일] 발키온_도끼_20단계" grade="6" reputationPoint="2800" />
+      <Item id="200686" name="[스타일] 발키온_도끼_21단계" grade="6" reputationPoint="2800" />
+      <Item id="200687" name="[스타일] 발키온_도끼_22단계" grade="6" reputationPoint="2800" />
+      <Item id="200688" name="[스타일] 발키온_도끼_23단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(원반) -->
+      <Item id="200689" name="[스타일] 발키온_원반_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200690" name="[스타일] 발키온_원반_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200691" name="[스타일] 발키온_원반_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200692" name="[스타일] 발키온_원반_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200693" name="[스타일] 발키온_원반_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200694" name="[스타일] 발키온_원반_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200695" name="[스타일] 발키온_원반_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200696" name="[스타일] 발키온_원반_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200697" name="[스타일] 발키온_원반_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200698" name="[스타일] 발키온_원반_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200699" name="[스타일] 발키온_원반_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200700" name="[스타일] 발키온_원반_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200701" name="[스타일] 발키온_원반_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200702" name="[스타일] 발키온_원반_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200703" name="[스타일] 발키온_원반_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200704" name="[스타일] 발키온_원반_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200705" name="[스타일] 발키온_원반_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200706" name="[스타일] 발키온_원반_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200707" name="[스타일] 발키온_원반_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200708" name="[스타일] 발키온_원반_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200709" name="[스타일] 발키온_원반_20단계" grade="6" reputationPoint="2800" />
+      <Item id="200710" name="[스타일] 발키온_원반_21단계" grade="6" reputationPoint="2800" />
+      <Item id="200711" name="[스타일] 발키온_원반_22단계" grade="6" reputationPoint="2800" />
+      <Item id="200712" name="[스타일] 발키온_원반_23단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(활) -->
+      <Item id="200713" name="[스타일] 발키온_활_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200714" name="[스타일] 발키온_활_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200715" name="[스타일] 발키온_활_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200716" name="[스타일] 발키온_활_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200717" name="[스타일] 발키온_활_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200718" name="[스타일] 발키온_활_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200719" name="[스타일] 발키온_활_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200720" name="[스타일] 발키온_활_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200721" name="[스타일] 발키온_활_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200722" name="[스타일] 발키온_활_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200723" name="[스타일] 발키온_활_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200724" name="[스타일] 발키온_활_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200725" name="[스타일] 발키온_활_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200726" name="[스타일] 발키온_활_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200727" name="[스타일] 발키온_활_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200728" name="[스타일] 발키온_활_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200729" name="[스타일] 발키온_활_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200730" name="[스타일] 발키온_활_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200731" name="[스타일] 발키온_활_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200732" name="[스타일] 발키온_활_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200733" name="[스타일] 발키온_활_20단계" grade="6" reputationPoint="2800" />
+      <Item id="200734" name="[스타일] 발키온_활_21단계" grade="6" reputationPoint="2800" />
+      <Item id="200735" name="[스타일] 발키온_활_22단계" grade="6" reputationPoint="2800" />
+      <Item id="200736" name="[스타일] 발키온_활_23단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(지팡이) -->
+      <Item id="200737" name="[스타일] 발키온_지팡이_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200738" name="[스타일] 발키온_지팡이_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200739" name="[스타일] 발키온_지팡이_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200740" name="[스타일] 발키온_지팡이_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200741" name="[스타일] 발키온_지팡이_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200742" name="[스타일] 발키온_지팡이_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200743" name="[스타일] 발키온_지팡이_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200744" name="[스타일] 발키온_지팡이_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200745" name="[스타일] 발키온_지팡이_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200746" name="[스타일] 발키온_지팡이_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200747" name="[스타일] 발키온_지팡이_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200748" name="[스타일] 발키온_지팡이_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200749" name="[스타일] 발키온_지팡이_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200750" name="[스타일] 발키온_지팡이_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200751" name="[스타일] 발키온_지팡이_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200752" name="[스타일] 발키온_지팡이_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200753" name="[스타일] 발키온_지팡이_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200754" name="[스타일] 발키온_지팡이_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200755" name="[스타일] 발키온_지팡이_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200756" name="[스타일] 발키온_지팡이_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200757" name="[스타일] 발키온_지팡이_20단계" grade="6" reputationPoint="2800" />
+      <Item id="200758" name="[스타일] 발키온_지팡이_21단계" grade="6" reputationPoint="2800" />
+      <Item id="200759" name="[스타일] 발키온_지팡이_22단계" grade="6" reputationPoint="2800" />
+      <Item id="200760" name="[스타일] 발키온_지팡이_23단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(마법봉) -->
+      <Item id="200761" name="[스타일] 발키온_마법봉_00단계" grade="6" reputationPoint="1200" />
+      <Item id="200762" name="[스타일] 발키온_마법봉_01단계" grade="6" reputationPoint="1200" />
+      <Item id="200763" name="[스타일] 발키온_마법봉_02단계" grade="6" reputationPoint="1200" />
+      <Item id="200764" name="[스타일] 발키온_마법봉_03단계" grade="6" reputationPoint="1200" />
+      <Item id="200765" name="[스타일] 발키온_마법봉_04단계" grade="6" reputationPoint="1200" />
+      <Item id="200766" name="[스타일] 발키온_마법봉_05단계" grade="6" reputationPoint="1200" />
+      <Item id="200767" name="[스타일] 발키온_마법봉_06단계" grade="6" reputationPoint="1200" />
+      <Item id="200768" name="[스타일] 발키온_마법봉_07단계" grade="6" reputationPoint="1200" />
+      <Item id="200769" name="[스타일] 발키온_마법봉_08단계" grade="6" reputationPoint="1200" />
+      <Item id="200770" name="[스타일] 발키온_마법봉_09단계" grade="6" reputationPoint="1200" />
+      <Item id="200771" name="[스타일] 발키온_마법봉_10단계" grade="6" reputationPoint="1200" />
+      <Item id="200772" name="[스타일] 발키온_마법봉_11단계" grade="6" reputationPoint="1200" />
+      <Item id="200773" name="[스타일] 발키온_마법봉_12단계" grade="6" reputationPoint="1200" />
+      <Item id="200774" name="[스타일] 발키온_마법봉_13단계" grade="6" reputationPoint="2800" />
+      <Item id="200775" name="[스타일] 발키온_마법봉_14단계" grade="6" reputationPoint="2800" />
+      <Item id="200776" name="[스타일] 발키온_마법봉_15단계" grade="6" reputationPoint="2800" />
+      <Item id="200777" name="[스타일] 발키온_마법봉_16단계" grade="6" reputationPoint="2800" />
+      <Item id="200778" name="[스타일] 발키온_마법봉_17단계" grade="6" reputationPoint="2800" />
+      <Item id="200779" name="[스타일] 발키온_마법봉_18단계" grade="6" reputationPoint="2800" />
+      <Item id="200780" name="[스타일] 발키온_마법봉_19단계" grade="6" reputationPoint="2800" />
+      <Item id="200781" name="[스타일] 발키온_마법봉_20단계" grade="6" reputationPoint="2800" />
+      <Item id="200782" name="[스타일] 발키온_마법봉_21단계" grade="6" reputationPoint="2800" />
+      <Item id="200783" name="[스타일] 발키온_마법봉_22단계" grade="6" reputationPoint="2800" />
+      <Item id="200784" name="[스타일] 발키온_마법봉_23단계" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(비검사) -->
+      <Item id="200785" name="[스타일] 발키온_골드 퍼 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200786" name="[스타일] 발키온_그린 퍼 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200787" name="[스타일] 발키온_레드 퍼 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200788" name="[스타일] 발키온_브라운 퍼 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200789" name="[스타일] 발키온_블랙 퍼 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200790" name="[스타일] 발키온_실버 퍼 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200791" name="[스타일] 발키온_그린 퍼 체크 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200792" name="[스타일] 발키온_레드 퍼 체크 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200793" name="[스타일] 발키온_블랙 퍼 체크 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200794" name="[스타일] 발키온_블루 퍼 체크 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200795" name="[스타일] 발키온_핑크 퍼 체크 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200796" name="[스타일] 발키온_화이트 퍼 체크 원피스" grade="6" reputationPoint="1200" />
+      <Item id="200797" name="[스타일] 발키온_검은 장미의 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200798" name="[스타일] 발키온_녹색 장미의 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200799" name="[스타일] 발키온_보라 장미의 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200800" name="[스타일] 발키온_분홍 장미의 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200801" name="[스타일] 발키온_붉은 장미의 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200802" name="[스타일] 발키온_파란 장미의 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200803" name="[스타일] 발키온_검은 프릴 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200804" name="[스타일] 발키온_녹색 프릴 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200805" name="[스타일] 발키온_보라 프릴 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200806" name="[스타일] 발키온_분홍 프릴 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200807" name="[스타일] 발키온_파란 프릴 고딕 드레스" grade="6" reputationPoint="2800" />
+      <Item id="200808" name="[스타일] 발키온_하얀 프릴 고딕 드레스" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 무기 외형 아이템(비검사) -->
+      <Item id="200809" name="[스타일] 발키온_가시 비검1" grade="6" reputationPoint="1200" />
+      <Item id="200810" name="[스타일] 발키온_가시 비검2" grade="6" reputationPoint="1200" />
+      <Item id="200811" name="[스타일] 발키온_가시 비검3" grade="6" reputationPoint="1200" />
+      <Item id="200812" name="[스타일] 발키온_송곳니 비검1" grade="6" reputationPoint="2800" />
+      <Item id="200813" name="[스타일] 발키온_송곳니 비검2" grade="6" reputationPoint="2800" />
+      <Item id="200814" name="[스타일] 발키온_송곳니 비검3" grade="6" reputationPoint="2800" />
+      <Item id="200815" name="[스타일] 발키온_깃털 비검1" grade="6" reputationPoint="2800" />
+      <Item id="200816" name="[스타일] 발키온_깃털 비검2" grade="6" reputationPoint="2800" />
+      <Item id="200817" name="[스타일] 발키온_깃털 비검3" grade="6" reputationPoint="2800" />
+      <Item id="200818" name="[스타일] 발키온_불사조 비검1" grade="6" reputationPoint="4200" />
+      <Item id="200819" name="[스타일] 발키온_불사조 비검2" grade="6" reputationPoint="4200" />
+      <Item id="200823" name="[스타일] 예리한 톱니 비검" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(중갑_마공사) -->
+      <Item id="200824" name="[발키온 정찰대] 마도공학회 유니폼1" grade="6" reputationPoint="1200" />
+      <Item id="200825" name="[발키온 정찰대] 마도공학회 유니폼2" grade="6" reputationPoint="1200" />
+      <Item id="200826" name="[발키온 정찰대] 마도공학회 유니폼3" grade="6" reputationPoint="1200" />
+      <Item id="200827" name="[발키온 정찰대] 마도공학회 유니폼4" grade="6" reputationPoint="1200" />
+      <Item id="200828" name="[발키온 정찰대] 마도공학회 유니폼5" grade="6" reputationPoint="1200" />
+      <Item id="200829" name="[발키온 정찰대] 마도공학회 유니폼6" grade="6" reputationPoint="1200" />
+      <Item id="200830" name="[발키온 정찰대] 우수 마도공학회 유니폼1" grade="6" reputationPoint="1200" />
+      <Item id="200831" name="[발키온 정찰대] 우수 마도공학회 유니폼2" grade="6" reputationPoint="1200" />
+      <Item id="200832" name="[발키온 정찰대] 우수 마도공학회 유니폼3" grade="6" reputationPoint="1200" />
+      <Item id="200833" name="[발키온 정찰대] 우수 마도공학회 유니폼4" grade="6" reputationPoint="1200" />
+      <Item id="200834" name="[발키온 정찰대] 우수 마도공학회 유니폼5" grade="6" reputationPoint="1200" />
+      <Item id="200835" name="[발키온 정찰대] 우수 마도공학회 유니폼6" grade="6" reputationPoint="1200" />
+      <Item id="200836" name="[발키온 정찰대] 우수 마도공학회 유니폼(레어)1" grade="6" reputationPoint="2800" />
+      <Item id="200837" name="[발키온 정찰대] 우수 마도공학회 유니폼(레어)2" grade="6" reputationPoint="2800" />
+      <Item id="200838" name="[발키온 정찰대] 우수 마도공학회 유니폼(레어)3" grade="6" reputationPoint="2800" />
+      <Item id="200839" name="[발키온 정찰대] 우수 마도공학회 유니폼(레어)4" grade="6" reputationPoint="2800" />
+      <Item id="200840" name="[발키온 정찰대] 우수 마도공학회 유니폼(레어)5" grade="6" reputationPoint="2800" />
+      <Item id="200841" name="[발키온 정찰대] 우수 마도공학회 유니폼(레어)6" grade="6" reputationPoint="2800" />
+      <Item id="200842" name="[발키온 정찰대] 정예 마도공학회 유니폼1" grade="6" reputationPoint="2800" />
+      <Item id="200843" name="[발키온 정찰대] 정예 마도공학회 유니폼2" grade="6" reputationPoint="2800" />
+      <Item id="200844" name="[발키온 정찰대] 정예 마도공학회 유니폼3" grade="6" reputationPoint="2800" />
+      <Item id="200845" name="[발키온 정찰대] 정예 마도공학회 유니폼4" grade="6" reputationPoint="2800" />
+      <Item id="200846" name="[발키온 정찰대] 정예 마도공학회 유니폼5" grade="6" reputationPoint="2800" />
+      <Item id="200847" name="[발키온 정찰대] 정예 마도공학회 유니폼6" grade="6" reputationPoint="2800" />
+      <Item id="200871" name="[발키온 정찰대] 검은빛 아케인 슈트" grade="6" reputationPoint="2800" />
+      <Item id="200872" name="[발키온 정찰대] 푸른빛 아케인 슈트" grade="6" reputationPoint="2800" />
+      <Item id="200873" name="[발키온 정찰대] 황금빛 아케인 슈트" grade="6" reputationPoint="2800" />
+      <Item id="200874" name="[발키온 정찰대] 초록빛 아케인 슈트" grade="6" reputationPoint="2800" />
+      <Item id="200875" name="[발키온 정찰대] 보라빛 아케인 슈트" grade="6" reputationPoint="2800" />
+      <Item id="200876" name="[발키온 정찰대] 붉은빛 아케인 슈트" grade="6" reputationPoint="2800" />
+      <Item id="200886" name="[발키온 정찰대] 검은빛 아케인 슈트B" grade="6" reputationPoint="2800" />
+      <Item id="200887" name="[발키온 정찰대] 푸른빛 아케인 슈트B" grade="6" reputationPoint="2800" />
+      <Item id="200888" name="[발키온 정찰대] 황금빛 아케인 슈트B" grade="6" reputationPoint="2800" />
+      <Item id="200889" name="[발키온 정찰대] 초록빛 아케인 슈트B" grade="6" reputationPoint="2800" />
+      <Item id="200890" name="[발키온 정찰대] 보라빛 아케인 슈트B" grade="6" reputationPoint="2800" />
+      <Item id="200891" name="[발키온 정찰대] 붉은빛 아케인 슈트B" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(마공포) -->
+      <Item id="200848" name="[발키온 정찰대] 쿠벨 탐험대 마공포1" grade="6" reputationPoint="1200" />
+      <Item id="200849" name="[발키온 정찰대] 쿠벨 탐험대 마공포2" grade="6" reputationPoint="1200" />
+      <Item id="200850" name="[발키온 정찰대] 쿠벨 탐험대 마공포3" grade="6" reputationPoint="1200" />
+      <Item id="200851" name="[발키온 정찰대] 쿠벨 탐험대 마공포4" grade="6" reputationPoint="1200" />
+      <Item id="200852" name="[발키온 정찰대] 깃털 마공포1" grade="6" reputationPoint="1200" />
+      <Item id="200853" name="[발키온 정찰대] 깃털 마공포2" grade="6" reputationPoint="1200" />
+      <Item id="200854" name="[발키온 정찰대] 깃털 마공포3" grade="6" reputationPoint="1200" />
+      <Item id="200855" name="[발키온 정찰대] 고귀한 마공포1" grade="6" reputationPoint="2800" />
+      <Item id="200856" name="[발키온 정찰대] 고귀한 마공포2" grade="6" reputationPoint="2800" />
+      <Item id="200857" name="[발키온 정찰대] 고귀한 마공포3" grade="6" reputationPoint="2800" />
+      <Item id="200858" name="[발키온 정찰대] 고룡의 마공포1" grade="6" reputationPoint="2800" />
+      <Item id="200859" name="[발키온 정찰대] 고룡의 마공포2" grade="6" reputationPoint="2800" />
+      <Item id="200860" name="[발키온 정찰대] 고룡의 마공포3" grade="6" reputationPoint="2800" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(1차 전설 라인업) -->
+      <Item id="200862" name="[발키온 정찰대] 무자비한 쌍검" grade="6" reputationPoint="4200" />
+      <Item id="200863" name="[발키온 정찰대] 무자비한 창" grade="6" reputationPoint="4200" />
+      <Item id="200864" name="[발키온 정찰대] 무자비한 대검" grade="6" reputationPoint="4200" />
+      <Item id="200865" name="[발키온 정찰대] 무자비한 도끼" grade="6" reputationPoint="4200" />
+      <Item id="200866" name="[발키온 정찰대] 무자비한 원반" grade="6" reputationPoint="4200" />
+      <Item id="200867" name="[발키온 정찰대] 무자비한 활" grade="6" reputationPoint="4200" />
+      <Item id="200868" name="[발키온 정찰대] 무자비한 지팡이" grade="6" reputationPoint="4200" />
+      <Item id="200869" name="[발키온 정찰대] 무자비한 마법봉" grade="6" reputationPoint="4200" />
+      <Item id="200870" name="[발키온 정찰대] 파괴자의 아케인 마공포" grade="6" reputationPoint="4200" />
+      <Item id="200822" name="[발키온 정찰대] 뾰족한 톱니 비검" grade="6" reputationPoint="4200" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(2차 전설 라인업) -->
+      <Item id="200877" name="[발키온 정찰대] 빛나는 녹테늄의 쌍검" grade="6" reputationPoint="4200" />
+      <Item id="200878" name="[발키온 정찰대] 빛나는 녹테늄의 창" grade="6" reputationPoint="4200" />
+      <Item id="200879" name="[발키온 정찰대] 빛나는 녹테늄의 대검" grade="6" reputationPoint="4200" />
+      <Item id="200880" name="[발키온 정찰대] 빛나는 녹테늄의 도끼" grade="6" reputationPoint="4200" />
+      <Item id="200881" name="[발키온 정찰대] 빛나는 녹테늄의 원반" grade="6" reputationPoint="4200" />
+      <Item id="200882" name="[발키온 정찰대] 빛나는 녹테늄의 활" grade="6" reputationPoint="4200" />
+      <Item id="200883" name="[발키온 정찰대] 빛나는 녹테늄의 지팡이" grade="6" reputationPoint="4200" />
+      <Item id="200884" name="[발키온 정찰대] 빛나는 녹테늄의 마법봉" grade="6" reputationPoint="4200" />
+      <Item id="200885" name="[발키온 정찰대] 파괴자의 비전 마공포B" grade="6" reputationPoint="4200" />
+      <Item id="200820" name="[스타일] 발키온_불사조 비검3" grade="6" reputationPoint="4200" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(3차 전설 라인업) -->
+      <Item id="200892" name="[발키온 정찰대] 무흐락 블랙라벨 중갑" grade="6" reputationPoint="4200" />
+      <Item id="200893" name="[발키온 정찰대] 무흐락 블랙라벨 경갑" grade="6" reputationPoint="4200" />
+      <Item id="200894" name="[발키온 정찰대] 무흐락 블랙라벨 로브" grade="6" reputationPoint="4200" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(4차 전설 라인업) -->
+      <Item id="200895" name="[발키온 정찰대] 샨드라 마나이아의 쌍검" grade="6" reputationPoint="4200" />
+      <Item id="200896" name="[발키온 정찰대] 샨드라 마나이아의 창" grade="6" reputationPoint="4200" />
+      <Item id="200897" name="[발키온 정찰대] 샨드라 마나이아의 대검" grade="6" reputationPoint="4200" />
+      <Item id="200898" name="[발키온 정찰대] 샨드라 마나이아의 도끼" grade="6" reputationPoint="4200" />
+      <Item id="200899" name="[발키온 정찰대] 샨드라 마나이아의 원반" grade="6" reputationPoint="4200" />
+      <Item id="200900" name="[발키온 정찰대] 샨드라 마나이아의 활" grade="6" reputationPoint="4200" />
+      <Item id="200901" name="[발키온 정찰대] 샨드라 마나이아의 지팡이" grade="6" reputationPoint="4200" />
+      <Item id="200902" name="[발키온 정찰대] 샨드라 마나이아의 마법봉" grade="6" reputationPoint="4200" />
+      <Item id="200903" name="[발키온 정찰대] 파괴자의 비전 마공포B" grade="6" reputationPoint="4200" />
+      <Item id="200821" name="[스타일] 날렵한 톱니 비검" grade="6" reputationPoint="4200" />
+      <!-- 스타일샵 발키온 정찰대 외형 아이템(5차 전설 라인업) -->
+      <Item id="200904" name="[발키온 정찰대] 백은기사 중갑" grade="6" reputationPoint="4200" />
+      <Item id="200905" name="[발키온 정찰대] 백은기사 경갑" grade="6" reputationPoint="4200" />
+      <Item id="200906" name="[발키온 정찰대] 백은기사 로브" grade="6" reputationPoint="4200" />
+      <Item id="58505" name="데모크론 학살자 수리검" grade="6" reputationPoint="600" />
+	  <Item id="59538" name="데모크론 학살자 월광도" grade="6" reputationPoint="600" />
+	  <!-- 스타일샵 발키온 정찰대 외형 아이템('17 7월 영구제) -->
+      <Item id="201300" name="[발키온 정찰대] 프릴 컬렉션 중갑" grade="6" reputationPoint="7200" />
+      <Item id="201301" name="[발키온 정찰대] 프릴 컬렉션 경갑" grade="6" reputationPoint="7200" />
+      <Item id="201302" name="[발키온 정찰대] 프릴 컬렉션 로브" grade="6" reputationPoint="7200" />
+	  <Item id="201303" name="[발키온 정찰대] 수호 컬렉션 중갑" grade="6" reputationPoint="7200" />
+      <Item id="201304" name="[발키온 정찰대] 수호 컬렉션 경갑" grade="6" reputationPoint="7200" />
+      <Item id="201305" name="[발키온 정찰대] 수호 컬렉션 로브" grade="6" reputationPoint="7200" />
+	  <Item id="201306" name="[발키온 정찰대] 무흐락 블랙라벨 중갑" grade="6" reputationPoint="7200" />
+      <Item id="201307" name="[발키온 정찰대] 무흐락 블랙라벨 경갑" grade="6" reputationPoint="7200" />
+      <Item id="201308" name="[발키온 정찰대] 무흐락 블랙라벨 로브" grade="6" reputationPoint="7200" />
+	  <Item id="201309" name="[발키온 정찰대] 백은기사 중갑" grade="6" reputationPoint="7200" />
+      <Item id="201310" name="[발키온 정찰대] 백은기사 경갑" grade="6" reputationPoint="7200" />
+      <Item id="201311" name="[발키온 정찰대] 백은기사 로브" grade="6" reputationPoint="7200" />
+	  <Item id="201312" name="[발키온 정찰대] 무자비한 쌍검" grade="6" reputationPoint="7200" />
+      <Item id="201313" name="[발키온 정찰대] 무자비한 창" grade="6" reputationPoint="7200" />
+      <Item id="201314" name="[발키온 정찰대] 무자비한 대검" grade="6" reputationPoint="7200" />
+      <Item id="201315" name="[발키온 정찰대] 무자비한 도끼" grade="6" reputationPoint="7200" />
+      <Item id="201316" name="[발키온 정찰대] 무자비한 원반" grade="6" reputationPoint="7200" />
+      <Item id="201317" name="[발키온 정찰대] 무자비한 활" grade="6" reputationPoint="7200" />
+      <Item id="201318" name="[발키온 정찰대] 무자비한 지팡이" grade="6" reputationPoint="7200" />
+      <Item id="201319" name="[발키온 정찰대] 무자비한 마법봉" grade="6" reputationPoint="7200" />
+      <Item id="201320" name="[발키온 정찰대] 무자비한 비검" grade="6" reputationPoint="7200" />
+      <Item id="201321" name="[발키온 정찰대] 무자비한 마공포" grade="6" reputationPoint="7200" />
+	  <Item id="201322" name="[발키온 정찰대] 무자비한 권갑" grade="6" reputationPoint="7200" />
+	  <Item id="201323" name="[발키온 정찰대] 무자비한 수리검" grade="6" reputationPoint="7200" />
+	  <Item id="201324" name="[발키온 정찰대] 무자비한 월광도" grade="6" reputationPoint="7200" />
+	  <Item id="201325" name="[발키온 정찰대] 빛나는 녹테늄의 쌍검" grade="6" reputationPoint="7200" />
+      <Item id="201326" name="[발키온 정찰대] 빛나는 녹테늄의 창" grade="6" reputationPoint="7200" />
+      <Item id="201327" name="[발키온 정찰대] 빛나는 녹테늄의 대검" grade="6" reputationPoint="7200" />
+      <Item id="201328" name="[발키온 정찰대] 빛나는 녹테늄의 도끼" grade="6" reputationPoint="7200" />
+      <Item id="201329" name="[발키온 정찰대] 빛나는 녹테늄의 원반" grade="6" reputationPoint="7200" />
+      <Item id="201330" name="[발키온 정찰대] 빛나는 녹테늄의 활" grade="6" reputationPoint="7200" />
+      <Item id="201331" name="[발키온 정찰대] 빛나는 녹테늄의 지팡이" grade="6" reputationPoint="7200" />
+      <Item id="201332" name="[발키온 정찰대] 빛나는 녹테늄의 마법봉" grade="6" reputationPoint="7200" />
+      <Item id="201333" name="[발키온 정찰대] 빛나는 녹테늄의 비검" grade="6" reputationPoint="7200" />
+      <Item id="201334" name="[발키온 정찰대] 빛나는 녹테늄의 마공포" grade="6" reputationPoint="7200" />
+	  <Item id="201335" name="[발키온 정찰대] 빛나는 녹테늄의 권갑" grade="6" reputationPoint="7200" />
+	  <Item id="201336" name="[발키온 정찰대] 빛나는 녹테늄의 수리검" grade="6" reputationPoint="7200" />
+	  <Item id="201337" name="[발키온 정찰대] 빛나는 녹테늄의 월광도" grade="6" reputationPoint="7200" />
+	  <Item id="201338" name="[발키온 정찰대] 샨드라 마나이아의 쌍검" grade="6" reputationPoint="7200" />
+      <Item id="201339" name="[발키온 정찰대] 샨드라 마나이아의 창" grade="6" reputationPoint="7200" />
+      <Item id="201340" name="[발키온 정찰대] 샨드라 마나이아의 대검" grade="6" reputationPoint="7200" />
+      <Item id="201341" name="[발키온 정찰대] 샨드라 마나이아의 도끼" grade="6" reputationPoint="7200" />
+      <Item id="201342" name="[발키온 정찰대] 샨드라 마나이아의 원반" grade="6" reputationPoint="7200" />
+      <Item id="201343" name="[발키온 정찰대] 샨드라 마나이아의 활" grade="6" reputationPoint="7200" />
+      <Item id="201344" name="[발키온 정찰대] 샨드라 마나이아의 지팡이" grade="6" reputationPoint="7200" />
+      <Item id="201345" name="[발키온 정찰대] 샨드라 마나이아의 마법봉" grade="6" reputationPoint="7200" />
+      <Item id="201346" name="[발키온 정찰대] 샨드라 마나이아의 비검" grade="6" reputationPoint="7200" />
+      <Item id="201347" name="[발키온 정찰대] 샨드라 마나이아의 마공포" grade="6" reputationPoint="7200" />
+	  <Item id="201348" name="[발키온 정찰대] 샨드라 마나이아의 권갑" grade="6" reputationPoint="7200" />
+	  <Item id="201349" name="[발키온 정찰대] 샨드라 마나이아의 수리검" grade="6" reputationPoint="7200" />
+	  <Item id="201350" name="[발키온 정찰대] 샨드라 마나이아의 월광도" grade="6" reputationPoint="7200" />
+    </NpcGuild>
+    <!-- 승리의 인도자-->
+	
+    <NpcGuild id="610">
+      <!-- 과제 선택형 솔로잉 던전 -->
+	  <!-- 강화 재료 -->
+	  <Item id="89768" name="하급 균형의 무기 강화석" grade="5" reputationPoint="200" />
+	  <Item id="89771" name="하급 균형의 방어구 강화석" grade="5" reputationPoint="200" />
+	  <Item id="366" name="루비" grade="5" reputationPoint="400" />
+	  <!-- 문장 봉인함 -->
+	  <Item id="95625" name="희귀 문장 봉인함 : 검투사" grade="5" reputationPoint="500" />
+	  <Item id="95626" name="희귀 문장 봉인함 : 창기사" grade="5" reputationPoint="500" />
+	  <Item id="95627" name="희귀 문장 봉인함 : 무사" grade="5" reputationPoint="500" />
+	  <Item id="95628" name="희귀 문장 봉인함 : 광전사" grade="5" reputationPoint="500" />
+	  <Item id="95629" name="희귀 문장 봉인함 : 마법사" grade="5" reputationPoint="500" />
+	  <Item id="95630" name="희귀 문장 봉인함 : 궁수" grade="5" reputationPoint="500" />
+	  <Item id="95631" name="희귀 문장 봉인함 : 정령사" grade="5" reputationPoint="500" />
+	  <Item id="95632" name="희귀 문장 봉인함 : 사제" grade="5" reputationPoint="500" />
+	  <Item id="95633" name="희귀 문장 봉인함 : 비검사" grade="5" reputationPoint="500" />
+	  <Item id="95634" name="희귀 문장 봉인함 : 마공사" grade="5" reputationPoint="500" />
+	  <Item id="95635" name="희귀 문장 봉인함 : 권술사" grade="5" reputationPoint="500" />
+	  <Item id="95644" name="희귀 문장 봉인함 : 인술사" grade="5" reputationPoint="500" />
+	  <Item id="59018" name="희귀 문장 봉인함 : 월광무사" grade="5" reputationPoint="500" />
+    </NpcGuild>
+    <NpcGuild id="611">
+      <!-- 만렙 필드 컨텐츠, 수호자 임무 -->
+	  <!-- 하급 상점 -->
+
+	  <!-- 중급 상점 -->
+  
+	 	  
+	  <!-- 상급 상점 -->
+	  <Item id="89768" name="하급 균형의 무기 강화석" grade="5" reputationPoint="100" />
+	  <Item id="89771" name="하급 균형의 방어구 강화석" grade="5" reputationPoint="100" />
+	  <Item id="89769" name="중급 균형의 무기 강화석" grade="5" reputationPoint="5000" />
+	  <Item id="89772" name="중급 균형의 방어구 강화석" grade="5" reputationPoint="5000" />
+	  <Item id="98598" name="낡은 보급품" grade="5" reputationPoint="6000" />	
+	  <Item id="98599" name="악마의 발톱" grade="5" reputationPoint="6000" />
+	  <Item id="98600" name="용의 두개골" grade="5" reputationPoint="6000" />
+	  <Item id="89804" name="균형의 강화석 상자" grade="5" reputationPoint="3000" />
+
+	  <!-- 문장 -->
+	  <Item id="35023" grade="5" reputationPoint="15000" />
+      <Item id="35024" grade="5" reputationPoint="15000" />
+      <Item id="35025" grade="5" reputationPoint="15000" />
+      <Item id="35026" grade="5" reputationPoint="15000" />
+      <Item id="35027" grade="5" reputationPoint="15000" />
+      <Item id="35028" grade="5" reputationPoint="15000" />
+      <Item id="35029" grade="5" reputationPoint="15000" />
+      <Item id="35030" grade="5" reputationPoint="15000" />
+      <Item id="35031" grade="5" reputationPoint="15000" />
+      <Item id="35032" grade="5" reputationPoint="15000" />
+      <Item id="35033" grade="5" reputationPoint="15000" />
+      <Item id="35034" grade="5" reputationPoint="15000" />
+      <Item id="35676" grade="5" reputationPoint="15000" />
+      <Item id="35677" grade="5" reputationPoint="15000" />
+      <Item id="35678" grade="5" reputationPoint="15000" />
+      <Item id="35679" grade="5" reputationPoint="15000" />
+      <Item id="35680" grade="5" reputationPoint="15000" />
+      <Item id="35681" grade="5" reputationPoint="15000" />
+      <Item id="35682" grade="5" reputationPoint="15000" />
+      <Item id="35683" grade="5" reputationPoint="15000" />
+      <Item id="35684" grade="5" reputationPoint="15000" />
+      <Item id="35685" grade="5" reputationPoint="15000" />
+      <Item id="35686" grade="5" reputationPoint="15000" />
+      <Item id="35687" grade="5" reputationPoint="15000" />
+      <Item id="36320" grade="5" reputationPoint="15000" />
+      <Item id="36321" grade="5" reputationPoint="15000" />
+      <Item id="36322" grade="5" reputationPoint="15000" />
+      <Item id="36323" grade="5" reputationPoint="15000" />
+      <Item id="36324" grade="5" reputationPoint="15000" />
+      <Item id="36325" grade="5" reputationPoint="15000" />
+      <Item id="36326" grade="5" reputationPoint="15000" />
+      <Item id="36327" grade="5" reputationPoint="15000" />
+      <Item id="36328" grade="5" reputationPoint="15000" />
+      <Item id="36329" grade="5" reputationPoint="15000" />
+      <Item id="36330" grade="5" reputationPoint="15000" />
+      <Item id="36331" grade="5" reputationPoint="15000" />
+      <Item id="36970" grade="5" reputationPoint="15000" />
+      <Item id="36971" grade="5" reputationPoint="15000" />
+      <Item id="36972" grade="5" reputationPoint="15000" />
+      <Item id="36973" grade="5" reputationPoint="15000" />
+      <Item id="36974" grade="5" reputationPoint="15000" />
+      <Item id="36975" grade="5" reputationPoint="15000" />
+      <Item id="36976" grade="5" reputationPoint="15000" />
+      <Item id="36977" grade="5" reputationPoint="15000" />
+      <Item id="36978" grade="5" reputationPoint="15000" />
+      <Item id="36979" grade="5" reputationPoint="15000" />
+      <Item id="36980" grade="5" reputationPoint="15000" />
+      <Item id="36981" grade="5" reputationPoint="15000" />
+      <Item id="37620" grade="5" reputationPoint="15000" />
+      <Item id="37621" grade="5" reputationPoint="15000" />
+      <Item id="37622" grade="5" reputationPoint="15000" />
+      <Item id="37623" grade="5" reputationPoint="15000" />
+      <Item id="37624" grade="5" reputationPoint="15000" />
+      <Item id="37625" grade="5" reputationPoint="15000" />
+      <Item id="37626" grade="5" reputationPoint="15000" />
+      <Item id="37627" grade="5" reputationPoint="15000" />
+      <Item id="37628" grade="5" reputationPoint="15000" />
+      <Item id="37629" grade="5" reputationPoint="15000" />
+      <Item id="37630" grade="5" reputationPoint="15000" />
+      <Item id="37631" grade="5" reputationPoint="15000" />
+      <Item id="38272" grade="5" reputationPoint="15000" />
+      <Item id="38273" grade="5" reputationPoint="15000" />
+      <Item id="38274" grade="5" reputationPoint="15000" />
+      <Item id="38275" grade="5" reputationPoint="15000" />
+      <Item id="38276" grade="5" reputationPoint="15000" />
+      <Item id="38277" grade="5" reputationPoint="15000" />
+      <Item id="38278" grade="5" reputationPoint="15000" />
+      <Item id="38279" grade="5" reputationPoint="15000" />
+      <Item id="38280" grade="5" reputationPoint="15000" />
+      <Item id="38281" grade="5" reputationPoint="15000" />
+      <Item id="38282" grade="5" reputationPoint="15000" />
+      <Item id="38283" grade="5" reputationPoint="15000" />
+      <Item id="38920" grade="5" reputationPoint="15000" />
+      <Item id="38921" grade="5" reputationPoint="15000" />
+      <Item id="38922" grade="5" reputationPoint="15000" />
+      <Item id="38923" grade="5" reputationPoint="15000" />
+      <Item id="38924" grade="5" reputationPoint="15000" />
+      <Item id="38925" grade="5" reputationPoint="15000" />
+      <Item id="38926" grade="5" reputationPoint="15000" />
+      <Item id="38927" grade="5" reputationPoint="15000" />
+      <Item id="38928" grade="5" reputationPoint="15000" />
+      <Item id="38929" grade="5" reputationPoint="15000" />
+      <Item id="38930" grade="5" reputationPoint="15000" />
+      <Item id="38931" grade="5" reputationPoint="15000" />
+      <Item id="38932" grade="5" reputationPoint="15000" />
+      <Item id="38933" grade="5" reputationPoint="15000" />
+      <Item id="38934" grade="5" reputationPoint="15000" />
+      <Item id="38935" grade="5" reputationPoint="15000" />
+      <Item id="38936" grade="5" reputationPoint="15000" />
+      <Item id="38937" grade="5" reputationPoint="15000" />
+      <Item id="38938" grade="5" reputationPoint="15000" />
+      <Item id="38939" grade="5" reputationPoint="15000" />
+      <Item id="38940" grade="5" reputationPoint="15000" />
+      <Item id="38941" grade="5" reputationPoint="15000" />
+      <Item id="38942" grade="5" reputationPoint="15000" />
+      <Item id="38943" grade="5" reputationPoint="15000" />
+      <Item id="38944" grade="5" reputationPoint="15000" />
+      <Item id="38945" grade="5" reputationPoint="15000" />
+      <Item id="38946" grade="5" reputationPoint="15000" />
+      <Item id="38947" grade="5" reputationPoint="15000" />
+      <Item id="38948" grade="5" reputationPoint="15000" />
+      <Item id="38949" grade="5" reputationPoint="15000" />
+      <Item id="38950" grade="5" reputationPoint="15000" />
+      <Item id="38951" grade="5" reputationPoint="15000" />
+      <Item id="38952" grade="5" reputationPoint="15000" />
+      <Item id="38953" grade="5" reputationPoint="15000" />
+      <Item id="38954" grade="5" reputationPoint="15000" />
+      <Item id="38955" grade="5" reputationPoint="15000" />
+      <Item id="38956" grade="5" reputationPoint="15000" />
+      <Item id="38957" grade="5" reputationPoint="15000" />
+      <Item id="38958" grade="5" reputationPoint="15000" />
+      <Item id="38959" grade="5" reputationPoint="15000" />
+      <Item id="38960" grade="5" reputationPoint="15000" />
+      <Item id="38961" grade="5" reputationPoint="15000" />
+      <Item id="38962" grade="5" reputationPoint="15000" />
+      <Item id="38963" grade="5" reputationPoint="15000" />
+      <Item id="38964" grade="5" reputationPoint="15000" />
+      <Item id="38965" grade="5" reputationPoint="15000" />
+      <Item id="38966" grade="5" reputationPoint="15000" />
+      <Item id="38967" grade="5" reputationPoint="15000" />
+      <Item id="39767" grade="5" reputationPoint="15000" />
+      <Item id="39768" grade="5" reputationPoint="15000" />
+      <Item id="39769" grade="5" reputationPoint="15000" />
+      <Item id="39770" grade="5" reputationPoint="15000" />
+      <Item id="39771" grade="5" reputationPoint="15000" />
+      <Item id="39772" grade="5" reputationPoint="15000" />
+      <Item id="39773" grade="5" reputationPoint="15000" />
+      <Item id="39774" grade="5" reputationPoint="15000" />
+      <Item id="39775" grade="5" reputationPoint="15000" />
+      <Item id="39776" grade="5" reputationPoint="15000" />
+      <Item id="39777" grade="5" reputationPoint="15000" />
+      <Item id="39778" grade="5" reputationPoint="15000" />
+      <Item id="39794" grade="5" reputationPoint="15000" />
+      <Item id="39795" grade="5" reputationPoint="15000" />
+      <Item id="39796" grade="5" reputationPoint="15000" />
+      <Item id="39797" grade="5" reputationPoint="15000" />
+      <Item id="39798" grade="5" reputationPoint="15000" />
+      <Item id="39799" grade="5" reputationPoint="15000" />
+      <Item id="39800" grade="5" reputationPoint="15000" />
+      <Item id="39801" grade="5" reputationPoint="15000" />
+      <Item id="39802" grade="5" reputationPoint="15000" />
+      <Item id="39803" grade="5" reputationPoint="15000" />
+      <Item id="39804" grade="5" reputationPoint="15000" />
+      <Item id="39805" grade="5" reputationPoint="15000" />
+	  <Item id="59747" grade="5" reputationPoint="15000" />
+	  <Item id="59748" grade="5" reputationPoint="15000" />
+	  <Item id="59749" grade="5" reputationPoint="15000" />
+	  <Item id="59750" grade="5" reputationPoint="15000" />
+	  <Item id="59751" grade="5" reputationPoint="15000" />
+	  <Item id="59752" grade="5" reputationPoint="15000" />
+	  <Item id="59753" grade="5" reputationPoint="15000" />
+	  <Item id="59754" grade="5" reputationPoint="15000" />
+	  <Item id="59755" grade="5" reputationPoint="15000" />
+	  <Item id="59756" grade="5" reputationPoint="15000" />
+	  <Item id="59757" grade="5" reputationPoint="15000" />
+	  <Item id="59758" grade="5" reputationPoint="15000" />
+    </NpcGuild>
+	<!-- 리베란츠 -->
+	<NpcGuild id="616">
+		<Item id="98681" name="순수한 드라니움 가공석" grade="5" reputationPoint="1000" />
+		<Item id="89739" name="방어구 강화석 상자" grade="5" reputationPoint="1500" />
+		<Item id="98676" name="방어구 강화석" grade="5" reputationPoint="500" />
+		<Item id="206062" name="아르가프 영약" grade="5" reputationPoint="200" />		
+		<Item id="98666" name="스킬 연마 스크롤 I" grade="5" reputationPoint="14" />
+		<Item id="98668" name="스킬 연마 스크롤 II" grade="5" reputationPoint="14" />
+		<Item id="98670" name="스킬 연마 스크롤 III" grade="5" reputationPoint="49" />
+		<Item id="6553" name="최상급 HP 회복 포션" grade="5" reputationPoint="10" />
+		<Item id="6563" name="최상급 MP 회복 포션" grade="5" reputationPoint="10" />
+		<Item id="300007" name="기록 카드 - 리벤즈" grade="5" reputationPoint="1825" />
+		<Item id="301007" name="기록 카드 - 리벤즈" grade="5" reputationPoint="7300" />
+		<Item id="204126" name="전투 요리 도안: 기운 나는 키라쉬 찜" grade="5" reputationPoint="100" />
+		<Item id="204128" name="전투 요리 도안: 정신 드는 키라쉬 찜" grade="5" reputationPoint="100" />
+		<Item id="204129" name="전투 요리 도안: [특제] 기운 나는 키라쉬 찜" grade="5" reputationPoint="500" />
+		<Item id="204130" name="전투 요리 도안: [특제] 정신 드는 키라쉬 찜" grade="5" reputationPoint="500" />
+		<Item id="204131" name="요리 재료 도안: 파이신의 특제 양념" grade="5" reputationPoint="100" />
+	</NpcGuild>
+	<!-- 엑소도르 특무대 -->
+	<NpcGuild id="617">		
+		<Item id="98681" name="순수한 드라니움 가공석" grade="5" reputationPoint="1000" />
+		<Item id="89738" name="무기 강화석 상자" grade="5" reputationPoint="1500" />
+		<Item id="98675" name="무기 강화석" grade="5" reputationPoint="500" />
+		<Item id="206053" name="크램 떡밥" grade="5" reputationPoint="1" />		
+		<Item id="98667" name="스킬 옵션 개방 스크롤 I" grade="5" reputationPoint="32" />
+		<Item id="98669" name="스킬 옵션 개방 스크롤 II" grade="5" reputationPoint="32" />
+		<Item id="98670" name="스킬 연마 스크롤 III" grade="5" reputationPoint="48" />
+		<Item id="300011" name="기록 카드 - 아만느" grade="5" reputationPoint="1825" />
+		<Item id="301011" name="기록 카드 - 아만느" grade="5" reputationPoint="7300" />
+		<Item id="300012" name="기록 카드 - 아우르 로헨" grade="5" reputationPoint="1825" />
+		<Item id="301012" name="기록 카드 - 아우르 로헨" grade="5" reputationPoint="7300" />
+		<Item id="204251" name="납품 상자 도안: 엑소도르 생선 납품 상자 I" grade="5" reputationPoint="10" />
+		<Item id="204252" name="납품 상자 도안: 엑소도르 생선 납품 상자 II" grade="5" reputationPoint="50" />
+		<Item id="204253" name="납품 상자 도안: 엑소도르 생선 납품 상자 III" grade="5" reputationPoint="200" />
+		<Item id="204254" name="납품 상자 도안: 엑소도르 생선 납품 상자 IV" grade="5" reputationPoint="500" />
+		<Item id="204255" name="납품 상자 도안: 엑소도르 생선 납품 상자 V" grade="5" reputationPoint="1000" />
+	</NpcGuild>
+	<!-- ?????  -->
+	<NpcGuild id="618">		
+		<Item id="967" name="코어 마력의 반지 세공석" grade="5" reputationPoint="1500" />
+		<Item id="968" name="코어 마력의 목걸이 세공석" grade="5" reputationPoint="1500" />		
+		<Item id="969" name="코어 마력의 귀걸이 세공석" grade="5" reputationPoint="1500" />		
+		<Item id="970" name="코어 마력의 서클릿 세공석" grade="5" reputationPoint="1500" />		
+		<Item id="954" name="[랜덤] 엑소도르 전설 허리띠 큐브" grade="5" reputationPoint="500" />
+		<Item id="955" name="[랜덤] 엑소도르 전설 허리띠 골든 큐브" grade="5" reputationPoint="1500" />
+		<Item id="956" name="[랜덤] 엑소도르 전설 브로치 큐브" grade="5" reputationPoint="500" />
+		<Item id="957" name="[랜덤] 엑소도르 전설 브로치 골든 큐브" grade="5" reputationPoint="1500" />
+		<Item id="958" name="[랜덤] 엑소도르 전설 가면 큐브" grade="5" reputationPoint="500" />	
+		<Item id="959" name="[랜덤] 엑소도르 전설 가면 골든 큐브" grade="5" reputationPoint="1500" />		
+		<Item id="9351" name="아르보레아의 보랏빛 조각" grade="5" reputationPoint="10" />	
+		<Item id="9352" name="아르보레아의 보랏빛 판금" grade="5" reputationPoint="25" />	
+		<Item id="9353" name="아르보레아의 푸른빛 조각" grade="5" reputationPoint="10" />	
+		<Item id="9354" name="아르보레아의 푸른빛 판금" grade="5" reputationPoint="25" />	
+	</NpcGuild>
+	
+  </SellItem>
+  <UseItem></UseItem>
+</ReputationItem>

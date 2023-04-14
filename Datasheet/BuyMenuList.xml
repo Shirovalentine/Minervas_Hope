@@ -6,6 +6,19 @@
 		<ItemList id="4003" stringed="4003" />
 	</Menu>
 
+
+	<!-- Belicarium Store -->
+	<Menu id="141" desc="전장 평판 승리의 인도자 포인트 상점" stringId="141">
+		<ItemList id="1411" stringed="1411" />		
+		<ItemList id="1412" stringed="1412" />		
+		<ItemList id="1413" stringed="1413" />		
+		<ItemList id="1414" stringed="1414" />		
+	</Menu>
+
+
+
+
+	
 	<Menu id="43" desc="영주 정치 상점" stringId="43">
 		<ItemList id="9999" stringed="9999" />
 	</Menu>
@@ -37,12 +50,7 @@
 		<ItemList id="1402" stringed="1402" />
 		<ItemList id="1403" stringed="1403" />
 	</Menu>
-	<Menu id="141" desc="전장 평판 승리의 인도자 포인트 상점" stringId="141">
-		<ItemList id="1411" stringed="1411" />		
-		<ItemList id="1412" stringed="1412" />		
-		<ItemList id="1413" stringed="1413" />		
-		<ItemList id="1414" stringed="1414" />		
-	</Menu>
+
 	<Menu id="143" desc="눈싸움 전장 토큰 상점" stringId="143">
 		<ItemList id="1431" stringed="1431" />
 		<ItemList id="1432" stringed="1432" />
