@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NpcData huntingZoneId="455">
+	<!--First Boss Ardentmaw [The Gorger]-->
+	<Template id="100" name="거대 원숭이 (1네임드)" speciesId="8" spawnAbnormalityId="98000045" shapeId="301930" basicActionId="3019300" race="GiantMonkey" gender="male" scale="1.7" resourceType="large" resourceSize="100" showHpGauge="false" size="large" aiid="0" elite="True" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="30193000" balanceType="인던_네임드_보스" partyMember="1" playStyle="giant" isFreeNamed="False" showAggroTarget="True" showShorttermTarget="True" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="97999904" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="50" deathNameplateHeight="90" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="900" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="true" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="10590404" time="36000" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="atk,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="200" powRate="1.2" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="99999904" miniRes="99999904" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80" />
+		<SkillList />
+		<Stat maxHp="10590404" walkSpeed="100" runSpeed="140" atk="1646" def="3571.04925957504" exp="1067040" level="60" ignoreDefaultEpExp="False" epExp="" />
+	<!--Second Boss Forengula [The Devourer]-->
+	</Template>
+		<Template id="200" name="거대 도마뱀 (2네임드)" spawnAbnormalityId="98000045" shapeId="300830" basicActionId="3008300" race="GiantStormDrake" gender="male" scale="1" size="large" showHpGauge="false" resourceType="large" resourceSize="100" aiid="9" elite="True" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="30083000" balanceType="인던_네임드_보스" partyMember="1" playStyle="giant" isFreeNamed="False" showAggroTarget="True" showShorttermTarget="True" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="97999904" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="150" deathNameplateHeight="120" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="400" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="16576285" time="36000" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="atk,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="200" powRate="1.2" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="99999904" miniRes="99999904" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80" />
+		<SkillList />
+		<Stat maxHp="16576285" walkSpeed="70" runSpeed="160" atk="1316" def="3571.04925957504" exp="1067040" level="60" ignoreDefaultEpExp="False" epExp="" />
+	</Template>
+	<!--Therd Boss Nimistrix [The Despoiler]-->
+	<Template id="300" name="거대 괴조 (3네임드)" speciesId="7" spawnAbnormalityId="98000000, 98000045, 98000083, 98000084" aggroResetIfNoOneInReturnDistance="true" shapeId="302710" basicActionId="3027100" race="bird" gender="female" scale="1.3" resourceType="large" showHpGauge="false" resourceSize="100" size="large" aiid="14" elite="True" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="30271000" balanceType="인던_네임드_보스" partyMember="1" playStyle="giant" isFreeNamed="False" showAggroTarget="True" showShorttermTarget="True" isLightParty="False" showTargetInfo="false">
+		<Abnormality strA="100" resA="50" strB="100" resB="50" strC="100" resC="1000000" strD="100" resD="50" immuneCategory="12,14,15" />
+		<NamePlate nameplateHeight="150" deathNameplateHeight="120" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="2147483647">
+			<Abnormality kind="35203" initRes="1.000000" incRes="2147483648.000000" />
+			<Abnormality kind="35204" initRes="1.000000" incRes="2147483648.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="1703673" time="36000" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="atk,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="200" powRate="1.2" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1" />
+		<Reaction basicIncRes="0" basicRes="99999904" miniRes="99999904" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="1703673" walkSpeed="100" runSpeed="160" atk="1008" def="3571.04925957504" exp="23318880" level="60" ignoreDefaultEpExp="False" epExp="" />
+	</Template>
+	
+	<Template id="101" name="원숭이 (바나나나무)" scale="1" size="medium" shapeId="302030" resourceSize="100" resourceType="medium" gender="male" race="monkey" aiid="1" basicActionId="3020300" villager="false" isObjectNpc="false" elite="True" questVillager="false" invincible="false" unionElite="false" parentId="30203000" balanceType="인던_풀-자코" partyMember="1" playStyle="basic" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-2" deathNameplateHeight="20" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="5" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="100000" walkSpeed="100" runSpeed="160" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="11" name="" title="" />
+	</Template>
+	<Template id="102" name="원숭이 (약초)" scale="1" size="medium" shapeId="302030" resourceSize="100" resourceType="medium" gender="male" race="monkey" aiid="2" basicActionId="3020300" villager="false" isObjectNpc="false" elite="True" questVillager="false" invincible="false" unionElite="false" parentId="30203000" balanceType="인던_풀-자코" partyMember="1" playStyle="basic" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-2" deathNameplateHeight="20" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="5" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="100000" walkSpeed="100" runSpeed="160" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="12" name="" title="" />
+	</Template>
+	<Template id="103" name="원숭이 (시체)" scale="1" size="medium" shapeId="302030" resourceSize="100" resourceType="medium" gender="male" race="monkey" aiid="3" basicActionId="3020300" villager="false" isObjectNpc="false" elite="True" questVillager="false" invincible="false" unionElite="false" parentId="30203000" balanceType="인던_풀-자코" partyMember="1" playStyle="basic" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-2" deathNameplateHeight="20" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="5" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="100000" walkSpeed="100" runSpeed="160" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="13" name="" title="" />
+	</Template>
+	<Template id="104" name="원숭이 (진짜 1호)" scale="1" size="medium" shapeId="302030" resourceSize="100" resourceType="medium" gender="male" race="monkey" aiid="35" basicActionId="3020300" villager="false" isObjectNpc="false" elite="True" questVillager="false" invincible="false" unionElite="false" parentId="30203000" balanceType="솔로_기본" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-2" deathNameplateHeight="20" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="183398.902738653" time="22950" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="30" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1101" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="40" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="10" walkSpeed="100" runSpeed="160" atk="175" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="11" name="" title="" />
+	</Template>
+	<Template id="105" name="원숭이 (가짜)" scale="1" size="medium" shapeId="302030" resourceSize="100" resourceType="medium" gender="male" race="monkey" aiid="36" basicActionId="3020300" villager="false" isObjectNpc="false" elite="True" questVillager="false" invincible="false" unionElite="false" parentId="30203000" balanceType="솔로_기본" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-2" deathNameplateHeight="20" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="183398.902738653" time="22950" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="30" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1301" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="40" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="10" walkSpeed="100" runSpeed="160" atk="175" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="11" name="" title="" />
+	</Template>
+	<Template id="106" name="원숭이 (진짜 2호)" scale="1" size="medium" shapeId="302030" resourceSize="100" resourceType="medium" gender="male" race="monkey" aiid="35" basicActionId="3020300" villager="false" isObjectNpc="false" elite="True" questVillager="false" invincible="false" unionElite="false" parentId="30203000" balanceType="솔로_기본" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-2" deathNameplateHeight="20" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="183398.902738653" time="22950" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="30" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1101" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="40" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="10" walkSpeed="100" runSpeed="160" atk="175" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="11" name="" title="" />
+	</Template>
+	<Template id="107" name="원숭이 (진짜 3호)" scale="1" size="medium" shapeId="302030" resourceSize="100" resourceType="medium" gender="male" race="monkey" aiid="35" basicActionId="3020300" villager="false" isObjectNpc="false" elite="True" questVillager="false" invincible="false" unionElite="false" parentId="30203000" balanceType="솔로_기본" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-2" deathNameplateHeight="20" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="183398.902738653" time="22950" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="30" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1101" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="40" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="10" walkSpeed="100" runSpeed="160" atk="175" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="11" name="" title="" />
+	</Template>
+	<Template id="110" name="작은바나나나무 (첫 번째)" scale="0.8" size="large" shapeId="720040" resourceSize="100" resourceType="medium" gender="male" race="bananatree" aiid="4" basicActionId="7200400" villager="false" isObjectNpc="false" elite="False" questVillager="false" invincible="false" unionElite="false" parentId="72004000" balanceType="인던_풀-자코" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-20" deathNameplateHeight="-20" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="5" />
+		<SkillList />
+		<Stat maxHp="334937" walkSpeed="100" runSpeed="160" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="14" name="" title="" />
+	</Template>
+	<Template id="120" name="약초 (첫 번째)" scale="1" size="large" shapeId="720010" resourceSize="100" resourceType="medium" gender="male" race="Daily_Flower" aiid="5" basicActionId="7200100" villager="false" isObjectNpc="false" elite="False" questVillager="false" invincible="false" unionElite="false" parentId="72001000" balanceType="인던_풀-자코" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="-12" deathNameplateHeight="0" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="5" />
+		<SkillList />
+		<Stat maxHp="267950" walkSpeed="100" runSpeed="160" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="15" name="" title="" />
+	</Template>
+	<Template id="130" name="양 시체 (첫 번째)" shapeId="600576" basicActionId="200010" race="animal" gender="male" scale="7" resourceType="medium" size="large" resourceSize="100" aiid="6" elite="False" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="60057600" balanceType="인던_풀-자코" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="5" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="669875" walkSpeed="100" runSpeed="160" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="140" name="투명NPC (1네임드 - 하르키아 분신 소환용)" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="7" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="true" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="500000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="141" name="투명NPC (1네임드 - 원숭이 소환용)" spawnAbnormalityId="98000080,98000081,98000082" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="37" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="true" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="500000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="150" name="반투명 거대 괴조 (1넴드 중간중간 나오는 애)" spawnAbnormalityId="98000030" shapeId="302710" basicActionId="3027100" race="bird" gender="female" scale="1" resourceType="large" resourceSize="100" size="large" aiid="8" elite="False" showHpGauge="false" villager="false" isObjectNpc="false" questVillager="false" invincible="true" unionElite="false" parentId="30271000" balanceType="인던_네임드_보스" partyMember="1" playStyle="" isFreeNamed="False" showTargetInfo="false" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="150" deathNameplateHeight="120" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="1464575.90778818" time="36000" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="180" powRate="1.2" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="500000" walkSpeed="100" runSpeed="160" atk="672.5625" def="9999999" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+
+	<Template id="211" name="단단한 돌덩이" showTargetInfo="false" scale="1.5" size="large" shapeId="641060" resourceSize="100" resourceType="medium" gender="male" race="NPC_Tuto_CrashStone" aiid="11" basicActionId="6410600" villager="false" isObjectNpc="true" elite="False" unionElite="false" questVillager="false" invincible="false" parentId="64106000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="49" resB="49" resC="9799902" resD="49.000000" strA="122.000000" strB="122.000000" strC="122.000000" strD="122.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="6000" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="0.000000" aggroSendRate="0.000000" aggroSendStackRate="0.000000" aggroSendStackRateWhenFirstAttacked="0.000000" aggroSendToClanDistance="0" aggroSendToPartyDistance="0" bigReactionAggroWeight="0.000000" clanName="" hateSkillAggroWeight="0.000000" hateSkillCategoryName="" sightRangeAggroWeight="0.000000" viewAngle="0" viewRadius="0" />
+		<Anger time="0" accumRateWhenHpHigh="0.000000" accumRateWhenHpLow="0.000000" accumRateWhenHpMed="0.000000" gaugeSize="0" modeOnProbabilityWhenPartyMemberDead="0.000000" moveSpeedUpRate="1" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical powRate="0.000000" res="180" str="0" />
+		<CriticalAdjust back="0.000000" front="0.000000" left="0.000000" right="0.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<Stat level="65" atk="0" def="500000000" exp="0" maxHp="30000000" runSpeed="0" walkSpeed="0" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="21" name="" title="" />
+	</Template>
+	<Template id="220" name="투명NPC (2네임드)" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="12" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="true" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="500000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="230" name="반투명 거대 괴조 (2넴드 중간중간 나오는 애)" spawnAbnormalityId="98000030" shapeId="302710" basicActionId="3027100" race="bird" gender="female" scale="1" resourceType="large" resourceSize="100" size="large" aiid="13" elite="False" showHpGauge="false" villager="false" isObjectNpc="false" questVillager="false" invincible="true" unionElite="false" parentId="30271000" balanceType="인던_네임드_보스" partyMember="1" playStyle="" isFreeNamed="False" showTargetInfo="false" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50" strA="100" strB="100" strC="100" strD="100" />
+		<NamePlate nameplateHeight="150" deathNameplateHeight="120" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="1464575.90778818" time="36000" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="180" powRate="1.2" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="500000" walkSpeed="100" runSpeed="160" atk="672.5625" def="9999999" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="240" name="미니플랜트" shapeId="302370" basicActionId="3023700" aiid="51" race="" gender="male" scale="1.3" resourceType="small" resourceSize="100" size="small" elite="False" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="30237000" balanceType="인던_풀-자코" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="20" strA="100" resA="50" strB="100" resB="50" strC="100" resC="40" strD="100" resD="50" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="5" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="true" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction statStr="5" statRes="50" miniRes="100" basicRes="100" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="2097000" walkSpeed="100" runSpeed="160" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+
+	<Template id="310" name="하르키아의 작은 알" shapeId="641070" basicActionId="6410700" race="Egg" gender="male" scale="0.5" resourceType="small" resourceSize="100" size="large" aiid="15" elite="False" villager="true" isObjectNpc="false" questVillager="false" invincible="true" unionElite="false" parentId="64107000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" strA="100.000000" resA="49" strB="100.000000" resB="49" strC="100.000000" resC="9799902" strD="100.000000" resD="9799902.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="830000000" time="10000000" moveSpeedUpRate="1" accumRateWhenHpLow="0.000000" accumRateWhenHpMed="0.000000" accumRateWhenHpHigh="0.000000" modeOnProbabilityWhenPartyMemberDead="0.000000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="20" res="180" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="90000000" walkSpeed="100" runSpeed="160" atk="20" def="50000000" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="32" name="" title="" />
+	</Template>
+	<Template id="311" name="하르키아의 큰 알" shapeId="641070" basicActionId="6410700" race="Egg" gender="male" scale="2" resourceType="large" resourceSize="100" size="large" aiid="33" elite="False" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="64107000" balanceType="인던_풀-자코" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" strA="100" resA="50" strB="100" resB="50" strC="100" resC="9799902" strD="100" resD="50" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="5" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="4618392" walkSpeed="100" runSpeed="160" atk="440" def="4464.04925957504" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+		<String templateId="32" name="" title="" />
+	</Template>
+	<Template id="320" name="새끼새 1호 - 첫 번째 알" spawnAbnormalityId="98000073" shapeId="302710" basicActionId="3027100" race="bird" gender="female" scale="0.3" resourceType="small" resourceSize="100" size="small" aiid="16" elite="True" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="30194000" balanceType="인던_풀-자코" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality strA="100" resA="50" strB="100" resB="50" strC="100" resC="30000" strD="100" resD="50" immuneCategory="11,12,14" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1" />
+		<Reaction basicIncRes="0" basicRes="99999904" miniRes="99999904" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="5" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="3078928" walkSpeed="100" runSpeed="100" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="34" name="" title="" />
+	</Template>
+	<Template id="321" name="새끼새 2호 - 두 번째 알" spawnAbnormalityId="98000073" shapeId="302710" basicActionId="3027100" race="bird" gender="female" scale="0.3" resourceType="small" resourceSize="100" size="small" aiid="17" elite="True" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="30194000" balanceType="인던_풀-자코" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" strA="100" resA="50" strB="100" resB="50" strC="100" resC="9799902" strD="100" resD="50" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1" />
+		<Reaction statStr="5" statRes="74999248" miniRes="9999900" basicRes="9999900" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="3078928" walkSpeed="100" runSpeed="100" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="34" name="" title="" />
+	</Template>
+	<Template id="322" name="새끼새 3호 - 세 번째 알" spawnAbnormalityId="98000073" shapeId="302710" basicActionId="3027100" race="bird" gender="female" scale="0.3" resourceType="small" resourceSize="100" size="small" aiid="18" elite="True" villager="false" isObjectNpc="false" questVillager="false" invincible="false" unionElite="false" parentId="30194000" balanceType="인던_풀-자코" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" strA="100" resA="50" strB="100" resB="50" strC="100" resC="9799902" strD="100" resD="50" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="100" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="0" time="1" moveSpeedUpRate="1" accumRateWhenHpLow="0" accumRateWhenHpMed="0" accumRateWhenHpHigh="0" modeOnProbabilityWhenPartyMemberDead="0" />
+		<BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="15" res="180" powRate="1.5" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="1" />
+		<Reaction statStr="5" statRes="74999248" miniRes="9999900" basicRes="9999900" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="3078928" walkSpeed="100" runSpeed="100" atk="440" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<String templateId="34" name="" title="" />
+	</Template>
+	<Template id="330" name="투명NPC (3네임드 - 장판 패턴용)" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="19" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="true" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="50000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="331" name="투명NPC (3네임드 - 첫 번째 알)" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="42" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="true" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="50000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="332" name="투명NPC (3네임드 - 두 번째 알)" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="43" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="true" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="50000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="333" name="투명NPC (3네임드 - 세 번째 알)" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="44" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="true" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="50000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="334" name="투명NPC - 도우미NPC 소환용" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="45" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="true" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="50000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="340" name="투명NPC (3네임드 - PC 존재 체크용)" shapeId="611410" basicActionId="6114100" isObjectNpc="false" size="large" aiid="55" elite="False" scale="1" resourceSize="0" resourceType="large" race="none" villager="false" questVillager="false" invincible="true" showHpGauge="false" unionElite="false" gender="male" parentId="61141000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" resA="50" resB="50" resC="9799902" resD="50.000000" strA="100.000000" strB="100.000000" strC="100.000000" strD="100.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="50000000" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" ignoreDefaultEpExp="True" epExp="" />
+	</Template>
+	<Template id="400" name="돌무더기 (길막용)" scale="1" size="medium" shapeId="720510" resourceSize="100" resourceType="medium" gender="male" race="NPC_Tuto_CrashStone" aiid="21" basicActionId="7205100" villager="false" isObjectNpc="true" elite="False" unionElite="false" questVillager="false" invincible="true" parentId="72051000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" showTargetInfo="false">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" strA="100.000000" resA="49" strB="100.000000" resB="49" strC="100.000000" resC="9799902" strD="100.000000" resD="9799902.000000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="0.000000" aggroSendRate="0.000000" aggroSendStackRate="0.000000" aggroSendStackRateWhenFirstAttacked="0.000000" aggroSendToClanDistance="0" aggroSendToPartyDistance="0" bigReactionAggroWeight="0.000000" clanName="" hateSkillAggroWeight="0.000000" hateSkillCategoryName="" sightRangeAggroWeight="0.000000" viewAngle="0" viewRadius="0" />
+		<Anger time="0" accumRateWhenHpHigh="0.000000" accumRateWhenHpLow="0.000000" accumRateWhenHpMed="0.000000" gaugeSize="0" modeOnProbabilityWhenPartyMemberDead="0.000000" moveSpeedUpRate="1" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical powRate="0.000000" res="180" str="0" />
+		<CriticalAdjust back="0.000000" front="0.000000" left="0.000000" right="0.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<Stat level="65" atk="0" def="10000000" exp="0" maxHp="10000000" runSpeed="0" walkSpeed="0" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="401" name="체력 회복용 꽃" villager="false" shapeId="600282" basicActionId="200010" race="object" gender="male" aiid="22" scale="2" questVillager="false" resourceType="medium" resourceSize="100" size="medium" class="" collideOnMove="false" invincible="false" lifeTime="0" spawnScriptId="0" despawnScriptId="0" pcDespawnScriptId="0" dontTurn="true" hideQuestId="0" isObjectNpc="false" isWideBroadcaster="false" villagerVolumeOffset="" villagerVolumeActiveRange="0.000000" villagerVolumeHalfHeight="0.000000" villagerVolumeInteractionDist="0.000000" appearQuestId="0" balanceType="밸런싱 안함" partyMember="1" playStyle="" elite="False" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" strA="100.000000" resA="49" strB="100.000000" resB="49" strC="100.000000" resC="9799902" strD="100.000000" resD="9799902.000000" />
+		<NamePlate deathNameplateHeight="0" nameplateHeight="0" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="400" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="2.000000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="0.500000" />
+		<Anger gaugeSize="40370099" time="16633000" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="30" res="180" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.200000" left="1.200000" back="1.600000" />
+		<NpcOnly onDeathSkill="1101" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="10" walkSpeed="60" runSpeed="110" atk="100" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="402" name="공격력 상승용 꽃" villager="false" shapeId="600283" basicActionId="200010" race="object" gender="male" aiid="23" scale="2" questVillager="false" resourceType="medium" resourceSize="100" size="medium" class="" collideOnMove="false" invincible="false" lifeTime="0" spawnScriptId="0" despawnScriptId="0" pcDespawnScriptId="0" dontTurn="true" hideQuestId="0" isObjectNpc="false" isWideBroadcaster="false" villagerVolumeOffset="" villagerVolumeActiveRange="0.000000" villagerVolumeHalfHeight="0.000000" villagerVolumeInteractionDist="0.000000" appearQuestId="0" balanceType="밸런싱 안함" partyMember="1" playStyle="" elite="False" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality immuneCategory="3,10,11,12,14,20,222" strA="100.000000" resA="49" strB="100.000000" resB="49" strC="100.000000" resC="9799902" strD="100.000000" resD="9799902.000000" />
+		<NamePlate deathNameplateHeight="0" nameplateHeight="0" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro cancelLinkedBehaviorWhenAggroChange="false" hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="400" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="2.000000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="0.500000" />
+		<Anger gaugeSize="403790009" time="16633000" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="30" res="180" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.200000" left="1.200000" back="1.600000" />
+		<NpcOnly onDeathSkill="1101" />
+		<Reaction basicIncRes="0" basicRes="9999900" miniRes="9999900" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80.000000" />
+		<SkillList />
+		<Stat maxHp="10" walkSpeed="60" runSpeed="110" atk="100" def="4464.04925957504" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="410" name="사제" shapeId="527020" basicActionId="5270200" race="Human" gender="female" scale="2" resourceType="medium" resourceSize="100" size="medium" aiid="34" villager="true" invincible="false" elite="False" isObjectNpc="false" questVillager="false" unionElite="false" parentId="52702000" balanceType="파티_중형" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality strA="100" resA="50" strB="100" resB="50" strC="100" resC="40" strD="100" resD="50" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="5" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="true" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="1220479.92315681" time="30000" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="180" powRate="1.2" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction statStr="80" statRes="50" miniRes="100" basicRes="100" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat maxHp="10000000" walkSpeed="100" runSpeed="160" atk="317" def="11143" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="412" name="마법사" shapeId="530810" basicActionId="5308100" race="popori" gender="female" scale="2" resourceType="medium" resourceSize="100" size="medium" aiid="26" villager="true" invincible="false" elite="False" isObjectNpc="false" questVillager="false" unionElite="false" parentId="53081000" balanceType="파티_중형" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality strA="100" resA="50" strB="100" resB="50" strC="100" resC="40" strD="100" resD="50" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="5" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="true" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="1220479.92315681" time="30000" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="180" powRate="1.2" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="99999904" miniRes="99999904" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248" statStr="80" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat level="65" runSpeed="160" atk="317" def="11160" maxHp="10000000" exp="0" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="413" name="창기사" spawnAbnormalityId="98000062" shapeId="530510" basicActionId="5305100" race="Highelf" gender="male" scale="2" resourceType="medium" resourceSize="100" size="medium" aiid="27" villager="true" invincible="false" elite="False" isObjectNpc="false" questVillager="false" parentId="53051000" isFreeNamed="False" partyMember="1" playStyle="" showAggroTarget="False" showShorttermTarget="False" isLightParty="False" balanceType="파티_중형">
+		<Abnormality strA="100" resA="50" strB="100" resB="50" strC="100" resC="50" strD="100" resD="50" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.3" hateSkillAggroWeight="1" bigReactionAggroWeight="0.5" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="1000" aggroSendRate="1" aggroSendStackRate="0.1" aggroSendStackRateWhenFirstAttacked="0.5" aggroIgnoreClanName="true" aggroReceiveOnlyInSight="false" aggroReceiveRate="1" />
+		<Anger gaugeSize="1220479.92315681" time="30000" moveSpeedUpRate="1" accumRateWhenHpLow="1" accumRateWhenHpMed="1" accumRateWhenHpHigh="1" modeOnProbabilityWhenPartyMemberDead="0.2" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="180" powRate="1.2" />
+		<CriticalAdjust front="1" right="1.2" left="1.2" back="1.6" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction statStr="80" statRes="300" miniRes="100" basicRes="100" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<Reaction basicIncRes="0" basicRes="99999904.000000" miniRes="99999904.000000" basicGaugeResetTime="20000" maxAdditionalGauge="600000" maxBasicGauge="2000" statRes="74999248.000000" statStr="80.000000" />
+		<SkillList>
+			`
+		</SkillList>
+		<Stat level="65" runSpeed="160" atk="317" def="11160" maxHp="20000000" exp="0" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="420" name="사제 소환마석" shapeId="600962" basicActionId="6009600" isObjectNpc="true" size="medium" aiid="28" elite="False" scale="1" deathShapeId="600965" resourceSize="0" resourceType="" race="" villager="false" questVillager="false" invincible="false" unionElite="false" gender="" parentId="60096200" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality strA="50.000000" resA="40" strB="50.000000" resB="40" strC="50.000000" resC="74999248" strD="50.000000" resD="40.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="5" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="65100009" time="1461600" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="1101" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction statStr="40.000000" statRes="74999248" miniRes="74999248" basicRes="74999248" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList />
+		<Stat maxHp="10" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="422" name="마법사 소환 마석" shapeId="600964" basicActionId="6009600" isObjectNpc="true" size="medium" aiid="30" elite="False" scale="1" deathShapeId="600967" resourceSize="0" resourceType="" race="" villager="false" questVillager="false" invincible="false" unionElite="false" gender="" parentId="60096400" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality strA="50.000000" resA="40" strB="50.000000" resB="40" strC="50.000000" resC="74999248" strD="50.000000" resD="40.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="5" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="65100009" time="1460016" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="1101" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction statStr="40.000000" statRes="74999248" miniRes="74999248" basicRes="74999248" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList />
+		<Stat maxHp="10" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="423" name="창기사 소환 마석" shapeId="600960" basicActionId="6009600" isObjectNpc="true" size="medium" aiid="31" elite="False" scale="1" deathShapeId="600961" resourceSize="0" resourceType="" race="" villager="false" questVillager="false" invincible="false" unionElite="false" gender="" parentId="60096000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality strA="50.000000" resA="40" strB="50.000000" resB="40" strC="50.000000" resC="74999248" strD="50.000000" resD="40.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="5" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="65100009" time="14616000" moveSpeedUpRate="1" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="1101" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction statStr="40.000000" statRes="74999248" miniRes="74999248" basicRes="74999248" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList />
+		<Stat maxHp="10" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="424" name="나쁜넘" villager="true" shapeId="500260" basicActionId="5002600" race="Popori" gender="male" aiid="32" scale="1" questVillager="false" resourceType="medium" resourceSize="100" size="medium" class="" collideOnMove="false" invincible="true" lifeTime="0" spawnScriptId="0" despawnScriptId="0" pcDespawnScriptId="0" dontTurn="false" hideQuestId="0" isObjectNpc="false" elite="False" unionElite="false" parentId="50026000" balanceType="밸런싱 안함" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality strA="0.500000" resA="0.4" strB="0.400000" resB="0.3" strC="0.500000" resC="74999248" strD="0.400000" resD="0.300000" />
+		<NamePlate nameplateHeight="0" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro hateSkillCategoryName="" viewRadius="300" viewAngle="130" sightRangeAggroWeight="2.000000" hateSkillAggroWeight="2.000000" bigReactionAggroWeight="2.000000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="400" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="2.000000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="0.500000" />
+		<Anger gaugeSize="1000000" time="400000" moveSpeedUpRate="1" accumRateWhenHpLow="2.000000" accumRateWhenHpMed="1.500000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.700000" />
+		<BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+		<Critical str="0.5" res="0.4" powRate="1.500000" />
+		<CriticalAdjust front="0.100000" right="0.300000" left="0.300000" back="0.500000" />
+		<NpcOnly onDeathSkill="1" />
+		<Reaction statStr="50.000000" statRes="74999248" miniRes="74999248" basicRes="74999248" basicIncRes="10" basicGaugeResetTime="10000" maxBasicGauge="300" maxAdditionalGauge="400" />
+		<SkillList />
+		<Stat level="65" runSpeed="160" atk="62" def="50000000" maxHp="50000000" exp="0" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="430" name="이동마커" scale="3" size="medium" shapeId="720370" resourceSize="100" resourceType="medium" gender="male" race="marker" aiid="4" basicActionId="7203700" villager="false" isObjectNpc="true" elite="False" unionElite="false" questVillager="false" invincible="true" parentId="72037000" balanceType="" partyMember="1" playStyle="" isFreeNamed="False" showAggroTarget="False" showShorttermTarget="False" isLightParty="False">
+		<Abnormality resA="0" resB="0" resC="0" resD="0.000000" strA="0.000000" strB="0.000000" strC="0.000000" strD="0.000000" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="5" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="0.000000" aggroSendRate="0.000000" aggroSendStackRate="0.000000" aggroSendStackRateWhenFirstAttacked="0.000000" aggroSendToClanDistance="0" aggroSendToPartyDistance="0" bigReactionAggroWeight="0.000000" clanName="" hateSkillAggroWeight="0.000000" hateSkillCategoryName="" sightRangeAggroWeight="0.000000" viewAngle="0" viewRadius="0" />
+		<Anger time="0" accumRateWhenHpHigh="0.000000" accumRateWhenHpLow="0.000000" accumRateWhenHpMed="0.000000" gaugeSize="0" modeOnProbabilityWhenPartyMemberDead="0.000000" moveSpeedUpRate="0" />
+		<BalanceRef ignoreAttr="" />
+		<Critical powRate="0.000000" res="0" str="0" />
+		<CriticalAdjust back="0.000000" front="0.000000" left="0.000000" right="0.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction basicIncRes="0" basicRes="100" miniRes="100" basicGaugeResetTime="0" maxAdditionalGauge="0" maxBasicGauge="0" statRes="0" statStr="0.000000" />
+		<Stat level="1" atk="0" def="0" exp="0" maxHp="0" runSpeed="0" walkSpeed="0" epExp="" ignoreDefaultEpExp="" />
+	</Template>
+	<Template id="1501" name="차원의 마법석(퇴장용)" villager="true" shapeId="600920" basicActionId="200010" race="object" gender="male" aiid="53" scale="0.5" questVillager="false" resourceType="medium" resourceSize="100" size="medium" class="" collideOnMove="true" invincible="true" lifeTime="0" spawnScriptId="0" despawnScriptId="0" pcDespawnScriptId="0" dontTurn="true" hideQuestId="0" isObjectNpc="false" isWideBroadcaster="false" balanceType="" partyMember="" playStyle="" elite="" isFreeNamed="" showAggroTarget="" showShorttermTarget="" isLightParty="">
+		<Abnormality strA="50.000000" resA="40" strB="50.000000" resB="40" strC="50.000000" resC="40" strD="50.000000" resD="40.000000" />
+		<NamePlate deathNameplateHeight="0" nameplateHeight="0" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="400" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="2.000000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="0.500000" />
+		<Anger gaugeSize="403799" time="16633" moveSpeedUpRate="1.6" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<Critical str="30" res="180" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.200000" left="1.200000" back="1.600000" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction statStr="40.000000" statRes="150" miniRes="100" basicRes="100" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList />
+		<Stat maxHp="10000" walkSpeed="60" runSpeed="110" atk="100" def="2000" exp="1" level="40" epExp="" ignoreDefaultEpExp="" />
+		<BalanceRef ignoreAttr="" />
+	</Template>
+	<Template id="1502" name="차원의 마법석(보스 직행)" villager="true" shapeId="600920" basicActionId="200010" race="object" gender="male" aiid="54" scale="0.5" questVillager="false" resourceType="medium" resourceSize="100" size="medium" class="" collideOnMove="true" invincible="true" lifeTime="0" spawnScriptId="0" despawnScriptId="0" pcDespawnScriptId="0" dontTurn="true" hideQuestId="0" isObjectNpc="false" isWideBroadcaster="false" balanceType="" partyMember="" playStyle="" elite="" isFreeNamed="" showAggroTarget="" showShorttermTarget="" isLightParty="">
+		<Abnormality strA="50.000000" resA="40" strB="50.000000" resB="40" strC="50.000000" resC="40" strD="50.000000" resD="40.000000" />
+		<NamePlate deathNameplateHeight="0" nameplateHeight="0" />
+		<StackPoint maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="60000">
+			<Abnormality kind="5" initRes="40.000000" incRes="3.000000" />
+			<Abnormality kind="6" initRes="50.000000" incRes="3.000000" />
+			<Abnormality kind="7" initRes="30.000000" incRes="3.000000" />
+		</AbnormalityResistanceOverride>
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="400" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="2.000000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="0.500000" />
+		<Anger gaugeSize="403799" time="16633" moveSpeedUpRate="1.6" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<Critical str="30" res="180" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.200000" left="1.200000" back="1.600000" />
+		<NpcOnly onDeathSkill="0" />
+		<Reaction statStr="40.000000" statRes="150" miniRes="100" basicRes="100" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<SkillList />
+		<Stat maxHp="10000" walkSpeed="60" runSpeed="110" atk="100" def="2000" exp="1" level="40" epExp="" ignoreDefaultEpExp="" />
+		<BalanceRef ignoreAttr="" />
+	</Template>
+	<Template id="7777" shapeId="611221" basicActionId="6112200" name="켈사이크의 알(업적용)" showHpGauge="false" showTargetInfo="false" isObjectNpc="true" size="medium" aiid="56" elite="False" scale="0.1" resourceSize="0" resourceType="" race="" villager="false" questVillager="false" invincible="true" unionElite="false" parentId="61122000" balanceType="" partyMember="" playStyle="" isFreeNamed="" showAggroTarget="" showShorttermTarget="" isLightParty="">
+		<Abnormality strA="50.000000" resA="40" strB="50.000000" resB="40" strC="50.000000" resC="40" strD="50.000000" resD="40.000000" />
+		<SkillList />
+		<StackPoint maxStackPoint="10" minStackPointRequire="5" stackPointPeriod="8000" />
+		<AbnormalityResistanceOverride resetTime="0" />
+		<Aggro hateSkillCategoryName="" viewRadius="200" viewAngle="360" sightRangeAggroWeight="1.300000" hateSkillAggroWeight="1.000000" bigReactionAggroWeight="0.500000" aggroSendToClanDistance="300" clanName="" aggroSendToPartyDistance="500" aggroSendRate="1.000000" aggroSendStackRate="0.100000" aggroSendStackRateWhenFirstAttacked="0.500000" aggroIgnoreClanName="false" aggroReceiveOnlyInSight="false" aggroReceiveRate="1.000000" />
+		<Anger gaugeSize="6519" time="14616" moveSpeedUpRate="2" accumRateWhenHpLow="1.000000" accumRateWhenHpMed="1.000000" accumRateWhenHpHigh="1.000000" modeOnProbabilityWhenPartyMemberDead="0.200000" />
+		<Critical str="40" res="50" powRate="1.500000" />
+		<CriticalAdjust front="1.000000" right="1.500000" left="1.500000" back="2.000000" />
+		<NpcOnly onDeathSkill="0" />
+		<ObjectNpcAiParam hitSkillId="0" deathSkillId="0">
+			<HitDropItem dropRadius="100" />
+			<RepeatSkill />
+		</ObjectNpcAiParam>
+		<Reaction statStr="40.000000" statRes="50" miniRes="100" basicRes="100" basicIncRes="0" basicGaugeResetTime="20000" maxBasicGauge="2000" maxAdditionalGauge="600000" />
+		<Stat maxHp="13038" walkSpeed="100" runSpeed="160" atk="62" def="143" exp="0" level="65" epExp="" ignoreDefaultEpExp="" />
+		<BalanceRef ignoreAttr="" />
+	</Template>
+</NpcData>

@@ -1,0 +1,2210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dungeon continentId="9055" name="@dungeon:9055" startPos="-120356.1641,176863.0625,1909.4955" exitContinentId="7031" exitPos="-15465.0176,-23005.7852,-659.7971" >
+	<Condition type="party" value="1" />
+	<Condition type="maxMemberCount" value="3" />
+	<Condition type="levelOver" value="60" />
+	<ClearCondition huntingZoneId="455" templateId="300" amount="1" killCount="1" />
+	<Retry retryId="1"/>
+
+  <!-- 인던 생성 시, 테라타임 버프 해제 -->
+    <EventGroup type="initialize">
+    <Event>
+      <EventTaskGroup>     
+        <EventTask type="guideOn" nameId="455,911" id="1" pos="-119926.0313,175005.7813,1727.6094" next="none" />
+        <EventTask type="turnAbnormalityTerritory" huntingZoneId="455" territoryId="45500172" turn="on" next="none" />
+      </EventTaskGroup>
+    </Event>
+	</EventGroup>
+
+    <!-- 1네임드 (거대 원숭이) -->
+	
+	<!-- 쫄 원숭이 3마리 사망 체크 -->
+  <EventGroup type="eliminate" territoryId="45500001">
+    <Event>
+      <EventTaskGroup>
+	<!-- 1네임드 등장 -->
+        <EventTask type="guideOn" nameId="455,912" id="1" pos="-119921.0547,175025.6719,1727.4961" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500002" next="none" />
+	<!-- 오브젝트NPC 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500003" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500004" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500005" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+ 
+    <!-- 전투 시작되면 입구 막기 --> 
+  <EventGroup type="npcState" uniqueId="455,100" value="combat" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+		<EventTask type="flag" name="TankAggroBuff" value="1" next="none" />
+	<!-- 투명NPC들 소환 -->		
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500078" next="none" />
+    <!-- 전투 시작되면 입구 막기 --> 
+		<EventTask type="message" string="@dungeon:9055006" style="default" next="time" nextValue="5" />
+		<EventTask type="message" string="@dungeon:9055007" style="default" next="none"/>
+		<EventTask type="message" string="@dungeon:9055014" style="default" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500064" next="none" />
+		
+    <!-- 1네임드 길드경쟁 타이머 시작 던전 패턴과 무관--> 		
+		<EventTask type="rankSystem" state="start" startPoint="0" next="none" />
+		<EventTask type="timer" action="start" direction="reverse" value="1800" name="timerA" timerType="rank" timerUiOff="true" next="none" />
+    <!-- 1네임드 길드경쟁 타이머 시작 던전 패턴과 무관--> 		
+	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+	<EventGroup type="flag" name="TankAggroBuff" repeat="true"> <!--네임드 전투 중 탱 어글버프 제공-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="abnormality" abnormalityId="99009900" target="class" targetUserClass="lancer, fighter" value="1" strictly="true" turn="on" aliveOnly="false" next="none" /> 
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>		
+	 
+	<!-- 닭 소환하기 1-1회차 -->
+  <EventGroup type="none" id="1" name="닭 소환하기 1-1회차" repeat="true">
+    <Event>
+      <EventTaskGroup>	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500074" next="time" nextValue="17"/> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500072" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500073" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500074" next="none" />	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 닭 소환하기 1-2회차 -->
+  <EventGroup type="none" id="2" name="닭 소환하기 1-2회차" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500074" next="time" nextValue="17"/> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500072" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500073" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500074" next="none" />	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+	<!-- 닭 소환하기 1-3회차 -->
+  <EventGroup type="none" id="3" name="닭 소환하기 1-3회차" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500074" next="time" nextValue="17"/> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500072" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500073" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500074" next="none" />	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 	
+  <EventGroup type="npcHp" uniqueId="455,100" value="90" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500043" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500051" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500041" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500042" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,100" value="70" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500043" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500051" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500041" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500042" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+  
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,100" value="50" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500043" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500051" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500041" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500042" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+  
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,100" value="30" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500043" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500051" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500041" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500042" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,100" value="10" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500043" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500051" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500041" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500042" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>    
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500038" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500043" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500039" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500051" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500040" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500041" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500050" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500042" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+ 	<!-- 특수 패턴 시작 -->
+  <EventGroup type="none" id="4" name="1네임드 특수 패턴 시작" repeat="true">
+    <Event>
+      <EventTaskGroup>
+ 	<!-- 패턴 셋 바꾸기 -->
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="2" next="none" />	
+	<!-- 오브젝트들(바나나나무, 약초, 시체) 일괄적으로 소환하기 -->		
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500003" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500004" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500005" next="none" />
+	<!-- 오브젝트NPC 존재 이상상태 걸기 --> 
+        <EventTask type="abnormality" abnormalityId="98000010" target="npc" targetNpcId="455,100" next="none" />  
+        <EventTask type="abnormality" abnormalityId="98000011" target="npc" targetNpcId="455,100" next="none" />  
+        <EventTask type="abnormality" abnormalityId="98000012" target="npc" targetNpcId="455,100" next="none" /> 		
+	<!-- 오브젝트들(바나나나무, 약초, 시체) 파괴체크 일괄적으로 해제하기 -->	
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" turn="off" targetNpcId="455,100" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" turn="off" targetNpcId="455,100" next="none" />		
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" turn="off" targetNpcId="455,100" next="none" />		
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+
+	<!-- 바나나나무 파괴되면 바나나나무 존재 체크 이상상태 해제하고 파괴 체크 이상상태 걸기 -->  
+  <EventGroup type="eliminate" territoryId="45500003" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000010" target="npc" turn="off" targetNpcId="455,100" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" targetNpcId="455,100" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 약초 파괴되면 약초 존재 체크 이상상태 해제하고 파괴 체크 이상상태 걸기 -->  
+  <EventGroup type="eliminate" territoryId="45500004" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000011" target="npc" turn="off" targetNpcId="455,100" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" targetNpcId="455,100" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 시체 파괴되면 시체 존재 체크 이상상태 해제하고 파괴 체크 이상상태 걸기 -->  
+  <EventGroup type="eliminate" territoryId="45500005" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000012" target="npc" turn="off" targetNpcId="455,100" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" targetNpcId="455,100" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 바나나나무 패턴 시작되면 바나나나무 패턴 시작 이상상태 걸기 -->  
+  <EventGroup type="none" id="7" name="바나나나무 패턴 시작 이상상태 걸기" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000013" target="npc" targetNpcId="455,100" next="none" />
+		<EventTask type="message" string="@dungeon:9055002" style="combat" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 약초 패턴 시작되면 바나나나무 패턴 시작 이상상태 걸기 -->  
+  <EventGroup type="none" id="8" name="약초 패턴 시작 이상상태 걸기" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000014" target="npc" targetNpcId="455,100" next="none" />
+		<EventTask type="message" string="@dungeon:9055003" style="combat" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 시체 패턴 시작되면 바나나나무 패턴 시작 이상상태 걸기 -->  
+  <EventGroup type="none" id="9" name="시체 패턴 시작 이상상태 걸기" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000015" target="npc" targetNpcId="455,100" next="none" />
+		<EventTask type="message" string="@dungeon:9055004" style="combat" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+	<!-- 1네임드 패턴 원래대로 돌리기 -->  
+  <EventGroup type="none" id="10" name="1네임드 패턴 원래대로 변경(텐션1)" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+	<!-- 1네임드 패턴 셋 원래대로 변경 -->
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />
+	<!-- 오브젝트NPC 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500003" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500004" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500005" next="none" />
+	<!-- 오브젝트NPC 존재 이상상태 전부 해제 -->
+        <EventTask type="abnormality" abnormalityId="98000010" target="npc" turn="off" targetNpcId="455,300" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000011" target="npc" turn="off" targetNpcId="455,300" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000012" target="npc" turn="off" targetNpcId="455,300" next="none" />
+	<!-- 패턴 시작 이상상태 전부 해제 -->
+        <EventTask type="abnormality" abnormalityId="98000013" target="npc" turn="off" targetNpcId="455,100" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000014" target="npc" turn="off" targetNpcId="455,100" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000015" target="npc" turn="off" targetNpcId="455,100" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+    <!-- 유저 전멸 시 패턴, 이상상태 리셋시키기 -->
+  <EventGroup type="annihilated" repeat="true">
+    <Event>
+      <EventTaskGroup>
+	<!-- 1네임드 패턴 셋 원래대로 변경 -->
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />	
+	<!-- 오브젝트NPC 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500003" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500004" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500005" next="none" />
+	<!-- 투명NPC 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500078" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500120" next="none" />
+	<!-- 닭 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500072" next="none" />	
+	<!-- 분신 쫄다구들 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />
+	<!-- 꽃 오브젝트 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+	<!-- 재도전 장치 중지 -->
+        <EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" />
+	<!-- 입구 막는 돌 없애기 --> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+
+	<!-- 1네임드 사망 시 바나나나무, 약초, 시체 전부 디스폰, 출구 개방 --> 
+  <EventGroup type="npcHp" uniqueId="455,100" value="0" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+ 		<EventTask type="flag" name="TankAggroBuff" value="0" next="none" />
+	    <EventTask type="guideOn" nameId="455,913" id="1" pos="-116587.4063,178357.0000,23.6125" next="none" />
+	<!-- 유저들에게 고대신 축복 걸기 -->
+		<!--EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" /-->
+	<!-- 오브젝트NPC 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500003" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500004" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500005" next="none" />
+	<!-- 투명NPC 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500078" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500120" next="none" />
+	<!-- 닭 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500072" next="none" />	
+	<!-- 유저에게 들어간 버프 해제 -->
+        <EventTask type="abnormality" abnormalityId="98000016" target="player" turn="off" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000017" target="player" turn="off" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000041" target="player" turn="off" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000070" target="player" turn="off" next="none" />
+	<!-- 분신 쫄다구들 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />
+	<!-- 재도전 장치 중지 -->
+        <!--EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" /-->
+	<!-- 꽃 오브젝트 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+	<!-- 이동 마커 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500146" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500147" next="none" />
+	<!-- 2네임드 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500006" next="time" nextValue="0" />	
+	<!-- 입구, 출구 막는 돌 없애기 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500033, 45500064" next="time" nextValue="3" />
+	<!-- 꽃 오브젝트 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+	<!-- 2네임드 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500006" next="time" nextValue="0" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500033, 45500064" next="time" nextValue="3" />
+	<!-- 2네임드 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500006" next="time" nextValue="0" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500033, 45500064" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500033, 45500064" next="none" />
+		
+    <!-- 1네임드 길드경쟁 타이머 종료 던전 패턴과 무관--> 		
+		<EventTask type="timer" action="stop" name="timerA" timerType="rank" next="time" nextValue="5" />
+		<EventTask type="timer" action="stop" value="0" name="timerA" next="none" />
+    <!-- 1네임드 길드경쟁 타이머 종료 던전 패턴과 무관--> 		
+	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>	
+	  
+   	<!-- 원숭이 소환용 투명 NPC 패턴 셋 바꾸기 -->    
+  <EventGroup type="none" id="84" name="원숭이 소환용 투명 NPC 패턴 셋 바꾸기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000098" target="npc" targetNpcId="455,100" next="time" nextValue="2" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+  
+   	<!-- 원숭이 소환하기 -->    
+  <EventGroup type="none" id="89" name="원숭이 소환하기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500144" next="none" />	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500144" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500144" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500144" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500144" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500144" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+  
+   	<!-- 원숭이 디스폰하기 -->    
+  <EventGroup type="none" id="86" name="원숭이 디스폰하기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />	
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+   	<!-- 원숭이 소환 투명NPC 패턴 2번으로 변경 -->    
+  <EventGroup type="none" id="85" name="원숭이 소환 투명NPC 패턴 2번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="2" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+    
+	<!-- 거대 원숭이 패턴 원래대로 돌리고 자기자신 디스폰 -->		  
+  <EventGroup type="none" id="94" name="거대 원숭이 패턴 원래대로 돌리고 자기자신 디스폰" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000003" target="npc" turn="off" targetNpcId="455,100" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000004" target="npc" turn="off" targetNpcId="455,100" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500120" next="none" />	
+	<!-- 유저 회복 불가 상태 해제 -->	
+        <EventTask type="abnormality" abnormalityId="98000023" target="player" turn="off" next="none" />	
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+	
+	<!-- 투명NPC에 걸린 원숭이 사망 체크 이상상태 해제하기 + 첫 번째 체크 이상상태 해제하기 -->		  
+  <EventGroup type="none" id="87" name="원숭이 사망 체크 이상상태 해제하기(첫 번째)" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+        <EventTask type="abnormality" abnormalityId="98000042" target="npc" turn="off" targetNpcId="455,141" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" turn="off" targetNpcId="455,141" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" turn="off" targetNpcId="455,141" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000080" target="npc" turn="off" targetNpcId="455,141" next="none" />		
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+  
+	<!-- 투명NPC에 걸린 원숭이 사망 체크 이상상태 해제하기 + 두 번째 체크 이상상태 해제하기 -->		  
+  <EventGroup type="none" id="97" name="원숭이 사망 체크 이상상태 해제하기(두 번째)" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+        <EventTask type="abnormality" abnormalityId="98000042" target="npc" turn="off" targetNpcId="455,141" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" turn="off" targetNpcId="455,141" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" turn="off" targetNpcId="455,141" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000081" target="npc" turn="off" targetNpcId="455,141" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+  
+	<!-- 작은 원숭이 소환 패턴 시작 (거대 원숭이 패턴 셋 3번으로 변경) -->		  
+  <EventGroup type="none" id="88" name="작은 원숭이 소환 패턴 시작" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="3" next="none" />
+	<!-- 투명NPC 소환 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500120" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500120" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500120" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500120" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500120" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500120" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500120" next="none" />
+	<!-- 거대 원숭이에게 무적, 완전투명 이상상태 걸기 -->
+        <EventTask type="abnormality" abnormalityId="98000003" target="npc" targetNpcId="455,100" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000004" target="npc" targetNpcId="455,100" next="none" />
+	<!-- 유저에게 회복 불가 상태 걸기 -->	
+        <EventTask type="abnormality" abnormalityId="98000023" target="player" next="none" />	
+	  </EventTaskGroup>	
+	</Event>
+  </EventGroup> 
+  
+  	<!-- 투명NPC 패턴 1번으로 변경 -->		  
+  <EventGroup type="none" id="90" name="투명NPC 패턴 1번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="1" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="1" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="1" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="1" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="1" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>   
+  
+  	<!-- 닭 소환 패턴 시작 (투명NPC 패턴 셋 2번으로 변경) -->		  
+  <EventGroup type="none" id="91" name="닭 소환 패턴 시작" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,140" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="6" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+  	<!-- 닭 소환 패턴 시작 (투명NPC 패턴 셋 2번으로 변경) -->		  
+  <EventGroup type="none" id="121" name="닭 소환 패턴 끝" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+  	<!-- 닭 소환 패턴 시작 (투명NPC 패턴 셋 1번으로 변경) -->		  
+  <EventGroup type="none" id="92" name="닭 소환 투명NPC 패턴 셋 1번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,140" patternListId="1" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+  	<!-- 투명NPC 패턴 11번으로 변경 -->		  
+  <EventGroup type="none" id="93" name="투명NPC 패턴 11번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="11" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="11" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="11" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="11" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="11" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>    
+  
+  	<!-- 투명NPC 패턴 11번으로 변경 -->		  
+  <EventGroup type="none" id="95" name="투명NPC 패턴 12번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="12" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="12" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="12" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="12" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="12" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+  	<!-- 투명NPC 패턴 11번으로 변경 -->		  
+  <EventGroup type="none" id="96" name="투명NPC 패턴 13번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="13" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="13" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="13" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="13" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,141" patternListId="13" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+    <!-- 진짜 원숭이1 죽이면 투명NPC에게 진짜 원숭이 사망 체크 이상상태 걸고 1초 후에 나머지 원숭이 죽이기 --> 
+  <EventGroup type="npcHp" uniqueId="455,104" value="0" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>	  
+        <EventTask type="abnormality" abnormalityId="98000042" target="npc" targetNpcId="455,141" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 진짜 원숭이2 죽이면 투명NPC에게 진짜 원숭이 사망 체크 이상상태 걸고 1초 후에 나머지 원숭이 죽이기 --> 
+  <EventGroup type="npcHp" uniqueId="455,106" value="0" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>	  
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" targetNpcId="455,141" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 진짜 원숭이3 죽이면 투명NPC에게 진짜 원숭이 사망 체크 이상상태 걸고 1초 후에 나머지 원숭이 죽이기 --> 
+  <EventGroup type="npcHp" uniqueId="455,107" value="0" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>	  
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" targetNpcId="455,141" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 진짜 원숭이 다 죽으면 가짜 원숭이 죽이기 --> 
+  <EventGroup type="none" id="120" name="진짜 원숭이 다 죽으면 가짜 원숭이 죽이기" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>	  
+      <EventTask type="abnormality" abnormalityId="98000019" target="npc" targetNpcId="455,105" next="time" nextValue="1" />
+      <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 아무 원숭이도 안 죽였을 때 하는 행동 -->		  
+  <EventGroup type="none" id="100" name="아무 원숭이도 안 죽였을 때 하는 행동" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+        <EventTask type="killNpc" targetNpcId="455,104" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,105" next="none" />	
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+    <!-- 새끼 죽이기 -->  
+  <EventGroup type="none" id="200" name="새끼 죽이기" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+        <EventTask type="killNpc" targetNpcId="455,320" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,321" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,322" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+  <!-- 재도전 장치 1번 -->  
+  <!--EventGroup type="timer" timerName="벨릭의 은총1" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000117" target="player" next="none" />
+        <EventTask type="message" string="@dungeon:9055011" style="default" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup-->
+
+  <!-- 재도전 장치 2번 -->
+  <!--EventGroup type="timer" timerName="벨릭의 은총2" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000117" target="player" next="none" />
+        <EventTask type="message" string="@dungeon:9055012" style="default" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup-->
+
+  <!-- 재도전 장치 3번 -->
+  <!--EventGroup type="timer" timerName="벨릭의 은총3" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000117" target="player" next="none" />
+        <EventTask type="message" string="@dungeon:9055013" style="default" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup-->
+
+  <!-- 1네임드 재도전 장치 --> 
+  <!--EventGroup type="npcHp" uniqueId="455,100" value="99.99999999" repeat="true" stopWhenReset="true" stopWhenDeath="true" >
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="150" />
+        <EventTask type="message" string="@dungeon:9055010" style="default" next="time" nextValue="0" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총1" value="30" next="time" nextValue="35" timerUiOff="true" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총2" value="180" next="time" nextValue="185" timerUiOff="true" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총3" value="180" next="time" nextValue="0" timerUiOff="true" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup-->
+  
+  <!-- 2네임드 재도전 장치 --> 
+  <!--EventGroup type="npcHp" uniqueId="455,200" value="99.99999999" repeat="true" stopWhenReset="true" stopWhenDeath="true" >
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="150" />
+        <EventTask type="message" string="@dungeon:9055010" style="default" next="time" nextValue="0" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총1" value="30" next="time" nextValue="35" timerUiOff="true" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총2" value="180" next="time" nextValue="185" timerUiOff="true" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총3" value="180" next="time" nextValue="0" timerUiOff="true" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup-->
+
+  <!-- 3네임드 재도전 장치 --> 
+  <!--EventGroup type="npcHp" uniqueId="455,300" value="99.99999999" repeat="true" stopWhenReset="true" stopWhenDeath="true" >
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="150" />
+        <EventTask type="message" string="@dungeon:9055010" style="default" next="time" nextValue="0" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총1" value="30" next="time" nextValue="35" timerUiOff="true" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총2" value="180" next="time" nextValue="185" timerUiOff="true" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총3" value="180" next="time" nextValue="0" timerUiOff="true" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup-->
+
+  <!-- 1네임드 리셋되면 초기화 -->  
+  <EventGroup type="npcReset" uniqueId="455,100" repeat="true">
+    <Event>
+      <EventTaskGroup>
+	<!-- 1네임드 패턴 셋 원래대로 변경 -->
+		<EventTask type="changePatternList" targetNpcId="455,100" patternListId="1" next="none" />	
+	<!-- 오브젝트NPC 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500003" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500004" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500005" next="none" />
+	<!-- 투명NPC 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500078" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500120" next="none" />
+	<!-- 닭 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500072" next="none" />	
+	<!-- 분신 쫄다구들 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500144" next="none" />
+	<!-- 꽃 오브젝트 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+	<!-- 재도전 장치 중지 -->
+        <EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" />
+	<!-- 입구 막는 돌 없애기 --> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500064" next="none" />
+		
+    <!-- 1네임드 길드경쟁 타이머 리셋종료 던전 패턴과 무관--> 		
+		<EventTask type="timer" name="timerA" action="stop" next="time" nextValue="1" value="0" timerUiOff="true" />
+    <!-- 1네임드 길드경쟁 타이머 리셋종료 던전 패턴과 무관--> 		
+
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+  
+  
+  
+  
+    <!-- 2네임드 (거대 도마뱀) -->  
+	
+    <!-- 전투 시작되면 입구 막기 --> 
+  <EventGroup type="npcState" uniqueId="455,200" value="combat" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+ 			<EventTask type="flag" name="TankAggroBuff" value="1" next="none" />
+	<!-- 투명NPC 소환 -->		
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500079" next="none" />
+    <!-- 전투 시작되면 입구 막기 --> 
+		<EventTask type="message" string="@dungeon:9055006" style="default" next="time" nextValue="5" />
+		<EventTask type="message" string="@dungeon:9055008" style="default" next="none"/>
+		<EventTask type="message" string="@dungeon:9055014" style="default" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500062" next="none" />
+		
+    <!-- 2네임드 길드경쟁 타이머 시작 던전 패턴과 무관--> 		
+		<EventTask type="timer" action="start" direction="reverse" value="1800" name="timerC" timerType="rank" timerUiOff="true" next="none" />
+    <!-- 2네임드 길드경쟁 타이머 시작 던전 패턴과 무관--> 		
+	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 닭 소환하기 2-1회차 -->
+  <EventGroup type="none" id="11" name="닭 소환하기 2-1회차" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500077" next="time" nextValue="20"/> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500075" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500076" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500077" next="none" />	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 닭 소환하기 2-2회차 -->
+  <EventGroup type="none" id="12" name="닭 소환하기 2-2회차" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500077" next="time" nextValue="20"/> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500075" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500076" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500077" next="none" />	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+	<!-- 닭 소환하기 2-3회차 -->
+  <EventGroup type="none" id="13" name="닭 소환하기 2-3회차" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500077" next="time" nextValue="20"/> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500075" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500076" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500077" next="none" />	
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+	
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,200" value="90" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500049" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500053" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500047" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500048" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,200" value="70" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500049" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500053" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500047" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500048" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,200" value="50" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500049" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500053" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500047" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500048" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+	
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,200" value="30" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500049" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500053" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500047" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500048" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 피 회복 꽃 1개 + 공격력 상승 꽃 1개 랜덤 소환 (10초 후 자동 소멸) --> 
+  <EventGroup type="npcHp" uniqueId="455,200" value="10" repeat="true">
+	<Event>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500049" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500053" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500047" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+		<EventTask type="message" string="@dungeon:9055001" style="default" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500048" next="time" nextValue="20" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500044" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500049" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500045" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500053" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500046" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500047" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500052" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 꽃 한 개 없앨 시 나머지 한 개도 자동 소멸 -->
+  <EventGroup type="eliminate" territoryId="45500048" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+	<!-- 2네임드 특수 패턴 시 돌무더기 3개 랜덤 스폰 --> 
+  <EventGroup type="none" id="15" name="돌무더기 3개 랜덤 스폰" repeat="true">
+    <Event>
+	<!-- 단단한 돌덩이 3개 랜덤 스폰 -->
+	  <EventTaskGroup probability="0.5">
+		<EventTask type="message" string="@dungeon:9055005" style="combat" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500017" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500019" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500031" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.5">
+		<EventTask type="message" string="@dungeon:9055005" style="combat" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500018" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500030" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500032" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 단단한 돌덩이 파괴되면 2네임드 강제로 넘어뜨리기 -->  
+  <EventGroup type="npcHp" uniqueId="455,211" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000099" target="npc" targetNpcId="455,200" next="time" nextValue="8" />
+	<!-- 남은 돌무더기 전부 디스폰 시키기 -->
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500017" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500018" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500019" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500030" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500031" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500032" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 남은 돌무더기 전부 디스폰 시키기 -->  
+  <EventGroup type="none" id="18" name="남은 돌무더기 전부 디스폰 시키기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500017" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500018" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500019" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500030" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500031" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500032" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+    <!-- 유저 전멸 시 패턴 원래대로 돌리기 -->
+  <EventGroup type="annihilated" repeat="true">
+    <Event>
+      <EventTaskGroup>
+	<!-- 2네임드 패턴 셋 원래대로 변경 -->
+		<EventTask type="changePatternList" targetNpcId="455,200" patternListId="1" next="none" />
+	<!-- 돌무더기 파괴 체크 이상상태 해제하기 -->			
+        <EventTask type="abnormality" abnormalityId="98000042" target="npc" targetNpcId="455,200" turn="off" next="none" />  
+        <EventTask type="abnormality" abnormalityId="98000043" target="npc" targetNpcId="455,200" turn="off" next="none" />  
+	<!-- 남은 돌무더기 전부 디스폰 시키기 -->
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500017" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500018" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500019" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500030" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500031" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500032" next="none" />	
+	<!-- 투명NPC 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500079" next="none" />
+	<!-- 꽃 오브젝트 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+	<!-- 닭들 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500075" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500076" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500077" next="none" />	
+	<!-- 미니 플랜트 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500138" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500139" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500140" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500141" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500142" next="none" />
+	<!-- 재도전 장치 중지 -->
+        <EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" />
+	<!-- 입구 막는 돌 없애기 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+  
+  <!-- 2네임드 리셋되면 초기화 -->  
+  <EventGroup type="npcReset" uniqueId="455,200" repeat="true">
+    <Event>
+      <EventTaskGroup>
+	<!-- 2네임드 패턴 셋 원래대로 변경 -->
+		<EventTask type="changePatternList" targetNpcId="455,200" patternListId="1" next="none" />
+	<!-- 돌무더기 파괴 체크 이상상태 해제하기 -->			
+        <EventTask type="abnormality" abnormalityId="98000042" target="npc" targetNpcId="455,200" turn="off" next="none" />  
+        <EventTask type="abnormality" abnormalityId="98000043" target="npc" targetNpcId="455,200" turn="off" next="none" />  
+	<!-- 남은 돌무더기 전부 디스폰 시키기 -->
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500017" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500018" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500019" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500030" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500031" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500032" next="none" />	
+	<!-- 투명NPC 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500079" next="none" />
+	<!-- 꽃 오브젝트 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+	<!-- 닭들 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500075" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500076" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500077" next="none" />	
+	<!-- 미니 플랜트 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500138" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500139" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500140" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500141" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500142" next="none" />
+	<!-- 재도전 장치 중지 -->
+        <EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" />
+	<!-- 입구 막는 돌 없애기 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500062" next="none" />
+		
+    <!-- 2네임드 길드경쟁 타이머 리셋종료 던전 패턴과 무관--> 		
+		<EventTask type="timer" name="timerC" action="stop" next="time" nextValue="1" value="0" timerUiOff="true" />
+    <!-- 2네임드 길드경쟁 타이머 리셋종료 던전 패턴과 무관--> 		
+
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+	<!-- 2네임드 사망 시 -->
+  <EventGroup type="npcHp" uniqueId="455,200" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>  
+		<EventTask type="flag" name="TankAggroBuff" value="0" next="none" />
+	  <EventTask type="guideOn" nameId="455,914" id="1" pos="-113673,175502,2121" next="none" />
+	<!-- 유저들에게 고대신 축복 걸기 -->
+		<!--EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" /-->
+	<!-- 3네임드 직행 차원의 마법석 스폰 -->		
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500169" next="none" />
+	<!-- 돌무더기 디스폰 -->	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500008" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500009" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500010" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500012" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500014" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500015" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500017" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500018" next="none" />		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500019" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500030" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500031" next="none" />
+	    <EventTask type="despawn" huntingZoneId="455" territoryId="45500032" next="none" />
+	<!-- 유저에게 들어간 버프 해제 -->		
+        <EventTask type="abnormality" abnormalityId="98000041" target="player" turn="off" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000070" target="player" turn="off" next="none" />
+	<!-- 투명NPC 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500079" next="none" />
+	<!-- 닭들 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500075" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500076" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500077" next="none" />	
+	<!-- 꽃 오브젝트 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500044" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500045" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500046" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500052" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500047" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500048" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500049" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500053" next="none" />
+	<!-- 미니 플랜트 디스폰 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500138" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500139" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500140" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500141" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500142" next="none" />
+	<!-- 재도전 장치 중지 -->
+        <!--EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" /-->
+	<!-- 3네임드와 그 이외의 것들 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500021" next="none" />	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500108" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500104" next="none" />	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500106" next="none" />	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500107" next="none" />	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500092" next="none" />	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500093" next="none" />	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500094" next="none" />	
+	<!-- 이동 마커 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500148" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500157" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500158" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500160" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500161" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500164" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500166" next="none" />
+	<!-- 출구 막는 돌 없애기 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500034, 45500062" next="time" nextValue="3" />
+	<!-- 꽃 오브젝트 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500038" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500039" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500040" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500050" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500041" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500042" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500043" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500051" next="none" />
+	<!-- 3네임드 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500021" next="time" nextValue="0" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500034, 45500062" next="time" nextValue="3" />
+	<!-- 3네임드 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500021" next="time" nextValue="0" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500034, 45500062" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500034, 45500062" next="none" />
+		
+    <!-- 2네임드 길드경쟁 타이머 종료 던전 패턴과 무관--> 		
+		<EventTask type="timer" action="stop" name="timerC" timerType="rank" next="time" nextValue="5" />
+		<EventTask type="timer" action="stop" value="0" name="timerC" next="none" />
+    <!-- 2네임드 길드경쟁 타이머 종료 던전 패턴과 무관--> 		
+	
+	  </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+  	<!-- 닭 소환 패턴 시작 (투명NPC 패턴 셋 1번으로 변경) -->		  
+  <EventGroup type="none" id="101" name="닭 소환 투명NPC 패턴 셋 1번으로 변경(2넴)" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,220" patternListId="1" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+  
+  	<!-- 닭 소환 패턴 시작 (투명NPC 패턴 셋 2번으로 변경) -->		  
+  <EventGroup type="none" id="102" name="닭 소환 패턴 시작" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,220" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,200" patternListId="2" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+
+  <!-- 닭 소환 패턴 끝 (투명NPC 패턴 셋 2번으로 변경) -->		  
+  <EventGroup type="none" id="122" name="닭 소환 패턴 끝" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,200" patternListId="1" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup> 
+ 
+    <!-- 미니플랜트 소환하기 --> 
+  <EventGroup type="none" id="103" name="미니플랜트 소환하기 1" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500138" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+  
+    <!-- 미니플랜트 소환하기 --> 
+  <EventGroup type="none" id="104" name="미니플랜트 소환하기 2" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500139" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 미니플랜트 소환하기 --> 
+  <EventGroup type="none" id="105" name="미니플랜트 소환하기 3" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500140" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 미니플랜트 소환하기 --> 
+  <EventGroup type="none" id="106" name="미니플랜트 소환하기 4" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500141" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 미니플랜트 소환하기 --> 
+  <EventGroup type="none" id="107" name="미니플랜트 소환하기 5" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500142" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+  
+  
+  
+  
+    <!-- 3네임드 (거대 괴조) -->  
+	
+    <!-- 전투 시작되면 입구 막기 --> 
+  <EventGroup type="npcState" uniqueId="455,300" value="combat" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+		<EventTask type="flag" name="TankAggroBuff" value="1" next="none" />
+    <!-- 투명NPC 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500021" next="none" />	 	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500083" next="none" />	
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500170" next="none" />
+    <!-- 전투 시작되면 입구 막기 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500104" next="none" />	
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500106" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500107" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500108" next="none" />
+		<EventTask type="message" string="@dungeon:9055006" style="default" next="time" nextValue="5" />
+		<EventTask type="message" string="@dungeon:9055009" style="default" next="none"/>
+		<EventTask type="message" string="@dungeon:9055014" style="default" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500035" next="none" />	
+
+		<!-- 3네임드 길드경쟁 타이머 시작 던전 패턴과 무관--> 		
+		<EventTask type="timer" action="start" direction="reverse" value="1800" name="timerE" timerType="rank" timerUiOff="true" next="none" />
+		<!-- 3네임드 길드경쟁 타이머 시작 던전 패턴과 무관--> 		
+		
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+    <!-- 창기사 소환 마석 부수면 도우미NPC 소환용 투명NPC에게 이상상태 걸기 --> 
+  <EventGroup type="npcHp" uniqueId="455,423" value="0" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" targetNpcId="455,334" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 마법사 소환 마석 부수면 도우미NPC 소환용 투명NPC에게 이상상태 걸기 --> 
+  <EventGroup type="npcHp" uniqueId="455,422" value="0" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" targetNpcId="455,334" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 사제 소환 마석 부수면 도우미NPC 소환용 투명NPC에게 이상상태 걸기 --> 
+  <EventGroup type="npcHp" uniqueId="455,420" value="0" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" targetNpcId="455,334" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+    
+    <!-- 사제NPC + 마법사NPC 소환하기 -->
+  <EventGroup type="none" id="112" name="사제NPC + 마법사NPC 소환하기" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9055020" style="default" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500107" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500108" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500109" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500111" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" turn="off" targetNpcId="455,334" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" turn="off" targetNpcId="455,334" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" turn="off" targetNpcId="455,334" next="none" />
+      </EventTaskGroup>
+    </Event>  
+  </EventGroup>
+  
+    <!-- 사제NPC + 창기사NPC 소환하기 -->
+  <EventGroup type="none" id="113" name="사제NPC + 창기사NPC 소환하기" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9055022" style="default" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500106" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500108" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500109" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500112" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" turn="off" targetNpcId="455,334" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" turn="off" targetNpcId="455,334" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" turn="off" targetNpcId="455,334" next="none" />
+      </EventTaskGroup>
+    </Event>  
+  </EventGroup> 
+  
+    <!-- 창기사NPC + 마법사NPC 소환하기 -->
+  <EventGroup type="none" id="114" name="창기사NPC + 마법사NPC 소환하기" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9055023" style="default" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500104" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500108" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500111" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500112" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" turn="off" targetNpcId="455,334" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" turn="off" targetNpcId="455,334" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" turn="off" targetNpcId="455,334" next="none" />
+      </EventTaskGroup>
+    </Event>  
+  </EventGroup>
+ 
+  	<!-- 3네임드 패턴 셋 3번으로 변경 -->		  
+  <EventGroup type="none" id="51" name="3네임드 패턴 셋 3번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,300" patternListId="3" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+ 
+  	<!-- 창기사 패턴 셋 1번으로 변경 -->		  
+  <EventGroup type="none" id="52" name="창기사 패턴 셋 1번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,413" patternListId="1" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+  
+  	<!-- 사제 패턴 셋 1번으로 변경 -->		  
+  <EventGroup type="none" id="54" name="사제 패턴 셋 1번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,410" patternListId="1" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+  
+  	<!-- 마법사 패턴 셋 1번으로 변경 -->		  
+  <EventGroup type="none" id="56" name="마법사 패턴 셋 1번으로 변경" repeat="true">
+    <Event>
+	  <EventTaskGroup>	
+		<EventTask type="changePatternList" targetNpcId="455,412" patternListId="1" next="none" />
+      </EventTaskGroup>
+	</Event>
+  </EventGroup>
+  
+ 	<!-- 알 바꾸기 (첫 번째) -->
+  <EventGroup type="none" id="24" name="알 바꾸기 (첫 번째)" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500092" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500113" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,331" patternListId="3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+ 	<!-- 알 바꾸기 (두 번째) -->
+  <EventGroup type="none" id="25" name="알 바꾸기 (두 번째)" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500093" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500114" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,332" patternListId="3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+ 	<!-- 알 바꾸기 (세 번째) -->
+  <EventGroup type="none" id="26" name="알 바꾸기 (세 번째)" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500094" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500115" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,333" patternListId="3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+ 	<!-- 쫄 소환 (첫 번째)  -->
+  <EventGroup type="none" id="30" name="쫄 소환 (첫 번째)" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,331" patternListId="2" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000098" target="npc" targetNpcId="455,311" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000049" target="npc" targetNpcId="455,331" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,311" next="time" nextValue="2" />
+        <EventTask type="abnormality" abnormalityId="98000049" target="npc" targetNpcId="455,331" turn="off" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+ 	<!-- 쫄 소환 (두 번째) -->
+  <EventGroup type="none" id="31" name="쫄 소환 (두 번째)" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,332" patternListId="2" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000098" target="npc" targetNpcId="455,311" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000049" target="npc" targetNpcId="455,332" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,311" next="time" nextValue="2" />
+        <EventTask type="abnormality" abnormalityId="98000049" target="npc" targetNpcId="455,332" turn="off" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+ 	<!-- 쫄 소환 (세 번째) -->
+  <EventGroup type="none" id="32" name="쫄 소환 (세 번째)" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,333" patternListId="2" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000098" target="npc" targetNpcId="455,311" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000049" target="npc" targetNpcId="455,333" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,311" next="time" nextValue="2" />
+        <EventTask type="abnormality" abnormalityId="98000049" target="npc" targetNpcId="455,333" turn="off" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+	<!-- 3네임드 패턴 셋 원래대로 돌리기 -->   
+  <EventGroup type="none" id="36" name="3네임드 패턴 셋 원래대로 돌리기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,300" patternListId="1" next="time" nextValue="1" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+
+	<!-- 투명NPC 패턴 원래대로 돌리기 (1번) -->   
+  <EventGroup type="none" id="41" name="투명NPC 패턴 원래대로 돌리기(1번)" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,331" patternListId="1" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="98000050" target="npc" targetNpcId="455,331" turn="off" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 투명NPC 패턴 원래대로 돌리기 (2번) -->   
+  <EventGroup type="none" id="42" name="투명NPC 패턴 원래대로 돌리기(2번)" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,332" patternListId="1" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="98000050" target="npc" targetNpcId="455,332" turn="off" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+	<!-- 투명NPC 패턴 원래대로 돌리기 (3번) -->   
+  <EventGroup type="none" id="43" name="투명NPC 패턴 원래대로 돌리기(3번)" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,333" patternListId="1" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="98000050" target="npc" targetNpcId="455,333" turn="off" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+ 
+    <!-- 유저 전멸 시 패턴 원래대로 돌리기-->
+  <EventGroup type="annihilated" repeat="true">
+    <Event>
+      <EventTaskGroup>
+	<!-- 새끼들 디스폰 -->
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,320" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,321" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,322" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,320" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,321" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,322" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,331" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,332" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,333" next="none" />
+	<!-- 투명NPC들 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500083" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500170" next="none" />
+	<!-- 거대한 알 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500113" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500114" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500115" next="none" />
+    <!-- 3네임드 입구 NPC들 소환 --> 		
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500104" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500106" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500107" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500108" next="none" />
+    <!-- 도움주는 NPC 디스폰 --> 
+		<EventTask type="despawn" huntingZoneId="455" territoryId="45500109" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500111" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500112" next="none" />
+    <!-- 하르키아의 알 전부 스폰 --> 
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500092" next="none" />
+		<EventTask type="spawn" huntingZoneId="455" territoryId="45500093" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500094" next="none" />
+    <!-- PC에게 걸린 버프 전부 해제 --> 	
+        <EventTask type="abnormality" abnormalityId="98000063" target="player" turn="off" next="none" />	
+	    <EventTask type="abnormality" abnormalityId="98000064" target="player" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000065" target="player" turn="off" next="none" />	
+    <!-- NPC 소환 이상상태 해제 --> 			
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+	<!-- 재도전 장치 중지 -->
+        <EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" />
+	<!-- 3네임드 패턴 셋 원래대로 변경 -->
+		<EventTask type="changePatternList" targetNpcId="455,300" patternListId="1" next="none" />
+	<!-- 입구 막는 돌 없애기 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="none" />		
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+  
+  <!-- 3네임드 리셋되면 전투 초기화 -->  
+  <EventGroup type="npcReset" uniqueId="455,300" repeat="true">
+    <Event>
+      <EventTaskGroup>
+	<!-- 새끼들 디스폰 -->
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,320" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,321" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,322" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,320" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,321" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,322" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,331" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,332" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,333" next="none" />
+	<!-- 투명NPC들 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500083" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500170" next="none" />
+	<!-- 거대한 알 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500113" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500114" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500115" next="none" />
+    <!-- 3네임드 입구 NPC들 소환 --> 		
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500104" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500106" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500107" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500108" next="none" />
+    <!-- 도움주는 NPC 디스폰 --> 
+		<EventTask type="despawn" huntingZoneId="455" territoryId="45500109" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500111" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500112" next="none" />
+    <!-- 하르키아의 알 전부 스폰 --> 
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500092" next="none" />
+		<EventTask type="spawn" huntingZoneId="455" territoryId="45500093" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500094" next="none" />
+    <!-- PC에게 걸린 버프 전부 해제 --> 	
+        <EventTask type="abnormality" abnormalityId="98000063" target="player" turn="off" next="none" />	
+	    <EventTask type="abnormality" abnormalityId="98000064" target="player" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000065" target="player" turn="off" next="none" />	
+    <!-- NPC 소환 이상상태 해제 --> 			
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+	<!-- 재도전 장치 중지 -->
+        <EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" />
+	<!-- 3네임드 패턴 셋 원래대로 변경 -->
+		<EventTask type="changePatternList" targetNpcId="455,300" patternListId="1" next="none" />
+	<!-- 3네임드 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500021" next="none" />
+	<!-- 입구 막는 돌 없애기 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="none" />
+	<!-- 3네임드 스폰 -->
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500021" next="none" />
+
+		<!-- 3네임드 길드경쟁 타이머 리셋종료 던전 패턴과 무관--> 		
+		<EventTask type="timer" name="timerE" action="stop" next="time" nextValue="1" value="0" timerUiOff="true" />
+		<!-- 3네임드 길드경쟁 타이머 리셋종료 던전 패턴과 무관--> 
+		
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+	<!-- 3네임드 사망 체크 --> 
+  <EventGroup type="npcHp" uniqueId="455,300" value="0" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+		<EventTask type="flag" name="TankAggroBuff" value="0" next="none" />
+		<!-- 3네임드 길드경쟁 타이머 종료 던전 패턴과 무관--> 		
+		<EventTask type="timer" action="stop" name="timerE" timerType="rank" next="time" nextValue="5" />
+		<EventTask type="rankSystem" state="end" next="none" />
+		<EventTask type="timer" action="stop" value="0" name="timerE" next="none" />
+		<!-- 3네임드 길드경쟁 타이머 종료 던전 패턴과 무관--> 		
+
+	    <EventTask type="guideOff" id="1" next="none" />
+	<!-- 유저들에게 고대신 축복 걸기 -->
+		<!--EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" /-->
+	<!-- 새끼들 디스폰 -->
+        <EventTask type="killNpc" targetNpcId="455,320" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,321" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,322" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,331" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,332" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,333" next="none" />
+    <!-- 하르키아의 작은 알 전부 디스폰 --> 
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500092" next="none" />
+		<EventTask type="despawn" huntingZoneId="455" territoryId="45500093" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500094" next="none" />
+	<!-- 거대한 알 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500113" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500114" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500115" next="none" />
+	<!-- 투명NPC들 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500083" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500170" next="none" />
+    <!-- 도움주는 NPC 디스폰 --> 
+		<EventTask type="despawn" huntingZoneId="455" territoryId="45500109" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500111" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500112" next="none" />
+    <!-- PC에게 걸린 버프 전부 해제 --> 	
+        <EventTask type="abnormality" abnormalityId="98000063" target="player" turn="off" next="none" />	
+	    <EventTask type="abnormality" abnormalityId="98000064" target="player" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000065" target="player" turn="off" next="none" />
+	<!-- 재도전 장치 중지 -->
+        <!--EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" /-->		
+	<!-- 퇴장용 차원의 마법석 스폰 -->		
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500168" next="none" />		
+	<!-- 입구 막는 돌 없애기 -->			
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="none" />	
+		
+		</EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 리액션 수치 낮추는 이상상태 걸기 -->  
+  <EventGroup type="none" id="61" name="리액션 수치 낮추는 이상상태 걸기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000071" target="npc" targetNpcId="455,300" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>   
+  
+	<!-- 강해지는 버프 걸기 -->  
+  <EventGroup type="none" id="62" name="강해지는 버프 걸기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+          <EventTask type="abnormality" abnormalityId="98000060" target="npc" targetNpcId="455,300" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>    
+  
+  	<!-- 패턴 셋 2번으로 변경 -->    
+  <EventGroup type="none" id="71" name="3네임드 패턴 셋 2번으로 변경" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,300" patternListId="2" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000098" target="npc" targetNpcId="455,300" next="none" />		
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+  	<!-- 보스 광폭화 -->    
+  <EventGroup type="none" id="72" name="보스 광폭화" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000061" target="npc" targetNpcId="455,300" targetBossId="455,300" patternGuide="berserk" patternShowTime="9999999" next="none" />
+    <!-- 도움주는 NPC 디스폰 --> 
+		<EventTask type="despawn" huntingZoneId="455" territoryId="45500109" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500111" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500112" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+   	<!-- 투명NPC 패턴 원래대로 돌리기 -->    
+  <EventGroup type="none" id="80" name="투명NPC 패턴 원래대로 돌리기" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="changePatternList" targetNpcId="455,330" patternListId="1" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+	<!-- 3네임드 투명NPC 패턴 셋 바꾸기 -->
+  <EventGroup type="none" id="81" name="3네임드 투명NPC 패턴 셋 바꾸기(랜덤 4종)" repeat="true">
+    <Event>
+	  <EventTaskGroup probability="0.25">
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,410" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,412" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,413" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,410" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,412" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,413" patternListId="2" next="none" />		
+		<EventTask type="changePatternList" targetNpcId="455,330" patternListId="2" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,410" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,412" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,413" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,410" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,412" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,413" patternListId="2" next="none" />	
+		<EventTask type="changePatternList" targetNpcId="455,330" patternListId="3" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,410" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,412" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,413" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,410" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,412" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,413" patternListId="2" next="none" />	
+		<EventTask type="changePatternList" targetNpcId="455,330" patternListId="4" next="none" />
+      </EventTaskGroup>
+	  <EventTaskGroup probability="0.25">
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,410" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,412" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,413" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,410" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,412" patternListId="2" next="none" />
+		<EventTask type="changePatternList" targetNpcId="455,413" patternListId="2" next="none" />	
+		<EventTask type="changePatternList" targetNpcId="455,330" patternListId="5" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 화면 어두워지게 하기 --> 
+  <EventGroup type="none" id="82" name="화면 어두워지게 하기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="98000098" target="npc" targetNpcId="455,300" next="none" />	  
+	    <EventTask type="doActionScript" targetNpcId="455,300" actionScriptId="766004" next="time" nextValue="10"/>
+        <EventTask type="doActionScript" targetNpcId="455,300" actionScriptId="766005" next="none" />
+		</EventTaskGroup>
+    </Event>
+  </EventGroup>  
+  
+    <!-- 첫 번째 알 파괴되면 첫 번째 알 투명NPC에게 첫 번째 알 파괴 체크 이상상태 걸기 --> 
+  <EventGroup type="eliminateRepeatly" uniqueId="455,45500113" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>	
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,331" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000050" target="npc" targetNpcId="455,331" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 두 번째 알 파괴되면 두 번째 알 투명NPC에게 두 번째 알 파괴 체크 이상상태 걸기 --> 
+  <EventGroup type="eliminateRepeatly" uniqueId="455,45500114" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>	
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,332" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" targetNpcId="455,332" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 세 번째 알 파괴되면 세 번째 알 투명NPC에게 세 번째 알 파괴 체크 이상상태 걸기 --> 
+  <EventGroup type="eliminateRepeatly" uniqueId="455,45500115" repeat="true">
+	<Event>
+ 	  <EventTaskGroup>	
+        <EventTask type="abnormality" abnormalityId="98000093" target="npc" targetNpcId="455,333" next="none" />
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" targetNpcId="455,333" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+  
+    <!-- 유저 근처에 없으면 전투 리셋하기 --> 
+  <EventGroup type="none" id="300" name="유저 근처에 없으면 전투 리셋하기" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+		<EventTask type="despawn" huntingZoneId="455" territoryId="45500109" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500111" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500112" next="none" />
+	<!-- 새끼들 디스폰 -->
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,320" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,321" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000020" target="npc" targetNpcId="455,322" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,320" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,321" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,322" next="none" />
+        <EventTask type="killNpc" targetNpcId="455,331" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,332" next="none" />	
+        <EventTask type="killNpc" targetNpcId="455,333" next="none" />
+	<!-- 투명NPC들 디스폰 -->		
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500083" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500170" next="none" />
+	<!-- 거대한 알 전부 디스폰 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500113" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500114" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500115" next="none" />
+    <!-- 3네임드 입구 NPC들 소환 --> 		
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500104" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500106" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500107" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500108" next="none" />
+    <!-- 도움주는 NPC 디스폰 --> 
+		<EventTask type="despawn" huntingZoneId="455" territoryId="45500109" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500111" next="none" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500112" next="none" />
+    <!-- 하르키아의 알 전부 스폰 --> 
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500092" next="none" />
+		<EventTask type="spawn" huntingZoneId="455" territoryId="45500093" next="none" />
+        <EventTask type="spawn" huntingZoneId="455" territoryId="45500094" next="none" />
+    <!-- PC에게 걸린 버프 전부 해제 --> 	
+        <EventTask type="abnormality" abnormalityId="98000063" target="player" turn="off" next="none" />	
+	    <EventTask type="abnormality" abnormalityId="98000064" target="player" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000065" target="player" turn="off" next="none" />	
+    <!-- NPC 소환 이상상태 해제 --> 			
+        <EventTask type="abnormality" abnormalityId="98000000" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000001" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+        <EventTask type="abnormality" abnormalityId="98000002" target="npc" targetNpcId="455,334" turn="off" next="none" />	
+	<!-- 재도전 장치 중지 -->
+        <EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" />
+	<!-- 3네임드 패턴 셋 원래대로 변경 -->
+		<EventTask type="changePatternList" targetNpcId="455,300" patternListId="1" next="none" />
+	<!-- 입구 막는 돌 없애기 -->
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총1" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="time" nextValue="0" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="time" nextValue="0" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="455" territoryId="45500035" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup> 
+</Dungeon>

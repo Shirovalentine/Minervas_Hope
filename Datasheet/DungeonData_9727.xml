@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Dungeon continentId="9727" name="@dungeon:9727" startPos="-3730,95394,-10963" exitContinentId="8001" exitPos="68842,61618,4563">
+  <Condition type="party" value="1" />
+  <Condition type="maxMemberCount" value="5" />
+  <Condition type="levelOver" value="60" />
+  <ClearCondition huntingZoneId="727" templateId="2007" amount="1" killCount="1" />
+
+  <!-- 시작시 길찾기 가이드 추가 -->
+  <EventGroup type="initialize">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,911" id="1" pos="-5035.3029,95433.7344,-10766.1855" next="none" />
+		<EventTask type="empty" next="time" nextValue="3" />	<!--도핑 가이드 메시지 HUD-->
+		<EventTask type="message" style="default" string="@dungeon:3001200" next="none" />   
+		<EventTask type="message" style="default" string="@dungeon:3001201" next="none" />
+		<EventTask type="empty" next="time" nextValue="3" />
+		<EventTask type="message" style="default" string="@dungeon:3001200" next="none" />		  
+		<EventTask type="message" style="default" string="@dungeon:3001201" next="none" />
+		<EventTask type="empty" next="time" nextValue="3" />
+		<EventTask type="message" style="default" string="@dungeon:3001200" next="none" />		  
+		<EventTask type="message" style="default" string="@dungeon:3001201" next="none" />
+		<EventTask type="empty" next="time" nextValue="3" />	  			  
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+  
+	   <!-- 네임드 재도전 장치 --> 
+  <EventGroup type="npcHp" uniqueId="727,2001" value="99.99999999" repeat="true" stopWhenReset="true"  stopWhenDeath="true" >
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="120" />
+        <EventTask type="message" string="@dungeon:9027100" style="default" next="none" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총1" value="60" next="time" nextValue="65" timerUiOff="false" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총2" value="120" next="time" nextValue="125" timerUiOff="false" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총3" value="180" next="none" timerUiOff="false" />
+        <!-- 이상상태 부여-->
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,2007" value="99.99999999" repeat="true" stopWhenReset="true"  stopWhenDeath="true" >
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="120" />
+        <EventTask type="message" string="@dungeon:9027100" style="default" next="none" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총1" value="60" next="time" nextValue="65" timerUiOff="false" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총2" value="120" next="time" nextValue="125" timerUiOff="false" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총3" value="180" next="none" timerUiOff="false" />
+        <!-- 이상상태 부여-->
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42701" value="99.99999999" repeat="true" stopWhenReset="true"  stopWhenDeath="true" >
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="120" />
+        <EventTask type="message" string="@dungeon:9027100" style="default" next="none" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총1" value="60" next="time" nextValue="65" timerUiOff="false" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총2" value="120" next="time" nextValue="125" timerUiOff="false" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총3" value="180" next="none" timerUiOff="false" />
+        <!-- 이상상태 부여-->
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42702" value="99.99999999" repeat="true" stopWhenReset="true"  stopWhenDeath="true" >
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="120" />
+        <EventTask type="message" string="@dungeon:9027100" style="default" next="none" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총1" value="60" next="time" nextValue="65" timerUiOff="false" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총2" value="120" next="time" nextValue="125" timerUiOff="false" />
+        <EventTask type="timer" action="start" direction="reverse" name="벨릭의 은총3" value="180" next="none" timerUiOff="false" />
+        <!-- 이상상태 부여-->
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+  <!-- 보스 사망 시 재도전 장치 스톱 -->
+  <EventGroup type="npcHp" uniqueId="727,2001" value="0">
+    <Event>
+      <EventTaskGroup>
+       <EventTask type="timer" action="stop" name="벨릭의 은총1" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,2007" value="0">
+    <Event>
+      <EventTaskGroup>
+       <EventTask type="timer" action="stop" name="벨릭의 은총1" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42701" value="0">
+    <Event>
+      <EventTaskGroup>
+       <EventTask type="timer" action="stop" name="벨릭의 은총1" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42702" value="0">
+    <Event>
+      <EventTaskGroup>
+       <EventTask type="timer" action="stop" name="벨릭의 은총1" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+ 
+  <!-- 보스 리셋 시 재도전 장치 스톱 -->
+  <EventGroup type="npcReset" uniqueId="727,2001" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="timer" action="stop" name="벨릭의 은총1" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcReset" uniqueId="727,2007" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="timer" action="stop" name="벨릭의 은총1" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcReset" uniqueId="727,42701" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="timer" action="stop" name="벨릭의 은총1" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcReset" uniqueId="727,42702" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="timer" action="stop" name="벨릭의 은총1" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총2" next="none" />
+        <EventTask type="timer" action="stop" name="벨릭의 은총3" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>  
+  
+  <EventGroup type="timer" timerName="벨릭의 은총1" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000117" target="player" next="none" />
+        <EventTask type="message" string="@dungeon:9027101" style="default" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+  <EventGroup type="timer" timerName="벨릭의 은총2" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000117" target="player" next="none" />
+        <EventTask type="message" string="@dungeon:9027102" style="default" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+  <EventGroup type="timer" timerName="벨릭의 은총3" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="1650" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="1660" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000116" target="player" next="none" />
+        <EventTask type="abnormality" abnormalityId="45000117" target="player" next="none" />
+        <EventTask type="message" string="@dungeon:9027103" style="default" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+  <!-- 라마얀 패턴 -->
+  <EventGroup type="npcHp" uniqueId="727,42713" value="70" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="47701000" target="npc" targetNpcId="727,42713" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700019" next="none" />
+        <EventTask type="doActionScript" targetNpcId="727,42713" actionScriptId="427001" next="none" />
+        <EventTask type="message" string="@dungeon:9027002" style="default" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42713" value="30" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="47701000" target="npc" targetNpcId="727,42713" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700019" next="none" />
+        <EventTask type="doActionScript" targetNpcId="727,42713" actionScriptId="427001" next="none" />
+        <EventTask type="message" string="@dungeon:9027002" style="default" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42719" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027003" style="default" next="none" />
+        <EventTask type="abnormality" abnormalityId="47641200" target="npc" targetNpcId="727,42713" next="none" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700019" next="none" />
+        <EventTask type="doActionScript" targetNpcId="727,42713" actionScriptId="427002" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 2번째 복도  -->
+  <EventGroup type="enterTerritory" uniqueId="727,42700047">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700046" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700049,42700051" next="complete" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700046" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 4번째 복도  -->
+  <EventGroup type="enterTerritory" uniqueId="727,42700059">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700053,42700054,42700055" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700057" next="complete" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700053" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 3번째 방  -->
+  <EventGroup type="enterTerritory" uniqueId="727,42700155">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700153" next="time" nextValue="3" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700016" next="time" nextValue="5" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700153" next="time" nextValue="1" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700177" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 2네임드 패턴 -->
+  <EventGroup type="none" id="1" name="2네임드 자기장 이벤트 무적" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="40" />
+        <EventTask type="abnormality" abnormalityId="44300001" target="npc" targetNpcId="727,42702" turn="off" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  
+  <EventGroup type="none" id="2" name="2네임드 자기장 이벤트 무적" repeat="true">
+    <Event>
+	  <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="44300001" target="npc" targetNpcId="727,42702" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+
+  
+  <!-- 체력 20% 감소시마다 기생충 걸기-->
+  <EventGroup type="npcHp" uniqueId="727,42702" value="60" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027008" style="default" next="none" />
+		<EventTask type="message" string="@dungeon:9027104" style="default" next="none" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="time" nextValue="5" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="time" nextValue="5" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="time" nextValue="5" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="time" nextValue="5" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42702" value="20" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027008" style="default" next="none" />
+		<EventTask type="message" string="@dungeon:9027104" style="default" next="none" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="time" nextValue="5" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="time" nextValue="5" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="time" nextValue="5" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="time" nextValue="5" />
+        <EventTask type="abnormality" abnormalityId="77700800" target="player" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 양극 체크용 -->
+  <!-- 양극에만 -->
+  <EventGroup type="npcHp" uniqueId="727,42722" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027004" style="combat" next="none" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8009" playTime="1000" next="none" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42720" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 음극에만 -->
+  <EventGroup type="npcHp" uniqueId="727,42722" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47701900" target="npc" targetNpcId="727, 42721" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 음극 체크용 -->
+  <!-- 양극에만 -->
+  <EventGroup type="npcHp" uniqueId="727,42723" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027005" style="combat" next="none" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8009" playTime="1000" next="none" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42720" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 음극에만 -->
+  <EventGroup type="npcHp" uniqueId="727,42723" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="time" nextValue="1" />
+        <EventTask type="abnormality" abnormalityId="47702000" target="npc" targetNpcId="727, 42721" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 고정형 막 네임드 패턴 -->
+  <!-- 입구 진입시 소환 패턴 -->
+  <EventGroup type="enterTerritory" uniqueId="727,42600006">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700182" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 고정형 보스 사망시 액션 스크립트 발생용 -->
+  <EventGroup type="npcHp" uniqueId="727,2001" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="despawn" huntingZoneId="727" territoryId="42600001" next="time" nextValue="13" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42600505" next="none" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700113" next="none" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700114" next="none" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700115" next="none" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700116" next="time" nextValue="10" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42600002,42600003,42600005" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,2001" value="5" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42600005" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 고정형 보스 사망시 잔여 몬스터 사망 용 -->
+  <EventGroup type="npcHp" uniqueId="727,2001" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700096" target="npc" next="time" nextValue="5" />
+        <EventTask type="message" string="@dungeon:9027019" style="default" next="time" nextValue="5" />
+        <EventTask type="message" string="@dungeon:9027020" style="default" next="time" nextValue="1" />
+		<EventTask type="message" string="@dungeon:9027025" style="default" next="time" nextValue="6" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+        <EventTask type="doActionScript" targetNpcId="727,2007" actionScriptId="426002" next="time" nextValue="5" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 고정형 보스 체력에 따른 몬스터 웨이브  -->
+  <EventGroup type="npcHp" uniqueId="727,2001" value="99.9" repeat="true" stopWhenDeath="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700061" next="time" nextValue="10" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,2001" value="80" repeat="true" stopWhenDeath="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027013" style="combat" next="none" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8014" playTime="1000" next="none" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42752" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700117" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42753" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700118" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42754" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700119" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42755" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700120" next="time" nextValue="5" />
+        <EventTask type="message" string="@dungeon:9027012" style="combat" next="time" nextValue="5" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8013" playTime="1000" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700109" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42752" next="time" nextValue="5" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,2001" value="50" repeat="true" stopWhenDeath="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027013" style="combat" next="none" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8014" playTime="1000" next="none" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42752" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700127" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42753" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700128" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42754" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700129" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42755" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700130" next="time" nextValue="5" />
+        <EventTask type="message" string="@dungeon:9027012" style="combat" next="time" nextValue="5" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8013" playTime="1000" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700109" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42752" next="time" nextValue="5" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,2001" value="30" repeat="true" stopWhenDeath="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027013" style="combat" next="none" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8014" playTime="1000" next="none" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42752" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="44700137" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42753" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700138" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42754" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700139" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42755" next="time" nextValue="5" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700140" next="time" nextValue="5" />
+        <EventTask type="message" string="@dungeon:9027012" style="combat" next="time" nextValue="5" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8013" playTime="1000" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700109" next="time" nextValue="10" />
+        <EventTask type="abnormality" abnormalityId="47702800" target="npc" targetNpcId="727, 42752" next="time" nextValue="5" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,2001" value="5" repeat="true" stopWhenDeath="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="message" string="@dungeon:9027011" style="combat" next="none" />
+        <EventTask type="Soundon" soundType="effectSound" soundId="8010" playTime="1000" next="none" />
+        <EventTask type="empty" next="time" nextValue="10" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700096" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 샨드라 고정형 리셋시 30초간 필드에 남아있는 몬스터 전부 사망-->
+  <EventGroup type="npcReset" uniqueId="727,2001" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 고정형 보스 사망시 웨이브 몬스터 사망용 -->
+  <EventGroup type="npcHp" uniqueId="727,2001" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="10" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,42700143,42700146,42700149,42700152,42700109,42700096" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 샨드라 이탈형 리셋시 디스폰하고 고정형 재스폰(리셋시에 필드에 남아있는 몬스터 사망도 추가)-->
+  <EventGroup type="npcReset" uniqueId="727,2007" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42600005" next="none" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42600505" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42600001,42600002,42600003,42700113,42700114,42700115,42700116" next="none" />
+        <EventTask type="doActionScript" targetNpcId="727,2002" actionScriptId="426002" next="time" nextValue="1" />
+        <EventTask type="doActionScript" targetNpcId="727,2002" actionScriptId="426002" next="time" nextValue="1" />
+        <EventTask type="doActionScript" targetNpcId="727,2002" actionScriptId="426002" next="none" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="time" nextValue="3" />
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700117,42700127,42700118,42700128,42700119,42700129,42700120,42700130,42700141,42700142,42700144,42700145,42700147,42700148,42700150,42700151,44700137,42700138,42700139,42700140,44700143,42700146,42700149,42700152,42700109,42700061,42700096" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 몬스터 처치하면 아르곤 도어 열기-->
+  <EventGroup type="eliminate" territoryId="42700017">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,912" id="1" pos="-7102,96549,-10775" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700157" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="eliminate" territoryId="42700004">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,913" id="1" pos="-7213,94775,-10760" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700158" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="eliminate" territoryId="42700049,42700051">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,914" id="1" pos="-8838.4277,94732.6875,-10822.7783" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700161" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42701" value="0">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,915" id="1" pos="-10308.7969,97299.7344,-10831.5830" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700162" target="objectnpc" next="none" />
+        <EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700164" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42705" value="0">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,916" id="1" pos="-8465,98709,-10778" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700165" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="eliminate" territoryId="42700053,42700055">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,917" id="1" pos="-8130.6602,100544.3750,-10828.9521" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700166" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42713" value="0">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,918" id="1" pos="-5368.8281,101436.6484,-10822.8516" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700167" target="objectnpc" next="none" />
+        <EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700171" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42702" value="0">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,919" id="1" pos="-5197.2217,98974.4375,-10772.9316" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700173" target="objectnpc" next="none" />
+        <EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700174" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="eliminate" territoryId="42700016">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOn" nameId="727,920" id="1" pos="4819.8633,87367.0781,-16537.1191" next="none" />
+		<EventTask type="killInTerritory" huntingZoneId="727" territoryId="42700175" target="objectnpc" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 1네임드 전투가 시작되면 pve 전장 door 스폰 -->
+  <EventGroup type="npcHp" uniqueId="727,42701" value="99" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="10" />
+        <EventTask type="message" string="@dungeon:9027023" style="default" next="time" nextValue="10" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700180" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 1네임드 전투가 리셋되면 pve 전장 door 디스폰 -->
+  <EventGroup type="npcReset" uniqueId="727,42701" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700180" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 1네임드 사망하면 pve 전장 door 디스폰 -->
+  <EventGroup type="npcHp" uniqueId="727,42701" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700180" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 2네임드 전투가 시작되면 pve 전장 door 스폰 -->
+  <EventGroup type="npcHp" uniqueId="727,42702" value="99" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="10" />
+        <EventTask type="message" string="@dungeon:9027023" style="default" next="time" nextValue="10" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700181" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 2네임드 전투가 리셋되면 pve 전장 door 디스폰 -->
+  <EventGroup type="npcReset" uniqueId="727,42702" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700181" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 2네임드 사망하면 pve 전장 door 디스폰 -->
+  <EventGroup type="npcHp" uniqueId="727,42702" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="42700181" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 3네임드 고정형 전투가 시작되면 pve 전장 door 스폰 -->
+  <EventGroup type="npcHp" uniqueId="727,2001" value="99" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="10" />
+        <EventTask type="message" string="@dungeon:9027024" style="default" next="time" nextValue="10" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="72700002" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 3네임드 고정형 전투가 리셋되면 pve 전장 door 디스폰 -->
+  <EventGroup type="npcReset" uniqueId="727,2001" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="72700002" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 3네임드 이탈형 전투가 리셋되면 pve 전장 door 디스폰 -->
+  <EventGroup type="npcReset" uniqueId="727,2007" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="72700002" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 3네임드 이탈형 사망하면 pve 전장 door 디스폰 -->
+  <EventGroup type="npcHp" uniqueId="727,2007" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="despawn" huntingZoneId="727" territoryId="72700002" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 샨드라 이탈형 사망하면 탈출용 비석 생성 -->
+  <EventGroup type="npcHp" uniqueId="727,2007" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="guideOff" id="1" next="none" />
+		<EventTask type="spawn" huntingZoneId="727" territoryId="42700091" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 샨드라 이탈형 사망하면 파동 효과 해제용 생성 -->
+  <EventGroup type="npcHp" uniqueId="727,2007" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="77702900" target="player" turn="off" next="none" />
+        <EventTask type="abnormality" abnormalityId="77703000" target="player" turn="off" next="none" />
+        <EventTask type="abnormality" abnormalityId="77703100" target="player" turn="off" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42777777" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 샨드라 이탈형 사망하면 엔딩용 동영상 재생 -->
+  <EventGroup type="npcHp" uniqueId="727,2007" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="10" />
+        <EventTask type="playMovie" id="99" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 이전 네임드가 사망하면 다음 네임드 스폰  -->
+  <EventGroup type="npcHp" uniqueId="727,42701" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42700015" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42702" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42600001" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42600002" next="none" />
+        <EventTask type="spawn" huntingZoneId="727" territoryId="42600003" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 인던생성 -->
+  <EventGroup type="initialize">
+    <Event>
+      <EventTaskGroup>
+        <!-- 엘레베이터 이상상태 켜짐 -->
+        <EventTask type="turnAbnormalityTerritory" huntingZoneId="727" territoryId="42700183" turn="on" next="none" />
+        <EventTask type="turnAbnormalityTerritory" huntingZoneId="727" territoryId="42700184" turn="on" next="none" />
+        <EventTask type="turnAbnormalityTerritory" huntingZoneId="727" territoryId="42700185" turn="on" next="none" />
+        <EventTask type="turnAbnormalityTerritory" huntingZoneId="727" territoryId="42700186" turn="on" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <!-- 6분 경과후 1네임드 광폭화 플래그 설정
+  <EventGroup type="npcHp" uniqueId="727,42701" value="99" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="flag" name="존재체크1" value="1" next="none" />
+		<EventTask type="flag" name="시간체크1" value="0" next="time" nextValue="360" />
+		<EventTask type="flag" name="시간체크1" value="1" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42701" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="flag" name="존재체크1" value="0" next="time" nextValue="10" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="flag" name="시간체크1, 존재체크1" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="flag" name="존재체크1" value="0" next="none" />
+		<EventTask type="flag" name="시간체크1" value="0" next="none" />
+        <EventTask type="message" string="@dungeon:9027021" style="default" next="none" />
+		<EventTask type="Soundon" soundType="effectSound" soundId="8010" playTime="1000" next="none" />	
+        <EventTask type="abnormality" abnormalityId="47630300" target="npc" targetNpcId="727,42701" next="none" />
+      </EventTaskGroup>
+    </Event>  
+  </EventGroup>  
+  
+  6분 경과후 2네임드 광폭화 플래그 설정
+  <EventGroup type="npcHp" uniqueId="727,42702" value="99" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="flag" name="존재체크2" value="1" next="none" />
+		<EventTask type="flag" name="시간체크2" value="0" next="time" nextValue="360" />
+		<EventTask type="flag" name="시간체크2" value="1" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="npcHp" uniqueId="727,42702" value="0" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="flag" name="존재체크2" value="0" next="time" nextValue="10" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="flag" name="시간체크2, 존재체크2" repeat="true">
+    <Event>
+      <EventTaskGroup>
+		<EventTask type="flag" name="존재체크2" value="0" next="none" />
+		<EventTask type="flag" name="시간체크2" value="0" next="none" />
+        <EventTask type="message" string="@dungeon:9027022" style="default" next="none" />
+		<EventTask type="Soundon" soundType="effectSound" soundId="8010" playTime="1000" next="none" />	
+        <EventTask type="abnormality" abnormalityId="47630300" target="npc" targetNpcId="727,42702" next="none" />
+      </EventTaskGroup>
+    </Event>  
+  </EventGroup>  
+  
+  15분 경과후 샨드라 이탈형 광폭화
+  <EventGroup type="npcHp" uniqueId="727,2007" value="99" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="empty" next="time" nextValue="900" />
+        <EventTask type="message" string="@dungeon:9027015" style="default" next="none" />
+		<EventTask type="Soundon" soundType="effectSound" soundId="8010" playTime="1000" next="none" />	
+        <EventTask type="abnormality" abnormalityId="47630300" target="npc" targetNpcId="727,2007" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+   -->
+  <!-- 낙하데미지 면역 이상상태 설정  -->
+  <EventGroup type="enterTerritory" uniqueId="727,42700188" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="99070035" target="player" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+  <EventGroup type="enterTerritory" uniqueId="727,42700189" repeat="true">
+    <Event>
+      <EventTaskGroup>
+        <EventTask type="abnormality" abnormalityId="99070035" target="player" next="none" />
+      </EventTaskGroup>
+    </Event>
+  </EventGroup>
+</Dungeon>

@@ -1,6 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DungeonConstraint>
   <ConstraintList>
+	<!-- Current Dungeon Roster  -->
+    <!-- 20~58 Party Dungeon -->
+	<Constraint isActive="true" requiredActPoint="40" continentId="9087" huntingZoneId="487" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Bastion of Lok -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9088" huntingZoneId="488" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Sinestral Manor -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9979" huntingZoneId="979" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /><!-- Saravash's Ascent -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9089" huntingZoneId="489" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Cultists' Refuge -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9071" huntingZoneId="471" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!--  Necromancer Tomb -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9072" huntingZoneId="472" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Golden Labyrinth -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9093" huntingZoneId="493" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Akasha's Hideout	-->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9094" huntingZoneId="494" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Saleron's Sky Garden -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9076" huntingZoneId="476" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="5" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Labyrinth of Terror -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9073" huntingZoneId="473" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="5" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Ebon Tower --> 
+
+	<!-- 60 Party Dungeon -->
+	<!-- Intro 3 Man -->
+	<Constraint isActive="true" requiredActPoint="60" continentId="9777" huntingZoneId="777" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Channelworks (3-Person) --> <!-- For Earings/Rings, Low Drop of Nexus Gear-->
+	<Constraint isActive="true" requiredActPoint="60" continentId="9055" huntingZoneId="455" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Ravenous Gorge (3-Person) --> <!-- For glhyps, Low Drop of Nexus Gear-->
+ 
+	<!-- 5 man Party-->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9025" huntingZoneId="425" coolTimeForSupportMatching="30,30" coolTime="20" coolTimeForPartyMatching="30" coolTimeForAccountTrait="20,10" coolTimeForPartyMatchingForAccountTrait="20,10" /> <!-- Balder's Temple --> <!-- Drop of Nexus Gear -->
+	<Constraint isActive="true" requiredActPoint="40" continentId="9075" huntingZoneId="475" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="5" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Kelsaik's Nest --> <!-- For Neck and Low Drop of Queen's Gear -->
+	<Constraint isActive="true" requiredActPoint="40" continentId="9026" huntingZoneId="426" coolTimeForSupportMatching="30,30" coolTime="20" coolTimeForPartyMatching="60" coolTimeForAccountTrait="20,10" coolTimeForPartyMatchingForAccountTrait="20,10" /> <!-- Argon Corpus --> <!-- Earings/Rings Nexus Gear Drop/Low Drop Queen's Gear -->
+	<!-- <Constraint isActive="true" requiredActPoint="40" continentId="9726" huntingZoneId="726" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> --> <!-- Argon Corpus (Hard) -->
+    <Constraint isActive="true" requiredActPoint="40" continentId="9727" huntingZoneId="727" coolTimeForSupportMatching="30,30" coolTime="20" coolTimeForPartyMatching="60" coolTimeForAccountTrait="20,10" coolTimeForPartyMatchingForAccountTrait="20,10" /> <!-- Manaya's Core --> <!-- Earings/Rings Drop Queen's Gear -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9795" huntingZoneId="795" enterLimitCount="1" enterLimitCountForAccountTrait="1,1" accountCoolTime="true" /> <!-- Crucible of Fame --> <!-- Money Dungeon Plus Cuality Glhyps Alkahest/Masterwork T4 Stook -->
+	<!-- <Constraint isActive="true" requiredActPoint="110" continentId="9780" huntingZoneId="780" /> --> <!-- Velik's Hold (5-Person) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9029" huntingZoneId="429" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Vault of Kaprima -->
+	<Constraint isActive="true" requiredActPoint="70" continentId="9769" huntingZoneId="769" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Lilith's Keep -->
+	<Constraint isActive="true" requiredActPoint="80" continentId="9969" huntingZoneId="969" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Lilith's Keep (Hard) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9756" huntingZoneId="756" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" />  <!-- Timescape -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9056" huntingZoneId="456" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Timescape (Hard) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9711" huntingZoneId="711" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- The Abscess (Hard) -->
+	<Constraint isActive="true" requiredActPoint="150" continentId="9027" huntingZoneId="427" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Manaya's Core (Hard) --> <!-- Regent Gear/Vm Materials -->
+	<!-- 7 man Raid -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9811" huntingZoneId="811" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- The Abscess (7-Person) -->
+	<!-- 10 man Raid-->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9643" huntingZoneId="643" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Wonderholme (10-Person) Lv.65 -->
+
+
+	
+    <!-- Solo Quest Dungeons -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3001" huntingZoneId="3001" /> <!--Bastion of Lok (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3002" huntingZoneId="3002" /> <!-- Sinestral Manor (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3003" huntingZoneId="3003" /> <!-- Cultists' Refuge (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3004" huntingZoneId="3004" /> <!-- Necromancer Tomb (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3005" huntingZoneId="3005" /> <!-- Golden Labyrinth (Solo)) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3006" huntingZoneId="3006" /> <!-- Akasha's Hideout (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3007" huntingZoneId="3007" /> <!-- Saleron's Sky Garden (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3008" huntingZoneId="3008" /> <!-- Labyrinth of Terror (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3009" huntingZoneId="3009" /> <!-- Ebon Tower (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3010" huntingZoneId="3010" /> <!-- Kelsaik's Nest (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="3011" huntingZoneId="3011" /> <!-- Manaya's Core (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="2105" huntingZoneId="2105" /> <!-- Kalligar's Arena (Solo)-->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9887" huntingZoneId="887" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Bastion of Lok (Solo) -->
+    <Constraint isActive="true" requiredActPoint="0" continentId="9888" huntingZoneId="888" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Sinestral Manor (Solo) -->
+    <Constraint isActive="true" requiredActPoint="0" continentId="9873" huntingZoneId="873" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Ebon Tower (Solo) -->
+    <Constraint isActive="true" requiredActPoint="0" continentId="9889" huntingZoneId="889" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Cultists' Refuge (Solo) -->
+    <Constraint isActive="true" requiredActPoint="0" continentId="9871" huntingZoneId="871" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Necromancer Tomb (Solo) -->
+    <Constraint isActive="true" requiredActPoint="0" continentId="9872" huntingZoneId="872" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Golden Labyrinth (Solo) -->
+	<Constraint isActive="true" requiredActPoint="0" continentId="9825" huntingZoneId="825" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Balder's Temple (Solo) -->
+
   	<!-- Quest Related -->
     <Constraint isActive="true" requiredActPoint="0" continentId="9028" huntingZoneId="428" /> <!-- Malachai's Lab -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9827" huntingZoneId="827" /> <!-- Stepstone Isle -->
@@ -80,7 +141,7 @@
 	<Constraint isActive="true" requiredActPoint="0" continentId="9069" huntingZoneId="569" enterLimitCount="2" enterLimitCountForAccountTrait="2,2" /> <!-- Echoes of Aranea -->
 	<Constraint isActive="true" requiredActPoint="80" continentId="9126" huntingZoneId="126" enterLimitCount="2" enterLimitCountForAccountTrait="2,3"/> <!-- Pit of Petrax -->
     <Constraint isActive="true" requiredActPoint="0" continentId="9713" huntingZoneId="713" enterLimitCount="2" enterLimitCountForAccountTrait="2,2" /> <!-- Ghillieglade -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="9795" huntingZoneId="795" enterLimitCount="1" enterLimitCountForAccountTrait="1,1" accountCoolTime="true" /> <!-- Crucible of Fame -->
+
 	<Constraint isActive="true" requiredActPoint="0" continentId="3012" huntingZoneId="3012" /> <!-- Training Ground -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="3031" huntingZoneId="3031" /> <!-- Outer Core District -->
 	<!-- <Constraint isActive="true" requiredActPoint="0" continentId="9813" huntingZoneId="813" enterLimitCount="1" enterLimitCountForAccountTrait="1,2" /> --> <!-- Ghillieglade (Solo) -->	
@@ -88,41 +149,8 @@
     <Constraint isActive="true" requiredActPoint="0" continentId="3024" huntingZoneId="3024" /> <!-- Azart Hatchery -->
     <Constraint isActive="true" requiredActPoint="0" continentId="3025" huntingZoneId="3025" /> <!-- Azart Hatchery (Hard) -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="3020" huntingZoneId="3020" enterLimitCountPerWeek="1" enterLimitCountPerWeekForAccountTrait="1,2"/> <!-- Sea of Honor -->
-    <!-- 20~64 Party Dungeon -->
-	<Constraint isActive="true" requiredActPoint="40" continentId="9087" huntingZoneId="487" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Bastion of Lok -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9088" huntingZoneId="488" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Sinestral Manor -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9979" huntingZoneId="979" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /><!-- Saravash's Ascent -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9089" huntingZoneId="489" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Cultists' Refuge -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9071" huntingZoneId="471" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!--  Necromancer Tomb -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9072" huntingZoneId="472" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Golden Labyrinth -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9093" huntingZoneId="493" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Akasha's Hideout	-->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9094" huntingZoneId="494" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Saleron's Sky Garden -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9076" huntingZoneId="476" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="5" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Labyrinth of Terror -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9073" huntingZoneId="473" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="5" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Ebon Tower --> 
-    <Constraint isActive="true" requiredActPoint="40" continentId="9075" huntingZoneId="475" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="5" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Kelsaik's Nest -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9025" huntingZoneId="425" coolTimeForSupportMatching="30,30" coolTime="20" coolTimeForPartyMatching="30" coolTimeForAccountTrait="20,10" coolTimeForPartyMatchingForAccountTrait="20,10" /> <!-- Balder's Temple -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9026" huntingZoneId="426" coolTimeForSupportMatching="30,30" coolTime="20" coolTimeForPartyMatching="60" coolTimeForAccountTrait="20,10" coolTimeForPartyMatchingForAccountTrait="20,10" /> <!-- Argon Corpus -->
-    <Constraint isActive="true" requiredActPoint="40" continentId="9727" huntingZoneId="727" coolTimeForSupportMatching="30,30" coolTime="20" coolTimeForPartyMatching="60" coolTimeForAccountTrait="20,10" coolTimeForPartyMatchingForAccountTrait="20,10" /> <!-- Manaya's Core -->
-    <!-- Solo Quest Dungeons -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3001" huntingZoneId="3001" /> <!--Bastion of Lok (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3002" huntingZoneId="3002" /> <!-- Sinestral Manor (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3003" huntingZoneId="3003" /> <!-- Cultists' Refuge (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3004" huntingZoneId="3004" /> <!-- Necromancer Tomb (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3005" huntingZoneId="3005" /> <!-- Golden Labyrinth (Solo)) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3006" huntingZoneId="3006" /> <!-- Akasha's Hideout (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3007" huntingZoneId="3007" /> <!-- Saleron's Sky Garden (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3008" huntingZoneId="3008" /> <!-- Labyrinth of Terror (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3009" huntingZoneId="3009" /> <!-- Ebon Tower (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3010" huntingZoneId="3010" /> <!-- Kelsaik's Nest (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="3011" huntingZoneId="3011" /> <!-- Manaya's Core (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="2105" huntingZoneId="2105" /> <!-- Kalligar's Arena (Solo)-->
-	<Constraint isActive="true" requiredActPoint="0" continentId="9887" huntingZoneId="887" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Bastion of Lok (Solo) -->
-    <Constraint isActive="true" requiredActPoint="0" continentId="9888" huntingZoneId="888" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Sinestral Manor (Solo) -->
-    <Constraint isActive="true" requiredActPoint="0" continentId="9873" huntingZoneId="873" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Ebon Tower (Solo) -->
-    <Constraint isActive="true" requiredActPoint="0" continentId="9889" huntingZoneId="889" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Cultists' Refuge (Solo) -->
-    <Constraint isActive="true" requiredActPoint="0" continentId="9871" huntingZoneId="871" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Necromancer Tomb (Solo) -->
-    <Constraint isActive="true" requiredActPoint="0" continentId="9872" huntingZoneId="872" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Golden Labyrinth (Solo) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="9825" huntingZoneId="825" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForAccountTrait="10,5" /> <!-- Balder's Temple (Solo) -->
+
+
 	<!--Guide Dungeons -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="3028" huntingZoneId="3028" /> <!-- Grotto of Lost Souls (Hard) (Guide) -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="3029" huntingZoneId="3029" /> <!-- Antaroth's Abyss (Hard) (Guide) -->	
@@ -133,7 +161,6 @@
 	<Constraint isActive="true" requiredActPoint="90" continentId="9809" huntingZoneId="809" /> <!-- Macellarius Catacombs -->
 	<Constraint isActive="true" requiredActPoint="180" continentId="9053" huntingZoneId="453" /> <!-- Kezzel's Gorge (5-Person) -->	
     <Constraint isActive="true" requiredActPoint="110" continentId="9781" huntingZoneId="781" /> <!-- Velik's Sanctuary -->
-	<Constraint isActive="true" requiredActPoint="110" continentId="9780" huntingZoneId="780" /> <!-- Velik's Hold (5-Person) -->
 	<Constraint isActive="true" requiredActPoint="170" continentId="9739" huntingZoneId="739" /> <!-- Red Refuge -->
 	<Constraint isActive="true" requiredActPoint="170" continentId="9735" huntingZoneId="735" /> <!-- RK-9 Kennel -->
 	<Constraint isActive="true" requiredActPoint="220" continentId="9982" huntingZoneId="982" /> <!-- Grotto of Lost Souls (Hard) -->
@@ -157,17 +184,17 @@
         </EnableTimeList>
 	</Constraint>
 	<!-- 60~70 Legacy Party Dungeons (3 person) -->
-	<Constraint isActive="true" requiredActPoint="60" continentId="9777" huntingZoneId="777" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Channelworks (3-Person) -->
-	<Constraint isActive="true" requiredActPoint="60" continentId="9055" huntingZoneId="455" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Ravenous Gorge (3-Person) -->	
+	
+	
 
 	<!-- 60~70 Legacy Raid Dungeons -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9057" huntingZoneId="457" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Akeron's Inferno (Hard) -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9757" huntingZoneId="757" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Akeron's Inferno -->
     <Constraint isActive="true" requiredActPoint="0" continentId="9043" huntingZoneId="443" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Wonderholme (Hard) (10-Person) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="9643" huntingZoneId="643" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Wonderholme (10-Person) Lv.65 -->
+
 	<Constraint isActive="true" requiredActPoint="0" continentId="9743" huntingZoneId="743" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Wonderholme (Hard) (10-Person) -->
 	<Constraint isActive="true" requiredActPoint="150" continentId="9050" huntingZoneId="450" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Rift's Edge (Hard) -->
-    <Constraint isActive="true" requiredActPoint="0" continentId="9811" huntingZoneId="811" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- The Abscess (7-Person) -->
+    
 	<Constraint isActive="true" requiredActPoint="60" continentId="9511" huntingZoneId="511" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- The Abscess (7-Person)(Lv.65) -->
 	<Constraint isActive="true" requiredActPoint="330" continentId="9067" huntingZoneId="467" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Demokron Factory (Hard) -->
 	<Constraint isActive="true" requiredActPoint="220" continentId="9767" huntingZoneId="767" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Demokron Factory -->
@@ -177,10 +204,10 @@
 	<Constraint isActive="true" requiredActPoint="100" continentId="3017" huntingZoneId="3017" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!--Antaroth's Abyss (7-person) -->
 
 	<!-- 60~70 Legacy Party Dungeons -->
-    <Constraint isActive="true" requiredActPoint="150" continentId="9027" huntingZoneId="427" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Manaya's Core (Hard) -->
+    
 	<Constraint isActive="true" requiredActPoint="150" continentId="9750" huntingZoneId="750" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Rift's Edge -->
     <Constraint isActive="true" requiredActPoint="0" continentId="9766" huntingZoneId="766" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Shattered Fleet -->
-    <Constraint isActive="true" requiredActPoint="0" continentId="9711" huntingZoneId="711" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- The Abscess (Hard) -->
+    
 	<Constraint isActive="true" requiredActPoint="0" continentId="9611" huntingZoneId="611" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" />  <!-- The Abscess (Hard)(Lv.65 ) -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9810" huntingZoneId="810" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Lakan's Prison -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9808" huntingZoneId="808" coolTimeForSupportMatching="60,30" coolTime="10" coolTimeForPartyMatching="10" coolTimeForAccountTrait="10,5" coolTimeForPartyMatchingForAccountTrait="10,5" /> <!-- Sabex Armory -->
@@ -188,16 +215,14 @@
 	<Constraint isActive="true" requiredActPoint="0" continentId="9916" huntingZoneId="916" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Sky Cruiser Endeavor (Hard) -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9054" huntingZoneId="454" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Bathysmal Rise (Hard) -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9754" huntingZoneId="754" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Bathysmal Rise -->
- 	<Constraint isActive="true" requiredActPoint="0" continentId="9029" huntingZoneId="429" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Vault of Kaprima -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="9056" huntingZoneId="456" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Timescape (Hard) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="9756" huntingZoneId="756" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" />  <!-- Timescape -->
+	
+	
     <Constraint isActive="true" requiredActPoint="75" continentId="9059" huntingZoneId="459" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Forsaken Island -->
     <Constraint isActive="true" requiredActPoint="150" continentId="9759" huntingZoneId="759" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Forsaken Island (Hard) -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9060" huntingZoneId="460" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Kalivan's Dreadnaught (Hard) -->
 	<Constraint isActive="true" requiredActPoint="70" continentId="9760" huntingZoneId="760" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Kalivan's Dreadnaught -->
 	<Constraint isActive="true" requiredActPoint="60" continentId="9860" huntingZoneId="860" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Kalivan's Challenge -->
-	<Constraint isActive="true" requiredActPoint="70" continentId="9769" huntingZoneId="769" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Lilith's Keep -->
-	<Constraint isActive="true" requiredActPoint="80" continentId="9969" huntingZoneId="969" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Lilith's Keep (Hard) -->
+
 	<Constraint isActive="true" requiredActPoint="100" continentId="9068" huntingZoneId="468" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Shadow Sanguinary (Hard) -->
 	<Constraint isActive="true" requiredActPoint="80" continentId="9768" huntingZoneId="768" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Shadow Sanguinary -->
 	<Constraint isActive="true" requiredActPoint="80" continentId="9070" huntingZoneId="470" enterLimitCount="10" enterLimitCountForAccountTrait="10,20" /> <!-- Manglemire -->
@@ -245,7 +270,7 @@
     <Constraint isActive="true" requiredActPoint="0" continentId="9095" huntingZoneId="495" enterLimitCount="1" enterLimitCountForAccountTrait="1,2" /> <!-- Crucible of Flame -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9724" huntingZoneId="724" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Fane of Kaprima (Hard) -->
 	<Constraint isActive="true" requiredActPoint="0" continentId="9725" huntingZoneId="725" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Balder's Temple (Hard) -->
-	<Constraint isActive="true" requiredActPoint="0" continentId="9726" huntingZoneId="726" enterLimitCountPerWeek="40" enterLimitCountPerWeekForAccountTrait="40,80" /> <!-- Argon Corpus (Hard) -->
+	
 	<!-- <Constraint isActive="true" requiredActPoint="0" continentId="9801" huntingZoneId="801" coolTime="120" /> --> <!-- Nexus Traverse -->
     <!-- <Constraint isActive="true" requiredActPoint="0" continentId="9802" huntingZoneId="802" coolTime="780" /> --> <!-- Nexus Traverse -->
     <!-- <Constraint isActive="true" requiredActPoint="0" continentId="9803" huntingZoneId="803" coolTime="780" /> --> <!-- Nexus Traverse -->

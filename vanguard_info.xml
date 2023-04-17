@@ -10,7 +10,7 @@
 -->
 
 <!--
-    We will start by making a .quest file
+    We will start by making a .quest file ( located under questData )
     you will need to assign a quest id which is a 6 digit number
     I recommend something between 100000 and 102200 as they are available
     We will choose 100001
@@ -188,11 +188,9 @@
     You can use this same code on both server and client side.
 -->
 <Event id="1104" type="Dungeon" questId="100001" categoryId="1104" active="true" repeat="true" requiredItemLevel="242" recommend="true">
-    <!-- lv60~64 아르곤 멜디티아 -->
-    <!-- 아르곤 멜디티아 -->
     <Action type="matching" />
     <TargetList>
-        <Target id="9026" teleportContinentId="8001" teleportPos="68842, 61618, 4563" zoneNameId="427" />
+        <Target id="9026" teleportContinentId="8001" teleportPos="-11959,87985,-461" zoneNameId="777" />
     </TargetList>
     <CompensationList mailSender="@EventMatching:2001" mailTitle="@EventMatching:2002" mailBody="@EventMatching:2003">
         <Compensation type="item" templateId="94104" amount="10" />

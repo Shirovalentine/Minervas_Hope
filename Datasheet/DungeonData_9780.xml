@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dungeon continentId="9780" name="@dungeon:9780" startPos="59470,-133136,2440" exitContinentId="7005" exitPos="-1271,7490,2173" startDir="65" exitDir="325">
+	<Condition type="party" value="1" />
+	<Condition type="maxMemberCount" value="5" />
+	<Condition type="levelOver" value="60" />
+	<!--AbnormalityWhenResurrection id="980215" method="randomSelect"/-->
+	<ClearCondition huntingZoneId="780" templateId="3000" amount="1" killCount="1" />
+	<Retry retryId="1"/>
+
+	<!--던전 생성 초기화 이벤트 / 1네임드 길 찾기 가이드 / 영상 스폰 / 퀘스트 스폰 / 1번째 일반NPC 전투 구간 스폰 / 공용 DungeonEvent-->
+	<EventGroup type="initialize">
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="guideOn" nameId="780,911" id="1" pos="55243.57812500,-131241.03125000,1947.67187500" next="none" /> <!--1네임드 길찾기 가이드-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000031" next="none" /> <!--1번 영상 테리토리-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000032" next="none" /> <!--2번 영상 테리토리-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="78000001" next="none" /> <!--퀘스트 테리토리-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="78000002" next="none" /> <!--퀘스트 테리토리-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="78000003" next="none" /> <!--퀘스트 테리토리-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="78000004" next="none" /> <!--퀘스트 테리토리-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="78000005" next="none" /> <!--1번째 일반NPC 전투-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000035" next="none"/> <!--1네임드 입구 문 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000036" next="none"/> <!--1네임드 출구 문 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000021" next="none"/> <!--2네임드 입구 문 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000022" next="none" /> <!--2네임드 출구 문 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000023" next="none"/> <!--3네임드 입구 문 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000024" next="none" /> <!--3네임드 출구 문 스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--공용 DungeonEvent-->
+	<EventGroup type="none" id="1" name="doNothing" repeat="true"> <!--아무것도 하지 않음-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="empty" next="none"/>
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--Cinematic-->
+  	<EventGroup type="enterTerritory" uniqueId="780,98000031"> <!--일반 전투구간 전 1번 영상 재생-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="playMovie" id="3022" next="none"/>
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+  	<EventGroup type="enterTerritory" uniqueId="780,98000032"> <!--3네임드 전투구간 전 2번 영상 재생-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="playMovie" id="3023" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--1네임드 던전이벤트-->  <!--1네임드 던전이벤트-->  <!--1네임드 던전이벤트-->  <!--1네임드 던전이벤트-->  <!--1네임드 던전이벤트-->  <!--1네임드 던전이벤트-->  <!--1네임드 던전이벤트-->
+	<!--1네임드 스폰-->
+	<EventGroup type="eliminate" territoryId="78000005"> <!--1번째 일반NPC 전멸 & 5초 후 1네임드 스폰-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000035" next="none" /> <!--1네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000035" next="none" /> <!--1네임드 입구 문 디스폰-->
+				<EventTask type="empty" next="time" nextValue="5" /> <!--1네임드 스폰 대기-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000002" next="none"/>	<!--1네임드 스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--1네임드 전투-->
+	<EventGroup type="npcState" uniqueId="780,1000" value="combat" repeat="true"> <!--1네임드 전투 상태 변경-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="flag" name="TankAggroBuff" value="1" next="none" /><!--탱 어글버프-->
+				<EventTask type="message" string="@dungeon:9780001" style="combat" next="none"/> <!--1네임드 차단 문 생성 메세지-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,1000" value="98" id="10" repeat="true"> <!--1네임드 전투 시작-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="eventState" stateType="EventGroup" id="11" state="stop" next="none" /> <!--리셋 상태 전환 이벤트 즉시 중단-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000025" next="none"/> <!--1번 동료 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000027" next="none"/> <!--2번 동료 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000029" next="none"/> <!--3번 동료 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000035" next="none"/> <!--1네임드 입구 문 스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="flag" name="TankAggroBuff" repeat="true"> <!--네임드 전투 중 탱 어글버프 제공-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="abnormality" abnormalityId="99009900" target="class" targetUserClass="lancer, fighter" value="1" strictly="true" turn="on" aliveOnly="false" next="none" /> 
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcReset" uniqueId="780,1000" id="11" repeat="true"> <!--1네임드 리셋--> 
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="eventState" stateType="EventGroup" id="10" state="stop" next="none" /> <!--전투 상태 전환 이벤트 즉시 중단-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000035" next="none"/> <!--1네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000002" next="none"/> <!--1네임드 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000025" next="none"/> <!--1번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000026" next="none"/> <!--2번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000027" next="none"/> <!--3번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000028" next="none"/> <!--4번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000029" next="none"/> <!--5번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000030" next="none"/> <!--6번 동료 디스폰-->
+				<EventTask type="empty" next="time" nextValue="5" /> <!--1네임드 디스폰 대기-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000002" next="none"/> <!--1네임드 디스폰-->
+				<EventTask type="empty" next="time" nextValue="5" /> <!--1네임드 리스폰 대기-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000002" next="none" /> <!--1네임드 리스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--1네임드 사망-->
+	<EventGroup type="npcHp" uniqueId="780,1000" value="0" repeat="true">
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="flag" name="TankAggroBuff" value="0" next="none" /><!--탱 어글버프-->
+				<EventTask type="guideOn" nameId="780,912" id="1" pos="53350.37109375,-127346.25781250,1359.33593750" next="none" /> <!--2네임드 길찾기 가이드-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000025" next="none"/> <!--1번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000026" next="none"/> <!--2번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000027" next="none"/> <!--3번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000028" next="none"/> <!--4번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000029" next="none"/> <!--5번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000030" next="none"/> <!--6번 동료 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000035" next="none"/> <!--1네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000036" next="none"/> <!--1네임드 출구 문 디스폰-->
+				<EventTask type="empty" next="time" nextValue="3" /> <!--1네임드 디스폰 대기-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000002" next="none"/> <!--1네임드 디스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="78000006" next="none" /> <!--2번째 일반NPC 전투-->
+				<EventTask type="empty" next="time" nextValue="10" /> <!--1네임드 입/출구 문 디스폰 대기(BTS대응)-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000035" next="none" /> <!--1네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000036" next="none" /> <!--1네임드 출구 문 디스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--1네임드 패턴 실행-->
+	<!--EventGroup type="npcHp" uniqueId="780,1000" value="70" repeat="true"> 1네임드 HP 70%
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="message" string="@dungeon:978001" style="combat" next="none"/>
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000026" next="none"/>
+			</EventTaskGroup>
+		</Event>
+	</EventGroup-->
+	<EventGroup type="npcHp" uniqueId="780,1000" value="50" repeat="true"> <!--1네임드 HP 50%-->
+		<Event>
+			<EventTaskGroup>
+				<!--EventTask type="message" string="@dungeon:978001" style="combat" next="none"/-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000026" next="none"/> <!--2번 동료 스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="none" id="2" name="경직유발" repeat="true"> <!--1네임드 동료 구르기 패턴용-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="abnormality" abnormalityId="780003" target="npc" targetNpcId="780,1001" turn="off" next="none"/> <!--1네임드 동료 투명화 이상상태 해제-->
+				<EventTask type="empty" next="time" nextValue="2" />
+				<EventTask type="abnormality" abnormalityId="780002" target="npc" targetNpcId="780,1001" next="none" /> <!--경직 이상상태 부여-->
+				<EventTask type="empty" next="time" nextValue="3" />
+				<EventTask type="abnormality" abnormalityId="780003" target="npc" targetNpcId="780,1000" next="none"/> <!--1네임드 투명화 이상상태 부여-->
+				<EventTask type="empty" next="time" nextValue="4" />
+				<EventTask type="abnormality" abnormalityId="780003" target="npc" targetNpcId="780,1001" next="none"/> <!--1네임드 동료 투명화 이상상태 부여-->
+				<EventTask type="empty" next="time" nextValue="1" />
+				<EventTask type="abnormality" abnormalityId="780003" target="npc" targetNpcId="780,1000" turn="off" next="none"/> <!--1네임드 투명화 이상상태 해제-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--2네임드 던전이벤트-->  <!--2네임드 던전이벤트-->  <!--2네임드 던전이벤트-->  <!--2네임드 던전이벤트-->  <!--2네임드 던전이벤트-->  <!--2네임드 던전이벤트-->  <!--2네임드 던전이벤트-->
+	<!--2네임드 스폰-->
+	<EventGroup type="eliminate" territoryId="78000006"> <!--2번째 일반NPC 전투 종료 5초 후 2네임드 스폰-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000021" next="none" /> <!--2네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000021" next="none" /> <!--2네임드 입구 문 디스폰-->
+				<EventTask type="empty" next="time" nextValue="5" /> <!--2네임드 스폰 대기-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000020" next="none"/> <!--2네임드 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000033" next="none" /> <!--2네임드로 가는 차원의 마법석 스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--2네임드 전투-->
+	<EventGroup type="npcState" uniqueId="780,2000" value="combat" repeat="true"> <!--2네임드 전투 상태 변경-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="flag" name="TankAggroBuff" value="1" next="none" /><!--탱 어글버프-->
+				<EventTask type="message" string="@dungeon:9780001" style="combat" next="none"/> <!--2네임드 차단 문 생성 메세지-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,2000" id="20" value="98" repeat="true"> <!--2네임드 전투 시작-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="eventState" stateType="EventGroup" id="21" state="stop" next="none" /> <!--리셋 상태 전환 이벤트 즉시 중단-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000033" next="none" /> <!--2네임드로 가는 차원의 마법석 디스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000021" next="none"/> <!--2네임드 입구 문 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000021" next="none"/> <!--2네임드 입구 문 스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcReset" uniqueId="780,2000" id="21" repeat="true"> <!--2네임드 전투 리셋-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="abnormality" abnormalityId="780108" target="player" turn="off" next="none"/> <!--2네임드 침묵(지진파) 이상상태 해제-->
+				<EventTask type="eventState" stateType="EventGroup" id="20" state="stop" next="none" /> <!--전투 상태 전환 이벤트 즉시 중단-->
+				<EventTask type="abnormality" abnormalityId="780101" target="player" turn="off" next="none"/> <!--2네임드 안전구역확인 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780102" target="player" turn="off" next="none"/> <!--2네임드 즉사 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780103" target="player" turn="off" next="none"/> <!--2네임드 화상 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780104" target="player" turn="off" next="none"/> <!--2네임드 느려짐 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780105" target="player" turn="off" next="none"/> <!--2네임드 업적 피격됨 이상상태 해제-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000021" next="none" /> <!--2네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000020" next="none" /> <!--2네임드 디스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000033" next="none" /> <!--2네임드로 가는 차원의 마법석 스폰-->
+				<EventTask type="empty" next="time" nextValue="5" /> <!--2네임드 디스폰 대기-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000020" next="none" /> <!--2네임드 디스폰-->
+				<EventTask type="empty" next="time" nextValue="5" /> <!--2네임드 리스폰 대기-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000020" next="none" /> <!--2네임드 리스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--2네임드 사망-->
+	<EventGroup type="npcHp" uniqueId="780,2000" value="0" repeat="true">
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="abnormality" abnormalityId="780108" target="player" turn="off" next="none"/> <!--2네임드 침묵(지진파) 이상상태 해제-->
+				<EventTask type="flag" name="TankAggroBuff" value="0" next="none" /><!--탱 어글버프-->
+				<EventTask type="guideOn" nameId="780,913" id="1" pos="56103.65234375,-122491.86718750,1325.28125000" next="none" /> <!--3네임드 길찾기 가이드-->
+				<EventTask type="abnormality" abnormalityId="780106" target="player" next="none" /> <!--2네임드 업적 달성 이상상태 부여-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000021" next="none" /> <!--2네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000022" next="none" /> <!--2네임드 출구 문 디스폰-->
+				<EventTask type="abnormality" abnormalityId="780101" target="player" turn="off" next="none"/> <!--2네임드 안전구역확인 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780102" target="player" turn="off" next="none"/> <!--2네임드 즉사 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780103" target="player" turn="off" next="none"/> <!--2네임드 화상 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780104" target="player" turn="off" next="none"/> <!--2네임드 느려짐 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780105" target="player" turn="off" next="none"/> <!--2네임드 업적 피격됨 이상상태 해제-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000023" next="none" /> <!--3네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000023" next="none" /> <!--3네임드 입구 문 디스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000006" next="none" /> <!--3네임드+TNPC+MNPC 스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000033" next="none"/> <!--2네임드로 가는 차원의 마법석 디스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="78000008" next="none" /> <!--3네임드로 가는 차원의 마법석-->
+				<EventTask type="empty" next="time" nextValue="10" /> <!--2네임드 디스폰 대기-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000020" next="none" /> <!--2네임드 디스폰-->
+				<EventTask type="abnormality" abnormalityId="780106" target="player" turn="off" next="none"/> <!--2네임드 업적 달성 이상상태 해제-->
+				<EventTask type="empty" next="time" nextValue="10" /> <!--2네임드 입/출구 문 디스폰 대기(BTS대응)-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000021" next="none" /> <!--2네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000022" next="none" /> <!--2네임드 출구 문 디스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--2네임드 패턴 실행-->
+	<EventGroup type="none" id="3" name="killSafeAreaTNPC" repeat="true"> <!--안전구역TNPC제거-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="killNpc" targetNpcId="780,2001" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--3네임드 던전이벤트-->  <!--3네임드 던전이벤트-->  <!--3네임드 던전이벤트-->  <!--3네임드 던전이벤트-->  <!--3네임드 던전이벤트-->  <!--3네임드 던전이벤트-->  <!--3네임드 던전이벤트-->
+	<!--3네임드 전투-->
+	<EventGroup type="npcState" uniqueId="780,3000" value="combat" repeat="true"> <!--3네임드 전투 상태 변경-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="flag" name="TankAggroBuff" value="1" next="none" /><!--탱 어글버프-->
+				<EventTask type="message" string="@dungeon:9780001" style="combat" next="none"/> <!--3네임드 차단 문 생성 메세지-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,3000" id="30" value="98" repeat="true"> <!--3네임드 전투 시작-->
+		<Event>
+			<EventTaskGroup>
+				<!--EventTask type="flag" name="IF_PC_in_BattleTerritory3" value="1" next="none" /--> <!--3네임드 에어본 이상상태 지속 해제 시작-->
+				<EventTask type="eventState" stateType="EventGroup" id="31" state="stop" next="none" /> <!--리셋 상태 전환 이벤트 즉시 중단-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="78000008" next="none" /> <!--3네임드로 가는 차원의 마법석 디스폰-->
+				<!--EventTask type="setAbnormalityWhenResurrection" turn="on" next="none" /--> <!--부활 시 에어본 제거 이상상태 제공-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000023" next="none"/> <!--3네임드 입구 문 스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000023" next="none"/> <!--3네임드 입구 문 스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcReset" uniqueId="780,3000" id="31" repeat="true"> <!--3네임드 리셋--> 
+		<Event>
+			<EventTaskGroup>
+				<!--EventTask type="setAbnormalityWhenResurrection" turn="off" next="none" /--> <!--부활 시 에어본 제거 이상상태 제공 중단-->
+				<EventTask type="eventState" stateType="EventGroup" id="30" state="stop" next="none" /> <!--전투 상태 전환 이벤트 즉시 중단-->
+				<!--EventTask type="flag" name="IF_PC_in_BattleTerritory3" value="0" next="none" /--> <!--3네임드 에어본 이상상태 지속 해제 중지-->
+				<EventTask type="abnormality" abnormalityId="780200" target="player" turn="off" next="none"/> <!--3네임드 산성위액 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780201" target="player" turn="off" next="none"/> <!--3네임드 스턴 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780202" target="player" turn="off" next="none"/> <!--3네임드 출혈 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780203" target="player" turn="off" next="none"/> <!--3네임드 강력출혈 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="980207" target="player" turn="off" next="none"/> <!--3네임드 에어본 이상상태 해제-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000023" next="none" /> <!--3네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000006" next="none" /> <!--3네임드 디스폰-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="78000008" next="none" /> <!--3네임드로 가는 차원의 마법석 스폰-->
+				<EventTask type="empty" next="time" nextValue="5" /> <!--3네임드 디스폰 대기-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000006" next="none" /> <!--3네임드 디스폰-->
+				<EventTask type="empty" next="time" nextValue="5" /> <!--3네임드 리스폰 대기-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000006" next="none" /> <!--3네임드 리스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--3네임드 사망-->
+	<EventGroup type="npcHp" uniqueId="780,3000" value="0" repeat="true">
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="flag" name="TankAggroBuff" value="0" next="none" /><!--탱 어글버프-->
+				<EventTask type="guideOff" id="1" next="none" />
+				<!--EventTask type="setAbnormalityWhenResurrection" turn="off" next="none" /--> <!--부활 시 에어본 제거 이상상태 제공 중단-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000023" next="none" /> <!--3네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000024" next="none" /> <!--3네임드 출구 문 디스폰-->
+				<!--EventTask type="flag" name="IF_PC_in_BattleTerritory3" value="0" next="none" /--> <!--3네임드 에어본 이상상태 지속 해제 중지-->
+				<EventTask type="abnormality" abnormalityId="980006" target="player" turn="off" next="none"/> <!--3네임드 침묵 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780200" target="player" turn="off" next="none"/> <!--3네임드 산성위액 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780201" target="player" turn="off" next="none"/> <!--3네임드 스턴 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780202" target="player" turn="off" next="none"/> <!--3네임드 출혈 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="780203" target="player" turn="off" next="none"/> <!--3네임드 강력출혈 이상상태 해제-->
+				<EventTask type="abnormality" abnormalityId="980207" target="player" turn="off" next="none"/> <!--3네임드 에어본 이상상태 해제-->
+				<EventTask type="spawn" huntingZoneId="780" territoryId="98000034" next="none" /> <!--던전입구로 가는 차원의 마법석-->
+				<EventTask type="empty" next="time" nextValue="3" /> <!--3네임드 디스폰 대기-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000006" next="none" /> <!--3네임드 디스폰-->
+				<EventTask type="empty" next="time" nextValue="10" /> <!--3네임드 입/출구 문 디스폰 대기(BTS대응)-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000023" next="none" /> <!--3네임드 입구 문 디스폰-->
+				<EventTask type="despawn" huntingZoneId="780" territoryId="98000024" next="none" /> <!--3네임드 출구 문 디스폰-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--3네임드 패턴 실행-->
+	<EventGroup type="npcHp" uniqueId="780,3000" value="90" repeat="true"> <!--3네임드 체력 90% 이하부터 지면 강타 - 1/2/3타 시작-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="abnormality" abnormalityId="980209" target="npc" targetNpcId="780,3000" next="none" /> <!--3네임드 지면 강타 1타 실행 조건 이상상태 부여-->
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<!--EventGroup type="flag" name="IF_PC_in_BattleTerritory3" repeat="true"--> <!--PC가 3네임드 전투공간에 있음?-->
+		<!--Event>
+			<EventTaskGroup>
+				<EventTask type="abnormality" abnormalityId="980207" target="player" strictly="true" aliveOnly="false" turn="off" territoryId="98000006" huntingZoneId="980" next="none"/--> <!--전투구역 테리토리 내 PC 모두에게 에어본 이상상태 해제-->
+			<!--/EventTaskGroup>
+		</Event>  
+	</EventGroup-->
+	<EventGroup type="npcHp" uniqueId="780,30011" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30021" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30012" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30022" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30013" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30023" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30014" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30024" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30015" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30025" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30016" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30026" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30017" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30027" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30018" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30028" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30019" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30029" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+	<EventGroup type="npcHp" uniqueId="780,30020" value="0" repeat="true"> <!--3네임드 마석 파괴 시 TNPC 장판 설치-->
+		<Event>
+			<EventTaskGroup>
+				<EventTask type="changePatternList" targetNpcId="780,30030" patternListId="2" next="none" />
+			</EventTaskGroup>
+		</Event>
+	</EventGroup>
+</Dungeon>
